@@ -20,6 +20,9 @@
         "github-actions",
         "git-submodules"
     ],
+    "git-submodules": {
+        "enabled": true
+    },
     "ignoreDeps": [],
     "osvVulnerabilityAlerts": true,
     "platformAutomerge": true,

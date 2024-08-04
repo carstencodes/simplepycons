@@ -271,6 +271,7 @@ from ._redsys import RedsysIcon
 from ._paperspace import PaperspaceIcon
 from ._streamrunners import StreamrunnersIcon
 from ._pocket import PocketIcon
+from ._gltf import GltfIcon
 from ._jet import JetIcon
 from ._meilisearch import MeilisearchIcon
 from ._mxlinux import MxLinuxIcon
@@ -362,6 +363,7 @@ from ._html5 import HtmlFiveIcon
 from ._nationalgrid import NationalGridIcon
 from ._squarespace import SquarespaceIcon
 from ._vivaldi import VivaldiIcon
+from ._outline import OutlineIcon
 from ._solana import SolanaIcon
 from ._ariakit import AriakitIcon
 from ._antena3 import AntenaThreeIcon
@@ -525,6 +527,7 @@ from ._freelancer import FreelancerIcon
 from ._pycharm import PycharmIcon
 from ._dogecoin import DogecoinIcon
 from ._concourse import ConcourseIcon
+from ._zerotier import ZerotierIcon
 from ._pandas import PandasIcon
 from ._snapchat import SnapchatIcon
 from ._sanity import SanityIcon
@@ -788,6 +791,7 @@ from ._payloadcms import PayloadCmsIcon
 from ._scpfoundation import ScpFoundationIcon
 from ._cliqz import CliqzIcon
 from ._thenorthface import TheNorthFaceIcon
+from ._lobsters import LobstersIcon
 from ._zebpay import ZebpayIcon
 from ._elegoo import ElegooIcon
 from ._cnet import CnetIcon
@@ -2375,6 +2379,7 @@ from ._clojure import ClojureIcon
 from ._fonoma import FonomaIcon
 from ._novu import NovuIcon
 from ._redbubble import RedbubbleIcon
+from ._mingww64 import MingwwSixtyFourIcon
 from ._wacom import WacomIcon
 from ._turkishairlines import TurkishAirlinesIcon
 from ._espressif import EspressifIcon
@@ -2638,6 +2643,7 @@ from ._vivint import VivintIcon
 from ._wellsfargo import WellsFargoIcon
 from ._botblecms import BotbleCmsIcon
 from ._googlecolab import GoogleColabIcon
+from ._literal import LiteralIcon
 from ._react import ReactIcon
 from ._zorin import ZorinIcon
 from ._nextdoor import NextdoorIcon
@@ -3434,6 +3440,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'paperspace': PaperspaceIcon,
     'streamrunners': StreamrunnersIcon,
     'pocket': PocketIcon,
+    'gltf': GltfIcon,
     'jet': JetIcon,
     'meilisearch': MeilisearchIcon,
     'mxlinux': MxLinuxIcon,
@@ -3525,6 +3532,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nationalgrid': NationalGridIcon,
     'squarespace': SquarespaceIcon,
     'vivaldi': VivaldiIcon,
+    'outline': OutlineIcon,
     'solana': SolanaIcon,
     'ariakit': AriakitIcon,
     'antena3': AntenaThreeIcon,
@@ -3688,6 +3696,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'pycharm': PycharmIcon,
     'dogecoin': DogecoinIcon,
     'concourse': ConcourseIcon,
+    'zerotier': ZerotierIcon,
     'pandas': PandasIcon,
     'snapchat': SnapchatIcon,
     'sanity': SanityIcon,
@@ -3951,6 +3960,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'scpfoundation': ScpFoundationIcon,
     'cliqz': CliqzIcon,
     'thenorthface': TheNorthFaceIcon,
+    'lobsters': LobstersIcon,
     'zebpay': ZebpayIcon,
     'elegoo': ElegooIcon,
     'cnet': CnetIcon,
@@ -5536,6 +5546,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'fonoma': FonomaIcon,
     'novu': NovuIcon,
     'redbubble': RedbubbleIcon,
+    'mingww64': MingwwSixtyFourIcon,
     'wacom': WacomIcon,
     'turkishairlines': TurkishAirlinesIcon,
     'espressif': EspressifIcon,
@@ -5797,6 +5808,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'wellsfargo': WellsFargoIcon,
     'botblecms': BotbleCmsIcon,
     'googlecolab': GoogleColabIcon,
+    'literal': LiteralIcon,
     'react': ReactIcon,
     'zorin': ZorinIcon,
     'nextdoor': NextdoorIcon,

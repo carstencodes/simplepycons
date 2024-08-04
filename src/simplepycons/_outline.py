@@ -21,37 +21,43 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class LinuxMintIcon(Icon):
+class OutlineIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "linuxmint"
+        return "outline"
 
     @property
     def original_file_name(self) -> "str":
-        return "linuxmint.svg"
+        return "outline.svg"
 
     @property
     def title(self) -> "str":
-        return "Linux Mint"
+        return "Outline"
 
     @property
     def primary_color(self) -> "str":
-        return "#86BE43"
+        return "#000000"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Linux Mint</title>
-     <path d="M5.438 5.906v8.438c0 2.06 1.69 3.75 3.75 3.75h5.625c2.06
- 0 3.75-1.69 3.75-3.75V9.656a2.827 2.827 0 0 0-2.813-2.812 2.8 2.8 0 0
- 0-1.875.737A2.8 2.8 0 0 0 12 6.844a2.827 2.827 0 0 0-2.812
- 2.812v4.688h1.875V9.656c0-.529.408-.937.937-.937s.938.408.938.937v4.688h1.875V9.656c0-.529.408-.937.937-.937s.938.408.938.937v4.688a1.86
- 1.86 0 0 1-1.875 1.875H9.188a1.86 1.86 0 0 1-1.875-1.875V5.906ZM12
- 0C5.384 0 0 5.384 0 12s5.384 12 12 12 12-5.384 12-12S18.616 0 12 0m0
- 1.875A10.11 10.11 0 0 1 22.125 12 10.11 10.11 0 0 1 12 22.125 10.11
- 10.11 0 0 1 1.875 12 10.11 10.11 0 0 1 12 1.875" />
+    <title>Outline</title>
+     <path d="M 15.081 21.857 L 15.081 22.459 C 15.081 23.636 13.812
+ 24.378 12.785 23.8 L 3.543 18.602 C 3.058 18.329 2.758 17.816 2.758
+ 17.26 L 2.758 6.742 C 2.758 6.185 3.058 5.672 3.543 5.399 L 12.785
+ 0.201 C 13.812 -0.378 15.082 0.365 15.081 1.544 L 15.081 2.145 L
+ 16.178 1.814 C 17.167 1.517 18.163 2.258 18.162 3.29 L 18.162 3.915 L
+ 19.511 3.746 C 20.431 3.632 21.243 4.348 21.242 5.275 L 21.242 18.726
+ C 21.243 19.652 20.431 20.37 19.511 20.254 L 18.162 20.085 L 18.162
+ 20.71 C 18.163 21.743 17.167 22.484 16.178 22.186 L 15.081 21.857 Z M
+ 15.081 20.249 L 16.621 20.71 L 16.621 3.29 L 15.081 3.753 L 15.081
+ 20.249 Z M 18.162 5.467 L 18.162 18.534 L 19.702 18.726 L 19.702
+ 5.275 L 18.162 5.467 Z M 2.758 16.801 L 2.758 7.2 L 2.758 16.801 Z M
+ 4.298 6.742 L 4.298 17.26 L 13.54 22.459 L 13.54 1.544 L 4.298 6.742
+ Z M 5.838 7.765 L 7.379 6.995 L 7.379 17.005 L 5.838 16.235 L 5.838
+ 7.765 Z" />
 </svg>'''
 
     @property
@@ -63,7 +69,7 @@ class LinuxMintIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/linuxmint/brand-logo/blob/'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

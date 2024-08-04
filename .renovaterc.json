@@ -1,0 +1,35 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "addLabels": ["dependencies", "renovatebot"],
+    "assignees": ["carstencodes"],
+    "assigneesFromCodeOwners": true,
+    "automerge": true,
+    "automergeStrategy": "rebase",
+    "automergeType": "branch",
+    "branchPrefix": "renovate/",
+    "commitBodyTable": true,
+    "commitMessagePrefix": "chore(deps): ",
+    "commitMessageSuffix": "Automatically created by mend renovate bot.",
+    "draftPR": false,
+    "enabled": true,
+    "enabledManagers": [
+        "pyenv",
+        "github-actions",
+        "git-submodules"
+    ],
+    "ignoreDeps": [],
+    "osvVulnerabilityAlerts": true,
+    "platformAutomerge": true,
+    "pruneBranchAfterAutomerge": true,
+    "pruneStaleBranches": true,
+    "rebaseWhen": "behind-base-branch",
+    "schedule": [
+        "at 6pm every weekday"
+    ],
+    "timezone": "Etc/UTC",
+    "updateLockFiles": true,
+    "updateNotScheduled": true
+}

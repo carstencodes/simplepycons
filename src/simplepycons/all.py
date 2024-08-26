@@ -495,6 +495,7 @@ from ._apachekafka import ApacheKafkaIcon
 from ._virtualbox import VirtualboxIcon
 from ._kuma import KumaIcon
 from ._fujitsu import FujitsuIcon
+from ._languagetool import LanguagetoolIcon
 from ._influxdb import InfluxdbIcon
 from ._scikitlearn import ScikitlearnIcon
 from ._framer import FramerIcon
@@ -1204,6 +1205,7 @@ from ._chef import ChefIcon
 from ._simpleanalytics import SimpleAnalyticsIcon
 from ._topdotgg import TopdotggIcon
 from ._imessage import ImessageIcon
+from ._ollama import OllamaIcon
 from ._alltrails import AlltrailsIcon
 from ._pelican import PelicanIcon
 from ._sonar import SonarIcon
@@ -3664,6 +3666,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VirtualboxIcon.__name__,
     KumaIcon.__name__,
     FujitsuIcon.__name__,
+    LanguagetoolIcon.__name__,
     InfluxdbIcon.__name__,
     ScikitlearnIcon.__name__,
     FramerIcon.__name__,
@@ -4373,6 +4376,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SimpleAnalyticsIcon.__name__,
     TopdotggIcon.__name__,
     ImessageIcon.__name__,
+    OllamaIcon.__name__,
     AlltrailsIcon.__name__,
     PelicanIcon.__name__,
     SonarIcon.__name__,

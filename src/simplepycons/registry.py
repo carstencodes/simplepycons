@@ -495,6 +495,7 @@ from ._apachekafka import ApacheKafkaIcon
 from ._virtualbox import VirtualboxIcon
 from ._kuma import KumaIcon
 from ._fujitsu import FujitsuIcon
+from ._languagetool import LanguagetoolIcon
 from ._influxdb import InfluxdbIcon
 from ._scikitlearn import ScikitlearnIcon
 from ._framer import FramerIcon
@@ -1204,6 +1205,7 @@ from ._chef import ChefIcon
 from ._simpleanalytics import SimpleAnalyticsIcon
 from ._topdotgg import TopdotggIcon
 from ._imessage import ImessageIcon
+from ._ollama import OllamaIcon
 from ._alltrails import AlltrailsIcon
 from ._pelican import PelicanIcon
 from ._sonar import SonarIcon
@@ -3664,6 +3666,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'virtualbox': VirtualboxIcon,
     'kuma': KumaIcon,
     'fujitsu': FujitsuIcon,
+    'languagetool': LanguagetoolIcon,
     'influxdb': InfluxdbIcon,
     'scikitlearn': ScikitlearnIcon,
     'framer': FramerIcon,
@@ -4373,6 +4376,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'simpleanalytics': SimpleAnalyticsIcon,
     'topdotgg': TopdotggIcon,
     'imessage': ImessageIcon,
+    'ollama': OllamaIcon,
     'alltrails': AlltrailsIcon,
     'pelican': PelicanIcon,
     'sonar': SonarIcon,

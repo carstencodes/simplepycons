@@ -939,6 +939,7 @@ from ._ethers import EthersIcon
 from ._carrefour import CarrefourIcon
 from ._pagekit import PagekitIcon
 from ._photocrowd import PhotocrowdIcon
+from ._yii import YiiIcon
 from ._quasar import QuasarIcon
 from ._ktor import KtorIcon
 from ._klook import KlookIcon
@@ -4110,6 +4111,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CarrefourIcon.__name__,
     PagekitIcon.__name__,
     PhotocrowdIcon.__name__,
+    YiiIcon.__name__,
     QuasarIcon.__name__,
     KtorIcon.__name__,
     KlookIcon.__name__,

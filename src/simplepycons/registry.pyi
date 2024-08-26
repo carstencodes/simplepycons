@@ -943,6 +943,7 @@ class _IconCollection:
     get_carrefour_icon: "Final[IconFactory]"
     get_pagekit_icon: "Final[IconFactory]"
     get_photocrowd_icon: "Final[IconFactory]"
+    get_yii_icon: "Final[IconFactory]"
     get_quasar_icon: "Final[IconFactory]"
     get_ktor_icon: "Final[IconFactory]"
     get_klook_icon: "Final[IconFactory]"

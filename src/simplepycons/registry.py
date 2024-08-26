@@ -939,6 +939,7 @@ from ._ethers import EthersIcon
 from ._carrefour import CarrefourIcon
 from ._pagekit import PagekitIcon
 from ._photocrowd import PhotocrowdIcon
+from ._yii import YiiIcon
 from ._quasar import QuasarIcon
 from ._ktor import KtorIcon
 from ._klook import KlookIcon
@@ -4110,6 +4111,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'carrefour': CarrefourIcon,
     'pagekit': PagekitIcon,
     'photocrowd': PhotocrowdIcon,
+    'yii': YiiIcon,
     'quasar': QuasarIcon,
     'ktor': KtorIcon,
     'klook': KlookIcon,

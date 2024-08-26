@@ -1086,6 +1086,7 @@ from ._tauri import TauriIcon
 from ._mdbook import MdbookIcon
 from ._fauna import FaunaIcon
 from ._roundcube import RoundcubeIcon
+from ._thanos import ThanosIcon
 from ._playstation import PlaystationIcon
 from ._org import OrgIcon
 from ._turborepo import TurborepoIcon
@@ -1214,6 +1215,7 @@ from ._spond import SpondIcon
 from ._amazonprime import AmazonPrimeIcon
 from ._porsche import PorscheIcon
 from ._gamebanana import GamebananaIcon
+from ._humhub import HumhubIcon
 from ._bentley import BentleyIcon
 from ._sony import SonyIcon
 from ._kagi import KagiIcon
@@ -2001,6 +2003,7 @@ from ._nicehash import NicehashIcon
 from ._apachekylin import ApacheKylinIcon
 from ._canva import CanvaIcon
 from ._wolfram import WolframIcon
+from ._baserow import BaserowIcon
 from ._prosieben import ProsiebenIcon
 from ._chainguard import ChainguardIcon
 from ._linuxserver import LinuxserverIcon
@@ -4258,6 +4261,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'mdbook': MdbookIcon,
     'fauna': FaunaIcon,
     'roundcube': RoundcubeIcon,
+    'thanos': ThanosIcon,
     'playstation': PlaystationIcon,
     'org': OrgIcon,
     'turborepo': TurborepoIcon,
@@ -4386,6 +4390,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'amazonprime': AmazonPrimeIcon,
     'porsche': PorscheIcon,
     'gamebanana': GamebananaIcon,
+    'humhub': HumhubIcon,
     'bentley': BentleyIcon,
     'sony': SonyIcon,
     'kagi': KagiIcon,
@@ -5171,6 +5176,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'apachekylin': ApacheKylinIcon,
     'canva': CanvaIcon,
     'wolfram': WolframIcon,
+    'baserow': BaserowIcon,
     'prosieben': ProsiebenIcon,
     'chainguard': ChainguardIcon,
     'linuxserver': LinuxserverIcon,

@@ -1086,6 +1086,7 @@ from ._tauri import TauriIcon
 from ._mdbook import MdbookIcon
 from ._fauna import FaunaIcon
 from ._roundcube import RoundcubeIcon
+from ._thanos import ThanosIcon
 from ._playstation import PlaystationIcon
 from ._org import OrgIcon
 from ._turborepo import TurborepoIcon
@@ -1214,6 +1215,7 @@ from ._spond import SpondIcon
 from ._amazonprime import AmazonPrimeIcon
 from ._porsche import PorscheIcon
 from ._gamebanana import GamebananaIcon
+from ._humhub import HumhubIcon
 from ._bentley import BentleyIcon
 from ._sony import SonyIcon
 from ._kagi import KagiIcon
@@ -2001,6 +2003,7 @@ from ._nicehash import NicehashIcon
 from ._apachekylin import ApacheKylinIcon
 from ._canva import CanvaIcon
 from ._wolfram import WolframIcon
+from ._baserow import BaserowIcon
 from ._prosieben import ProsiebenIcon
 from ._chainguard import ChainguardIcon
 from ._linuxserver import LinuxserverIcon
@@ -4258,6 +4261,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MdbookIcon.__name__,
     FaunaIcon.__name__,
     RoundcubeIcon.__name__,
+    ThanosIcon.__name__,
     PlaystationIcon.__name__,
     OrgIcon.__name__,
     TurborepoIcon.__name__,
@@ -4386,6 +4390,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AmazonPrimeIcon.__name__,
     PorscheIcon.__name__,
     GamebananaIcon.__name__,
+    HumhubIcon.__name__,
     BentleyIcon.__name__,
     SonyIcon.__name__,
     KagiIcon.__name__,
@@ -5171,6 +5176,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ApacheKylinIcon.__name__,
     CanvaIcon.__name__,
     WolframIcon.__name__,
+    BaserowIcon.__name__,
     ProsiebenIcon.__name__,
     ChainguardIcon.__name__,
     LinuxserverIcon.__name__,

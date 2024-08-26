@@ -1,21 +1,28 @@
 [project]
 name = "simplepycons"
-version = "1!13.4.0"
+version = "1!13.5.0"
 description = "Python Wrapper for the simpleicons (https://simpleicons.org) library"
 authors = [
-    {name = "Carsten Igel", email = "cig@bite-that-bit.de"},
+    { name = "Carsten Igel", email = "cig@bite-that-bit.de" },
 ]
 dependencies = []
 requires-python = ">=3.10"
 readme = "README.md"
-license = {text = "MIT"}
+
+[project.license]
+text = "MIT"
 
 [project.urls]
 homepage = "https://github.com/carstencodes/simplepycons"
 
 [build-system]
-requires = ["pdm-backend"]
+requires = [
+    "pdm-backend",
+]
 build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
 
 [tool.pdm.dev-dependencies]
 test = [
@@ -184,6 +191,3 @@ sort_commits = "oldest"
 [[tool.git-cliff.git.commit_preprocessors]]
 pattern = "\\((\\w+\\s)?#([0-9]+)\\)"
 replace = "([#${2}](https://github.com/orhun/git-cliff/issues/${2}))"
-
-[tool.pdm]
-distribution = true

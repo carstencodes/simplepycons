@@ -465,6 +465,7 @@ from ._lg import LgIcon
 from ._dazn import DaznIcon
 from ._octopusdeploy import OctopusDeployIcon
 from ._planet import PlanetIcon
+from ._flydotio import FlydotioIcon
 from ._sonos import SonosIcon
 from ._internetcomputer import InternetComputerIcon
 from ._g2a import GTwoAIcon
@@ -2421,6 +2422,7 @@ from ._googlecampaignmanager360 import (
 )
 from ._linkfire import LinkfireIcon
 from ._cbs import CbsIcon
+from ._redragon import RedragonIcon
 from ._wayland import WaylandIcon
 from ._gurobi import GurobiIcon
 from ._dynatrace import DynatraceIcon
@@ -2622,6 +2624,7 @@ from ._livechat import LivechatIcon
 from ._springsecurity import SpringSecurityIcon
 from ._evernote import EvernoteIcon
 from ._pagespeedinsights import PagespeedInsightsIcon
+from ._lefthook import LefthookIcon
 from ._materialdesignicons import MaterialDesignIconsIcon
 from ._moscowmetro import MoscowMetroIcon
 from ._wolframlanguage import WolframLanguageIcon
@@ -3043,6 +3046,7 @@ from ._drupal import DrupalIcon
 from ._backendless import BackendlessIcon
 from ._youtubekids import YoutubeKidsIcon
 from ._boardgamegeek import BoardgamegeekIcon
+from ._inductiveautomation import InductiveAutomationIcon
 from ._appsmith import AppsmithIcon
 from ._flathub import FlathubIcon
 from ._man import ManIcon
@@ -3640,6 +3644,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'dazn': DaznIcon,
     'octopusdeploy': OctopusDeployIcon,
     'planet': PlanetIcon,
+    'flydotio': FlydotioIcon,
     'sonos': SonosIcon,
     'internetcomputer': InternetComputerIcon,
     'g2a': GTwoAIcon,
@@ -5592,6 +5597,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'googlecampaignmanager360': GoogleCampaignManagerThreeHundredAndSixtyIcon,
     'linkfire': LinkfireIcon,
     'cbs': CbsIcon,
+    'redragon': RedragonIcon,
     'wayland': WaylandIcon,
     'gurobi': GurobiIcon,
     'dynatrace': DynatraceIcon,
@@ -5793,6 +5799,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'springsecurity': SpringSecurityIcon,
     'evernote': EvernoteIcon,
     'pagespeedinsights': PagespeedInsightsIcon,
+    'lefthook': LefthookIcon,
     'materialdesignicons': MaterialDesignIconsIcon,
     'moscowmetro': MoscowMetroIcon,
     'wolframlanguage': WolframLanguageIcon,
@@ -6214,6 +6221,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'backendless': BackendlessIcon,
     'youtubekids': YoutubeKidsIcon,
     'boardgamegeek': BoardgamegeekIcon,
+    'inductiveautomation': InductiveAutomationIcon,
     'appsmith': AppsmithIcon,
     'flathub': FlathubIcon,
     'man': ManIcon,

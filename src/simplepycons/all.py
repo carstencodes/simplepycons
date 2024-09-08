@@ -465,6 +465,7 @@ from ._lg import LgIcon
 from ._dazn import DaznIcon
 from ._octopusdeploy import OctopusDeployIcon
 from ._planet import PlanetIcon
+from ._flydotio import FlydotioIcon
 from ._sonos import SonosIcon
 from ._internetcomputer import InternetComputerIcon
 from ._g2a import GTwoAIcon
@@ -2421,6 +2422,7 @@ from ._googlecampaignmanager360 import (
 )
 from ._linkfire import LinkfireIcon
 from ._cbs import CbsIcon
+from ._redragon import RedragonIcon
 from ._wayland import WaylandIcon
 from ._gurobi import GurobiIcon
 from ._dynatrace import DynatraceIcon
@@ -2622,6 +2624,7 @@ from ._livechat import LivechatIcon
 from ._springsecurity import SpringSecurityIcon
 from ._evernote import EvernoteIcon
 from ._pagespeedinsights import PagespeedInsightsIcon
+from ._lefthook import LefthookIcon
 from ._materialdesignicons import MaterialDesignIconsIcon
 from ._moscowmetro import MoscowMetroIcon
 from ._wolframlanguage import WolframLanguageIcon
@@ -3043,6 +3046,7 @@ from ._drupal import DrupalIcon
 from ._backendless import BackendlessIcon
 from ._youtubekids import YoutubeKidsIcon
 from ._boardgamegeek import BoardgamegeekIcon
+from ._inductiveautomation import InductiveAutomationIcon
 from ._appsmith import AppsmithIcon
 from ._flathub import FlathubIcon
 from ._man import ManIcon
@@ -3640,6 +3644,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DaznIcon.__name__,
     OctopusDeployIcon.__name__,
     PlanetIcon.__name__,
+    FlydotioIcon.__name__,
     SonosIcon.__name__,
     InternetComputerIcon.__name__,
     GTwoAIcon.__name__,
@@ -5592,6 +5597,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GoogleCampaignManagerThreeHundredAndSixtyIcon.__name__,
     LinkfireIcon.__name__,
     CbsIcon.__name__,
+    RedragonIcon.__name__,
     WaylandIcon.__name__,
     GurobiIcon.__name__,
     DynatraceIcon.__name__,
@@ -5793,6 +5799,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SpringSecurityIcon.__name__,
     EvernoteIcon.__name__,
     PagespeedInsightsIcon.__name__,
+    LefthookIcon.__name__,
     MaterialDesignIconsIcon.__name__,
     MoscowMetroIcon.__name__,
     WolframLanguageIcon.__name__,
@@ -6214,6 +6221,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BackendlessIcon.__name__,
     YoutubeKidsIcon.__name__,
     BoardgamegeekIcon.__name__,
+    InductiveAutomationIcon.__name__,
     AppsmithIcon.__name__,
     FlathubIcon.__name__,
     ManIcon.__name__,

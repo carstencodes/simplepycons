@@ -1538,6 +1538,7 @@ from ._mcdonalds import McdonaldsIcon
 from ._nikon import NikonIcon
 from ._strongswan import StrongswanIcon
 from ._skaffold import SkaffoldIcon
+from ._builtbybit import BuiltbybitIcon
 from ._publons import PublonsIcon
 from ._theodinproject import TheOdinProjectIcon
 from ._thymeleaf import ThymeleafIcon
@@ -1934,6 +1935,7 @@ from ._twitch import TwitchIcon
 from ._dbeaver import DbeaverIcon
 from ._bim import BimIcon
 from ._netlify import NetlifyIcon
+from ._mailboxdotorg import MailboxdotorgIcon
 from ._buefy import BuefyIcon
 from ._jabber import JabberIcon
 from ._lineageos import LineageosIcon
@@ -4717,6 +4719,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NikonIcon.__name__,
     StrongswanIcon.__name__,
     SkaffoldIcon.__name__,
+    BuiltbybitIcon.__name__,
     PublonsIcon.__name__,
     TheOdinProjectIcon.__name__,
     ThymeleafIcon.__name__,
@@ -5111,6 +5114,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DbeaverIcon.__name__,
     BimIcon.__name__,
     NetlifyIcon.__name__,
+    MailboxdotorgIcon.__name__,
     BuefyIcon.__name__,
     JabberIcon.__name__,
     LineageosIcon.__name__,

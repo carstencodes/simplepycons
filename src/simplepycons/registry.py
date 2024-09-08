@@ -1538,6 +1538,7 @@ from ._mcdonalds import McdonaldsIcon
 from ._nikon import NikonIcon
 from ._strongswan import StrongswanIcon
 from ._skaffold import SkaffoldIcon
+from ._builtbybit import BuiltbybitIcon
 from ._publons import PublonsIcon
 from ._theodinproject import TheOdinProjectIcon
 from ._thymeleaf import ThymeleafIcon
@@ -1934,6 +1935,7 @@ from ._twitch import TwitchIcon
 from ._dbeaver import DbeaverIcon
 from ._bim import BimIcon
 from ._netlify import NetlifyIcon
+from ._mailboxdotorg import MailboxdotorgIcon
 from ._buefy import BuefyIcon
 from ._jabber import JabberIcon
 from ._lineageos import LineageosIcon
@@ -4717,6 +4719,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nikon': NikonIcon,
     'strongswan': StrongswanIcon,
     'skaffold': SkaffoldIcon,
+    'builtbybit': BuiltbybitIcon,
     'publons': PublonsIcon,
     'theodinproject': TheOdinProjectIcon,
     'thymeleaf': ThymeleafIcon,
@@ -5111,6 +5114,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'dbeaver': DbeaverIcon,
     'bim': BimIcon,
     'netlify': NetlifyIcon,
+    'mailboxdotorg': MailboxdotorgIcon,
     'buefy': BuefyIcon,
     'jabber': JabberIcon,
     'lineageos': LineageosIcon,

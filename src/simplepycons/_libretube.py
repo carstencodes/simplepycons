@@ -21,41 +21,37 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PlaystationIcon(Icon):
+class LibretubeIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "playstation"
+        return "libretube"
 
     @property
     def original_file_name(self) -> "str":
-        return "playstation.svg"
+        return "libretube.svg"
 
     @property
     def title(self) -> "str":
-        return "PlayStation"
+        return "LibreTube"
 
     @property
     def primary_color(self) -> "str":
-        return "#0070D1"
+        return "#FF9699"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>PlayStation</title>
-     <path d="M8.984 2.596v17.547l3.915
- 1.261V6.688c0-.69.304-1.151.794-.991.636.18.76.814.76
- 1.505v5.875c2.441 1.193 4.362-.002 4.362-3.152
- 0-3.237-1.126-4.675-4.438-5.827-1.307-.448-3.728-1.186-5.39-1.502zm4.656
- 16.241l6.296-2.275c.715-.258.826-.625.246-.818-.586-.192-1.637-.139-2.357.123l-4.205
- 1.5V14.98l.24-.085s1.201-.42 2.913-.615c1.696-.18 3.785.03 5.437.661
- 1.848.601 2.04 1.472 1.576 2.072-.465.6-1.622 1.036-1.622
- 1.036l-8.544 3.107V18.86zM1.807
- 18.6c-1.9-.545-2.214-1.668-1.352-2.32.801-.586 2.16-1.052
- 2.16-1.052l5.615-2.013v2.313L4.205
- 17c-.705.271-.825.632-.239.826.586.195 1.637.15 2.343-.12L8.247
- 17v2.074c-.12.03-.256.044-.39.073-1.939.331-3.996.196-6.038-.479z" />
+    <title>LibreTube</title>
+     <path d="M2.12 0c-.2688.004-.5138.2196-.5138.5206v4.9981c0
+ .1875.1009.3604.2641.4525l9.8769 5.5768c.3522.199.3522.7062 0
+ .9051L1.8703 18.03a.52.52 0 0 0-.264.4526v4.997c0
+ .4016.436.6514.7824.4484L22.207 12.3121a.3777.3777 0 0
+ 0-.0003-.652L2.3883.072A.516.516 0 0 0 2.1199 0zm-.005
+ 7.9458c-.2671.006-.5088.2216-.5088.5203v7.056c0
+ .3982.4296.6484.776.452l6.222-3.528c.3512-.199.3512-.705
+ 0-.904l-6.222-3.528a.515.515 0 0 0-.2674-.0683z" />
 </svg>'''
 
     @property
@@ -67,7 +63,8 @@ class PlaystationIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/libre-tube/libre-tube.gith
+ub.io/blob/e5e10090cab71ee7c0abdfbf2789977025733eb7/assets/icons/icon.'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

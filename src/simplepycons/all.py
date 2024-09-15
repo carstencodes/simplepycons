@@ -111,6 +111,7 @@ from ._octobercms import OctoberCmsIcon
 from ._bluesound import BluesoundIcon
 from ._openmined import OpenminedIcon
 from ._modx import ModxIcon
+from ._apachenifi import ApacheNifiIcon
 from ._quarto import QuartoIcon
 from ._mikrotik import MikrotikIcon
 from ._vectorworks import VectorworksIcon
@@ -179,6 +180,7 @@ from ._dblp import DblpIcon
 from ._symantec import SymantecIcon
 from ._googleanalytics import GoogleAnalyticsIcon
 from ._unraid import UnraidIcon
+from ._coze import CozeIcon
 from ._7zip import SevenZipIcon
 from ._fishshell import FishShellIcon
 from ._sanfranciscomunicipalrailway import SanFranciscoMunicipalRailwayIcon
@@ -204,6 +206,7 @@ from ._alfaromeo import AlfaRomeoIcon
 from ._imou import ImouIcon
 from ._gitconnected import GitconnectedIcon
 from ._expertsexchange import ExpertsExchangeIcon
+from ._caprover import CaproverIcon
 from ._scrapy import ScrapyIcon
 from ._tmobile import TmobileIcon
 from ._airplayvideo import AirplayVideoIcon
@@ -288,6 +291,7 @@ from ._swift import SwiftIcon
 from ._astral import AstralIcon
 from ._owasp import OwaspIcon
 from ._adobephotoshop import AdobePhotoshopIcon
+from ._xubuntu import XubuntuIcon
 from ._ludwig import LudwigIcon
 from ._directus import DirectusIcon
 from ._gin import GinIcon
@@ -488,6 +492,7 @@ from ._creality import CrealityIcon
 from ._qantas import QantasIcon
 from ._deepl import DeeplIcon
 from ._vtex import VtexIcon
+from ._sway import SwayIcon
 from ._blockbench import BlockbenchIcon
 from ._toggltrack import TogglTrackIcon
 from ._groupme import GroupmeIcon
@@ -503,6 +508,7 @@ from ._framer import FramerIcon
 from ._gulp import GulpIcon
 from ._allocine import AllocineIcon
 from ._vaadin import VaadinIcon
+from ._nanostores import NanoStoresIcon
 from ._lequipe import LequipeIcon
 from ._aeromexico import AeromexicoIcon
 from ._reactquery import ReactQueryIcon
@@ -582,7 +588,9 @@ from ._paytm import PaytmIcon
 from ._rxdb import RxdbIcon
 from ._geode import GeodeIcon
 from ._fubo import FuboIcon
+from ._mihoyo import MihoyoIcon
 from ._farcaster import FarcasterIcon
+from ._mediapipe import MediapipeIcon
 from ._bitcoin import BitcoinIcon
 from ._1panel import OnePanelIcon
 from ._koc import KocIcon
@@ -651,6 +659,7 @@ from ._oreilly import OreillyIcon
 from ._stackpath import StackpathIcon
 from ._libreofficeimpress import LibreofficeImpressIcon
 from ._eclipsevertdotx import EclipseVertdotxIcon
+from ._vrchat import VrchatIcon
 from ._trendmicro import TrendMicroIcon
 from ._photon import PhotonIcon
 from ._consul import ConsulIcon
@@ -825,6 +834,7 @@ from ._simkl import SimklIcon
 from ._kit import KitIcon
 from ._nsis import NsisIcon
 from ._apacheparquet import ApacheParquetIcon
+from ._theguardian import TheGuardianIcon
 from ._appwrite import AppwriteIcon
 from ._keenetic import KeeneticIcon
 from ._kinsta import KinstaIcon
@@ -876,6 +886,7 @@ from ._99designs import NinetyNineDesignsIcon
 from ._microeditor import MicroEditorIcon
 from ._comptia import ComptiaIcon
 from ._macys import MacysIcon
+from ._keeweb import KeewebIcon
 from ._airasia import AirasiaIcon
 from ._fanfou import FanfouIcon
 from ._stubhub import StubhubIcon
@@ -949,6 +960,7 @@ from ._epson import EpsonIcon
 from ._castbox import CastboxIcon
 from ._automattic import AutomatticIcon
 from ._couchbase import CouchbaseIcon
+from ._guitarpro import GuitarProIcon
 from ._greensock import GreensockIcon
 from ._threadless import ThreadlessIcon
 from ._anki import AnkiIcon
@@ -1013,6 +1025,7 @@ from ._uber import UberIcon
 from ._coder import CoderIcon
 from ._furrynetwork import FurryNetworkIcon
 from ._iris import IrisIcon
+from ._svgtrace import SvgtraceIcon
 from ._geeksforgeeks import GeeksforgeeksIcon
 from ._bluetooth import BluetoothIcon
 from ._g2 import GTwoIcon
@@ -1096,6 +1109,7 @@ from ._openmediavault import OpenmediavaultIcon
 from ._packagist import PackagistIcon
 from ._opensourceinitiative import OpenSourceInitiativeIcon
 from ._opennebula import OpennebulaIcon
+from ._apachedolphinscheduler import ApacheDolphinschedulerIcon
 from ._llvm import LlvmIcon
 from ._blender import BlenderIcon
 from ._kununu import KununuIcon
@@ -1132,6 +1146,7 @@ from ._smart import SmartIcon
 from ._midi import MidiIcon
 from ._linkedin import LinkedinIcon
 from ._discord import DiscordIcon
+from ._libretranslate import LibretranslateIcon
 from ._customink import CustomInkIcon
 from ._textpattern import TextpatternIcon
 from ._wikidata import WikidataIcon
@@ -1313,6 +1328,7 @@ from ._scrollreveal import ScrollrevealIcon
 from ._akaunting import AkauntingIcon
 from ._tunein import TuneinIcon
 from ._curl import CurlIcon
+from ._30secondsofcode import ThirtySecondsOfCodeIcon
 from ._createreactapp import CreateReactAppIcon
 from ._libreofficebase import LibreofficeBaseIcon
 from ._netflix import NetflixIcon
@@ -1355,6 +1371,7 @@ from ._pythonanywhere import PythonanywhereIcon
 from ._anaconda import AnacondaIcon
 from ._primeng import PrimengIcon
 from ._firefish import FirefishIcon
+from ._tarom import TaromIcon
 from ._googlefit import GoogleFitIcon
 from ._statuspage import StatuspageIcon
 from ._houdini import HoudiniIcon
@@ -1607,6 +1624,7 @@ from ._hungryjacks import HungryJacksIcon
 from ._apmterminals import ApmTerminalsIcon
 from ._365datascience import ThreeHundredAndSixtyFiveDataScienceIcon
 from ._hugo import HugoIcon
+from ._redcandlegames import RedCandleGamesIcon
 from ._substack import SubstackIcon
 from ._joomla import JoomlaIcon
 from ._notist import NotistIcon
@@ -1945,6 +1963,7 @@ from ._samsclub import SamsClubIcon
 from ._graylog import GraylogIcon
 from ._go import GoIcon
 from ._tinkercad import TinkercadIcon
+from ._csdn import CsdnIcon
 from ._monzo import MonzoIcon
 from ._rubyonrails import RubyOnRailsIcon
 from ._gnuicecat import GnuIcecatIcon
@@ -2097,6 +2116,7 @@ from ._supercrease import SupercreaseIcon
 from ._vox import VoxIcon
 from ._gitbook import GitbookIcon
 from ._fig import FigIcon
+from ._roboflow import RoboflowIcon
 from ._smrt import SmrtIcon
 from ._elasticsearch import ElasticsearchIcon
 from ._cryengine import CryengineIcon
@@ -2170,6 +2190,7 @@ from ._tradingview import TradingviewIcon
 from ._googletasks import GoogleTasksIcon
 from ._puma import PumaIcon
 from ._utorrent import UtorrentIcon
+from ._downdetector import DowndetectorIcon
 from ._merck import MerckIcon
 from ._dreamstime import DreamstimeIcon
 from ._basecamp import BasecampIcon
@@ -2296,6 +2317,7 @@ from ._stockx import StockxIcon
 from ._verdaccio import VerdaccioIcon
 from ._mongoosedotws import MongooseIcon1
 from ._academia import AcademiaIcon
+from ._theweatherchannel import TheWeatherChannelIcon
 from ._nbc import NbcIcon
 from ._spoj import SphereOnlineJudgeIcon
 from ._neo4j import NeoFourJIcon
@@ -2510,6 +2532,7 @@ from ._dacia import DaciaIcon
 from ._tmux import TmuxIcon
 from ._tinyletter import TinyletterIcon
 from ._codeium import CodeiumIcon
+from ._contabo import ContaboIcon
 from ._counterstrike import CounterstrikeIcon
 from ._wasabi import WasabiIcon
 from ._hepsiemlak import HepsiemlakIcon
@@ -2561,6 +2584,7 @@ from ._metrodemadrid import MetroDeMadridIcon
 from ._toll import TollIcon
 from ._coveralls import CoverallsIcon
 from ._ifixit import IfixitIcon
+from ._lucide import LucideIcon
 from ._kaufland import KauflandIcon
 from ._dhl import DhlIcon
 from ._fastlane import FastlaneIcon
@@ -2695,6 +2719,7 @@ from ._wix import WixIcon
 from ._southwestairlines import SouthwestAirlinesIcon
 from ._gamemaker import GamemakerIcon
 from ._virustotal import VirustotalIcon
+from ._primefaces import PrimefacesIcon
 from ._kofi import KofiIcon
 from ._i3 import IThreeIcon
 from ._astonmartin import AstonMartinIcon
@@ -2720,6 +2745,7 @@ from ._harbor import HarborIcon
 from ._bytedance import BytedanceIcon
 from ._cocos import CocosIcon
 from ._nativescript import NativescriptIcon
+from ._libretube import LibretubeIcon
 from ._boosty import BoostyIcon
 from ._researchgate import ResearchgateIcon
 from ._pastebin import PastebinIcon
@@ -2748,6 +2774,7 @@ from ._diagramsdotnet import DiagramsdotnetIcon
 from ._snyk import SnykIcon
 from ._ray import RayIcon
 from ._matillion import MatillionIcon
+from ._primevue import PrimevueIcon
 from ._databricks import DatabricksIcon
 from ._speedtest import SpeedtestIcon
 from ._similarweb import SimilarwebIcon
@@ -3292,6 +3319,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BluesoundIcon.__name__,
     OpenminedIcon.__name__,
     ModxIcon.__name__,
+    ApacheNifiIcon.__name__,
     QuartoIcon.__name__,
     MikrotikIcon.__name__,
     VectorworksIcon.__name__,
@@ -3360,6 +3388,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SymantecIcon.__name__,
     GoogleAnalyticsIcon.__name__,
     UnraidIcon.__name__,
+    CozeIcon.__name__,
     SevenZipIcon.__name__,
     FishShellIcon.__name__,
     SanFranciscoMunicipalRailwayIcon.__name__,
@@ -3385,6 +3414,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ImouIcon.__name__,
     GitconnectedIcon.__name__,
     ExpertsExchangeIcon.__name__,
+    CaproverIcon.__name__,
     ScrapyIcon.__name__,
     TmobileIcon.__name__,
     AirplayVideoIcon.__name__,
@@ -3469,6 +3499,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AstralIcon.__name__,
     OwaspIcon.__name__,
     AdobePhotoshopIcon.__name__,
+    XubuntuIcon.__name__,
     LudwigIcon.__name__,
     DirectusIcon.__name__,
     GinIcon.__name__,
@@ -3669,6 +3700,7 @@ ALL_ICONS: "Final[list[str]]" = [
     QantasIcon.__name__,
     DeeplIcon.__name__,
     VtexIcon.__name__,
+    SwayIcon.__name__,
     BlockbenchIcon.__name__,
     TogglTrackIcon.__name__,
     GroupmeIcon.__name__,
@@ -3684,6 +3716,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GulpIcon.__name__,
     AllocineIcon.__name__,
     VaadinIcon.__name__,
+    NanoStoresIcon.__name__,
     LequipeIcon.__name__,
     AeromexicoIcon.__name__,
     ReactQueryIcon.__name__,
@@ -3763,7 +3796,9 @@ ALL_ICONS: "Final[list[str]]" = [
     RxdbIcon.__name__,
     GeodeIcon.__name__,
     FuboIcon.__name__,
+    MihoyoIcon.__name__,
     FarcasterIcon.__name__,
+    MediapipeIcon.__name__,
     BitcoinIcon.__name__,
     OnePanelIcon.__name__,
     KocIcon.__name__,
@@ -3832,6 +3867,7 @@ ALL_ICONS: "Final[list[str]]" = [
     StackpathIcon.__name__,
     LibreofficeImpressIcon.__name__,
     EclipseVertdotxIcon.__name__,
+    VrchatIcon.__name__,
     TrendMicroIcon.__name__,
     PhotonIcon.__name__,
     ConsulIcon.__name__,
@@ -4006,6 +4042,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KitIcon.__name__,
     NsisIcon.__name__,
     ApacheParquetIcon.__name__,
+    TheGuardianIcon.__name__,
     AppwriteIcon.__name__,
     KeeneticIcon.__name__,
     KinstaIcon.__name__,
@@ -4057,6 +4094,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MicroEditorIcon.__name__,
     ComptiaIcon.__name__,
     MacysIcon.__name__,
+    KeewebIcon.__name__,
     AirasiaIcon.__name__,
     FanfouIcon.__name__,
     StubhubIcon.__name__,
@@ -4130,6 +4168,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CastboxIcon.__name__,
     AutomatticIcon.__name__,
     CouchbaseIcon.__name__,
+    GuitarProIcon.__name__,
     GreensockIcon.__name__,
     ThreadlessIcon.__name__,
     AnkiIcon.__name__,
@@ -4194,6 +4233,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CoderIcon.__name__,
     FurryNetworkIcon.__name__,
     IrisIcon.__name__,
+    SvgtraceIcon.__name__,
     GeeksforgeeksIcon.__name__,
     BluetoothIcon.__name__,
     GTwoIcon.__name__,
@@ -4277,6 +4317,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PackagistIcon.__name__,
     OpenSourceInitiativeIcon.__name__,
     OpennebulaIcon.__name__,
+    ApacheDolphinschedulerIcon.__name__,
     LlvmIcon.__name__,
     BlenderIcon.__name__,
     KununuIcon.__name__,
@@ -4313,6 +4354,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MidiIcon.__name__,
     LinkedinIcon.__name__,
     DiscordIcon.__name__,
+    LibretranslateIcon.__name__,
     CustomInkIcon.__name__,
     TextpatternIcon.__name__,
     WikidataIcon.__name__,
@@ -4494,6 +4536,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AkauntingIcon.__name__,
     TuneinIcon.__name__,
     CurlIcon.__name__,
+    ThirtySecondsOfCodeIcon.__name__,
     CreateReactAppIcon.__name__,
     LibreofficeBaseIcon.__name__,
     NetflixIcon.__name__,
@@ -4536,6 +4579,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AnacondaIcon.__name__,
     PrimengIcon.__name__,
     FirefishIcon.__name__,
+    TaromIcon.__name__,
     GoogleFitIcon.__name__,
     StatuspageIcon.__name__,
     HoudiniIcon.__name__,
@@ -4788,6 +4832,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ApmTerminalsIcon.__name__,
     ThreeHundredAndSixtyFiveDataScienceIcon.__name__,
     HugoIcon.__name__,
+    RedCandleGamesIcon.__name__,
     SubstackIcon.__name__,
     JoomlaIcon.__name__,
     NotistIcon.__name__,
@@ -5124,6 +5169,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GraylogIcon.__name__,
     GoIcon.__name__,
     TinkercadIcon.__name__,
+    CsdnIcon.__name__,
     MonzoIcon.__name__,
     RubyOnRailsIcon.__name__,
     GnuIcecatIcon.__name__,
@@ -5276,6 +5322,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VoxIcon.__name__,
     GitbookIcon.__name__,
     FigIcon.__name__,
+    RoboflowIcon.__name__,
     SmrtIcon.__name__,
     ElasticsearchIcon.__name__,
     CryengineIcon.__name__,
@@ -5349,6 +5396,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GoogleTasksIcon.__name__,
     PumaIcon.__name__,
     UtorrentIcon.__name__,
+    DowndetectorIcon.__name__,
     MerckIcon.__name__,
     DreamstimeIcon.__name__,
     BasecampIcon.__name__,
@@ -5475,6 +5523,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VerdaccioIcon.__name__,
     MongooseIcon1.__name__,
     AcademiaIcon.__name__,
+    TheWeatherChannelIcon.__name__,
     NbcIcon.__name__,
     SphereOnlineJudgeIcon.__name__,
     NeoFourJIcon.__name__,
@@ -5687,6 +5736,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TmuxIcon.__name__,
     TinyletterIcon.__name__,
     CodeiumIcon.__name__,
+    ContaboIcon.__name__,
     CounterstrikeIcon.__name__,
     WasabiIcon.__name__,
     HepsiemlakIcon.__name__,
@@ -5738,6 +5788,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TollIcon.__name__,
     CoverallsIcon.__name__,
     IfixitIcon.__name__,
+    LucideIcon.__name__,
     KauflandIcon.__name__,
     DhlIcon.__name__,
     FastlaneIcon.__name__,
@@ -5872,6 +5923,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SouthwestAirlinesIcon.__name__,
     GamemakerIcon.__name__,
     VirustotalIcon.__name__,
+    PrimefacesIcon.__name__,
     KofiIcon.__name__,
     IThreeIcon.__name__,
     AstonMartinIcon.__name__,
@@ -5897,6 +5949,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BytedanceIcon.__name__,
     CocosIcon.__name__,
     NativescriptIcon.__name__,
+    LibretubeIcon.__name__,
     BoostyIcon.__name__,
     ResearchgateIcon.__name__,
     PastebinIcon.__name__,
@@ -5925,6 +5978,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SnykIcon.__name__,
     RayIcon.__name__,
     MatillionIcon.__name__,
+    PrimevueIcon.__name__,
     DatabricksIcon.__name__,
     SpeedtestIcon.__name__,
     SimilarwebIcon.__name__,

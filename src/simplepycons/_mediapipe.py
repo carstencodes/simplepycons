@@ -21,41 +21,43 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PlaystationIcon(Icon):
+class MediapipeIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "playstation"
+        return "mediapipe"
 
     @property
     def original_file_name(self) -> "str":
-        return "playstation.svg"
+        return "mediapipe.svg"
 
     @property
     def title(self) -> "str":
-        return "PlayStation"
+        return "MediaPipe"
 
     @property
     def primary_color(self) -> "str":
-        return "#0070D1"
+        return "#0097A7"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>PlayStation</title>
-     <path d="M8.984 2.596v17.547l3.915
- 1.261V6.688c0-.69.304-1.151.794-.991.636.18.76.814.76
- 1.505v5.875c2.441 1.193 4.362-.002 4.362-3.152
- 0-3.237-1.126-4.675-4.438-5.827-1.307-.448-3.728-1.186-5.39-1.502zm4.656
- 16.241l6.296-2.275c.715-.258.826-.625.246-.818-.586-.192-1.637-.139-2.357.123l-4.205
- 1.5V14.98l.24-.085s1.201-.42 2.913-.615c1.696-.18 3.785.03 5.437.661
- 1.848.601 2.04 1.472 1.576 2.072-.465.6-1.622 1.036-1.622
- 1.036l-8.544 3.107V18.86zM1.807
- 18.6c-1.9-.545-2.214-1.668-1.352-2.32.801-.586 2.16-1.052
- 2.16-1.052l5.615-2.013v2.313L4.205
- 17c-.705.271-.825.632-.239.826.586.195 1.637.15 2.343-.12L8.247
- 17v2.074c-.12.03-.256.044-.39.073-1.939.331-3.996.196-6.038-.479z" />
+    <title>MediaPipe</title>
+     <path d="M2.182 0C1 0 .037.94.002 2.114L0 2.182v6.545a2.182 2.182
+ 0 0 0 4.364 0V2.182A2.182 2.182 0 0 0 2.182 0Zm6.545 0c-1.182
+ 0-2.145.94-2.18 2.114l-.002.068v13.09a2.182 2.182 0 0 0 4.364
+ 0V2.183A2.182 2.182 0 0 0 8.727 0Zm6.546 0a2.182 2.182 0 0 0-2.182
+ 2.182 2.182 2.182 0 0 0 2.182 2.182 2.182 2.182 0 0 0
+ 2.182-2.182A2.182 2.182 0 0 0 15.273 0Zm6.545 0c-1.182
+ 0-2.145.94-2.18 2.114l-.002.068v19.636a2.182 2.182 0 0 0 4.364
+ 0V2.182A2.182 2.182 0 0 0 21.818 0Zm-6.545 6.545c-1.183
+ 0-2.145.94-2.181 2.114l-.001.068v13.091a2.182 2.182 0 0 0 4.364
+ 0V8.728a2.182 2.182 0 0 0-2.182-2.183zM2.182 13.091c-1.182
+ 0-2.145.94-2.18 2.114L0 15.273v6.545a2.182 2.182 0 0 0 4.364
+ 0v-6.545a2.182 2.182 0 0 0-2.182-2.182zm6.545 6.545a2.182 2.182 0 0
+ 0-2.182 2.182A2.182 2.182 0 0 0 8.727 24a2.182 2.182 0 0 0
+ 2.182-2.182 2.182 2.182 0 0 0-2.182-2.182Z" />
 </svg>'''
 
     @property
@@ -67,7 +69,7 @@ class PlaystationIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://developers.google.com/static/mediapip'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

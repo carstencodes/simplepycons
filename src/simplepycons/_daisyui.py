@@ -85,7 +85,7 @@ class DaisyuiIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://raw.githubusercontent.com/saadeghi/fi'''
+        return '''https://github.com/saadeghi/files/blob/5c82a1'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

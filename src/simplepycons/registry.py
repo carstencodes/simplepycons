@@ -323,8 +323,10 @@ from ._aldinord import AldiNordIcon
 from ._elasticstack import ElasticStackIcon
 from ._fluentd import FluentdIcon
 from ._pixiv import PixivIcon
+from ._helix import HelixIcon
 from ._esea import EseaIcon
 from ._interactiondesignfoundation import InteractionDesignFoundationIcon
+from ._nexon import NexonIcon
 from ._roadmapdotsh import RoadmapdotshIcon
 from ._uikit import UikitIcon
 from ._redux import ReduxIcon
@@ -1060,6 +1062,7 @@ from ._session import SessionIcon
 from ._thumbtack import ThumbtackIcon
 from ._qgis import QgisIcon
 from ._tryitonline import TryItOnlineIcon
+from ._fresh import FreshIcon
 from ._robotframework import RobotFrameworkIcon
 from ._cirrusci import CirrusCiIcon
 from ._system76 import SystemSeventySixIcon
@@ -1165,6 +1168,7 @@ from ._tomorrowland import TomorrowlandIcon
 from ._autohotkey import AutohotkeyIcon
 from ._miraheze import MirahezeIcon
 from ._webgpu import WebgpuIcon
+from ._vestel import VestelIcon
 from ._podman import PodmanIcon
 from ._buysellads import BuyselladsIcon
 from ._studio3t import StudioThreeTIcon
@@ -1714,6 +1718,7 @@ from ._pypi import PypiIcon
 from ._musicbrainz import MusicbrainzIcon
 from ._woocommerce import WoocommerceIcon
 from ._habr import HabrIcon
+from ._deutschewelle import DeutscheWelleIcon
 from ._planetscale import PlanetscaleIcon
 from ._aircall import AircallIcon
 from ._gatsby import GatsbyIcon
@@ -1922,6 +1927,7 @@ from ._darkreader import DarkReaderIcon
 from ._clerk import ClerkIcon
 from ._zoiper import ZoiperIcon
 from ._facebookgaming import FacebookGamingIcon
+from ._kdeplasma import KdePlasmaIcon
 from ._decapcms import DecapCmsIcon
 from ._depositphotos import DepositphotosIcon
 from ._crewunited import CrewUnitedIcon
@@ -2619,6 +2625,7 @@ from ._codemagic import CodemagicIcon
 from ._tableau import TableauIcon
 from ._rockwellautomation import RockwellAutomationIcon
 from ._lighthouse import LighthouseIcon
+from ._codecrafters import CodecraftersIcon
 from ._infomaniak import InfomaniakIcon
 from ._mamp import MampIcon
 from ._cora import CoraIcon
@@ -3531,8 +3538,10 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'elasticstack': ElasticStackIcon,
     'fluentd': FluentdIcon,
     'pixiv': PixivIcon,
+    'helix': HelixIcon,
     'esea': EseaIcon,
     'interactiondesignfoundation': InteractionDesignFoundationIcon,
+    'nexon': NexonIcon,
     'roadmapdotsh': RoadmapdotshIcon,
     'uikit': UikitIcon,
     'redux': ReduxIcon,
@@ -4268,6 +4277,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'thumbtack': ThumbtackIcon,
     'qgis': QgisIcon,
     'tryitonline': TryItOnlineIcon,
+    'fresh': FreshIcon,
     'robotframework': RobotFrameworkIcon,
     'cirrusci': CirrusCiIcon,
     'system76': SystemSeventySixIcon,
@@ -4373,6 +4383,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'autohotkey': AutohotkeyIcon,
     'miraheze': MirahezeIcon,
     'webgpu': WebgpuIcon,
+    'vestel': VestelIcon,
     'podman': PodmanIcon,
     'buysellads': BuyselladsIcon,
     'studio3t': StudioThreeTIcon,
@@ -4920,6 +4931,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'musicbrainz': MusicbrainzIcon,
     'woocommerce': WoocommerceIcon,
     'habr': HabrIcon,
+    'deutschewelle': DeutscheWelleIcon,
     'planetscale': PlanetscaleIcon,
     'aircall': AircallIcon,
     'gatsby': GatsbyIcon,
@@ -5128,6 +5140,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'clerk': ClerkIcon,
     'zoiper': ZoiperIcon,
     'facebookgaming': FacebookGamingIcon,
+    'kdeplasma': KdePlasmaIcon,
     'decapcms': DecapCmsIcon,
     'depositphotos': DepositphotosIcon,
     'crewunited': CrewUnitedIcon,
@@ -5823,6 +5836,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'tableau': TableauIcon,
     'rockwellautomation': RockwellAutomationIcon,
     'lighthouse': LighthouseIcon,
+    'codecrafters': CodecraftersIcon,
     'infomaniak': InfomaniakIcon,
     'mamp': MampIcon,
     'cora': CoraIcon,

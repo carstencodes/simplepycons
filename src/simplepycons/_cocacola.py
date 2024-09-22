@@ -131,7 +131,7 @@ class CocaColaIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://upload.wikimedia.org/wikipedia/common'''
+        return '''https://commons.wikimedia.org/wiki/File:Coca-'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -71,7 +71,7 @@ class CarrefourIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://upload.wikimedia.org/wikipedia/common'''
+        return '''https://en.wikipedia.org/wiki/File:Carrefour_'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

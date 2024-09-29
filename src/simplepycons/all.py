@@ -293,6 +293,7 @@ from ._owasp import OwaspIcon
 from ._adobephotoshop import AdobePhotoshopIcon
 from ._xubuntu import XubuntuIcon
 from ._ludwig import LudwigIcon
+from ._nebula import NebulaIcon
 from ._directus import DirectusIcon
 from ._gin import GinIcon
 from ._rancher import RancherIcon
@@ -1393,6 +1394,7 @@ from ._make import MakeIcon
 from ._cloudera import ClouderaIcon
 from ._foxtel import FoxtelIcon
 from ._jcb import JcbIcon
+from ._actualbudget import ActualBudgetIcon
 from ._googlecontaineroptimizedos import GoogleContainerOptimizedOsIcon
 from ._paychex import PaychexIcon
 from ._codingninjas import CodingNinjasIcon
@@ -3088,6 +3090,7 @@ from ._flathub import FlathubIcon
 from ._man import ManIcon
 from ._amp import AmpIcon
 from ._hackernoon import HackerNoonIcon
+from ._xml import XmlIcon
 from ._symphony import SymphonyIcon
 from ._winamp import WinampIcon
 from ._adroll import AdrollIcon
@@ -3181,6 +3184,7 @@ from ._fidoalliance import FidoAllianceIcon
 from ._vuetify import VuetifyIcon
 from ._youtube import YoutubeIcon
 from ._2fas import TwoFasIcon
+from ._o2 import OTwoIcon
 from ._ngrx import NgrxIcon
 from ._generalelectric import GeneralElectricIcon
 from ._mpv import MpvIcon
@@ -3508,6 +3512,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AdobePhotoshopIcon.__name__,
     XubuntuIcon.__name__,
     LudwigIcon.__name__,
+    NebulaIcon.__name__,
     DirectusIcon.__name__,
     GinIcon.__name__,
     RancherIcon.__name__,
@@ -4608,6 +4613,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ClouderaIcon.__name__,
     FoxtelIcon.__name__,
     JcbIcon.__name__,
+    ActualBudgetIcon.__name__,
     GoogleContainerOptimizedOsIcon.__name__,
     PaychexIcon.__name__,
     CodingNinjasIcon.__name__,
@@ -6299,6 +6305,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ManIcon.__name__,
     AmpIcon.__name__,
     HackerNoonIcon.__name__,
+    XmlIcon.__name__,
     SymphonyIcon.__name__,
     WinampIcon.__name__,
     AdrollIcon.__name__,
@@ -6392,6 +6399,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VuetifyIcon.__name__,
     YoutubeIcon.__name__,
     TwoFasIcon.__name__,
+    OTwoIcon.__name__,
     NgrxIcon.__name__,
     GeneralElectricIcon.__name__,
     MpvIcon.__name__,

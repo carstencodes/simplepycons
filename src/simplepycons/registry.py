@@ -2001,6 +2001,7 @@ from ._soriana import SorianaIcon
 from ._quora import QuoraIcon
 from ._surveymonkey import SurveymonkeyIcon
 from ._klarna import KlarnaIcon
+from ._hermes import HermesIcon
 from ._webmoney import WebmoneyIcon
 from ._ram import RamIcon
 from ._spotlight import SpotlightIcon
@@ -2603,6 +2604,7 @@ from ._pypy import PypyIcon
 from ._swarm import SwarmIcon
 from ._buddy import BuddyIcon
 from ._barclays import BarclaysIcon
+from ._ecosia import EcosiaIcon
 from ._freelancermap import FreelancermapIcon
 from ._zcash import ZcashIcon
 from ._nextra import NextraIcon
@@ -5218,6 +5220,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'quora': QuoraIcon,
     'surveymonkey': SurveymonkeyIcon,
     'klarna': KlarnaIcon,
+    'hermes': HermesIcon,
     'webmoney': WebmoneyIcon,
     'ram': RamIcon,
     'spotlight': SpotlightIcon,
@@ -5818,6 +5821,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'swarm': SwarmIcon,
     'buddy': BuddyIcon,
     'barclays': BarclaysIcon,
+    'ecosia': EcosiaIcon,
     'freelancermap': FreelancermapIcon,
     'zcash': ZcashIcon,
     'nextra': NextraIcon,

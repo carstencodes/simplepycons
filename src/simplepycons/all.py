@@ -2001,6 +2001,7 @@ from ._soriana import SorianaIcon
 from ._quora import QuoraIcon
 from ._surveymonkey import SurveymonkeyIcon
 from ._klarna import KlarnaIcon
+from ._hermes import HermesIcon
 from ._webmoney import WebmoneyIcon
 from ._ram import RamIcon
 from ._spotlight import SpotlightIcon
@@ -2603,6 +2604,7 @@ from ._pypy import PypyIcon
 from ._swarm import SwarmIcon
 from ._buddy import BuddyIcon
 from ._barclays import BarclaysIcon
+from ._ecosia import EcosiaIcon
 from ._freelancermap import FreelancermapIcon
 from ._zcash import ZcashIcon
 from ._nextra import NextraIcon
@@ -5218,6 +5220,7 @@ ALL_ICONS: "Final[list[str]]" = [
     QuoraIcon.__name__,
     SurveymonkeyIcon.__name__,
     KlarnaIcon.__name__,
+    HermesIcon.__name__,
     WebmoneyIcon.__name__,
     RamIcon.__name__,
     SpotlightIcon.__name__,
@@ -5818,6 +5821,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SwarmIcon.__name__,
     BuddyIcon.__name__,
     BarclaysIcon.__name__,
+    EcosiaIcon.__name__,
     FreelancermapIcon.__name__,
     ZcashIcon.__name__,
     NextraIcon.__name__,

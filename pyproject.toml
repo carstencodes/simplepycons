@@ -1,6 +1,6 @@
 [project]
 name = "simplepycons"
-version = "1!13.13.0"
+version = "1!13.14.0"
 description = "Python Wrapper for the simpleicons (https://simpleicons.org) library"
 authors = [
     { name = "Carsten Igel", email = "cig@bite-that-bit.de" },
@@ -63,6 +63,7 @@ generation = [
 
 [tool.pdm.scripts]
 generate = "python util/generator/generate.py"
+usi = "python util/updater/update.py"
 flake = "flake518 src/"
 mypy = "mypy src/"
 pylint = "pylint -j 16 src/"

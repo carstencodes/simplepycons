@@ -82,6 +82,7 @@ from ._fontforge import FontforgeIcon
 from ._picardsurgeles import PicardSurgelesIcon
 from ._newrelic import NewRelicIcon
 from ._magic import MagicIcon
+from ._sendgrid import SendgridIcon
 from ._platformdotsh import PlatformdotshIcon
 from ._gocd import GocdIcon
 from ._westernunion import WesternUnionIcon
@@ -548,6 +549,7 @@ from ._reebok import ReebokIcon
 from ._qualcomm import QualcommIcon
 from ._cashapp import CashAppIcon
 from ._adblock import AdblockIcon
+from ._japanairlines import JapanAirlinesIcon
 from ._netapp import NetappIcon
 from ._oxygen import OxygenIcon
 from ._sentry import SentryIcon
@@ -2469,6 +2471,7 @@ from ._dash import DashIcon
 from ._issuu import IssuuIcon
 from ._screencastify import ScreencastifyIcon
 from ._sfml import SfmlIcon
+from ._cinnamon import CinnamonIcon
 from ._discover import DiscoverIcon
 from ._metrodeparis import MetroDeParisIcon
 from ._square import SquareIcon
@@ -2778,6 +2781,7 @@ from ._anthropic import AnthropicIcon
 from ._origin import OriginIcon
 from ._icinga import IcingaIcon
 from ._opera import OperaIcon
+from ._alternativeto import AlternativetoIcon
 from ._strapi import StrapiIcon
 from ._vaultwarden import VaultwardenIcon
 from ._bugatti import BugattiIcon
@@ -2890,6 +2894,7 @@ from ._eslgaming import EslgamingIcon
 from ._awwwards import AwwwardsIcon
 from ._badoo import BadooIcon
 from ._shell import ShellIcon
+from ._atlasos import AtlasosIcon
 from ._vorondesign import VoronDesignIcon
 from ._dts import DtsIcon
 from ._sat1 import SatdotOneIcon
@@ -3303,6 +3308,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PicardSurgelesIcon.__name__,
     NewRelicIcon.__name__,
     MagicIcon.__name__,
+    SendgridIcon.__name__,
     PlatformdotshIcon.__name__,
     GocdIcon.__name__,
     WesternUnionIcon.__name__,
@@ -3769,6 +3775,7 @@ ALL_ICONS: "Final[list[str]]" = [
     QualcommIcon.__name__,
     CashAppIcon.__name__,
     AdblockIcon.__name__,
+    JapanAirlinesIcon.__name__,
     NetappIcon.__name__,
     OxygenIcon.__name__,
     SentryIcon.__name__,
@@ -5686,6 +5693,7 @@ ALL_ICONS: "Final[list[str]]" = [
     IssuuIcon.__name__,
     ScreencastifyIcon.__name__,
     SfmlIcon.__name__,
+    CinnamonIcon.__name__,
     DiscoverIcon.__name__,
     MetroDeParisIcon.__name__,
     SquareIcon.__name__,
@@ -5995,6 +6003,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OriginIcon.__name__,
     IcingaIcon.__name__,
     OperaIcon.__name__,
+    AlternativetoIcon.__name__,
     StrapiIcon.__name__,
     VaultwardenIcon.__name__,
     BugattiIcon.__name__,
@@ -6107,6 +6116,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AwwwardsIcon.__name__,
     BadooIcon.__name__,
     ShellIcon.__name__,
+    AtlasosIcon.__name__,
     VoronDesignIcon.__name__,
     DtsIcon.__name__,
     SatdotOneIcon.__name__,

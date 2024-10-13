@@ -82,6 +82,7 @@ from ._fontforge import FontforgeIcon
 from ._picardsurgeles import PicardSurgelesIcon
 from ._newrelic import NewRelicIcon
 from ._magic import MagicIcon
+from ._sendgrid import SendgridIcon
 from ._platformdotsh import PlatformdotshIcon
 from ._gocd import GocdIcon
 from ._westernunion import WesternUnionIcon
@@ -548,6 +549,7 @@ from ._reebok import ReebokIcon
 from ._qualcomm import QualcommIcon
 from ._cashapp import CashAppIcon
 from ._adblock import AdblockIcon
+from ._japanairlines import JapanAirlinesIcon
 from ._netapp import NetappIcon
 from ._oxygen import OxygenIcon
 from ._sentry import SentryIcon
@@ -2469,6 +2471,7 @@ from ._dash import DashIcon
 from ._issuu import IssuuIcon
 from ._screencastify import ScreencastifyIcon
 from ._sfml import SfmlIcon
+from ._cinnamon import CinnamonIcon
 from ._discover import DiscoverIcon
 from ._metrodeparis import MetroDeParisIcon
 from ._square import SquareIcon
@@ -2778,6 +2781,7 @@ from ._anthropic import AnthropicIcon
 from ._origin import OriginIcon
 from ._icinga import IcingaIcon
 from ._opera import OperaIcon
+from ._alternativeto import AlternativetoIcon
 from ._strapi import StrapiIcon
 from ._vaultwarden import VaultwardenIcon
 from ._bugatti import BugattiIcon
@@ -2890,6 +2894,7 @@ from ._eslgaming import EslgamingIcon
 from ._awwwards import AwwwardsIcon
 from ._badoo import BadooIcon
 from ._shell import ShellIcon
+from ._atlasos import AtlasosIcon
 from ._vorondesign import VoronDesignIcon
 from ._dts import DtsIcon
 from ._sat1 import SatdotOneIcon
@@ -3303,6 +3308,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'picardsurgeles': PicardSurgelesIcon,
     'newrelic': NewRelicIcon,
     'magic': MagicIcon,
+    'sendgrid': SendgridIcon,
     'platformdotsh': PlatformdotshIcon,
     'gocd': GocdIcon,
     'westernunion': WesternUnionIcon,
@@ -3769,6 +3775,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'qualcomm': QualcommIcon,
     'cashapp': CashAppIcon,
     'adblock': AdblockIcon,
+    'japanairlines': JapanAirlinesIcon,
     'netapp': NetappIcon,
     'oxygen': OxygenIcon,
     'sentry': SentryIcon,
@@ -5686,6 +5693,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'issuu': IssuuIcon,
     'screencastify': ScreencastifyIcon,
     'sfml': SfmlIcon,
+    'cinnamon': CinnamonIcon,
     'discover': DiscoverIcon,
     'metrodeparis': MetroDeParisIcon,
     'square': SquareIcon,
@@ -5995,6 +6003,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'origin': OriginIcon,
     'icinga': IcingaIcon,
     'opera': OperaIcon,
+    'alternativeto': AlternativetoIcon,
     'strapi': StrapiIcon,
     'vaultwarden': VaultwardenIcon,
     'bugatti': BugattiIcon,
@@ -6107,6 +6116,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'awwwards': AwwwardsIcon,
     'badoo': BadooIcon,
     'shell': ShellIcon,
+    'atlasos': AtlasosIcon,
     'vorondesign': VoronDesignIcon,
     'dts': DtsIcon,
     'sat1': SatdotOneIcon,

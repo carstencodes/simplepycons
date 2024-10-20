@@ -26,6 +26,8 @@ with chdir(icons_module_dir):
     p = run(["git", "fetch", "origin", "--tags"], check=True, capture_output=True)
     if p.stdout is not None:
 
+        print(p.stdout)
+
         new_tags = p.stdout.splitlines()
         new_tags = [t for t in new_tags if t.lstrip().startswith(b'*')]
 

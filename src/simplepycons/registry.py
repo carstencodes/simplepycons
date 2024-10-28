@@ -2209,6 +2209,7 @@ from ._shazam import ShazamIcon
 from ._retropie import RetropieIcon
 from ._sap import SapIcon
 from ._zulip import ZulipIcon
+from ._sui import SuiIcon
 from ._protoncalendar import ProtonCalendarIcon
 from ._generalmotors import GeneralMotorsIcon
 from ._aidungeon import AiDungeonIcon
@@ -5433,6 +5434,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'retropie': RetropieIcon,
     'sap': SapIcon,
     'zulip': ZulipIcon,
+    'sui': SuiIcon,
     'protoncalendar': ProtonCalendarIcon,
     'generalmotors': GeneralMotorsIcon,
     'aidungeon': AiDungeonIcon,

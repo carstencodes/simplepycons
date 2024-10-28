@@ -2211,6 +2211,7 @@ class _IconCollection:
     get_retropie_icon: "Final[IconFactory]"
     get_sap_icon: "Final[IconFactory]"
     get_zulip_icon: "Final[IconFactory]"
+    get_sui_icon: "Final[IconFactory]"
     get_protoncalendar_icon: "Final[IconFactory]"
     get_generalmotors_icon: "Final[IconFactory]"
     get_aidungeon_icon: "Final[IconFactory]"

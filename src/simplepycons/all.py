@@ -2209,6 +2209,7 @@ from ._shazam import ShazamIcon
 from ._retropie import RetropieIcon
 from ._sap import SapIcon
 from ._zulip import ZulipIcon
+from ._sui import SuiIcon
 from ._protoncalendar import ProtonCalendarIcon
 from ._generalmotors import GeneralMotorsIcon
 from ._aidungeon import AiDungeonIcon
@@ -5433,6 +5434,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RetropieIcon.__name__,
     SapIcon.__name__,
     ZulipIcon.__name__,
+    SuiIcon.__name__,
     ProtonCalendarIcon.__name__,
     GeneralMotorsIcon.__name__,
     AiDungeonIcon.__name__,

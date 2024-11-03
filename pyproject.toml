@@ -1,6 +1,6 @@
 [project]
 name = "simplepycons"
-version = "1!13.15.0.post1"
+version = "1!13.16.0"
 description = "Python Wrapper for the simpleicons (https://simpleicons.org) library"
 authors = [
     { name = "Carsten Igel", email = "cig@bite-that-bit.de" },

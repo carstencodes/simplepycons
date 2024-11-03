@@ -263,6 +263,7 @@ from ._trpc import TrpcIcon
 from ._galaxus import GalaxusIcon
 from ._mewe import MeweIcon
 from ._overcast import OvercastIcon
+from ._uv import UvIcon
 from ._stellar import StellarIcon
 from ._backblaze import BackblazeIcon
 from ._stripe import StripeIcon
@@ -1805,6 +1806,7 @@ from ._pytorch import PytorchIcon
 from ._ionos import IonosIcon
 from ._probot import ProbotIcon
 from ._googlemarketingplatform import GoogleMarketingPlatformIcon
+from ._okx import OkxIcon
 from ._helm import HelmIcon
 from ._cloudinary import CloudinaryIcon
 from ._siemens import SiemensIcon
@@ -1842,6 +1844,7 @@ from ._amazonmusic import AmazonMusicIcon
 from ._asus import AsusIcon
 from ._marketo import MarketoIcon
 from ._cplusplus import CplusplusIcon
+from ._debridlink import DebridlinkIcon
 from ._pdm import PdmIcon
 from ._hilton import HiltonIcon
 from ._mattermost import MattermostIcon
@@ -2300,6 +2303,7 @@ from ._wireguard import WireguardIcon
 from ._k3s import KThreeSIcon
 from ._ipfs import IpfsIcon
 from ._paperswithcode import PapersWithCodeIcon
+from ._hyperx import HyperxIcon
 from ._playerdotme import PlayerdotmeIcon
 from ._teradata import TeradataIcon
 from ._clockify import ClockifyIcon
@@ -3490,6 +3494,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'galaxus': GalaxusIcon,
     'mewe': MeweIcon,
     'overcast': OvercastIcon,
+    'uv': UvIcon,
     'stellar': StellarIcon,
     'backblaze': BackblazeIcon,
     'stripe': StripeIcon,
@@ -5030,6 +5035,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'ionos': IonosIcon,
     'probot': ProbotIcon,
     'googlemarketingplatform': GoogleMarketingPlatformIcon,
+    'okx': OkxIcon,
     'helm': HelmIcon,
     'cloudinary': CloudinaryIcon,
     'siemens': SiemensIcon,
@@ -5067,6 +5073,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'asus': AsusIcon,
     'marketo': MarketoIcon,
     'cplusplus': CplusplusIcon,
+    'debridlink': DebridlinkIcon,
     'pdm': PdmIcon,
     'hilton': HiltonIcon,
     'mattermost': MattermostIcon,
@@ -5525,6 +5532,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'k3s': KThreeSIcon,
     'ipfs': IpfsIcon,
     'paperswithcode': PapersWithCodeIcon,
+    'hyperx': HyperxIcon,
     'playerdotme': PlayerdotmeIcon,
     'teradata': TeradataIcon,
     'clockify': ClockifyIcon,

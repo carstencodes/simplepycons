@@ -84,7 +84,7 @@ class AiqfomeIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/aiqfome/aiq-design-system/'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

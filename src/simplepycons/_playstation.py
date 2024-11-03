@@ -37,7 +37,7 @@ class PlaystationIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#0070D1"
+        return "#003791"
 
     @property
     def raw_svg(self) -> "str":

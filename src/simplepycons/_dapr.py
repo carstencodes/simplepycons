@@ -87,7 +87,7 @@ class DaprIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/dapr/dapr/blob/18575823c74'''
+        return '''https://raw.githubusercontent.com/dapr/dapr/1'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

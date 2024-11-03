@@ -80,6 +80,4 @@ class WebassemblyIcon(Icon):
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from [
-            "Wasm",
-        ]
+        yield from []

@@ -3244,3 +3244,4 @@ class _IconCollection:
 
 
 ICONS: "Final[_IconCollection]"
+

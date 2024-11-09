@@ -6470,4 +6470,5 @@ ALL_ICONS: "Final[list[str]]" = [
     WiseIcon.__name__,
 ]
 
-__all__: "Final[list[str]]" = ALL_ICONS
+__all__: "Final[list[str]]" = ["ALL_ICONS"] + ALL_ICONS
+

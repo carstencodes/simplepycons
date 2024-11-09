@@ -23,5 +23,5 @@ __all__ = ALL_ICONS  # noqa: F405
 __all__ += [
       Icon.__name__,
       IconFactory.__name__,
-      all_icons.__name__
 ]
+

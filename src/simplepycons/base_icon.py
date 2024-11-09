@@ -25,32 +25,32 @@ ElementTree.register_namespace('', "http://www.w3.org/2000/svg")
 
 class Icon(ABC):
     """"""
-    @abstractmethod
     @property
+    @abstractmethod
     def name(self) -> "str":
         """"""
         raise NotImplementedError()
 
-    @abstractmethod
     @property
+    @abstractmethod
     def original_file_name(self) -> "str":
         """"""
         raise NotImplementedError()
 
-    @abstractmethod
     @property
+    @abstractmethod
     def title(self) -> "str":
         """"""
         raise NotImplementedError()
 
-    @abstractmethod
     @property
+    @abstractmethod
     def primary_color(self) -> "str":
         """"""
         raise NotImplementedError()
 
-    @abstractmethod
     @property
+    @abstractmethod
     def raw_svg(self) -> "str":
         """"""
         raise NotImplementedError()
@@ -105,14 +105,14 @@ class Icon(ABC):
         """"""
         return None
 
-    @abstractmethod
     @property
+    @abstractmethod
     def source(self) -> "str":
         """"""
         raise NotImplementedError()
 
-    @abstractmethod
     @property
+    @abstractmethod
     def license(self) -> "tuple[str | None, str | None]":
         """"""
         raise NotImplementedError()

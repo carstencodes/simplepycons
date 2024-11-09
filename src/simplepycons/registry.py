@@ -6470,4 +6470,5 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'wise': WiseIcon,
 })
 
-__all__: "Final[list[str]]" = [ICONS.__name__]
+__all__: "Final[list[str]]" = ["ICONS"]
+

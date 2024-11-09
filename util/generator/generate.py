@@ -392,7 +392,7 @@ with all_icons_file.open("w") as f:
     for data in generated:
         f.write(f"    {data[1]}.__name__,\n")
     f.write("]\n\n")
-    f.write("__all__: \"Final[list[str]]\" = ALL_ICONS\n")
+    f.write("__all__: \"Final[list[str]]\" = [\"ALL_ICONS\"] + ALL_ICONS\n\n")
 
 with registry_file.open("w") as f:
     add_license_header(f)
@@ -417,7 +417,7 @@ with registry_file.open("w") as f:
     for data in generated:
         f.write(f"    '{data[0].lstrip('_')}': {data[1]},\n")
     f.write("})\n\n")
-    f.write("__all__: \"Final[list[str]]\" = [ICONS.__name__]\n")
+    f.write("__all__: \"Final[list[str]]\" = [\"ICONS\"]\n\n")
 
 with registry_file_type_hints.open("w") as f:
     add_license_header(f)
@@ -435,7 +435,7 @@ with registry_file_type_hints.open("w") as f:
     for data in generated:
         f.write(f"    get_{data[0].lstrip('_')}_icon: \"Final[IconFactory]\"\n")
 
-    f.write("\n\nICONS: \"Final[_IconCollection]\"\n")
+    f.write("\n\nICONS: \"Final[_IconCollection]\"\n\n")
 
 if missing_info:
     raise SystemExit(1)

@@ -7,7 +7,7 @@ if TYPE_CHECKING:
 
 
 class IconFactory:
-    def __init__(self, factory: type[Icon]) -> None:
+    def __init__(self, factory: "type[Icon]") -> None:
         self._factory = factory
         self._prototype = factory()
 
@@ -20,7 +20,7 @@ class IconFactory:
 
 
 class IconCollection(SimpleNamespace):
-    def __init__(self, all_icons: dict[str, type[Icon]]) -> None:
+    def __init__(self, all_icons: "dict[str, type[Icon]]") -> None:
         super().__init__()
         self.__dict__.update(IconCollection.__from_all_icons(all_icons))
 

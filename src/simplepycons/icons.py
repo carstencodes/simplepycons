@@ -28,4 +28,4 @@ class IconCollection(SimpleNamespace):
     def __from_all_icons(
             all_icons: "dict[str, type[Icon]]"
     ) -> "dict[str, IconFactory]":
-        return {"get_{k}_icon": IconFactory(v) for k, v in all_icons.items()}
+        return {f"get_{k}_icon": IconFactory(v) for k, v in all_icons.items()}

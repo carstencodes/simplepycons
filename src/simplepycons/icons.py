@@ -24,8 +24,11 @@ class IconCollection(SimpleNamespace):
         super().__init__()
         self.__dict__.update(IconCollection.__from_all_icons(all_icons))
 
+    def __getitem__(self, name: str) -> "IconFactory":
+        return IconFactory(self.__dict__[f"get_{name}_icon"])()
+
     @staticmethod
     def __from_all_icons(
             all_icons: "dict[str, type[Icon]]"
     ) -> "dict[str, IconFactory]":
-        return {"get_{k}_icon": IconFactory(v) for k, v in all_icons.items()}
+        return {f"get_{k}_icon": IconFactory(v) for k, v in all_icons.items()}

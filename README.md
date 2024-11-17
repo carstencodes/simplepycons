@@ -23,9 +23,10 @@ from simplepycons import all_icons, PythonIcon
 
 icon1 = PythonIcon()
 icon2 = all_icons.get_python_icon()
+icon3 = all_icons["python"]
 ```
 
-Both calls should provide a new icon instance of the python icon.
+All calls should provide a new `Icon` instance of the python icon.
 
 For all simple-icons, a get icon method is provided using the name of the icon.
 

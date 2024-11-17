@@ -21,57 +21,56 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class MediumIcon(Icon):
+class SnapdragonIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "medium"
+        return "snapdragon"
 
     @property
     def original_file_name(self) -> "str":
-        return "medium.svg"
+        return "snapdragon.svg"
 
     @property
     def title(self) -> "str":
-        return "Medium"
+        return "Snapdragon"
 
     @property
     def primary_color(self) -> "str":
-        return "#000000"
+        return "#C33139"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Medium</title>
-     <path d="M4.21 0A4.201 4.201 0 0 0 0 4.21v15.58A4.201 4.201 0 0 0
- 4.21 24h15.58A4.201 4.201 0 0 0 24
- 19.79v-1.093c-.137.013-.278.02-.422.02-2.577
- 0-4.027-2.146-4.09-4.832a7.592 7.592 0 0 1
- .022-.708c.093-1.186.475-2.241 1.105-3.022a3.885 3.885 0 0 1
- 1.395-1.1c.468-.237 1.127-.367 1.664-.367h.023c.101 0
- .202.004.303.01V4.211A4.201 4.201 0 0 0 19.79 0Zm.198
- 5.583h4.165l3.588 8.435
- 3.59-8.435h3.864v.146l-.019.004c-.705.16-1.063.397-1.063
- 1.254h-.003l.003 10.274c.06.676.424.885 1.063
- 1.03l.02.004v.145h-4.923v-.145l.019-.005c.639-.144.994-.353
- 1.054-1.03V7.267l-4.745 11.15h-.261L6.15 7.569v9.445c0 .857.358 1.094
- 1.063 1.253l.02.004v.147H4.405v-.147l.019-.004c.705-.16 1.065-.397
- 1.065-1.253V6.987c0-.857-.358-1.094-1.064-1.254l-.018-.004zm19.25
- 3.668c-1.086.023-1.733 1.323-1.813 3.124H24V9.298a1.378 1.378 0 0
- 0-.342-.047Zm-1.862 3.632c-.1 1.756.86 3.239 2.204 3.634v-3.634z" />
+    <title>Snapdragon</title>
+     <path d="M12 .016h-.351c-3.223.128-6.862 2.202-7.596
+ 5.49-.032.127-.191.127-.223 0-.16-.799-.128-1.66.096-2.394a12.645
+ 12.645 0 0 0-1.82 2.074 6.473 6.473 0 0 0-.638 1.34c-.447 1.405-.287
+ 3.096.702 4.245.926 1.085 2.394 1.468 3.575 2.202 1.18.703 2.202 1.66
+ 2.68 3 .511 1.405.416 3-.127
+ 4.373-.032.127-.223.095-.223-.064.127-2.01-.894-3.894-2.777-4.787-.99-.447-2.106-.639-3.096-1.117C1.31
+ 13.963.16 13.133 0 12.048c0 6.574 5.362 11.936 12 11.936 6.607 0
+ 12-5.362 12-12S18.607.016 12 .016m8.745 18.638a11.663 11.663 0 0
+ 1-3.255 2.872s0-.032.032-.032c-.83.479-1.724.894-2.681 1.15.734-.607
+ 3.127-2.171 3.127-6.48 0-3.191-2.01-5.33-4.276-6.382C11.107 8.569
+ 8.33 7.93 8.33 4.675c0-1.723 1.372-3.574
+ 3.51-3.606.128-.032.288-.032.416-.032h.127a10.827 10.827 0 0 1 7.5
+ 3.35 10.923 10.923 0 0 1 3.096 7.66v.064c0 1.34-.255 2.65-.702
+ 3.862v.032c-.032.096-.096.223-.128.32-.032.063-.064.127-.064.159s-.032.032-.032.064a13.475
+ 13.475 0 0 1-1.308 2.106" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://medium.design/logos-and-brand-guideli'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://medium.design/logos-and-brand-guideli'''
+        return '''https://commons.wikimedia.org/wiki/File:Snapd'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":
@@ -88,4 +87,6 @@ class MediumIcon(Icon):
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from []
+        yield from [
+            "Qualcomm Snapdragon",
+        ]

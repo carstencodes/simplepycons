@@ -128,6 +128,7 @@ from ._remix import RemixIcon
 from ._mitsubishi import MitsubishiIcon
 from ._googlechat import GoogleChatIcon
 from ._ieee import IeeeIcon
+from ._elevenlabs import ElevenlabsIcon
 from ._poly import PolyIcon
 from ._webrtc import WebrtcIcon
 from ._floatplane import FloatplaneIcon
@@ -1192,6 +1193,7 @@ from ._synology import SynologyIcon
 from ._tapas import TapasIcon
 from ._tinder import TinderIcon
 from ._protonmail import ProtonMailIcon
+from ._fcc import FccIcon
 from ._twinmotion import TwinmotionIcon
 from ._kx import KxIcon
 from ._comicfury import ComicfuryIcon
@@ -2602,6 +2604,7 @@ from ._toll import TollIcon
 from ._coveralls import CoverallsIcon
 from ._ifixit import IfixitIcon
 from ._lucide import LucideIcon
+from ._snapdragon import SnapdragonIcon
 from ._kaufland import KauflandIcon
 from ._dhl import DhlIcon
 from ._fastlane import FastlaneIcon
@@ -2820,6 +2823,7 @@ from ._camunda import CamundaIcon
 from ._playstationvita import PlaystationVitaIcon
 from ._prdotco import PrdotcoIcon
 from ._helpdesk import HelpdeskIcon
+from ._ce import CeIcon
 from ._nutanix import NutanixIcon
 from ._hashnode import HashnodeIcon
 from ._ngrok import NgrokIcon
@@ -3359,6 +3363,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MitsubishiIcon.__name__,
     GoogleChatIcon.__name__,
     IeeeIcon.__name__,
+    ElevenlabsIcon.__name__,
     PolyIcon.__name__,
     WebrtcIcon.__name__,
     FloatplaneIcon.__name__,
@@ -4423,6 +4428,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TapasIcon.__name__,
     TinderIcon.__name__,
     ProtonMailIcon.__name__,
+    FccIcon.__name__,
     TwinmotionIcon.__name__,
     KxIcon.__name__,
     ComicfuryIcon.__name__,
@@ -5829,6 +5835,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CoverallsIcon.__name__,
     IfixitIcon.__name__,
     LucideIcon.__name__,
+    SnapdragonIcon.__name__,
     KauflandIcon.__name__,
     DhlIcon.__name__,
     FastlaneIcon.__name__,
@@ -6047,6 +6054,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PlaystationVitaIcon.__name__,
     PrdotcoIcon.__name__,
     HelpdeskIcon.__name__,
+    CeIcon.__name__,
     NutanixIcon.__name__,
     HashnodeIcon.__name__,
     NgrokIcon.__name__,

@@ -18,6 +18,7 @@ from typing import TYPE_CHECKING
 
 from ._rubysinatra import RubySinatraIcon
 from ._lenovo import LenovoIcon
+from ._odin import OdinIcon
 from ._radiopublic import RadiopublicIcon
 from ._pixabay import PixabayIcon
 from ._flashforge import FlashforgeIcon
@@ -2493,6 +2494,7 @@ from ._qubesos import QubesOsIcon
 from ._dpd import DpdIcon
 from ._vk import VkIcon
 from ._homebrew import HomebrewIcon
+from ._apachelucene import ApacheLuceneIcon
 from ._tether import TetherIcon
 from ._qiskit import QiskitIcon
 from ._rabbitmq import RabbitmqIcon
@@ -3253,6 +3255,7 @@ if TYPE_CHECKING:
 ALL_ICONS: "Final[list[str]]" = [
     RubySinatraIcon.__name__,
     LenovoIcon.__name__,
+    OdinIcon.__name__,
     RadiopublicIcon.__name__,
     PixabayIcon.__name__,
     FlashforgeIcon.__name__,
@@ -5724,6 +5727,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DpdIcon.__name__,
     VkIcon.__name__,
     HomebrewIcon.__name__,
+    ApacheLuceneIcon.__name__,
     TetherIcon.__name__,
     QiskitIcon.__name__,
     RabbitmqIcon.__name__,

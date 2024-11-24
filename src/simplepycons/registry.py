@@ -18,6 +18,7 @@ from typing import TYPE_CHECKING
 from .icons import IconCollection
 from ._rubysinatra import RubySinatraIcon
 from ._lenovo import LenovoIcon
+from ._odin import OdinIcon
 from ._radiopublic import RadiopublicIcon
 from ._pixabay import PixabayIcon
 from ._flashforge import FlashforgeIcon
@@ -2493,6 +2494,7 @@ from ._qubesos import QubesOsIcon
 from ._dpd import DpdIcon
 from ._vk import VkIcon
 from ._homebrew import HomebrewIcon
+from ._apachelucene import ApacheLuceneIcon
 from ._tether import TetherIcon
 from ._qiskit import QiskitIcon
 from ._rabbitmq import RabbitmqIcon
@@ -3253,6 +3255,7 @@ if TYPE_CHECKING:
 ICONS: "Final[IconCollection]" = IconCollection({
     'rubysinatra': RubySinatraIcon,
     'lenovo': LenovoIcon,
+    'odin': OdinIcon,
     'radiopublic': RadiopublicIcon,
     'pixabay': PixabayIcon,
     'flashforge': FlashforgeIcon,
@@ -5724,6 +5727,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'dpd': DpdIcon,
     'vk': VkIcon,
     'homebrew': HomebrewIcon,
+    'apachelucene': ApacheLuceneIcon,
     'tether': TetherIcon,
     'qiskit': QiskitIcon,
     'rabbitmq': RabbitmqIcon,

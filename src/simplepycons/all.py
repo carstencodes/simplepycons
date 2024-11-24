@@ -6479,4 +6479,3 @@ ALL_ICONS: "Final[list[str]]" = [
 ]
 
 __all__: "Final[list[str]]" = ["ALL_ICONS"] + ALL_ICONS
-

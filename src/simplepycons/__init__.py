@@ -24,4 +24,3 @@ __all__ += [
       Icon.__name__,
       IconFactory.__name__,
 ]
-

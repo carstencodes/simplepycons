@@ -6479,4 +6479,3 @@ ICONS: "Final[IconCollection]" = IconCollection({
 })
 
 __all__: "Final[list[str]]" = ["ICONS"]
-

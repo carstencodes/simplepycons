@@ -83,7 +83,7 @@ class FireflyIiiIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://docs.firefly-iii.org/firefly-iii/more'''
+        return '''https://docs.firefly-iii.org/explanation/more'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

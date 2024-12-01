@@ -53,7 +53,7 @@ class UdemyIcon(Icon):
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://support.udemy.com/hc/en-us/articles/8'''
         if len(_value) > 0:
             return _value
         return None

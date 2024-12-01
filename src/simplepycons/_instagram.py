@@ -37,7 +37,7 @@ class InstagramIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#E4405F"
+        return "#FF0069"
 
     @property
     def raw_svg(self) -> "str":

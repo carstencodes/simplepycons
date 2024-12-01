@@ -37,7 +37,7 @@ class MoneygramIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#FF6600"
+        return "#DA291C"
 
     @property
     def raw_svg(self) -> "str":

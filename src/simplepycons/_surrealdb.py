@@ -66,7 +66,7 @@ class SurrealdbIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/surrealdb/surrealdb/blob/b'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

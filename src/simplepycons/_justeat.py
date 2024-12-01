@@ -79,7 +79,7 @@ class JustEatIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://www.justeattakeaway.com/media/media-k'''
+        return '''https://justeattakeaway.com/newsroom/en-WW/me'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -21,45 +21,49 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class ShutterstockIcon(Icon):
+class SimplexIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "shutterstock"
+        return "simplex"
 
     @property
     def original_file_name(self) -> "str":
-        return "shutterstock.svg"
+        return "simplex.svg"
 
     @property
     def title(self) -> "str":
-        return "Shutterstock"
+        return "SimpleX"
 
     @property
     def primary_color(self) -> "str":
-        return "#EE2B24"
+        return "#000000"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Shutterstock</title>
-     <path d="M9.839 18.761h5.313a1.53 1.53 0 0 0
- 1.527-1.528v-5.76h5.237v5.76A6.767 6.767 0 0 1 15.152
- 24H9.839v-5.239M14.16 5.237H8.85a1.53 1.53 0 0 0-1.53
- 1.527v5.761H2.085V6.764A6.763 6.763 0 0 1 8.85 0h5.31v5.237Z" />
+    <title>SimpleX</title>
+     <path d="m16.1 0-4.026 4.025L8.125.076 6.113 2.09l3.95
+ 3.947-3.975 3.977L2.14 6.066.109 8.096l3.948 3.947L0 16.1l1.975 1.972
+ 4.056-4.056 3.95 3.947 2.029-2.027-3.95-3.95 3.975-3.972 3.951
+ 3.949-4.025 4.023v.002L9.947 18l-4.023 4.025L7.896 24l4.026-4.025
+ 3.95 3.949 2.013-2.014-3.951-3.95 4.027-4.024 3.95 3.949
+ 2.013-2.012-3.95-3.95L24 7.899l-1.975-1.972L18 9.949 14.049
+ 6l4.025-4.025z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://shutterstock.com/es/discover/brand-do'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://shutterstock.com/es/discover/brand-do'''
+        return '''https://github.com/simplex-chat/simplex-chat/
+blob/2f730d54e9858452e87e641b7fd618c669da68aa/website/src/img/new/logo'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

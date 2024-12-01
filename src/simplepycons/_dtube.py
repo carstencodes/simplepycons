@@ -62,7 +62,7 @@ class DtubeIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/dtube/about/blob/bb688ac65'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

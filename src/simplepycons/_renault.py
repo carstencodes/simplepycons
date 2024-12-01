@@ -59,7 +59,7 @@ class RenaultIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://en.media.groupe.renault.com/news/rena'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

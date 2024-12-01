@@ -55,14 +55,14 @@ class MessengerIcon(Icon):
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://en.facebookbrand.com/facebookapp/asse'''
+        _value: "str" = '''https://about.meta.com/brand/resources/messen'''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://en.facebookbrand.com/facebookapp/asse'''
+        return '''https://about.meta.com/brand/resources/messen'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

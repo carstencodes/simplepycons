@@ -111,7 +111,7 @@ class QmkIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/qmk/qmk.fm/blob/d6f7b646aa'''
+        return '''https://github.com/qmk/qmk.fm/blob/1c3cf365e7'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

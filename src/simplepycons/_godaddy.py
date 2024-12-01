@@ -66,14 +66,14 @@ class GodaddyIcon(Icon):
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://aboutus.godaddy.net/newsroom/media-re'''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://aboutus.godaddy.net/newsroom/media-re'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

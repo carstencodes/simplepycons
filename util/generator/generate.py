@@ -199,7 +199,7 @@ for code_file in src_package_dir.glob("_*.py"):
 with open(data_file, "r") as f:
     icon_data = json_load(f)
 
-icons_by_titles = icon_data["icons"]
+icons_by_titles = icon_data
 icons_by_titles = {normalize_name(i["title"], i.get("slug", None)): i for i in icons_by_titles}
 
 icons_files = icons_dir.glob("*.svg")

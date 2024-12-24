@@ -37,7 +37,7 @@ class RenovateIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#1A1F6C"
+        return "#308BE3"
 
     @property
     def raw_svg(self) -> "str":

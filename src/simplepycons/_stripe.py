@@ -37,7 +37,7 @@ class StripeIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#008CDD"
+        return "#635BFF"
 
     @property
     def raw_svg(self) -> "str":

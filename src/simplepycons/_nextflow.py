@@ -21,51 +21,48 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class SpotifyIcon(Icon):
+class NextflowIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "spotify"
+        return "nextflow"
 
     @property
     def original_file_name(self) -> "str":
-        return "spotify.svg"
+        return "nextflow.svg"
 
     @property
     def title(self) -> "str":
-        return "Spotify"
+        return "Nextflow"
 
     @property
     def primary_color(self) -> "str":
-        return "#1ED760"
+        return "#0DC09D"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Spotify</title>
-     <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0
- 12 0zm5.521
- 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9
- 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301
- 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6
- 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4
- 8.82 8.16 5.16
- 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26
- 11.28-1.02 15.721 1.621.539.3.719 1.02.419
- 1.56-.299.421-1.02.599-1.559.3z" />
+    <title>Nextflow</title>
+     <path d="M.005 4.424V0c6.228.259 11.227 5.268 11.477
+ 11.506H7.058C6.828 7.715 3.786 4.673.005 4.424m7.082
+ 8.089h4.424C11.251 18.741 6.242 23.741.005 23.99v-4.423c3.79-.231
+ 6.832-3.273 7.082-7.054m9.826-1.036h-4.424C12.749 5.249 17.758.25
+ 23.995 0v4.424c-3.79.23-6.832 3.263-7.082 7.053m7.082
+ 8.099V24c-6.228-.259-11.227-5.268-11.477-11.506h4.424c.23 3.791 3.272
+ 6.833 7.053 7.082" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://developer.spotify.com/documentation/g'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://developer.spotify.com/documentation/g'''
+        return '''https://github.com/seqeralabs/logos/blob/a8d4'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

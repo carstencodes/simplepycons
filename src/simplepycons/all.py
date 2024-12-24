@@ -272,6 +272,7 @@ from ._uv import UvIcon
 from ._mojeek import MojeekIcon
 from ._stellar import StellarIcon
 from ._backblaze import BackblazeIcon
+from ._surfshark import SurfsharkIcon
 from ._stripe import StripeIcon
 from ._ulule import UluleIcon
 from ._youtubemusic import YoutubeMusicIcon
@@ -478,6 +479,7 @@ from ._airbyte import AirbyteIcon
 from ._kde import KdeIcon
 from ._rootsbedrock import RootsBedrockIcon
 from ._zenn import ZennIcon
+from ._paradoxinteractive import ParadoxInteractiveIcon
 from ._googlecloudspanner import GoogleCloudSpannerIcon
 from ._lg import LgIcon
 from ._dazn import DaznIcon
@@ -511,6 +513,7 @@ from ._blockbench import BlockbenchIcon
 from ._toggltrack import TogglTrackIcon
 from ._groupme import GroupmeIcon
 from ._intuit import IntuitIcon
+from ._jio import JioIcon
 from ._apachekafka import ApacheKafkaIcon
 from ._virtualbox import VirtualboxIcon
 from ._kuma import KumaIcon
@@ -553,6 +556,7 @@ from ._zerotier import ZerotierIcon
 from ._pandas import PandasIcon
 from ._snapchat import SnapchatIcon
 from ._sanity import SanityIcon
+from ._omadacloud import OmadaCloudIcon
 from ._lazyvim import LazyvimIcon
 from ._miro import MiroIcon
 from ._reebok import ReebokIcon
@@ -688,6 +692,7 @@ from ._nextdotjs import NextdotjsIcon
 from ._bandcamp import BandcampIcon
 from ._splunk import SplunkIcon
 from ._majorleaguehacking import MajorLeagueHackingIcon
+from ._collaboraonline import CollaboraOnlineIcon
 from ._docusaurus import DocusaurusIcon
 from ._alienware import AlienwareIcon
 from ._saucelabs import SauceLabsIcon
@@ -913,6 +918,7 @@ from ._clickup import ClickupIcon
 from ._tide import TideIcon
 from ._haxe import HaxeIcon
 from ._philipshue import PhilipsHueIcon
+from ._softcatala import SoftcatalaIcon
 from ._keepachangelog import KeepAChangelogIcon
 from ._legacygames import LegacyGamesIcon
 from ._acura import AcuraIcon
@@ -1623,8 +1629,10 @@ from ._wykop import WykopIcon
 from ._typeform import TypeformIcon
 from ._googleadmob import GoogleAdmobIcon
 from ._retroarch import RetroarchIcon
+from ._nextflow import NextflowIcon
 from ._logitech import LogitechIcon
 from ._armkeil import ArmKeilIcon
+from ._oclc import OclcIcon
 from ._stackhawk import StackhawkIcon
 from ._infoq import InfoqIcon
 from ._hashicorp import HashicorpIcon
@@ -1655,6 +1663,7 @@ from ._googleearthengine import GoogleEarthEngineIcon
 from ._gitee import GiteeIcon
 from ._osf import OsfIcon
 from ._radar import RadarIcon
+from ._cryptomator import CryptomatorIcon
 from ._hungryjacks import HungryJacksIcon
 from ._apmterminals import ApmTerminalsIcon
 from ._365datascience import ThreeHundredAndSixtyFiveDataScienceIcon
@@ -1693,6 +1702,7 @@ from ._jinja import JinjaIcon
 from ._redash import RedashIcon
 from ._ravelry import RavelryIcon
 from ._containerd import ContainerdIcon
+from ._tomtom import TomtomIcon
 from ._meituan import MeituanIcon
 from ._blogger import BloggerIcon
 from ._codewars import CodewarsIcon
@@ -1701,6 +1711,7 @@ from ._nxp import NxpIcon
 from ._linphone import LinphoneIcon
 from ._maptiler import MaptilerIcon
 from ._torproject import TorProjectIcon
+from ._caixabank import CaixabankIcon
 from ._napster import NapsterIcon
 from ._rockylinux import RockyLinuxIcon
 from ._qwiklabs import QwiklabsIcon
@@ -2029,6 +2040,7 @@ from ._shelly import ShellyIcon
 from ._aew import AewIcon
 from ._meetup import MeetupIcon
 from ._printables import PrintablesIcon
+from ._europeanunion import EuropeanUnionIcon
 from ._racket import RacketIcon
 from ._stackbit import StackbitIcon
 from ._rockstargames import RockstarGamesIcon
@@ -2091,6 +2103,7 @@ from ._deutschepost import DeutschePostIcon
 from ._numba import NumbaIcon
 from ._json import JsonIcon
 from ._redhat import RedHatIcon
+from ._scalar import ScalarIcon
 from ._zhihu import ZhihuIcon
 from ._toyota import ToyotaIcon
 from ._kleinanzeigen import KleinanzeigenIcon
@@ -2357,6 +2370,7 @@ from ._zoom import ZoomIcon
 from ._helium import HeliumIcon
 from ._bruno import BrunoIcon
 from ._lucia import LuciaIcon
+from ._replicate import ReplicateIcon
 from ._steinberg import SteinbergIcon
 from ._goldenline import GoldenlineIcon
 from ._1password import OnePasswordIcon
@@ -2376,6 +2390,7 @@ from ._verdaccio import VerdaccioIcon
 from ._mongoosedotws import MongooseIcon1
 from ._academia import AcademiaIcon
 from ._theweatherchannel import TheWeatherChannelIcon
+from ._phpbb import PhpbbIcon
 from ._nbc import NbcIcon
 from ._spoj import SphereOnlineJudgeIcon
 from ._neo4j import NeoFourJIcon
@@ -2911,6 +2926,7 @@ from ._krita import KritaIcon
 from ._fmod import FmodIcon
 from ._hypothesis import HypothesisIcon
 from ._kucoin import KucoinIcon
+from ._nintendods import NintendoDsIcon
 from ._facebooklive import FacebookLiveIcon
 from ._aparat import AparatIcon
 from ._bootstrap import BootstrapIcon
@@ -2957,6 +2973,7 @@ from ._atlasos import AtlasosIcon
 from ._vorondesign import VoronDesignIcon
 from ._dts import DtsIcon
 from ._sat1 import SatdotOneIcon
+from ._expressdotcom import ExpressdotcomIcon
 from ._revanced import RevancedIcon
 from ._topcoder import TopcoderIcon
 from ._cmake import CmakeIcon
@@ -3245,6 +3262,7 @@ from ._fi import FiIcon
 from ._accusoft import AccusoftIcon
 from ._quickbooks import QuickbooksIcon
 from ._grunt import GruntIcon
+from ._telefonica import TelefonicaIcon
 from ._mailgun import MailgunIcon
 from ._amazonelasticache import AmazonElasticacheIcon
 from ._bt import BtIcon
@@ -3560,6 +3578,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MojeekIcon.__name__,
     StellarIcon.__name__,
     BackblazeIcon.__name__,
+    SurfsharkIcon.__name__,
     StripeIcon.__name__,
     UluleIcon.__name__,
     YoutubeMusicIcon.__name__,
@@ -3766,6 +3785,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KdeIcon.__name__,
     RootsBedrockIcon.__name__,
     ZennIcon.__name__,
+    ParadoxInteractiveIcon.__name__,
     GoogleCloudSpannerIcon.__name__,
     LgIcon.__name__,
     DaznIcon.__name__,
@@ -3799,6 +3819,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TogglTrackIcon.__name__,
     GroupmeIcon.__name__,
     IntuitIcon.__name__,
+    JioIcon.__name__,
     ApacheKafkaIcon.__name__,
     VirtualboxIcon.__name__,
     KumaIcon.__name__,
@@ -3841,6 +3862,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PandasIcon.__name__,
     SnapchatIcon.__name__,
     SanityIcon.__name__,
+    OmadaCloudIcon.__name__,
     LazyvimIcon.__name__,
     MiroIcon.__name__,
     ReebokIcon.__name__,
@@ -3976,6 +3998,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BandcampIcon.__name__,
     SplunkIcon.__name__,
     MajorLeagueHackingIcon.__name__,
+    CollaboraOnlineIcon.__name__,
     DocusaurusIcon.__name__,
     AlienwareIcon.__name__,
     SauceLabsIcon.__name__,
@@ -4201,6 +4224,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TideIcon.__name__,
     HaxeIcon.__name__,
     PhilipsHueIcon.__name__,
+    SoftcatalaIcon.__name__,
     KeepAChangelogIcon.__name__,
     LegacyGamesIcon.__name__,
     AcuraIcon.__name__,
@@ -4911,8 +4935,10 @@ ALL_ICONS: "Final[list[str]]" = [
     TypeformIcon.__name__,
     GoogleAdmobIcon.__name__,
     RetroarchIcon.__name__,
+    NextflowIcon.__name__,
     LogitechIcon.__name__,
     ArmKeilIcon.__name__,
+    OclcIcon.__name__,
     StackhawkIcon.__name__,
     InfoqIcon.__name__,
     HashicorpIcon.__name__,
@@ -4943,6 +4969,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GiteeIcon.__name__,
     OsfIcon.__name__,
     RadarIcon.__name__,
+    CryptomatorIcon.__name__,
     HungryJacksIcon.__name__,
     ApmTerminalsIcon.__name__,
     ThreeHundredAndSixtyFiveDataScienceIcon.__name__,
@@ -4979,6 +5006,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RedashIcon.__name__,
     RavelryIcon.__name__,
     ContainerdIcon.__name__,
+    TomtomIcon.__name__,
     MeituanIcon.__name__,
     BloggerIcon.__name__,
     CodewarsIcon.__name__,
@@ -4987,6 +5015,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LinphoneIcon.__name__,
     MaptilerIcon.__name__,
     TorProjectIcon.__name__,
+    CaixabankIcon.__name__,
     NapsterIcon.__name__,
     RockyLinuxIcon.__name__,
     QwiklabsIcon.__name__,
@@ -5315,6 +5344,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AewIcon.__name__,
     MeetupIcon.__name__,
     PrintablesIcon.__name__,
+    EuropeanUnionIcon.__name__,
     RacketIcon.__name__,
     StackbitIcon.__name__,
     RockstarGamesIcon.__name__,
@@ -5377,6 +5407,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NumbaIcon.__name__,
     JsonIcon.__name__,
     RedHatIcon.__name__,
+    ScalarIcon.__name__,
     ZhihuIcon.__name__,
     ToyotaIcon.__name__,
     KleinanzeigenIcon.__name__,
@@ -5643,6 +5674,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HeliumIcon.__name__,
     BrunoIcon.__name__,
     LuciaIcon.__name__,
+    ReplicateIcon.__name__,
     SteinbergIcon.__name__,
     GoldenlineIcon.__name__,
     OnePasswordIcon.__name__,
@@ -5662,6 +5694,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MongooseIcon1.__name__,
     AcademiaIcon.__name__,
     TheWeatherChannelIcon.__name__,
+    PhpbbIcon.__name__,
     NbcIcon.__name__,
     SphereOnlineJudgeIcon.__name__,
     NeoFourJIcon.__name__,
@@ -6195,6 +6228,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FmodIcon.__name__,
     HypothesisIcon.__name__,
     KucoinIcon.__name__,
+    NintendoDsIcon.__name__,
     FacebookLiveIcon.__name__,
     AparatIcon.__name__,
     BootstrapIcon.__name__,
@@ -6241,6 +6275,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VoronDesignIcon.__name__,
     DtsIcon.__name__,
     SatdotOneIcon.__name__,
+    ExpressdotcomIcon.__name__,
     RevancedIcon.__name__,
     TopcoderIcon.__name__,
     CmakeIcon.__name__,
@@ -6529,6 +6564,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AccusoftIcon.__name__,
     QuickbooksIcon.__name__,
     GruntIcon.__name__,
+    TelefonicaIcon.__name__,
     MailgunIcon.__name__,
     AmazonElasticacheIcon.__name__,
     BtIcon.__name__,

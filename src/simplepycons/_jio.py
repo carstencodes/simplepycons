@@ -21,51 +21,55 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class SpotifyIcon(Icon):
+class JioIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "spotify"
+        return "jio"
 
     @property
     def original_file_name(self) -> "str":
-        return "spotify.svg"
+        return "jio.svg"
 
     @property
     def title(self) -> "str":
-        return "Spotify"
+        return "Jio"
 
     @property
     def primary_color(self) -> "str":
-        return "#1ED760"
+        return "#0A2885"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Spotify</title>
-     <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0
- 12 0zm5.521
- 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9
- 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301
- 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6
- 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4
- 8.82 8.16 5.16
- 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26
- 11.28-1.02 15.721 1.621.539.3.719 1.02.419
- 1.56-.299.421-1.02.599-1.559.3z" />
+    <title>Jio</title>
+     <path d="M12 0A12 12 0 1 1 0 12 12 12 0 0 1 12 0m5.587
+ 14.559c-.883 0-1.49-.648-1.49-1.574 0-.912.62-1.56
+ 1.49-1.56s1.491.648 1.491 1.573c0 .897-.634 1.56-1.49
+ 1.56zm.03-5.152c-2.265 0-3.772 1.437-3.772 3.576 0 2.195 1.451 3.604
+ 3.729 3.604 2.264 0 3.755-1.409 3.755-3.59
+ 0-2.153-1.475-3.59-3.713-3.59zM11.78 6.272c-.856 0-1.395.483-1.395
+ 1.243 0 .774.552 1.257 1.435 1.257.857 0 1.395-.483
+ 1.395-1.257s-.552-1.243-1.435-1.243m.152 3.204h-.277c-.675
+ 0-1.187.317-1.187 1.285v4.42c0 .98.496 1.284 1.216 1.284h.275c.677 0
+ 1.16-.33 1.16-1.285v-4.419c0-.995-.47-1.285-1.187-1.285M8.316
+ 7.392h-.4c-.76 0-1.174.43-1.174 1.285v4.13c0 1.063-.36 1.436-1.2
+ 1.436-.662 0-1.201-.29-1.63-.816C3.87 13.373 3 13.786 3 14.81c0 1.104
+ 1.035 1.781 2.955 1.781 2.334 0 3.563-1.173
+ 3.563-3.742V8.675c0-.856-.413-1.283-1.202-1.283" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://developer.spotify.com/documentation/g'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://developer.spotify.com/documentation/g'''
+        return '''https://commons.wikimedia.org/wiki/File:Relia'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -37,7 +37,7 @@ class WiiUIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#8B8B8B"
+        return "#0096C8"
 
     @property
     def raw_svg(self) -> "str":

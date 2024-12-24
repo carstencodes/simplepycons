@@ -21,50 +21,46 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class FluxusIcon(Icon):
+class DeutscheTelekomIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "fluxus"
+        return "deutschetelekom"
 
     @property
     def original_file_name(self) -> "str":
-        return "fluxus.svg"
+        return "deutschetelekom.svg"
 
     @property
     def title(self) -> "str":
-        return "Fluxus"
+        return "Deutsche Telekom"
 
     @property
     def primary_color(self) -> "str":
-        return "#FFFFFF"
+        return "#E20074"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Fluxus</title>
-     <path d="M14.348 19.35a2738.241 2738.241 0 0 0-3.926-5.741 595.98
- 595.98 0 0 1-1.5-2.194 433.452 433.452 0 0
- 0-1.646-2.396c-.493-.712-.88-1.343-.86-1.404.021-.06.944-.73
- 2.05-1.489 4.797-3.285 8.82-6.032 8.962-6.117.124-.075.152.287.147
- 1.963l-.005 2.055-2.993 2.02c-1.647 1.111-2.975 2.072-2.953
- 2.136.117.326 2.53 3.694 2.645 3.694.11 0 1.55-.937
- 3.084-2.005.224-.156.227-.125.226
- 1.905v2.063l-.692.446c-.38.245-.692.49-.692.544 0 .054.313.545.694
- 1.09l.695.993-.03 3.543-.03 3.544z" />
+    <title>Deutsche Telekom</title>
+     <path d="M6.722 15.84h-4.8v-4.8h4.791v4.8zM1.922
+ 0v8.16H3.36v-.236c0-3.844 2.159-6.24 6.239-6.24h.237v17.279c0
+ 2.396-.957 3.36-3.36 3.36h-.72V24h12.478v-1.676h-.72c-2.395
+ 0-3.36-.957-3.36-3.361V1.676h.237c4.08 0 6.239 2.396 6.239
+ 6.24v.236h1.439V0Zm15.356 15.84h4.8v-4.8h-4.791v4.8z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://tmap.t-mobile.com/portals/pro74u7a/EX'''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/YieldingFluxus/fluxuswebsi'''
+        return '''https://tmap.t-mobile.com/portals/pro74u7a/EX'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":
@@ -81,4 +77,6 @@ class FluxusIcon(Icon):
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from []
+        yield from [
+            "T-Mobile",
+        ]

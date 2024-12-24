@@ -56,14 +56,14 @@ class DotnetIcon(Icon):
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://github.com/dotnet/brand/blob/c7d0f51b'''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/dotnet/brand/blob/defe0408'''
+        return '''https://github.com/dotnet/brand/blob/c7d0f51b'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

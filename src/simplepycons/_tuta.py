@@ -21,57 +21,51 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class AdobePremiereProIcon(Icon):
+class TutaIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "adobepremierepro"
+        return "tuta"
 
     @property
     def original_file_name(self) -> "str":
-        return "adobepremierepro.svg"
+        return "tuta.svg"
 
     @property
     def title(self) -> "str":
-        return "Adobe Premiere Pro"
+        return "Tuta"
 
     @property
     def primary_color(self) -> "str":
-        return "#9999FF"
+        return "#850122"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Adobe Premiere Pro</title>
-     <path d="M10.15 8.42a2.93 2.93 0 00-1.18-.2 13.9 13.9 0
- 00-1.09.02v3.36l.39.02h.53c.39 0 .78-.06
- 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03a1.45 1.45 0
- 00-.93-1.46zM19.75.3H4.25A4.25 4.25 0 000 4.55v14.9c0 2.35 1.9 4.25
- 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3
- 19.75.3zm-7.09 11.65c-.4.56-.96.98-1.61
- 1.22-.68.25-1.43.34-2.25.34l-.5-.01-.43-.01v3.21a.12.12 0
- 01-.11.14H5.82c-.08
- 0-.12-.04-.12-.13V6.42c0-.07.03-.11.1-.11l.56-.01.76-.02.87-.02.91-.01c.82
- 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.15.42.23.85.23
- 1.3 0 .86-.2 1.57-.6 2.13zm6.82-3.15v1.95c0 .08-.05.11-.16.11a4.35
- 4.35 0 00-1.92.37c-.19.09-.37.21-.51.37v5.1c0
- .1-.04.14-.13.14h-1.97a.14.14 0
- 01-.16-.12v-5.58l-.01-.75-.02-.78c0-.23-.02-.45-.04-.68a.1.1 0
- 01.07-.11h1.78c.1 0 .18.07.2.16a3.03 3.03 0 01.13.92c.3-.35.67-.64
- 1.08-.86a3.1 3.1 0 011.52-.39c.07-.01.13.04.14.11v.04z" />
+    <title>Tuta</title>
+     <path d="m23.993 7.033-5.16 16.755-.043.12a.144.144 0 0
+ 1-.11.091H1.425a.14.14 0 0 1-.13-.191L6.441 6.98a.473.473 0 0 1
+ .024-.076.134.134 0 0 1 .124-.091H23.82c.14 0 .202.086.173.22zM23.94
+ 4.25 19.885.146c-.178-.173-.192-.144-.384-.144H2.007a.14.14 0 0
+ 0-.14.14c0 .004-.004.061.044.114l.004.005L6
+ 4.393c.096.096.192.12.336.12h17.533c.12 0 .182-.153.072-.263zM4.127
+ 5.805.25 1.95c-.048-.043-.105-.038-.11-.038a.14.14 0 0
+ 0-.14.14v16.975c0 .077.063.14.14.14a.14.14 0 0 0
+ .13-.092c.004-.005.004-.014.009-.024 0-.004.01-.038.01-.043L4.199
+ 6.164c.048-.144.048-.24-.072-.36z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://developer.adobe.com/developer-distrib'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/tutao/tutanota/blob/65d087'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":
@@ -88,4 +82,6 @@ class AdobePremiereProIcon(Icon):
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from []
+        yield from [
+            "Tutanota",
+        ]

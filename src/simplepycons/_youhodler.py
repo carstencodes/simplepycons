@@ -21,38 +21,32 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class DThreeDotjsIcon(Icon):
+class YouhodlerIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "d3dotjs"
+        return "youhodler"
 
     @property
     def original_file_name(self) -> "str":
-        return "d3dotjs.svg"
+        return "youhodler.svg"
 
     @property
     def title(self) -> "str":
-        return "D3.js"
+        return "YouHodler"
 
     @property
     def primary_color(self) -> "str":
-        return "#F9A03C"
+        return "#546DF9"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>D3.js</title>
-     <path d="M13.312 12C13.312 5.718 8.22.625
- 1.937.625H0v5h1.938c3.521 0 6.375 2.854 6.375 6.375s-2.854
- 6.375-6.375 6.375H0v5h1.938c6.281 0 11.374-5.093 11.374-11.375zM24
- 7.563C24 3.731 20.893.625 17.062.625h-8a13.4154 13.4154 0 0 1 4.686
- 5h3.314c1.069 0 1.938.868 1.938 1.938 0 1.07-.869 1.938-1.938
- 1.938h-1.938c.313 1.652.313 3.348 0 5h1.938c1.068 0 1.938.867 1.938
- 1.938s-.869 1.938-1.938 1.938h-3.314a13.4154 13.4154 0 0 1-4.686
- 5h8c1.621 0 3.191-.568 4.438-1.605 2.943-2.45
- 3.346-6.824.895-9.77A6.9459 6.9459 0 0 0 24 7.563z" />
+    <title>YouHodler</title>
+     <path
+ d="M4.727,15.273L1.091,13.091L1.091,4.364L8.364,0L12,2.182L15.636,0L22.909,4.364L22.909,13.091L19.273,15.273L19.273,19.636L12,24L4.727,19.636L4.727,15.273ZM12,19.636L14.422,18.182L14.422,12.364L19.273,9.455L19.273,6.545L16.85,5.092L12,8L7.15,5.092L4.727,6.545L4.727,9.455L9.578,12.364L9.578,18.182L12,19.636Z"
+ />
 </svg>'''
 
     @property
@@ -64,7 +58,7 @@ class DThreeDotjsIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/d3/d3-logo/tree/6d9c471aa8'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -37,7 +37,7 @@ class CreativeCommonsIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#EF9421"
+        return "#ED592F"
 
     @property
     def raw_svg(self) -> "str":

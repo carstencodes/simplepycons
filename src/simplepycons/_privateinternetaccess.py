@@ -93,4 +93,6 @@ class PrivateInternetAccessIcon(Icon):
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from []
+        yield from [
+            "PIA",
+        ]

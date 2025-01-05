@@ -1,7 +1,7 @@
 #
 # SPDX-License-Identifier: MIT
 #
-# Copyright (c) 2024 Carsten Igel.
+# Copyright (c) 2025 Carsten Igel.
 #
 # This file is part of simplepycons
 # (see https://github.com/carstencodes/simplepycons).
@@ -626,6 +626,7 @@ from ._max import MaxIcon
 from ._framework import FrameworkIcon
 from ._scrapbox import ScrapboxIcon
 from ._lunacy import LunacyIcon
+from ._commonlisp import CommonLispIcon
 from ._googledatastudio import GoogleDataStudioIcon
 from ._maxplanckgesellschaft import MaxplanckgesellschaftIcon
 from ._hp import HpIcon
@@ -724,6 +725,7 @@ from ._saudia import SaudiaIcon
 from ._instructables import InstructablesIcon
 from ._fluentbit import FluentBitIcon
 from ._linkerd import LinkerdIcon
+from ._nfcore import NfcoreIcon
 from ._mastercomfig import MastercomfigIcon
 from ._teal import TealIcon
 from ._apacheecharts import ApacheEchartsIcon
@@ -3883,6 +3885,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'framework': FrameworkIcon,
     'scrapbox': ScrapboxIcon,
     'lunacy': LunacyIcon,
+    'commonlisp': CommonLispIcon,
     'googledatastudio': GoogleDataStudioIcon,
     'maxplanckgesellschaft': MaxplanckgesellschaftIcon,
     'hp': HpIcon,
@@ -3981,6 +3984,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'instructables': InstructablesIcon,
     'fluentbit': FluentBitIcon,
     'linkerd': LinkerdIcon,
+    'nfcore': NfcoreIcon,
     'mastercomfig': MastercomfigIcon,
     'teal': TealIcon,
     'apacheecharts': ApacheEchartsIcon,

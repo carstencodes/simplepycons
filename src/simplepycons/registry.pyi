@@ -1,7 +1,7 @@
 #
 # SPDX-License-Identifier: MIT
 #
-# Copyright (c) 2024 Carsten Igel.
+# Copyright (c) 2025 Carsten Igel.
 #
 # This file is part of simplepycons
 # (see https://github.com/carstencodes/simplepycons).
@@ -630,6 +630,7 @@ class _IconCollection:
     get_framework_icon: "Final[IconFactory]"
     get_scrapbox_icon: "Final[IconFactory]"
     get_lunacy_icon: "Final[IconFactory]"
+    get_commonlisp_icon: "Final[IconFactory]"
     get_googledatastudio_icon: "Final[IconFactory]"
     get_maxplanckgesellschaft_icon: "Final[IconFactory]"
     get_hp_icon: "Final[IconFactory]"
@@ -728,6 +729,7 @@ class _IconCollection:
     get_instructables_icon: "Final[IconFactory]"
     get_fluentbit_icon: "Final[IconFactory]"
     get_linkerd_icon: "Final[IconFactory]"
+    get_nfcore_icon: "Final[IconFactory]"
     get_mastercomfig_icon: "Final[IconFactory]"
     get_teal_icon: "Final[IconFactory]"
     get_apacheecharts_icon: "Final[IconFactory]"

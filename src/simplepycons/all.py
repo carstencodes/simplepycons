@@ -1616,6 +1616,7 @@ from ._barmenia import BarmeniaIcon
 from ._googlepay import GooglePayIcon
 from ._intigriti import IntigritiIcon
 from ._awsfargate import AwsFargateIcon
+from ._fyle import FyleIcon
 from ._abbrobotstudio import AbbRobotstudioIcon
 from ._libreofficecalc import LibreofficeCalcIcon
 from ._cssmodules import CssModulesIcon
@@ -1829,6 +1830,7 @@ from ._afterpay import AfterpayIcon
 from ._springboot import SpringBootIcon
 from ._applenews import AppleNewsIcon
 from ._renren import RenrenIcon
+from ._v0 import VZeroIcon
 from ._walmart import WalmartIcon
 from ._yoast import YoastIcon
 from ._adidas import AdidasIcon
@@ -2087,6 +2089,7 @@ from ._lua import LuaIcon
 from ._python import PythonIcon
 from ._talend import TalendIcon
 from ._drizzle import DrizzleIcon
+from ._gradio import GradioIcon
 from ._codepen import CodepenIcon
 from ._signal import SignalIcon
 from ._husqvarna import HusqvarnaIcon
@@ -2905,6 +2908,7 @@ from ._beatsbydre import BeatsByDreIcon
 from ._svg import SvgIcon
 from ._zazzle import ZazzleIcon
 from ._gdal import GdalIcon
+from ._wxt import WxtIcon
 from ._zincsearch import ZincsearchIcon
 from ._atari import AtariIcon
 from ._carrd import CarrdIcon
@@ -4875,6 +4879,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GooglePayIcon.__name__,
     IntigritiIcon.__name__,
     AwsFargateIcon.__name__,
+    FyleIcon.__name__,
     AbbRobotstudioIcon.__name__,
     LibreofficeCalcIcon.__name__,
     CssModulesIcon.__name__,
@@ -5086,6 +5091,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SpringBootIcon.__name__,
     AppleNewsIcon.__name__,
     RenrenIcon.__name__,
+    VZeroIcon.__name__,
     WalmartIcon.__name__,
     YoastIcon.__name__,
     AdidasIcon.__name__,
@@ -5344,6 +5350,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PythonIcon.__name__,
     TalendIcon.__name__,
     DrizzleIcon.__name__,
+    GradioIcon.__name__,
     CodepenIcon.__name__,
     SignalIcon.__name__,
     HusqvarnaIcon.__name__,
@@ -6160,6 +6167,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SvgIcon.__name__,
     ZazzleIcon.__name__,
     GdalIcon.__name__,
+    WxtIcon.__name__,
     ZincsearchIcon.__name__,
     AtariIcon.__name__,
     CarrdIcon.__name__,

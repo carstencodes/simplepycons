@@ -1616,6 +1616,7 @@ from ._barmenia import BarmeniaIcon
 from ._googlepay import GooglePayIcon
 from ._intigriti import IntigritiIcon
 from ._awsfargate import AwsFargateIcon
+from ._fyle import FyleIcon
 from ._abbrobotstudio import AbbRobotstudioIcon
 from ._libreofficecalc import LibreofficeCalcIcon
 from ._cssmodules import CssModulesIcon
@@ -1829,6 +1830,7 @@ from ._afterpay import AfterpayIcon
 from ._springboot import SpringBootIcon
 from ._applenews import AppleNewsIcon
 from ._renren import RenrenIcon
+from ._v0 import VZeroIcon
 from ._walmart import WalmartIcon
 from ._yoast import YoastIcon
 from ._adidas import AdidasIcon
@@ -2087,6 +2089,7 @@ from ._lua import LuaIcon
 from ._python import PythonIcon
 from ._talend import TalendIcon
 from ._drizzle import DrizzleIcon
+from ._gradio import GradioIcon
 from ._codepen import CodepenIcon
 from ._signal import SignalIcon
 from ._husqvarna import HusqvarnaIcon
@@ -2905,6 +2908,7 @@ from ._beatsbydre import BeatsByDreIcon
 from ._svg import SvgIcon
 from ._zazzle import ZazzleIcon
 from ._gdal import GdalIcon
+from ._wxt import WxtIcon
 from ._zincsearch import ZincsearchIcon
 from ._atari import AtariIcon
 from ._carrd import CarrdIcon
@@ -4875,6 +4879,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'googlepay': GooglePayIcon,
     'intigriti': IntigritiIcon,
     'awsfargate': AwsFargateIcon,
+    'fyle': FyleIcon,
     'abbrobotstudio': AbbRobotstudioIcon,
     'libreofficecalc': LibreofficeCalcIcon,
     'cssmodules': CssModulesIcon,
@@ -5086,6 +5091,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'springboot': SpringBootIcon,
     'applenews': AppleNewsIcon,
     'renren': RenrenIcon,
+    'v0': VZeroIcon,
     'walmart': WalmartIcon,
     'yoast': YoastIcon,
     'adidas': AdidasIcon,
@@ -5344,6 +5350,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'python': PythonIcon,
     'talend': TalendIcon,
     'drizzle': DrizzleIcon,
+    'gradio': GradioIcon,
     'codepen': CodepenIcon,
     'signal': SignalIcon,
     'husqvarna': HusqvarnaIcon,
@@ -6160,6 +6167,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'svg': SvgIcon,
     'zazzle': ZazzleIcon,
     'gdal': GdalIcon,
+    'wxt': WxtIcon,
     'zincsearch': ZincsearchIcon,
     'atari': AtariIcon,
     'carrd': CarrdIcon,

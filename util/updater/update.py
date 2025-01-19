@@ -27,12 +27,13 @@ _, *args = argv
 
 if len(args) == 0:
     with chdir(icons_module_dir):
-        p = run(["git", "fetch", "--tags", "origin"], check=True, capture_output=True)
-        if p.stdout is not None:
+        p = run(["git", "fetch", "--porcelain", "--tags", "origin"], check=True, capture_output=True)
+        git_output = p.stderr
+        if git_output is not None:
 
-            print(p.stdout)
+            print(git_output)
 
-            new_tags = p.stdout.splitlines()
+            new_tags = git_output.splitlines()
             new_tags = [t for t in new_tags if t.lstrip().startswith(b'*')]
 
             if len(new_tags) == 0:

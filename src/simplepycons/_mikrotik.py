@@ -33,7 +33,7 @@ class MikrotikIcon(Icon):
 
     @property
     def title(self) -> "str":
-        return "Mikrotik"
+        return "MikroTik"
 
     @property
     def primary_color(self) -> "str":
@@ -43,7 +43,7 @@ class MikrotikIcon(Icon):
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Mikrotik</title>
+    <title>MikroTik</title>
      <path d="M23.041 6.188a1.404 1.404 0 0
  0-.218-.36c-.24-.296-.634-.586-1.14-.864l-4.052-2.22L13.576.519C13.074.243
  12.61.065 12.22.013A1.772 1.772 0 0 0 12 0c-.432

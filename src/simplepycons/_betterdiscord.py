@@ -21,32 +21,37 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class NexonIcon(Icon):
+class BetterdiscordIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "nexon"
+        return "betterdiscord"
 
     @property
     def original_file_name(self) -> "str":
-        return "nexon.svg"
+        return "betterdiscord.svg"
 
     @property
     def title(self) -> "str":
-        return "NEXON"
+        return "BetterDiscord"
 
     @property
     def primary_color(self) -> "str":
-        return "#000000"
+        return "#3E82E5"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>NEXON</title>
-     <path d="M10.714 15.358V0L0 5.697v15.358L13.29 24 24
- 18.303zm-9.495-1.219 7.291 1.568-7.291 3.832zm11.895 8.578L2.35
- 20.327l7.454-3.926 10.846 2.406z" />
+    <title>BetterDiscord</title>
+     <path d="M14.393.861q.514.258.964.57a6.6 6.6 0 0 1 2.122
+ 2.387c.513.987.792 2.133.828 3.409v9.556c-.035 1.275-.313 2.422-.828
+ 3.408a6.6 6.6 0 0 1-2.122 2.387 8 8 0 0 1-.933.555h.933c4.46.024
+ 8.643-2.205 8.643-7.315V8.352c.024-5.21-4.16-7.49-8.62-7.49zM0
+ .867v9.197l5.693 5.127V5.44h3.31c3.537 0 3.537 4.444 0
+ 4.444H6.817v4.244h2.188c3.536 0 3.536 4.441 0 4.441H0v4.57h8.904c4.59
+ 0 8.151-1.836 8.278-6.388 0-2.094-.574-3.66-1.584-4.748 1.01-1.087
+ 1.584-2.652 1.584-4.746-.125-4.553-3.687-6.39-8.278-6.39z" />
 </svg>'''
 
     @property
@@ -58,7 +63,7 @@ class NexonIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://brand.nexon.com/en/ci-brand-guideline'''
+        return '''https://github.com/BetterDiscord/docs/blob/a6'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

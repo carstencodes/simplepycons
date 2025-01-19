@@ -362,6 +362,7 @@ from ._weightsandbiases import WeightsandBiasesIcon
 from ._googlemessages import GoogleMessagesIcon
 from ._eight import EightIcon
 from ._sketch import SketchIcon
+from ._rook import RookIcon
 from ._spring import SpringIcon
 from ._opensourcehardware import OpenSourceHardwareIcon
 from ._onnx import OnnxIcon
@@ -448,6 +449,7 @@ from ._ajv import AjvIcon
 from ._taichilang import TaichiLangIcon
 from ._conventionalcommits import ConventionalCommitsIcon
 from ._semrush import SemrushIcon
+from ._crewai import CrewaiIcon
 from ._bastyon import BastyonIcon
 from ._fampay import FampayIcon
 from ._spinnaker import SpinnakerIcon
@@ -682,6 +684,7 @@ from ._alienware import AlienwareIcon
 from ._saucelabs import SauceLabsIcon
 from ._autocad import AutocadIcon
 from ._griddotai import GriddotaiIcon
+from ._ultralytics import UltralyticsIcon
 from ._paperlessngx import PaperlessngxIcon
 from ._socketdotio import SocketdotioIcon
 from ._hellyhansen import HellyHansenIcon
@@ -2085,6 +2088,7 @@ from ._thangs import ThangsIcon
 from ._openbadges import OpenBadgesIcon
 from ._bspwm import BspwmIcon
 from ._handlebarsdotjs import HandlebarsdotjsIcon
+from ._betterdiscord import BetterdiscordIcon
 from ._lua import LuaIcon
 from ._python import PythonIcon
 from ._talend import TalendIcon
@@ -3195,6 +3199,7 @@ from ._franprix import FranprixIcon
 from ._apache import ApacheIcon
 from ._teratail import TeratailIcon
 from ._burton import BurtonIcon
+from ._langgraph import LanggraphIcon
 from ._playcanvas import PlaycanvasIcon
 from ._magasinsu import MagasinsUIcon
 from ._toggl import TogglIcon
@@ -3625,6 +3630,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'googlemessages': GoogleMessagesIcon,
     'eight': EightIcon,
     'sketch': SketchIcon,
+    'rook': RookIcon,
     'spring': SpringIcon,
     'opensourcehardware': OpenSourceHardwareIcon,
     'onnx': OnnxIcon,
@@ -3711,6 +3717,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'taichilang': TaichiLangIcon,
     'conventionalcommits': ConventionalCommitsIcon,
     'semrush': SemrushIcon,
+    'crewai': CrewaiIcon,
     'bastyon': BastyonIcon,
     'fampay': FampayIcon,
     'spinnaker': SpinnakerIcon,
@@ -3945,6 +3952,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'saucelabs': SauceLabsIcon,
     'autocad': AutocadIcon,
     'griddotai': GriddotaiIcon,
+    'ultralytics': UltralyticsIcon,
     'paperlessngx': PaperlessngxIcon,
     'socketdotio': SocketdotioIcon,
     'hellyhansen': HellyHansenIcon,
@@ -5346,6 +5354,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'openbadges': OpenBadgesIcon,
     'bspwm': BspwmIcon,
     'handlebarsdotjs': HandlebarsdotjsIcon,
+    'betterdiscord': BetterdiscordIcon,
     'lua': LuaIcon,
     'python': PythonIcon,
     'talend': TalendIcon,
@@ -6454,6 +6463,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'apache': ApacheIcon,
     'teratail': TeratailIcon,
     'burton': BurtonIcon,
+    'langgraph': LanggraphIcon,
     'playcanvas': PlaycanvasIcon,
     'magasinsu': MagasinsUIcon,
     'toggl': TogglIcon,

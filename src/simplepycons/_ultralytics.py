@@ -21,32 +21,36 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class NexonIcon(Icon):
+class UltralyticsIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "nexon"
+        return "ultralytics"
 
     @property
     def original_file_name(self) -> "str":
-        return "nexon.svg"
+        return "ultralytics.svg"
 
     @property
     def title(self) -> "str":
-        return "NEXON"
+        return "Ultralytics"
 
     @property
     def primary_color(self) -> "str":
-        return "#000000"
+        return "#111F68"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>NEXON</title>
-     <path d="M10.714 15.358V0L0 5.697v15.358L13.29 24 24
- 18.303zm-9.495-1.219 7.291 1.568-7.291 3.832zm11.895 8.578L2.35
- 20.327l7.454-3.926 10.846 2.406z" />
+    <title>Ultralytics</title>
+     <path d="m12.736 7.341-.002 2.897c.012 3.953-3.188 7.177-7.098
+ 7.171-1.553-.003-2.967-.48-4.112-1.313 2.056 3.725 5.999 6.24 10.48
+ 6.245 6.511-.003 11.891-5.343 11.992-11.91l-.002-.027c.006-.151
+ 0-2.951.006-3.075-.01-3.116-2.538-5.677-5.63-5.67-3.105-.006-5.645
+ 2.54-5.634 5.683zM5.629 4.573C2.525 4.573 0 7.118 0 10.246s2.525
+ 5.673 5.63 5.673c3.103 0 5.629-2.545
+ 5.629-5.673s-2.526-5.673-5.63-5.673" />
 </svg>'''
 
     @property
@@ -58,7 +62,7 @@ class NexonIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://brand.nexon.com/en/ci-brand-guideline'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

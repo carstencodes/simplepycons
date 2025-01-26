@@ -175,6 +175,7 @@ from ._duckduckgo import DuckduckgoIcon
 from ._processwire import ProcesswireIcon
 from ._polestar import PolestarIcon
 from ._americanairlines import AmericanAirlinesIcon
+from ._langflow import LangflowIcon
 from ._suckless import SucklessIcon
 from ._elm import ElmIcon
 from ._dblp import DblpIcon
@@ -643,6 +644,7 @@ from ._kdenlive import KdenliveIcon
 from ._victoriametrics import VictoriametricsIcon
 from ._amazonalexa import AmazonAlexaIcon
 from ._pimcore import PimcoreIcon
+from ._yolo import YoloIcon
 from ._plurk import PlurkIcon
 from ._egghead import EggheadIcon
 from ._preact import PreactIcon
@@ -1328,6 +1330,7 @@ from ._apachehbase import ApacheHbaseIcon
 from ._dragonframe import DragonframeIcon
 from ._apifox import ApifoxIcon
 from ._icicibank import IciciBankIcon
+from ._lottiefiles import LottiefilesIcon
 from ._jsfiddle import JsfiddleIcon
 from ._ghost import GhostIcon
 from ._underscoredotjs import UnderscoredotjsIcon
@@ -3443,6 +3446,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'processwire': ProcesswireIcon,
     'polestar': PolestarIcon,
     'americanairlines': AmericanAirlinesIcon,
+    'langflow': LangflowIcon,
     'suckless': SucklessIcon,
     'elm': ElmIcon,
     'dblp': DblpIcon,
@@ -3911,6 +3915,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'victoriametrics': VictoriametricsIcon,
     'amazonalexa': AmazonAlexaIcon,
     'pimcore': PimcoreIcon,
+    'yolo': YoloIcon,
     'plurk': PlurkIcon,
     'egghead': EggheadIcon,
     'preact': PreactIcon,
@@ -4596,6 +4601,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'dragonframe': DragonframeIcon,
     'apifox': ApifoxIcon,
     'icicibank': IciciBankIcon,
+    'lottiefiles': LottiefilesIcon,
     'jsfiddle': JsfiddleIcon,
     'ghost': GhostIcon,
     'underscoredotjs': UnderscoredotjsIcon,

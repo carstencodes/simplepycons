@@ -2057,6 +2057,7 @@ class _IconCollection:
     get_nvidia_icon: "Final[IconFactory]"
     get_battledotnet_icon: "Final[IconFactory]"
     get_claris_icon: "Final[IconFactory]"
+    get_xyflow_icon: "Final[IconFactory]"
     get_eclipseadoptium_icon: "Final[IconFactory]"
     get_vite_icon: "Final[IconFactory]"
     get_piapro_icon: "Final[IconFactory]"

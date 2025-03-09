@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class HaveibeenpwnedIcon(Icon):
+class HaveIBeenPwnedIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
@@ -33,7 +33,7 @@ class HaveibeenpwnedIcon(Icon):
 
     @property
     def title(self) -> "str":
-        return "haveibeenpwned"
+        return "Have I Been Pwned"
 
     @property
     def primary_color(self) -> "str":
@@ -43,7 +43,7 @@ class HaveibeenpwnedIcon(Icon):
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>haveibeenpwned</title>
+    <title>Have I Been Pwned</title>
      <path d="M3.03 2.37a2.09 2.09 0 0 0-.333.02.905.905 0 0
  0-.244.067.527.527 0 0 0-.166.088.5.5 0 0 0-.133.144L.652 4.943a4.084
  4.084 0 0 0-.308.532 2.184 2.184 0 0

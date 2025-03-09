@@ -1465,7 +1465,7 @@ from ._invoiceninja import InvoiceNinjaIcon
 from ._androidauto import AndroidAutoIcon
 from ._upstash import UpstashIcon
 from ._spacemacs import SpacemacsIcon
-from ._haveibeenpwned import HaveibeenpwnedIcon
+from ._haveibeenpwned import HaveIBeenPwnedIcon
 from ._sublimetext import SublimeTextIcon
 from ._kingstontechnology import KingstonTechnologyIcon
 from ._railway import RailwayIcon
@@ -2055,6 +2055,7 @@ from ._hdfcbank import HdfcBankIcon
 from ._nvidia import NvidiaIcon
 from ._battledotnet import BattledotnetIcon
 from ._claris import ClarisIcon
+from ._xyflow import XyflowIcon
 from ._eclipseadoptium import EclipseAdoptiumIcon
 from ._vite import ViteIcon
 from ._piapro import PiaproIcon
@@ -4744,7 +4745,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AndroidAutoIcon.__name__,
     UpstashIcon.__name__,
     SpacemacsIcon.__name__,
-    HaveibeenpwnedIcon.__name__,
+    HaveIBeenPwnedIcon.__name__,
     SublimeTextIcon.__name__,
     KingstonTechnologyIcon.__name__,
     RailwayIcon.__name__,
@@ -5332,6 +5333,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NvidiaIcon.__name__,
     BattledotnetIcon.__name__,
     ClarisIcon.__name__,
+    XyflowIcon.__name__,
     EclipseAdoptiumIcon.__name__,
     ViteIcon.__name__,
     PiaproIcon.__name__,

@@ -401,6 +401,7 @@ from ._imgur import ImgurIcon
 from ._zalo import ZaloIcon
 from ._expo import ExpoIcon
 from ._leaflet import LeafletIcon
+from ._fortnite import FortniteIcon
 from ._googleclassroom import GoogleClassroomIcon
 from ._solus import SolusIcon
 from ._ardour import ArdourIcon
@@ -523,6 +524,7 @@ from ._nanostores import NanoStoresIcon
 from ._lequipe import LequipeIcon
 from ._aeromexico import AeromexicoIcon
 from ._reactquery import ReactQueryIcon
+from ._umbrel import UmbrelIcon
 from ._mg import MgIcon
 from ._neptune import NeptuneIcon
 from ._stackedit import StackeditIcon
@@ -2319,6 +2321,7 @@ from ._coronarenderer import CoronaRendererIcon
 from ._blazor import BlazorIcon
 from ._nginx import NginxIcon
 from ._singaporeairlines import SingaporeAirlinesIcon
+from ._kubespray import KubesprayIcon
 from ._render import RenderIcon
 from ._socialblade import SocialBladeIcon
 from ._ebay import EbayIcon
@@ -3684,6 +3687,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ZaloIcon.__name__,
     ExpoIcon.__name__,
     LeafletIcon.__name__,
+    FortniteIcon.__name__,
     GoogleClassroomIcon.__name__,
     SolusIcon.__name__,
     ArdourIcon.__name__,
@@ -3806,6 +3810,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LequipeIcon.__name__,
     AeromexicoIcon.__name__,
     ReactQueryIcon.__name__,
+    UmbrelIcon.__name__,
     MgIcon.__name__,
     NeptuneIcon.__name__,
     StackeditIcon.__name__,
@@ -5600,6 +5605,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BlazorIcon.__name__,
     NginxIcon.__name__,
     SingaporeAirlinesIcon.__name__,
+    KubesprayIcon.__name__,
     RenderIcon.__name__,
     SocialBladeIcon.__name__,
     EbayIcon.__name__,

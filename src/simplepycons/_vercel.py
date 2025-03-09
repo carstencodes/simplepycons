@@ -44,7 +44,7 @@ class VercelIcon(Icon):
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
     <title>Vercel</title>
-    <path d="M24 22.525H0l12-21.05 12 21.05z" />
+    <path d="m12 1.608 12 20.784H0Z" />
 </svg>'''
 
     @property

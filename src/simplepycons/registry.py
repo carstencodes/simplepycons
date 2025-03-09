@@ -401,6 +401,7 @@ from ._imgur import ImgurIcon
 from ._zalo import ZaloIcon
 from ._expo import ExpoIcon
 from ._leaflet import LeafletIcon
+from ._fortnite import FortniteIcon
 from ._googleclassroom import GoogleClassroomIcon
 from ._solus import SolusIcon
 from ._ardour import ArdourIcon
@@ -523,6 +524,7 @@ from ._nanostores import NanoStoresIcon
 from ._lequipe import LequipeIcon
 from ._aeromexico import AeromexicoIcon
 from ._reactquery import ReactQueryIcon
+from ._umbrel import UmbrelIcon
 from ._mg import MgIcon
 from ._neptune import NeptuneIcon
 from ._stackedit import StackeditIcon
@@ -2319,6 +2321,7 @@ from ._coronarenderer import CoronaRendererIcon
 from ._blazor import BlazorIcon
 from ._nginx import NginxIcon
 from ._singaporeairlines import SingaporeAirlinesIcon
+from ._kubespray import KubesprayIcon
 from ._render import RenderIcon
 from ._socialblade import SocialBladeIcon
 from ._ebay import EbayIcon
@@ -3684,6 +3687,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'zalo': ZaloIcon,
     'expo': ExpoIcon,
     'leaflet': LeafletIcon,
+    'fortnite': FortniteIcon,
     'googleclassroom': GoogleClassroomIcon,
     'solus': SolusIcon,
     'ardour': ArdourIcon,
@@ -3806,6 +3810,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'lequipe': LequipeIcon,
     'aeromexico': AeromexicoIcon,
     'reactquery': ReactQueryIcon,
+    'umbrel': UmbrelIcon,
     'mg': MgIcon,
     'neptune': NeptuneIcon,
     'stackedit': StackeditIcon,
@@ -5600,6 +5605,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'blazor': BlazorIcon,
     'nginx': NginxIcon,
     'singaporeairlines': SingaporeAirlinesIcon,
+    'kubespray': KubesprayIcon,
     'render': RenderIcon,
     'socialblade': SocialBladeIcon,
     'ebay': EbayIcon,

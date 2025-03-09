@@ -37,7 +37,7 @@ class AndroidIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#34A853"
+        return "#3DDC84"
 
     @property
     def raw_svg(self) -> "str":
@@ -63,7 +63,7 @@ class AndroidIcon(Icon):
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://partnermarketinghub.withgoogle.com/br'''
+        _value: "str" = '''https://developer.android.com/distribute/mark'''
         if len(_value) > 0:
             return _value
         return None

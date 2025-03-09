@@ -456,6 +456,7 @@ from ._fampay import FampayIcon
 from ._spinnaker import SpinnakerIcon
 from ._geocaching import GeocachingIcon
 from ._modin import ModinIcon
+from ._torizon import TorizonIcon
 from ._justgiving import JustgivingIcon
 from ._sandisk import SandiskIcon
 from ._nvm import NvmIcon
@@ -820,6 +821,7 @@ from ._cnet import CnetIcon
 from ._itunes import ItunesIcon
 from ._amazons3 import AmazonSThreeIcon
 from ._popos import PoposIcon
+from ._filen import FilenIcon
 from ._typst import TypstIcon
 from ._tplink import TplinkIcon
 from ._coolermaster import CoolerMasterIcon
@@ -1280,6 +1282,7 @@ from ._shadow import ShadowIcon
 from ._apacheant import ApacheAntIcon
 from ._adp import AdpIcon
 from ._linksys import LinksysIcon
+from ._devbox import DevboxIcon
 from ._airtel import AirtelIcon
 from ._dependabot import DependabotIcon
 from ._movistar import MovistarIcon
@@ -1583,6 +1586,7 @@ from ._pulumi import PulumiIcon
 from ._telegraph import TelegraphIcon
 from ._kentico import KenticoIcon
 from ._amazonsqs import AmazonSqsIcon
+from ._velocity import VelocityIcon
 from ._zend import ZendIcon
 from ._ndr import NdrIcon
 from ._bisecthosting import BisecthostingIcon
@@ -2999,6 +3003,7 @@ from ._sky import SkyIcon
 from ._nextui import NextuiIcon
 from ._xiaohongshu import XiaohongshuIcon
 from ._elasticcloud import ElasticCloudIcon
+from ._open3d import OpenThreeDIcon
 from ._homepage import HomepageIcon
 from ._shenzhenmetro import ShenzhenMetroIcon
 from ._glide import GlideIcon
@@ -3246,6 +3251,7 @@ from ._rubocop import RubocopIcon
 from ._dialogflow import DialogflowIcon
 from ._musescore import MusescoreIcon
 from ._knip import KnipIcon
+from ._gldotinet import GldotinetIcon
 from ._appium import AppiumIcon
 from ._airbrake import AirbrakeIcon
 from ._instapaper import InstapaperIcon
@@ -3727,6 +3733,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'spinnaker': SpinnakerIcon,
     'geocaching': GeocachingIcon,
     'modin': ModinIcon,
+    'torizon': TorizonIcon,
     'justgiving': JustgivingIcon,
     'sandisk': SandiskIcon,
     'nvm': NvmIcon,
@@ -4091,6 +4098,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'itunes': ItunesIcon,
     'amazons3': AmazonSThreeIcon,
     'popos': PoposIcon,
+    'filen': FilenIcon,
     'typst': TypstIcon,
     'tplink': TplinkIcon,
     'coolermaster': CoolerMasterIcon,
@@ -4551,6 +4559,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'apacheant': ApacheAntIcon,
     'adp': AdpIcon,
     'linksys': LinksysIcon,
+    'devbox': DevboxIcon,
     'airtel': AirtelIcon,
     'dependabot': DependabotIcon,
     'movistar': MovistarIcon,
@@ -4854,6 +4863,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'telegraph': TelegraphIcon,
     'kentico': KenticoIcon,
     'amazonsqs': AmazonSqsIcon,
+    'velocity': VelocityIcon,
     'zend': ZendIcon,
     'ndr': NdrIcon,
     'bisecthosting': BisecthostingIcon,
@@ -6266,6 +6276,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nextui': NextuiIcon,
     'xiaohongshu': XiaohongshuIcon,
     'elasticcloud': ElasticCloudIcon,
+    'open3d': OpenThreeDIcon,
     'homepage': HomepageIcon,
     'shenzhenmetro': ShenzhenMetroIcon,
     'glide': GlideIcon,
@@ -6513,6 +6524,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'dialogflow': DialogflowIcon,
     'musescore': MusescoreIcon,
     'knip': KnipIcon,
+    'gldotinet': GldotinetIcon,
     'appium': AppiumIcon,
     'airbrake': AirbrakeIcon,
     'instapaper': InstapaperIcon,

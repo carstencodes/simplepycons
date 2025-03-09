@@ -21,35 +21,44 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class ExpoIcon(Icon):
+class FilenIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "expo"
+        return "filen"
 
     @property
     def original_file_name(self) -> "str":
-        return "expo.svg"
+        return "filen.svg"
 
     @property
     def title(self) -> "str":
-        return "Expo"
+        return "Filen"
 
     @property
     def primary_color(self) -> "str":
-        return "#1C2024"
+        return "#000000"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Expo</title>
-     <path d="M0 20.084c.043.53.23 1.063.718 1.778.58.849 1.576 1.315
- 2.303.567.49-.505 5.794-9.776 8.35-13.29a.761.761 0 011.248 0c2.556
- 3.514 7.86 12.785 8.35 13.29.727.748 1.723.282
- 2.303-.567.57-.835.728-1.42.728-2.046
- 0-.426-8.26-15.798-9.092-17.078-.8-1.23-1.044-1.498-2.397-1.542h-1.032c-1.353.044-1.597.311-2.398
- 1.542C8.267 3.991.33 18.758 0 19.77Z" />
+    <title>Filen</title>
+     <path d="M12 0C5.387 0 0 5.387 0 12s5.387 12 12 12 12-5.387
+ 12-12S18.613 0 12 0zm0 1.531a10.47 10.47 0 0 1 6.384
+ 2.196v3.92H8.052a.749.749 0 0 0-.749.748v2.373c-.425.26-.69.719-.7
+ 1.217A1.464 1.464 0 1 0 8.83 10.74V9.172h10.332a.749.749 0 0 0
+ .748-.75V5.193A10.47 10.47 0 0 1 22.47 12l-.012.151h-3.324a.749.749 0
+ 0 0-.749.749v7.372a10.47 10.47 0 0 1-1.963
+ 1.193V14.12c.425-.26.69-.718.7-1.217a1.464 1.464 0 0 0-2.927
+ 0c.01.499.275.957.7 1.217v7.92a10.47 10.47 0 0 1-2.894.43 10.463
+ 10.463 0 0 1-3.19-.502v-6.024h1.83c.259.426.718.69 1.216.7a1.464
+ 1.464 0 0 0 0-2.927 1.464 1.464 0 0 0-1.217.7H8.033a.749.749 0 0
+ 0-.749.75v6.177A10.471 10.471 0 0 1 4.8
+ 19.576V5.252h8.314c.26.425.718.69 1.216.7a1.464 1.464 0 0 0 0-2.928
+ 1.464 1.464 0 0 0-1.216.701H5.619A10.47 10.47 0 0 1 12 1.532zM3.274
+ 6.266v11.468A10.469 10.469 0 0 1 1.53 12c.01-2.04.615-4.033
+ 1.743-5.734zm16.637 7.412h2.42a10.47 10.47 0 0 1-2.42 5.13z" />
 </svg>'''
 
     @property
@@ -61,7 +70,7 @@ class ExpoIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/FilenCloudDienste/filen-dr'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

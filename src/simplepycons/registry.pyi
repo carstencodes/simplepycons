@@ -2314,6 +2314,7 @@ class _IconCollection:
     get_semver_icon: "Final[IconFactory]"
     get_muller_icon: "Final[IconFactory]"
     get_wasmer_icon: "Final[IconFactory]"
+    get_vinted_icon: "Final[IconFactory]"
     get_sifive_icon: "Final[IconFactory]"
     get_opencollective_icon: "Final[IconFactory]"
     get_coronarenderer_icon: "Final[IconFactory]"

@@ -2312,6 +2312,7 @@ from ._gamejolt import GameJoltIcon
 from ._semver import SemverIcon
 from ._muller import MullerIcon
 from ._wasmer import WasmerIcon
+from ._vinted import VintedIcon
 from ._sifive import SifiveIcon
 from ._opencollective import OpenCollectiveIcon
 from ._coronarenderer import CoronaRendererIcon
@@ -5592,6 +5593,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'semver': SemverIcon,
     'muller': MullerIcon,
     'wasmer': WasmerIcon,
+    'vinted': VintedIcon,
     'sifive': SifiveIcon,
     'opencollective': OpenCollectiveIcon,
     'coronarenderer': CoronaRendererIcon,

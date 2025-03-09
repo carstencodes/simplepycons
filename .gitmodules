@@ -1,4 +1,4 @@
 [submodule "vendor/simple-icons"]
 	path = vendor/simple-icons
 	url = https://github.com/simple-icons/simple-icons
-        branch = 14.4.0
+	branch = 14.10.0

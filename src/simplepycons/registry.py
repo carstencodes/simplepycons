@@ -38,6 +38,7 @@ from ._web3dotjs import WebThreeDotjsIcon
 from ._aftership import AftershipIcon
 from ._warnerbros import WarnerBrosdotIcon
 from ._theconversation import TheConversationIcon
+from ._cnes import CnesIcon
 from ._vegas import VegasIcon
 from ._lazarus import LazarusIcon
 from ._uml import UmlIcon
@@ -981,6 +982,7 @@ from ._oneplus import OneplusIcon
 from ._gimp import GimpIcon
 from ._staffbase import StaffbaseIcon
 from ._xendit import XenditIcon
+from ._mealie import MealieIcon
 from ._insomnia import InsomniaIcon
 from ._favro import FavroIcon
 from ._bilibili import BilibiliIcon
@@ -3315,6 +3317,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'aftership': AftershipIcon,
     'warnerbros': WarnerBrosdotIcon,
     'theconversation': TheConversationIcon,
+    'cnes': CnesIcon,
     'vegas': VegasIcon,
     'lazarus': LazarusIcon,
     'uml': UmlIcon,
@@ -4258,6 +4261,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'gimp': GimpIcon,
     'staffbase': StaffbaseIcon,
     'xendit': XenditIcon,
+    'mealie': MealieIcon,
     'insomnia': InsomniaIcon,
     'favro': FavroIcon,
     'bilibili': BilibiliIcon,

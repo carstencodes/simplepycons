@@ -38,6 +38,7 @@ from ._web3dotjs import WebThreeDotjsIcon
 from ._aftership import AftershipIcon
 from ._warnerbros import WarnerBrosdotIcon
 from ._theconversation import TheConversationIcon
+from ._cnes import CnesIcon
 from ._vegas import VegasIcon
 from ._lazarus import LazarusIcon
 from ._uml import UmlIcon
@@ -981,6 +982,7 @@ from ._oneplus import OneplusIcon
 from ._gimp import GimpIcon
 from ._staffbase import StaffbaseIcon
 from ._xendit import XenditIcon
+from ._mealie import MealieIcon
 from ._insomnia import InsomniaIcon
 from ._favro import FavroIcon
 from ._bilibili import BilibiliIcon
@@ -3315,6 +3317,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AftershipIcon.__name__,
     WarnerBrosdotIcon.__name__,
     TheConversationIcon.__name__,
+    CnesIcon.__name__,
     VegasIcon.__name__,
     LazarusIcon.__name__,
     UmlIcon.__name__,
@@ -4258,6 +4261,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GimpIcon.__name__,
     StaffbaseIcon.__name__,
     XenditIcon.__name__,
+    MealieIcon.__name__,
     InsomniaIcon.__name__,
     FavroIcon.__name__,
     BilibiliIcon.__name__,

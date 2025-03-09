@@ -1859,6 +1859,7 @@ from ._derspiegel import DerSpiegelIcon
 from ._spreadshirt import SpreadshirtIcon
 from ._4d import FourDIcon
 from ._draugiemdotlv import DraugiemdotlvIcon
+from ._sagemath import SagemathIcon
 from ._v2ex import VTwoExIcon
 from ._tumblr import TumblrIcon
 from ._rocketdotchat import RocketdotchatIcon
@@ -2830,6 +2831,7 @@ from ._bugatti import BugattiIcon
 from ._diagramsdotnet import DiagramsdotnetIcon
 from ._snyk import SnykIcon
 from ._ray import RayIcon
+from ._kiwix import KiwixIcon
 from ._matillion import MatillionIcon
 from ._primevue import PrimevueIcon
 from ._databricks import DatabricksIcon
@@ -5137,6 +5139,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SpreadshirtIcon.__name__,
     FourDIcon.__name__,
     DraugiemdotlvIcon.__name__,
+    SagemathIcon.__name__,
     VTwoExIcon.__name__,
     TumblrIcon.__name__,
     RocketdotchatIcon.__name__,
@@ -6106,6 +6109,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DiagramsdotnetIcon.__name__,
     SnykIcon.__name__,
     RayIcon.__name__,
+    KiwixIcon.__name__,
     MatillionIcon.__name__,
     PrimevueIcon.__name__,
     DatabricksIcon.__name__,

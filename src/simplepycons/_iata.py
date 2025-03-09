@@ -33,7 +33,7 @@ class IataIcon(Icon):
 
     @property
     def title(self) -> "str":
-        return "Iata"
+        return "IATA"
 
     @property
     def primary_color(self) -> "str":
@@ -43,7 +43,7 @@ class IataIcon(Icon):
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Iata</title>
+    <title>IATA</title>
      <path d="M3.417 19.695l.98-4.885H5.99l-.973
  4.884zm4.808-1.6h1.012l-.26-1.792zm-2.235 1.6l2.412-4.885h1.57l.99
  4.884H9.487l-.088-.58H7.827l-.25.58zm6.439

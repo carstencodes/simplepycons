@@ -89,7 +89,7 @@ class AwsElasticLoadBalancingIcon(Icon):
     @property
     def aliases(self) -> "Iterable[str]":
         yield from [
-            "AWS ELB",
-            "Amazon ELB",
             "Amazon Elastic Load Balancing",
+            "Amazon ELB",
+            "AWS ELB",
         ]

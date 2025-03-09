@@ -81,6 +81,6 @@ class FiIcon(Icon):
     @property
     def aliases(self) -> "Iterable[str]":
         yield from [
-            "Fi.Money",
             "epiFi",
+            "Fi.Money",
         ]

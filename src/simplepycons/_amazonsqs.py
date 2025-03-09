@@ -106,6 +106,6 @@ class AmazonSqsIcon(Icon):
     def aliases(self) -> "Iterable[str]":
         yield from [
             "Amazon Simple Queue Service",
-            "AWS SQS",
             "AWS Simple Queue Service",
+            "AWS SQS",
         ]

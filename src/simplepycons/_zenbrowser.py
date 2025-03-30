@@ -21,41 +21,36 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class TraktIcon(Icon):
+class ZenBrowserIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "trakt"
+        return "zenbrowser"
 
     @property
     def original_file_name(self) -> "str":
-        return "trakt.svg"
+        return "zenbrowser.svg"
 
     @property
     def title(self) -> "str":
-        return "Trakt"
+        return "Zen Browser"
 
     @property
     def primary_color(self) -> "str":
-        return "#9F42C6"
+        return "#F76F53"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Trakt</title>
-     <path d="m15.082 15.107-.73-.73 9.578-9.583a4.499 4.499 0 0
- 0-.115-.575L13.662 14.382l1.08 1.08-.73.73-1.81-1.81L23.422
- 3.144c-.075-.15-.155-.3-.25-.44L11.508 14.377l2.154
- 2.155-.73.73-7.193-7.199.73-.73 4.309 4.31L22.546 1.86A5.618 5.618 0
- 0 0 18.362 0H5.635A5.637 5.637 0 0 0 0 5.634V18.37A5.632 5.632 0 0 0
- 5.635 24h12.732C21.477 24 24 21.48 24 18.37V6.19l-8.913
- 8.918zm-4.314-2.155L6.814 8.988l.73-.73 3.954
- 3.96zm1.075-1.084-3.954-3.96.73-.73 3.959 3.96zm9.853 5.688a4.141
- 4.141 0 0 1-4.14 4.14H6.438a4.144 4.144 0 0 1-4.139-4.14V6.438A4.141
- 4.141 0 0 1 6.44 2.3h10.387v1.04H6.438c-1.71 0-3.099 1.39-3.099
- 3.1V17.55c0 1.71 1.39 3.105 3.1 3.105h11.117c1.71 0 3.1-1.395
- 3.1-3.105v-1.754h1.04v1.754z" />
+    <title>Zen Browser</title>
+     <path d="M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12
+ 0s12 5.373 12 12zm-12 9.846c5.438 0 9.846-4.408 9.846-9.846S17.438
+ 2.154 12 2.154 2.154 6.562 2.154 12 6.562 21.846 12 21.846zM20 12a8 8
+ 0 1 1-16 0 8 8 0 0 1 16 0zm-8 6.462a6.462 6.462 0 1 0 0-12.924 6.462
+ 6.462 0 0 0 0 12.924zm0-1.847a4.615 4.615 0 1 0 0-9.23 4.615 4.615 0
+ 0 0 0 9.23zM15.692 12a3.692 3.692 0 1 1-7.384 0 3.692 3.692 0 0 1
+ 7.384 0z" />
 </svg>'''
 
     @property
@@ -67,7 +62,8 @@ class TraktIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/zen-browser/branding/blob/
+4b99730c9d3c8fe3ec71d31a07e74cfd488fc27f/Official/Word%20Marks/SVG/zen'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

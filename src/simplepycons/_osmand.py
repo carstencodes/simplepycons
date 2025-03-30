@@ -21,41 +21,35 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class TraktIcon(Icon):
+class OsmandIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "trakt"
+        return "osmand"
 
     @property
     def original_file_name(self) -> "str":
-        return "trakt.svg"
+        return "osmand.svg"
 
     @property
     def title(self) -> "str":
-        return "Trakt"
+        return "OsmAnd"
 
     @property
     def primary_color(self) -> "str":
-        return "#9F42C6"
+        return "#FF8800"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Trakt</title>
-     <path d="m15.082 15.107-.73-.73 9.578-9.583a4.499 4.499 0 0
- 0-.115-.575L13.662 14.382l1.08 1.08-.73.73-1.81-1.81L23.422
- 3.144c-.075-.15-.155-.3-.25-.44L11.508 14.377l2.154
- 2.155-.73.73-7.193-7.199.73-.73 4.309 4.31L22.546 1.86A5.618 5.618 0
- 0 0 18.362 0H5.635A5.637 5.637 0 0 0 0 5.634V18.37A5.632 5.632 0 0 0
- 5.635 24h12.732C21.477 24 24 21.48 24 18.37V6.19l-8.913
- 8.918zm-4.314-2.155L6.814 8.988l.73-.73 3.954
- 3.96zm1.075-1.084-3.954-3.96.73-.73 3.959 3.96zm9.853 5.688a4.141
- 4.141 0 0 1-4.14 4.14H6.438a4.144 4.144 0 0 1-4.139-4.14V6.438A4.141
- 4.141 0 0 1 6.44 2.3h10.387v1.04H6.438c-1.71 0-3.099 1.39-3.099
- 3.1V17.55c0 1.71 1.39 3.105 3.1 3.105h11.117c1.71 0 3.1-1.395
- 3.1-3.105v-1.754h1.04v1.754z" />
+    <title>OsmAnd</title>
+     <path d="M12 0C6.11 0 1.332 4.777 1.332 10.668a10.67 10.67 0 0 0
+ 6.52 9.828c1.927.836 2.667 1.282 3.26
+ 2.467q.085.172.152.326c.189.422.318.711.736.711s.546-.289.736-.71q.069-.155.153-.327c.593-1.186
+ 1.28-1.63 3.26-2.467a10.67 10.67 0 0 0 6.519-9.828C22.668 4.777 17.89
+ 0 12 0m-.443 4.758a5.926 5.926 0 0 1 6.369 5.91 5.926 5.926 0 0
+ 1-11.852 0 5.926 5.926 0 0 1 5.483-5.91" />
 </svg>'''
 
     @property
@@ -67,7 +61,8 @@ class TraktIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/osmandapp/OsmAnd-misc/blob
+/9ec3bacebf580d0862ded5813a4aa934d0862302/logo/osmand/symbol_osmand.sv'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

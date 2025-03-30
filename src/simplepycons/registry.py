@@ -960,6 +960,7 @@ from ._juejin import JuejinIcon
 from ._rakuten import RakutenIcon
 from ._aol import AolIcon
 from ._personio import PersonioIcon
+from ._zenbrowser import ZenBrowserIcon
 from ._qiwi import QiwiIcon
 from ._chessdotcom import ChessdotcomIcon
 from ._ethers import EthersIcon
@@ -1346,6 +1347,7 @@ from ._edeka import EdekaIcon
 from ._jasmine import JasmineIcon
 from ._openjdk import OpenjdkIcon
 from ._qnap import QnapIcon
+from ._h2database import HTwoDatabaseIcon
 from ._scrollreveal import ScrollrevealIcon
 from ._akaunting import AkauntingIcon
 from ._tunein import TuneinIcon
@@ -1804,6 +1806,7 @@ from ._zalando import ZalandoIcon
 from ._nissan import NissanIcon
 from ._xo import XoIcon
 from ._ccleaner import CcleanerIcon
+from ._gandi import GandiIcon
 from ._theirishtimes import TheIrishTimesIcon
 from ._netcup import NetcupIcon
 from ._playstationportable import PlaystationPortableIcon
@@ -2889,6 +2892,7 @@ from ._pluralsight import PluralsightIcon
 from ._venmo import VenmoIcon
 from ._exoscale import ExoscaleIcon
 from ._hotelsdotcom import HotelsdotcomIcon
+from ._osmand import OsmandIcon
 from ._scilab import ScilabIcon
 from ._marvelapp import MarvelappIcon
 from ._jordan import JordanIcon
@@ -4248,6 +4252,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'rakuten': RakutenIcon,
     'aol': AolIcon,
     'personio': PersonioIcon,
+    'zenbrowser': ZenBrowserIcon,
     'qiwi': QiwiIcon,
     'chessdotcom': ChessdotcomIcon,
     'ethers': EthersIcon,
@@ -4634,6 +4639,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'jasmine': JasmineIcon,
     'openjdk': OpenjdkIcon,
     'qnap': QnapIcon,
+    'h2database': HTwoDatabaseIcon,
     'scrollreveal': ScrollrevealIcon,
     'akaunting': AkauntingIcon,
     'tunein': TuneinIcon,
@@ -5090,6 +5096,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nissan': NissanIcon,
     'xo': XoIcon,
     'ccleaner': CcleanerIcon,
+    'gandi': GandiIcon,
     'theirishtimes': TheIrishTimesIcon,
     'netcup': NetcupIcon,
     'playstationportable': PlaystationPortableIcon,
@@ -6173,6 +6180,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'venmo': VenmoIcon,
     'exoscale': ExoscaleIcon,
     'hotelsdotcom': HotelsdotcomIcon,
+    'osmand': OsmandIcon,
     'scilab': ScilabIcon,
     'marvelapp': MarvelappIcon,
     'jordan': JordanIcon,

@@ -1386,6 +1386,7 @@ from ._gnubash import GnuBashIcon
 from ._apostrophe import ApostropheIcon
 from ._moo import MooIcon
 from ._wagtail import WagtailIcon
+from ._portableappsdotcom import PortableappsdotcomIcon
 from ._rumahweb import RumahwebIcon
 from ._burgerking import BurgerKingIcon
 from ._sourceengine import SourceEngineIcon
@@ -2437,6 +2438,7 @@ from ._mediamarkt import MediamarktIcon
 from ._neutralinojs import NeutralinojsIcon
 from ._kashflow import KashflowIcon
 from ._precommit import PrecommitIcon
+from ._gleam import GleamIcon
 from ._relianceindustrieslimited import RelianceIndustriesLimitedIcon
 from ._linear import LinearIcon
 from ._dazhongdianping import DazhongDianpingIcon
@@ -4672,6 +4674,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ApostropheIcon.__name__,
     MooIcon.__name__,
     WagtailIcon.__name__,
+    PortableappsdotcomIcon.__name__,
     RumahwebIcon.__name__,
     BurgerKingIcon.__name__,
     SourceEngineIcon.__name__,
@@ -5721,6 +5724,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NeutralinojsIcon.__name__,
     KashflowIcon.__name__,
     PrecommitIcon.__name__,
+    GleamIcon.__name__,
     RelianceIndustriesLimitedIcon.__name__,
     LinearIcon.__name__,
     DazhongDianpingIcon.__name__,

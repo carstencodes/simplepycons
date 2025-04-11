@@ -37,7 +37,7 @@ class CustomInkIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#4051B5"
+        return "#FA3C00"
 
     @property
     def raw_svg(self) -> "str":

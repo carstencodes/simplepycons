@@ -37,15 +37,17 @@ class ManjaroIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#35BF5C"
+        return "#35BFA4"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
     <title>Manjaro</title>
-     <path d="M0 0v24h6.75V6.75h8.625V0H0zm8.625
- 8.625V24h6.75V8.625h-6.75zM17.25 0v24H24V0h-6.75z" />
+     <path d="M2.182 0A2.177 2.177 0 0 0 0 2.182v19.636C0 23.027.973
+ 24 2.182 24h4.363V6.545h8.728V0Zm15.273 0v24h4.363A2.177 2.177 0 0 0
+ 24 21.818V2.182A2.177 2.177 0 0 0 21.818 0ZM8.727
+ 8.727V24h6.546V8.727Z" />
 </svg>'''
 
     @property

@@ -37,7 +37,7 @@ class ArangodbIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#DDE072"
+        return "#DDDF72"
 
     @property
     def raw_svg(self) -> "str":

@@ -285,6 +285,7 @@ from ._shopware import ShopwareIcon
 from ._asahilinux import AsahiLinuxIcon
 from ._hackster import HacksterIcon
 from ._webstorm import WebstormIcon
+from ._rakutenkobo import RakutenKoboIcon
 from ._awsorganizations import AwsOrganizationsIcon
 from ._aib import AibIcon
 from ._tailwindcss import TailwindCssIcon
@@ -790,6 +791,7 @@ from ._solidity import SolidityIcon
 from ._perl import PerlIcon
 from ._upwork import UpworkIcon
 from ._apachepulsar import ApachePulsarIcon
+from ._mihon import MihonIcon
 from ._plausibleanalytics import PlausibleAnalyticsIcon
 from ._ionic import IonicIcon
 from ._dtube import DtubeIcon
@@ -3577,6 +3579,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AsahiLinuxIcon.__name__,
     HacksterIcon.__name__,
     WebstormIcon.__name__,
+    RakutenKoboIcon.__name__,
     AwsOrganizationsIcon.__name__,
     AibIcon.__name__,
     TailwindCssIcon.__name__,
@@ -4082,6 +4085,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PerlIcon.__name__,
     UpworkIcon.__name__,
     ApachePulsarIcon.__name__,
+    MihonIcon.__name__,
     PlausibleAnalyticsIcon.__name__,
     IonicIcon.__name__,
     DtubeIcon.__name__,

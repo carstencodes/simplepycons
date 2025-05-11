@@ -285,6 +285,7 @@ from ._shopware import ShopwareIcon
 from ._asahilinux import AsahiLinuxIcon
 from ._hackster import HacksterIcon
 from ._webstorm import WebstormIcon
+from ._rakutenkobo import RakutenKoboIcon
 from ._awsorganizations import AwsOrganizationsIcon
 from ._aib import AibIcon
 from ._tailwindcss import TailwindCssIcon
@@ -790,6 +791,7 @@ from ._solidity import SolidityIcon
 from ._perl import PerlIcon
 from ._upwork import UpworkIcon
 from ._apachepulsar import ApachePulsarIcon
+from ._mihon import MihonIcon
 from ._plausibleanalytics import PlausibleAnalyticsIcon
 from ._ionic import IonicIcon
 from ._dtube import DtubeIcon
@@ -3577,6 +3579,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'asahilinux': AsahiLinuxIcon,
     'hackster': HacksterIcon,
     'webstorm': WebstormIcon,
+    'rakutenkobo': RakutenKoboIcon,
     'awsorganizations': AwsOrganizationsIcon,
     'aib': AibIcon,
     'tailwindcss': TailwindCssIcon,
@@ -4082,6 +4085,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'perl': PerlIcon,
     'upwork': UpworkIcon,
     'apachepulsar': ApachePulsarIcon,
+    'mihon': MihonIcon,
     'plausibleanalytics': PlausibleAnalyticsIcon,
     'ionic': IonicIcon,
     'dtube': DtubeIcon,

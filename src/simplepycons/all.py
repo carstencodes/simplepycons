@@ -542,6 +542,7 @@ from ._googleads import GoogleAdsIcon
 from ._adminer import AdminerIcon
 from ._stopstalk import StopstalkIcon
 from ._wwise import WwiseIcon
+from ._radiofrance import RadioFranceIcon
 from ._wyze import WyzeIcon
 from ._kinopoisk import KinopoiskIcon
 from ._billboard import BillboardIcon
@@ -609,6 +610,7 @@ from ._farcaster import FarcasterIcon
 from ._mediapipe import MediapipeIcon
 from ._bitcoin import BitcoinIcon
 from ._1panel import OnePanelIcon
+from ._premid import PremidIcon
 from ._koc import KocIcon
 from ._exordo import ExordoIcon
 from ._assemblyscript import AssemblyscriptIcon
@@ -689,6 +691,7 @@ from ._collaboraonline import CollaboraOnlineIcon
 from ._docusaurus import DocusaurusIcon
 from ._alienware import AlienwareIcon
 from ._saucelabs import SauceLabsIcon
+from ._opencritic import OpencriticIcon
 from ._autocad import AutocadIcon
 from ._griddotai import GriddotaiIcon
 from ._ultralytics import UltralyticsIcon
@@ -887,6 +890,7 @@ from ._zendesk import ZendeskIcon
 from ._bit import BitIcon
 from ._patreon import PatreonIcon
 from ._hotwire import HotwireIcon
+from ._hbomax import HboMaxIcon
 from ._nodered import NoderedIcon
 from ._arkecosystem import ArkEcosystemIcon
 from ._cplusplusbuilder import CplusplusBuilderIcon
@@ -1553,6 +1557,7 @@ from ._itchdotio import ItchdotioIcon
 from ._zod import ZodIcon
 from ._freedesktopdotorg import FreedesktopdotorgIcon
 from ._chartmogul import ChartmogulIcon
+from ._kdeneon import KdeNeonIcon
 from ._karlsruherverkehrsverbund import KarlsruherVerkehrsverbundIcon
 from ._freepik import FreepikIcon
 from ._cycling74 import CyclingSeventyFourIcon
@@ -1601,6 +1606,7 @@ from ._ndr import NdrIcon
 from ._bisecthosting import BisecthostingIcon
 from ._playerfm import PlayerFmIcon
 from ._yr import YrIcon
+from ._netim import NetimIcon
 from ._showtime import ShowtimeIcon
 from ._hyundai import HyundaiIcon
 from ._imdb import ImdbIcon
@@ -1664,6 +1670,7 @@ from ._emby import EmbyIcon
 from ._honor import HonorIcon
 from ._nordvpn import NordvpnIcon
 from ._citrix import CitrixIcon
+from ._newpipe import NewpipeIcon
 from ._slashdot import SlashdotIcon
 from ._paramountplus import ParamountplusIcon
 from ._cockpit import CockpitIcon
@@ -2231,6 +2238,7 @@ from ._telegram import TelegramIcon
 from ._less import LessIcon
 from ._bambulab import BambuLabIcon
 from ._nunjucks import NunjucksIcon
+from ._backstage_casting import BackstageIcon1
 from ._avajs import AvajsIcon
 from ._malt import MaltIcon
 from ._applemusic import AppleMusicIcon
@@ -2428,6 +2436,7 @@ from ._cratedb import CratedbIcon
 from ._box import BoxIcon
 from ._libreoffice import LibreofficeIcon
 from ._styledcomponents import StyledcomponentsIcon
+from ._googletv import GoogleTvIcon
 from ._unilever import UnileverIcon
 from ._eventstore import EventStoreIcon
 from ._claude import ClaudeIcon
@@ -2823,6 +2832,7 @@ from ._ethereum import EthereumIcon
 from ._spdx import SpdxIcon
 from ._rapid import RapidIcon
 from ._chai import ChaiIcon
+from ._gsma import GsmaIcon
 from ._playstation2 import PlaystationTwoIcon
 from ._metabase import MetabaseIcon
 from ._raspberrypi import RaspberryPiIcon
@@ -3235,6 +3245,7 @@ from ._circle import CircleIcon
 from ._flickr import FlickrIcon
 from ._linuxprofessionalinstitute import LinuxProfessionalInstituteIcon
 from ._trainerroad import TrainerroadIcon
+from ._freetube import FreetubeIcon
 from ._chromewebstore import ChromeWebStoreIcon
 from ._gumtree import GumtreeIcon
 from ._fusionauth import FusionauthIcon
@@ -3836,6 +3847,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AdminerIcon.__name__,
     StopstalkIcon.__name__,
     WwiseIcon.__name__,
+    RadioFranceIcon.__name__,
     WyzeIcon.__name__,
     KinopoiskIcon.__name__,
     BillboardIcon.__name__,
@@ -3903,6 +3915,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MediapipeIcon.__name__,
     BitcoinIcon.__name__,
     OnePanelIcon.__name__,
+    PremidIcon.__name__,
     KocIcon.__name__,
     ExordoIcon.__name__,
     AssemblyscriptIcon.__name__,
@@ -3983,6 +3996,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DocusaurusIcon.__name__,
     AlienwareIcon.__name__,
     SauceLabsIcon.__name__,
+    OpencriticIcon.__name__,
     AutocadIcon.__name__,
     GriddotaiIcon.__name__,
     UltralyticsIcon.__name__,
@@ -4181,6 +4195,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BitIcon.__name__,
     PatreonIcon.__name__,
     HotwireIcon.__name__,
+    HboMaxIcon.__name__,
     NoderedIcon.__name__,
     ArkEcosystemIcon.__name__,
     CplusplusBuilderIcon.__name__,
@@ -4847,6 +4862,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ZodIcon.__name__,
     FreedesktopdotorgIcon.__name__,
     ChartmogulIcon.__name__,
+    KdeNeonIcon.__name__,
     KarlsruherVerkehrsverbundIcon.__name__,
     FreepikIcon.__name__,
     CyclingSeventyFourIcon.__name__,
@@ -4895,6 +4911,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BisecthostingIcon.__name__,
     PlayerFmIcon.__name__,
     YrIcon.__name__,
+    NetimIcon.__name__,
     ShowtimeIcon.__name__,
     HyundaiIcon.__name__,
     ImdbIcon.__name__,
@@ -4958,6 +4975,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HonorIcon.__name__,
     NordvpnIcon.__name__,
     CitrixIcon.__name__,
+    NewpipeIcon.__name__,
     SlashdotIcon.__name__,
     ParamountplusIcon.__name__,
     CockpitIcon.__name__,
@@ -5523,6 +5541,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LessIcon.__name__,
     BambuLabIcon.__name__,
     NunjucksIcon.__name__,
+    BackstageIcon1.__name__,
     AvajsIcon.__name__,
     MaltIcon.__name__,
     AppleMusicIcon.__name__,
@@ -5720,6 +5739,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BoxIcon.__name__,
     LibreofficeIcon.__name__,
     StyledcomponentsIcon.__name__,
+    GoogleTvIcon.__name__,
     UnileverIcon.__name__,
     EventStoreIcon.__name__,
     ClaudeIcon.__name__,
@@ -6113,6 +6133,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SpdxIcon.__name__,
     RapidIcon.__name__,
     ChaiIcon.__name__,
+    GsmaIcon.__name__,
     PlaystationTwoIcon.__name__,
     MetabaseIcon.__name__,
     RaspberryPiIcon.__name__,
@@ -6525,6 +6546,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FlickrIcon.__name__,
     LinuxProfessionalInstituteIcon.__name__,
     TrainerroadIcon.__name__,
+    FreetubeIcon.__name__,
     ChromeWebStoreIcon.__name__,
     GumtreeIcon.__name__,
     FusionauthIcon.__name__,

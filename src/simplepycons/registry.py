@@ -42,6 +42,7 @@ from ._cnes import CnesIcon
 from ._vegas import VegasIcon
 from ._lazarus import LazarusIcon
 from ._uml import UmlIcon
+from ._swisscows import SwisscowsIcon
 from ._joplin import JoplinIcon
 from ._runkit import RunkitIcon
 from ._prefect import PrefectIcon
@@ -685,6 +686,7 @@ from ._octanerender import OctaneRenderIcon
 from ._vectorlogozone import VectorLogoZoneIcon
 from ._nextdotjs import NextdotjsIcon
 from ._bandcamp import BandcampIcon
+from ._formbricks import FormbricksIcon
 from ._splunk import SplunkIcon
 from ._majorleaguehacking import MajorLeagueHackingIcon
 from ._collaboraonline import CollaboraOnlineIcon
@@ -704,6 +706,7 @@ from ._reason import ReasonIcon
 from ._openproject import OpenprojectIcon
 from ._sharex import SharexIcon
 from ._lufthansa import LufthansaIcon
+from ._windsurf import WindsurfIcon
 from ._wikiquote import WikiquoteIcon
 from ._audi import AudiIcon
 from ._prometheus import PrometheusIcon
@@ -806,6 +809,7 @@ from ._doordash import DoordashIcon
 from ._nounproject import NounProjectIcon
 from ._roamresearch import RoamResearchIcon
 from ._appstore import AppStoreIcon
+from ._brandfetch import BrandfetchIcon
 from ._iterm2 import ItermTwoIcon
 from ._myspace import MyspaceIcon
 from ._sympy import SympyIcon
@@ -942,6 +946,7 @@ from ._cognizant import CognizantIcon
 from ._youhodler import YouhodlerIcon
 from ._bitly import BitlyIcon
 from ._yabai import YabaiIcon
+from ._frigate import FrigateIcon
 from ._esotericsoftware import EsotericSoftwareIcon
 from ._gutenberg import GutenbergIcon
 from ._nexusmods import NexusModsIcon
@@ -1240,6 +1245,7 @@ from ._fugacloud import FugaCloudIcon
 from ._velog import VelogIcon
 from ._veritas import VeritasIcon
 from ._mongoose import MongooseIcon
+from ._nhost import NhostIcon
 from ._maserati import MaseratiIcon
 from ._pipx import PipxIcon
 from ._lit import LitIcon
@@ -1454,6 +1460,7 @@ from ._red import RedIcon
 from ._feedly import FeedlyIcon
 from ._haskell import HaskellIcon
 from ._bmw import BmwIcon
+from ._simplelocalize import SimplelocalizeIcon
 from ._drone import DroneIcon
 from ._codacy import CodacyIcon
 from ._materialformkdocs import MaterialForMkdocsIcon
@@ -2378,6 +2385,7 @@ from ._lamborghini import LamborghiniIcon
 from ._wish import WishIcon
 from ._quicktype import QuicktypeIcon
 from ._stockx import StockxIcon
+from ._everydotorg import EverydotorgIcon
 from ._verdaccio import VerdaccioIcon
 from ._mongoosedotws import MongooseIcon1
 from ._academia import AcademiaIcon
@@ -2645,6 +2653,7 @@ from ._octoprint import OctoprintIcon
 from ._datastax import DatastaxIcon
 from ._readthedocs import ReadTheDocsIcon
 from ._htop import HtopIcon
+from ._dmm import DmmIcon
 from ._panasonic import PanasonicIcon
 from ._moneygram import MoneygramIcon
 from ._radixui import RadixUiIcon
@@ -2826,11 +2835,13 @@ from ._libretube import LibretubeIcon
 from ._boosty import BoostyIcon
 from ._researchgate import ResearchgateIcon
 from ._pastebin import PastebinIcon
+from ._notebooklm import NotebooklmIcon
 from ._namuwiki import NamuWikiIcon
 from ._trilium import TriliumIcon
 from ._ethereum import EthereumIcon
 from ._spdx import SpdxIcon
 from ._rapid import RapidIcon
+from ._jdoodle import JdoodleIcon
 from ._chai import ChaiIcon
 from ._gsma import GsmaIcon
 from ._playstation2 import PlaystationTwoIcon
@@ -3116,6 +3127,7 @@ from ._deepin import DeepinIcon
 from ._uniqlo import UniqloIcon1
 from ._opengl import OpenglIcon
 from ._subaru import SubaruIcon
+from ._antennapod import AntennapodIcon
 from ._sncf import SncfIcon
 from ._fueler import FuelerIcon
 from ._facepunch import FacepunchIcon
@@ -3347,6 +3359,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'vegas': VegasIcon,
     'lazarus': LazarusIcon,
     'uml': UmlIcon,
+    'swisscows': SwisscowsIcon,
     'joplin': JoplinIcon,
     'runkit': RunkitIcon,
     'prefect': PrefectIcon,
@@ -3990,6 +4003,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'vectorlogozone': VectorLogoZoneIcon,
     'nextdotjs': NextdotjsIcon,
     'bandcamp': BandcampIcon,
+    'formbricks': FormbricksIcon,
     'splunk': SplunkIcon,
     'majorleaguehacking': MajorLeagueHackingIcon,
     'collaboraonline': CollaboraOnlineIcon,
@@ -4009,6 +4023,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'openproject': OpenprojectIcon,
     'sharex': SharexIcon,
     'lufthansa': LufthansaIcon,
+    'windsurf': WindsurfIcon,
     'wikiquote': WikiquoteIcon,
     'audi': AudiIcon,
     'prometheus': PrometheusIcon,
@@ -4111,6 +4126,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nounproject': NounProjectIcon,
     'roamresearch': RoamResearchIcon,
     'appstore': AppStoreIcon,
+    'brandfetch': BrandfetchIcon,
     'iterm2': ItermTwoIcon,
     'myspace': MyspaceIcon,
     'sympy': SympyIcon,
@@ -4247,6 +4263,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'youhodler': YouhodlerIcon,
     'bitly': BitlyIcon,
     'yabai': YabaiIcon,
+    'frigate': FrigateIcon,
     'esotericsoftware': EsotericSoftwareIcon,
     'gutenberg': GutenbergIcon,
     'nexusmods': NexusModsIcon,
@@ -4545,6 +4562,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'velog': VelogIcon,
     'veritas': VeritasIcon,
     'mongoose': MongooseIcon,
+    'nhost': NhostIcon,
     'maserati': MaseratiIcon,
     'pipx': PipxIcon,
     'lit': LitIcon,
@@ -4759,6 +4777,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'feedly': FeedlyIcon,
     'haskell': HaskellIcon,
     'bmw': BmwIcon,
+    'simplelocalize': SimplelocalizeIcon,
     'drone': DroneIcon,
     'codacy': CodacyIcon,
     'materialformkdocs': MaterialForMkdocsIcon,
@@ -5681,6 +5700,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'wish': WishIcon,
     'quicktype': QuicktypeIcon,
     'stockx': StockxIcon,
+    'everydotorg': EverydotorgIcon,
     'verdaccio': VerdaccioIcon,
     'mongoosedotws': MongooseIcon1,
     'academia': AcademiaIcon,
@@ -5946,6 +5966,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'datastax': DatastaxIcon,
     'readthedocs': ReadTheDocsIcon,
     'htop': HtopIcon,
+    'dmm': DmmIcon,
     'panasonic': PanasonicIcon,
     'moneygram': MoneygramIcon,
     'radixui': RadixUiIcon,
@@ -6127,11 +6148,13 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'boosty': BoostyIcon,
     'researchgate': ResearchgateIcon,
     'pastebin': PastebinIcon,
+    'notebooklm': NotebooklmIcon,
     'namuwiki': NamuWikiIcon,
     'trilium': TriliumIcon,
     'ethereum': EthereumIcon,
     'spdx': SpdxIcon,
     'rapid': RapidIcon,
+    'jdoodle': JdoodleIcon,
     'chai': ChaiIcon,
     'gsma': GsmaIcon,
     'playstation2': PlaystationTwoIcon,
@@ -6417,6 +6440,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'uniqlo': UniqloIcon1,
     'opengl': OpenglIcon,
     'subaru': SubaruIcon,
+    'antennapod': AntennapodIcon,
     'sncf': SncfIcon,
     'fueler': FuelerIcon,
     'facepunch': FacepunchIcon,

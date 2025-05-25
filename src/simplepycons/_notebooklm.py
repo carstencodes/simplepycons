@@ -21,37 +21,37 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class CrunchyrollIcon(Icon):
+class NotebooklmIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "crunchyroll"
+        return "notebooklm"
 
     @property
     def original_file_name(self) -> "str":
-        return "crunchyroll.svg"
+        return "notebooklm.svg"
 
     @property
     def title(self) -> "str":
-        return "Crunchyroll"
+        return "NotebookLM"
 
     @property
     def primary_color(self) -> "str":
-        return "#FF5E00"
+        return "#000000"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Crunchyroll</title>
-     <path d="M2.909 13.436C2.914 7.61 7.642 2.893 13.468
- 2.898c5.576.005 10.137 4.339 10.51 9.819q.021-.351.022-.706C24.007
- 5.385 18.64.006 12.012 0S.007 5.36 0 11.988 5.36 23.994 11.988
- 24q.412 0
- .815-.027c-5.526-.338-9.9-4.928-9.894-10.538Zm16.284.155a4.1 4.1 0 0
- 1-4.095-4.103 4.1 4.1 0 0 1 2.712-3.855 8.95 8.95 0 0 0-4.187-1.037
- 9.007 9.007 0 1 0 8.997 9.016q-.001-.847-.15-1.651a4.1 4.1 0 0
- 1-3.278 1.63Z" />
+    <title>NotebookLM</title>
+     <path d="M11.999 3.201C5.372 3.201 0 8.528 0
+ 15.101V20.8h2.212v-.568c0-2.666 2.178-4.827 4.866-4.827 2.688 0 4.866
+ 2.16 4.866
+ 4.827v.568h2.212v-.568c0-3.877-3.17-7.019-7.078-7.019A7.075 7.075 0 0
+ 0 2.992 14.5a7.355 7.355 0 0 1 6.568-4.016c4.057 0 7.347 3.264 7.347
+ 7.287V20.8h2.212V17.77c0-5.235-4.28-9.481-9.56-9.481a9.563 9.563 0 0
+ 0-6.217 2.28A9.795 9.795 0 0 1 12 5.393c5.406 0 9.788 4.346 9.788
+ 9.707V20.8H24V15.1c-.001-6.573-5.373-11.9-12.001-11.9Z" />
 </svg>'''
 
     @property

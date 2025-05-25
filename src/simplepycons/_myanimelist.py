@@ -85,4 +85,6 @@ class MyanimelistIcon(Icon):
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from []
+        yield from [
+            "MAL",
+        ]

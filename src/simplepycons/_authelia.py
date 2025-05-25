@@ -83,7 +83,7 @@ class AutheliaIcon(Icon):
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://www.authelia.com/reference/guides/bra'''
         if len(_value) > 0:
             return _value
         return None

@@ -189,7 +189,7 @@ project_dir = current_dir.parent.parent.absolute().resolve()
 src_package_dir = project_dir / "src" / "simplepycons"
 
 icons_module_dir = project_dir / "vendor" / "simple-icons"
-data_file = icons_module_dir / "_data" / "simple-icons.json"
+data_file = icons_module_dir / "data" / "simple-icons.json"
 icons_dir = icons_module_dir / "icons"
 
 for code_file in src_package_dir.glob("_*.py"):

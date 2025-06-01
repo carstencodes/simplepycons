@@ -21,53 +21,51 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PixabayIcon(Icon):
+class GoogleCastIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "pixabay"
+        return "googlecast"
 
     @property
     def original_file_name(self) -> "str":
-        return "pixabay.svg"
+        return "googlecast.svg"
 
     @property
     def title(self) -> "str":
-        return "Pixabay"
+        return "Google Cast"
 
     @property
     def primary_color(self) -> "str":
-        return "#191B26"
+        return "#4285F4"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Pixabay</title>
-     <path d="M2 0a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2
- 2 0 0 0-2-2Zm10.193 5.5h2.499l1.967 2.872L18.854 5.5h2.482l-3.579
- 4.592 3.91 4.813h-2.638l-2.395-3.064-2.15
- 3.064h-2.579l3.579-4.813zm-5.045.004c1.32.033 2.42.49 3.3
- 1.371.879.881 1.335 1.986 1.37 3.317-.035 1.331-.491 2.441-1.37
- 3.328-.88.887-1.98 1.346-3.3
- 1.38H4.346v3.768H2.5v-8.476c.032-1.33.486-2.436 1.359-3.317.873-.88
- 1.97-1.338 3.29-1.37Zm0
- 1.864c-.797.02-1.46.294-1.985.823-.525.53-.797 1.196-.817
- 2v2.847h2.802c.808-.019 1.476-.294
- 2.003-.826.528-.532.8-1.206.82-2.02-.02-.805-.292-1.47-.82-2-.527-.53-1.195-.805-2.003-.824Z"
- />
+    <title>Google Cast</title>
+     <path d="M0
+ 18.5455v3.2727h3.2727c0-1.811-1.4618-3.2727-3.2727-3.2727zm0-4.3637v2.1818c3.011
+ 0 5.4545 2.4437 5.4545
+ 5.4546h2.1819c0-4.2218-3.4146-7.6364-7.6364-7.6364zm0-4.3636V12c5.4218
+ 0 9.8182 4.3964 9.8182
+ 9.8182H12c0-6.6327-5.3782-12-12-12zm21.8182-7.6364H2.1818C.9818
+ 2.1818 0 3.1636 0
+ 4.3636v3.2728h2.1818V4.3636h19.6364v15.2728h-7.6364v2.1818h7.6364c1.2
+ 0 2.1818-.9818
+ 2.1818-2.1818V4.3636c0-1.2-.9818-2.1818-2.1818-2.1818Z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://partnermarketinghub.withgoogle.com/br'''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://partnermarketinghub.withgoogle.com/br'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -21,41 +21,42 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PixabayIcon(Icon):
+class HeroicGamesLauncherIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "pixabay"
+        return "heroicgameslauncher"
 
     @property
     def original_file_name(self) -> "str":
-        return "pixabay.svg"
+        return "heroicgameslauncher.svg"
 
     @property
     def title(self) -> "str":
-        return "Pixabay"
+        return "Heroic Games Launcher"
 
     @property
     def primary_color(self) -> "str":
-        return "#191B26"
+        return "#4B93FF"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Pixabay</title>
-     <path d="M2 0a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2
- 2 0 0 0-2-2Zm10.193 5.5h2.499l1.967 2.872L18.854 5.5h2.482l-3.579
- 4.592 3.91 4.813h-2.638l-2.395-3.064-2.15
- 3.064h-2.579l3.579-4.813zm-5.045.004c1.32.033 2.42.49 3.3
- 1.371.879.881 1.335 1.986 1.37 3.317-.035 1.331-.491 2.441-1.37
- 3.328-.88.887-1.98 1.346-3.3
- 1.38H4.346v3.768H2.5v-8.476c.032-1.33.486-2.436 1.359-3.317.873-.88
- 1.97-1.338 3.29-1.37Zm0
- 1.864c-.797.02-1.46.294-1.985.823-.525.53-.797 1.196-.817
- 2v2.847h2.802c.808-.019 1.476-.294
- 2.003-.826.528-.532.8-1.206.82-2.02-.02-.805-.292-1.47-.82-2-.527-.53-1.195-.805-2.003-.824Z"
- />
+    <title>Heroic Games Launcher</title>
+     <path d="M11.999 0 11.997 0a.891.891 0 0 0-.36.075C8.964 1.253
+ 6.29 2.434 3.618 3.613A.893.893 0 0 0 3.1 4.619l3.146
+ 14.646c.043.197.15.375.307.504l4.88 4.027a.895.895 0 0 0
+ 1.131.006l5-4.031a.895.895 0 0 0 .315-.516L20.9 4.614a.895.895 0 0
+ 0-.515-1L12.358.074A.892.892 0 0 0 12 0zm0 .35v.003c.114 0
+ .228.023.334.07l7.42 3.27a.827.827 0 0 1 .476.924l-2.793
+ 13.535a.83.83 0 0 1-.289.478l-4.623 3.725a.826.826 0 0
+ 1-1.045-.006l-4.513-3.723a.829.829 0 0 1-.281-.465L3.775 4.622a.83.83
+ 0 0 1 .476-.931L11.665.42a.832.832 0 0 1 .334-.07zm-.045 1.954L10.28
+ 5.202h-.002l1.211 11.301.512.409.512-.409 1.117-11.3zM9.003
+ 16.261l-.584 1.068.584 1.07 2.295-.38.47-.69-.47-.671zm5.996
+ 0-2.295.397-.47.671.47.69 2.295.38.584-1.07zm-2.998
+ 1.488-.51.444-.281 2.168.789.55.793-.55-.295-2.168z" />
 </svg>'''
 
     @property
@@ -67,7 +68,8 @@ class PixabayIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/Heroic-Games-Launcher/Hero
+icGamesLauncher/blob/aefe212367acbce1964491c8e254826b124e34cb/src/fron'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

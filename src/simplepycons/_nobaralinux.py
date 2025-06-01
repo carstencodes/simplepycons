@@ -21,41 +21,38 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PixabayIcon(Icon):
+class NobaraLinuxIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "pixabay"
+        return "nobaralinux"
 
     @property
     def original_file_name(self) -> "str":
-        return "pixabay.svg"
+        return "nobaralinux.svg"
 
     @property
     def title(self) -> "str":
-        return "Pixabay"
+        return "Nobara Linux"
 
     @property
     def primary_color(self) -> "str":
-        return "#191B26"
+        return "#000000"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Pixabay</title>
-     <path d="M2 0a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2
- 2 0 0 0-2-2Zm10.193 5.5h2.499l1.967 2.872L18.854 5.5h2.482l-3.579
- 4.592 3.91 4.813h-2.638l-2.395-3.064-2.15
- 3.064h-2.579l3.579-4.813zm-5.045.004c1.32.033 2.42.49 3.3
- 1.371.879.881 1.335 1.986 1.37 3.317-.035 1.331-.491 2.441-1.37
- 3.328-.88.887-1.98 1.346-3.3
- 1.38H4.346v3.768H2.5v-8.476c.032-1.33.486-2.436 1.359-3.317.873-.88
- 1.97-1.338 3.29-1.37Zm0
- 1.864c-.797.02-1.46.294-1.985.823-.525.53-.797 1.196-.817
- 2v2.847h2.802c.808-.019 1.476-.294
- 2.003-.826.528-.532.8-1.206.82-2.02-.02-.805-.292-1.47-.82-2-.527-.53-1.195-.805-2.003-.824Z"
- />
+    <title>Nobara Linux</title>
+     <path d="M23.808 11.808v8.281a3.542 3.542 0 0 1-3.542
+ 3.527h-.46a3.543 3.543 0 0
+ 1-3.083-3.513v-7.282l3.543-1.013-3.66-1.045a4.724 4.724 0 0 0-9.33
+ 1.045v2.362a2.362 2.362 0 0 0 2.362 2.362 3.543 3.543 0 0 1 3.543
+ 3.542V24a3.539 3.539 0 0 0-3.542-3.542 3.537 3.537 0 0 0-3.063 1.76
+ 3.54 3.54 0 0 1-2.382 1.398h-.46A3.542 3.542 0 0 1 .192
+ 20.09V3.543a3.542 3.542 0 0 1 6.323-2.194A11.756 11.756 0 0 1 12
+ 0c6.521 0 11.808 5.287 11.808 11.808zm-9.446 0A2.359 2.359 0 0 1 12
+ 14.17a2.362 2.362 0 1 1 2.362-2.362z" />
 </svg>'''
 
     @property

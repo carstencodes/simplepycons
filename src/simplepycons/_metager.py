@@ -21,41 +21,36 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PixabayIcon(Icon):
+class MetagerIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "pixabay"
+        return "metager"
 
     @property
     def original_file_name(self) -> "str":
-        return "pixabay.svg"
+        return "metager.svg"
 
     @property
     def title(self) -> "str":
-        return "Pixabay"
+        return "MetaGer"
 
     @property
     def primary_color(self) -> "str":
-        return "#191B26"
+        return "#F47216"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Pixabay</title>
-     <path d="M2 0a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2
- 2 0 0 0-2-2Zm10.193 5.5h2.499l1.967 2.872L18.854 5.5h2.482l-3.579
- 4.592 3.91 4.813h-2.638l-2.395-3.064-2.15
- 3.064h-2.579l3.579-4.813zm-5.045.004c1.32.033 2.42.49 3.3
- 1.371.879.881 1.335 1.986 1.37 3.317-.035 1.331-.491 2.441-1.37
- 3.328-.88.887-1.98 1.346-3.3
- 1.38H4.346v3.768H2.5v-8.476c.032-1.33.486-2.436 1.359-3.317.873-.88
- 1.97-1.338 3.29-1.37Zm0
- 1.864c-.797.02-1.46.294-1.985.823-.525.53-.797 1.196-.817
- 2v2.847h2.802c.808-.019 1.476-.294
- 2.003-.826.528-.532.8-1.206.82-2.02-.02-.805-.292-1.47-.82-2-.527-.53-1.195-.805-2.003-.824Z"
- />
+    <title>MetaGer</title>
+     <path d="M1.563 0v6.92h2.083c.818 0 1.227-.434
+ 1.227-1.289V3.264h10.391c3.035 0 4.552 1.613 4.552
+ 4.736v2.575H4.873v1.562c0 .851-.412 1.288-1.227 1.288H.827v4.23C.827
+ 21.885 2.942 24 7.218 24h8.46c4.965 0 7.494-2.575
+ 7.494-7.678V7.678C23.172 2.575 20.643 0 15.678 0zm8.706
+ 13.425h2.246c1.513 0 2.089.777 2.089 2.226v3.389c0 1.15-.577
+ 1.747-1.705 1.747h-1.16c-.976 0-1.47-.578-1.47-1.726v-5.636" />
 </svg>'''
 
     @property

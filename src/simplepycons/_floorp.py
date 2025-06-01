@@ -21,41 +21,40 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PixabayIcon(Icon):
+class FloorpIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "pixabay"
+        return "floorp"
 
     @property
     def original_file_name(self) -> "str":
-        return "pixabay.svg"
+        return "floorp.svg"
 
     @property
     def title(self) -> "str":
-        return "Pixabay"
+        return "Floorp"
 
     @property
     def primary_color(self) -> "str":
-        return "#191B26"
+        return "#5309E8"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Pixabay</title>
-     <path d="M2 0a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2
- 2 0 0 0-2-2Zm10.193 5.5h2.499l1.967 2.872L18.854 5.5h2.482l-3.579
- 4.592 3.91 4.813h-2.638l-2.395-3.064-2.15
- 3.064h-2.579l3.579-4.813zm-5.045.004c1.32.033 2.42.49 3.3
- 1.371.879.881 1.335 1.986 1.37 3.317-.035 1.331-.491 2.441-1.37
- 3.328-.88.887-1.98 1.346-3.3
- 1.38H4.346v3.768H2.5v-8.476c.032-1.33.486-2.436 1.359-3.317.873-.88
- 1.97-1.338 3.29-1.37Zm0
- 1.864c-.797.02-1.46.294-1.985.823-.525.53-.797 1.196-.817
- 2v2.847h2.802c.808-.019 1.476-.294
- 2.003-.826.528-.532.8-1.206.82-2.02-.02-.805-.292-1.47-.82-2-.527-.53-1.195-.805-2.003-.824Z"
- />
+    <title>Floorp</title>
+     <path d="M8.348 1.146c-1.917 0-2.807.326-3.84 2.116L.717 9.852S0
+ 10.779 0 11.998c0 1.22.717 2.156.717 2.156l3.803 6.584c1.033 1.79
+ 1.92 2.116 3.837 2.116h7.286c1.917 0 2.804-.326
+ 3.837-2.116l3.803-6.584s.717-.937.717-2.156-.717-2.146-.717-2.146l-3.79-6.59c-1.034-1.79-1.924-2.116-3.84-2.116Zm.02
+ 2.788.134.003h7c.74-.02 1.174.048 1.605.795l1.116
+ 1.932c.223.386.031.502-.147.502H8.97c-.282 0-.4.079-.4.338v3.102c0
+ .258.118.337.4.337h11.379c.176 0 .757.145.756 1.016a1.27 1.27 0 0
+ 1-.206.75l-.634 1.1c-.145.22-.28.384-.604.384H8.97v.002c-.282
+ 0-.4.081-.4.34v5.137c0 .197-.122.394-.464.394-.76
+ 0-1.128-.63-1.166-.695l-2.908-5.035-.66-1.147c-.657-1.137-.654-1.216
+ 0-2.35l2.41-4.175 1.115-1.932c.405-.7.811-.805 1.471-.798" />
 </svg>'''
 
     @property
@@ -67,7 +66,7 @@ class PixabayIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/Floorp-Projects/Floorp/dis'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

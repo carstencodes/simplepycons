@@ -21,41 +21,38 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PixabayIcon(Icon):
+class ThePlanetarySocietyIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "pixabay"
+        return "theplanetarysociety"
 
     @property
     def original_file_name(self) -> "str":
-        return "pixabay.svg"
+        return "theplanetarysociety.svg"
 
     @property
     def title(self) -> "str":
-        return "Pixabay"
+        return "The Planetary Society"
 
     @property
     def primary_color(self) -> "str":
-        return "#191B26"
+        return "#000000"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Pixabay</title>
-     <path d="M2 0a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2
- 2 0 0 0-2-2Zm10.193 5.5h2.499l1.967 2.872L18.854 5.5h2.482l-3.579
- 4.592 3.91 4.813h-2.638l-2.395-3.064-2.15
- 3.064h-2.579l3.579-4.813zm-5.045.004c1.32.033 2.42.49 3.3
- 1.371.879.881 1.335 1.986 1.37 3.317-.035 1.331-.491 2.441-1.37
- 3.328-.88.887-1.98 1.346-3.3
- 1.38H4.346v3.768H2.5v-8.476c.032-1.33.486-2.436 1.359-3.317.873-.88
- 1.97-1.338 3.29-1.37Zm0
- 1.864c-.797.02-1.46.294-1.985.823-.525.53-.797 1.196-.817
- 2v2.847h2.802c.808-.019 1.476-.294
- 2.003-.826.528-.532.8-1.206.82-2.02-.02-.805-.292-1.47-.82-2-.527-.53-1.195-.805-2.003-.824Z"
- />
+    <title>The Planetary Society</title>
+     <path d="M3.545 1.81A12.428 12.428 0 0 0 0 2.35a10.409 10.409 0 0
+ 1 1.838-.146c5.602.048 10.114 4.543 10.16 10.075-2.263 1.066-4.976
+ 2.147-7.986 3.158-1.258.423-2.956 1.053-3.751 1.482a2.073 2.073 0 0
+ 1-.04.035l.257-.065c1.338-.338 2.714-.703 4.112-1.116a106.969 106.969
+ 0 0 0 7.364-2.455c-.404 4.299-3.506 7.81-7.599 8.872 5.472-.627
+ 9.837-4.8 10.155-9.883 6.236-2.597 9.957-5.18
+ 9.443-6.805-.454-1.435-5.038-1.7-11.657-.554.229.226.492.512.757.826
+ 3.3-.31 5.532-.007 5.83.934.335 1.06-1.348 2.612-4.382
+ 4.296-.395-5.198-5.1-9.236-10.956-9.194z" />
 </svg>'''
 
     @property

@@ -663,6 +663,7 @@ from ._rive import RiveIcon
 from ._ticktick import TicktickIcon
 from ._caddy import CaddyIcon
 from ._django import DjangoIcon
+from ._ens import EnsIcon
 from ._zettlr import ZettlrIcon
 from ._rarible import RaribleIcon
 from ._oreilly import OreillyIcon
@@ -1376,6 +1377,7 @@ from ._homeassistant import HomeAssistantIcon
 from ._bukalapak import BukalapakIcon
 from ._apacheguacamole import ApacheGuacamoleIcon
 from ._mulesoft import MulesoftIcon
+from ._invidious import InvidiousIcon
 from ._turbosquid import TurbosquidIcon
 from ._avira import AviraIcon
 from ._teamviewer import TeamviewerIcon
@@ -1462,6 +1464,7 @@ from ._tiktok import TiktokIcon
 from ._twinkly import TwinklyIcon
 from ._knexdotjs import KnexdotjsIcon
 from ._mqtt import MqttIcon
+from ._tuxedocomputers import TuxedoComputersIcon
 from ._uptimekuma import UptimeKumaIcon
 from ._odysee import OdyseeIcon
 from ._taipy import TaipyIcon
@@ -3964,6 +3967,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TicktickIcon.__name__,
     CaddyIcon.__name__,
     DjangoIcon.__name__,
+    EnsIcon.__name__,
     ZettlrIcon.__name__,
     RaribleIcon.__name__,
     OreillyIcon.__name__,
@@ -4677,6 +4681,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BukalapakIcon.__name__,
     ApacheGuacamoleIcon.__name__,
     MulesoftIcon.__name__,
+    InvidiousIcon.__name__,
     TurbosquidIcon.__name__,
     AviraIcon.__name__,
     TeamviewerIcon.__name__,
@@ -4763,6 +4768,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TwinklyIcon.__name__,
     KnexdotjsIcon.__name__,
     MqttIcon.__name__,
+    TuxedoComputersIcon.__name__,
     UptimeKumaIcon.__name__,
     OdyseeIcon.__name__,
     TaipyIcon.__name__,

@@ -663,6 +663,7 @@ from ._rive import RiveIcon
 from ._ticktick import TicktickIcon
 from ._caddy import CaddyIcon
 from ._django import DjangoIcon
+from ._ens import EnsIcon
 from ._zettlr import ZettlrIcon
 from ._rarible import RaribleIcon
 from ._oreilly import OreillyIcon
@@ -1376,6 +1377,7 @@ from ._homeassistant import HomeAssistantIcon
 from ._bukalapak import BukalapakIcon
 from ._apacheguacamole import ApacheGuacamoleIcon
 from ._mulesoft import MulesoftIcon
+from ._invidious import InvidiousIcon
 from ._turbosquid import TurbosquidIcon
 from ._avira import AviraIcon
 from ._teamviewer import TeamviewerIcon
@@ -1462,6 +1464,7 @@ from ._tiktok import TiktokIcon
 from ._twinkly import TwinklyIcon
 from ._knexdotjs import KnexdotjsIcon
 from ._mqtt import MqttIcon
+from ._tuxedocomputers import TuxedoComputersIcon
 from ._uptimekuma import UptimeKumaIcon
 from ._odysee import OdyseeIcon
 from ._taipy import TaipyIcon
@@ -3964,6 +3967,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'ticktick': TicktickIcon,
     'caddy': CaddyIcon,
     'django': DjangoIcon,
+    'ens': EnsIcon,
     'zettlr': ZettlrIcon,
     'rarible': RaribleIcon,
     'oreilly': OreillyIcon,
@@ -4677,6 +4681,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'bukalapak': BukalapakIcon,
     'apacheguacamole': ApacheGuacamoleIcon,
     'mulesoft': MulesoftIcon,
+    'invidious': InvidiousIcon,
     'turbosquid': TurbosquidIcon,
     'avira': AviraIcon,
     'teamviewer': TeamviewerIcon,
@@ -4763,6 +4768,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'twinkly': TwinklyIcon,
     'knexdotjs': KnexdotjsIcon,
     'mqtt': MqttIcon,
+    'tuxedocomputers': TuxedoComputersIcon,
     'uptimekuma': UptimeKumaIcon,
     'odysee': OdyseeIcon,
     'taipy': TaipyIcon,

@@ -118,6 +118,7 @@ from ._ferrari import FerrariIcon
 from ._unocss import UnocssIcon
 from ._pingdom import PingdomIcon
 from ._stagetimer import StagetimerIcon
+from ._avm import AvmIcon
 from ._mullvad import MullvadIcon
 from ._vitepress import VitepressIcon
 from ._myget import MygetIcon
@@ -414,6 +415,7 @@ from ._broadcom import BroadcomIcon
 from ._webex import WebexIcon
 from ._redbull import RedBullIcon
 from ._zilch import ZilchIcon
+from ._dolibarr import DolibarrIcon
 from ._ios import IosIcon
 from ._nestjs import NestjsIcon
 from ._rocket import RocketIcon
@@ -653,6 +655,7 @@ from ._eclipseide import EclipseIdeIcon
 from ._jovian import JovianIcon
 from ._iceland import IcelandIcon
 from ._peerlist import PeerlistIcon
+from ._fritz import FritzIcon
 from ._breaker import BreakerIcon
 from ._eagle import EagleIcon
 from ._phpstorm import PhpstormIcon
@@ -926,6 +929,7 @@ from ._transifex import TransifexIcon
 from ._webdotde import WebdotdeIcon
 from ._coderwall import CoderwallIcon
 from ._tasmota import TasmotaIcon
+from ._paysafe import PaysafeIcon
 from ._interactjs import InteractjsIcon
 from ._sst import SstIcon
 from ._observable import ObservableIcon
@@ -1041,6 +1045,7 @@ from ._htcvive import HtcViveIcon
 from ._homeadvisor import HomeadvisorIcon
 from ._librariesdotio import LibrariesdotioIcon
 from ._gradleplaypublisher import GradlePlayPublisherIcon
+from ._macports import MacportsIcon
 from ._delphi import DelphiIcon
 from ._uber import UberIcon
 from ._coder import CoderIcon
@@ -1191,6 +1196,7 @@ from ._vestel import VestelIcon
 from ._podman import PodmanIcon
 from ._buysellads import BuyselladsIcon
 from ._studio3t import StudioThreeTIcon
+from ._padlet import PadletIcon
 from ._googleappsscript import GoogleAppsScriptIcon
 from ._smugmug import SmugmugIcon
 from ._webtrees import WebtreesIcon
@@ -1761,6 +1767,7 @@ from ._antv import AntvIcon
 from ._deutschewelle import DeutscheWelleIcon
 from ._planetscale import PlanetscaleIcon
 from ._aircall import AircallIcon
+from ._ada import AdaIcon
 from ._gatsby import GatsbyIcon
 from ._googlepubsub import GooglePubsubIcon
 from ._zigbee2mqtt import ZigbeeTwoMqttIcon
@@ -1957,6 +1964,7 @@ from ._subversion import SubversionIcon
 from ._dvc import DvcIcon
 from ._viadeo import ViadeoIcon
 from ._hostinger import HostingerIcon
+from ._revenuecat import RevenuecatIcon
 from ._libreofficedraw import LibreofficeDrawIcon
 from ._unacademy import UnacademyIcon
 from ._wikipedia import WikipediaIcon
@@ -2244,6 +2252,7 @@ from ._simpleicons import SimpleIconsIcon
 from ._coinbase import CoinbaseIcon
 from ._kyocera import KyoceraIcon
 from ._rootme import RootMeIcon
+from ._nodebb import NodebbIcon
 from ._tradingview import TradingviewIcon
 from ._seafile import SeafileIcon
 from ._googletasks import GoogleTasksIcon
@@ -2716,6 +2725,7 @@ from ._vauxhall import VauxhallIcon
 from ._spyderide import SpyderIdeIcon
 from ._hearth import HearthIcon
 from ._odoo import OdooIcon
+from ._nextbike import NextbikeIcon
 from ._netbsd import NetbsdIcon
 from ._grav import GravIcon
 from ._livechat import LivechatIcon
@@ -2845,6 +2855,7 @@ from ._opera import OperaIcon
 from ._alternativeto import AlternativetoIcon
 from ._strapi import StrapiIcon
 from ._vaultwarden import VaultwardenIcon
+from ._mezmo import MezmoIcon
 from ._bugatti import BugattiIcon
 from ._diagramsdotnet import DiagramsdotnetIcon
 from ._snyk import SnykIcon
@@ -3127,6 +3138,7 @@ from ._doi import DoiIcon
 from ._hexo import HexoIcon
 from ._inkdrop import InkdropIcon
 from ._cultura import CulturaIcon
+from ._qodo import QodoIcon
 from ._sonatype import SonatypeIcon
 from ._playstation3 import PlaystationThreeIcon
 from ._openaigym import OpenaiGymIcon
@@ -3245,6 +3257,7 @@ from ._circle import CircleIcon
 from ._flickr import FlickrIcon
 from ._linuxprofessionalinstitute import LinuxProfessionalInstituteIcon
 from ._trainerroad import TrainerroadIcon
+from ._what3words import WhatThreeWordsIcon
 from ._freetube import FreetubeIcon
 from ._chromewebstore import ChromeWebStoreIcon
 from ._gumtree import GumtreeIcon
@@ -3256,6 +3269,7 @@ from ._dassaultsystemes import DassaultSystemesIcon
 from ._qemu import QemuIcon
 from ._fi import FiIcon
 from ._accusoft import AccusoftIcon
+from ._discorddotjs import DiscorddotjsIcon
 from ._quickbooks import QuickbooksIcon
 from ._grunt import GruntIcon
 from ._telefonica import TelefonicaIcon
@@ -3422,6 +3436,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'unocss': UnocssIcon,
     'pingdom': PingdomIcon,
     'stagetimer': StagetimerIcon,
+    'avm': AvmIcon,
     'mullvad': MullvadIcon,
     'vitepress': VitepressIcon,
     'myget': MygetIcon,
@@ -3718,6 +3733,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'webex': WebexIcon,
     'redbull': RedBullIcon,
     'zilch': ZilchIcon,
+    'dolibarr': DolibarrIcon,
     'ios': IosIcon,
     'nestjs': NestjsIcon,
     'rocket': RocketIcon,
@@ -3957,6 +3973,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'jovian': JovianIcon,
     'iceland': IcelandIcon,
     'peerlist': PeerlistIcon,
+    'fritz': FritzIcon,
     'breaker': BreakerIcon,
     'eagle': EagleIcon,
     'phpstorm': PhpstormIcon,
@@ -4230,6 +4247,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'webdotde': WebdotdeIcon,
     'coderwall': CoderwallIcon,
     'tasmota': TasmotaIcon,
+    'paysafe': PaysafeIcon,
     'interactjs': InteractjsIcon,
     'sst': SstIcon,
     'observable': ObservableIcon,
@@ -4345,6 +4363,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'homeadvisor': HomeadvisorIcon,
     'librariesdotio': LibrariesdotioIcon,
     'gradleplaypublisher': GradlePlayPublisherIcon,
+    'macports': MacportsIcon,
     'delphi': DelphiIcon,
     'uber': UberIcon,
     'coder': CoderIcon,
@@ -4495,6 +4514,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'podman': PodmanIcon,
     'buysellads': BuyselladsIcon,
     'studio3t': StudioThreeTIcon,
+    'padlet': PadletIcon,
     'googleappsscript': GoogleAppsScriptIcon,
     'smugmug': SmugmugIcon,
     'webtrees': WebtreesIcon,
@@ -5063,6 +5083,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'deutschewelle': DeutscheWelleIcon,
     'planetscale': PlanetscaleIcon,
     'aircall': AircallIcon,
+    'ada': AdaIcon,
     'gatsby': GatsbyIcon,
     'googlepubsub': GooglePubsubIcon,
     'zigbee2mqtt': ZigbeeTwoMqttIcon,
@@ -5259,6 +5280,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'dvc': DvcIcon,
     'viadeo': ViadeoIcon,
     'hostinger': HostingerIcon,
+    'revenuecat': RevenuecatIcon,
     'libreofficedraw': LibreofficeDrawIcon,
     'unacademy': UnacademyIcon,
     'wikipedia': WikipediaIcon,
@@ -5546,6 +5568,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'coinbase': CoinbaseIcon,
     'kyocera': KyoceraIcon,
     'rootme': RootMeIcon,
+    'nodebb': NodebbIcon,
     'tradingview': TradingviewIcon,
     'seafile': SeafileIcon,
     'googletasks': GoogleTasksIcon,
@@ -6016,6 +6039,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'spyderide': SpyderIdeIcon,
     'hearth': HearthIcon,
     'odoo': OdooIcon,
+    'nextbike': NextbikeIcon,
     'netbsd': NetbsdIcon,
     'grav': GravIcon,
     'livechat': LivechatIcon,
@@ -6145,6 +6169,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'alternativeto': AlternativetoIcon,
     'strapi': StrapiIcon,
     'vaultwarden': VaultwardenIcon,
+    'mezmo': MezmoIcon,
     'bugatti': BugattiIcon,
     'diagramsdotnet': DiagramsdotnetIcon,
     'snyk': SnykIcon,
@@ -6427,6 +6452,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'hexo': HexoIcon,
     'inkdrop': InkdropIcon,
     'cultura': CulturaIcon,
+    'qodo': QodoIcon,
     'sonatype': SonatypeIcon,
     'playstation3': PlaystationThreeIcon,
     'openaigym': OpenaiGymIcon,
@@ -6545,6 +6571,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'flickr': FlickrIcon,
     'linuxprofessionalinstitute': LinuxProfessionalInstituteIcon,
     'trainerroad': TrainerroadIcon,
+    'what3words': WhatThreeWordsIcon,
     'freetube': FreetubeIcon,
     'chromewebstore': ChromeWebStoreIcon,
     'gumtree': GumtreeIcon,
@@ -6556,6 +6583,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'qemu': QemuIcon,
     'fi': FiIcon,
     'accusoft': AccusoftIcon,
+    'discorddotjs': DiscorddotjsIcon,
     'quickbooks': QuickbooksIcon,
     'grunt': GruntIcon,
     'telefonica': TelefonicaIcon,

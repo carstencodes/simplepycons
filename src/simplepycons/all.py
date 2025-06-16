@@ -118,6 +118,7 @@ from ._ferrari import FerrariIcon
 from ._unocss import UnocssIcon
 from ._pingdom import PingdomIcon
 from ._stagetimer import StagetimerIcon
+from ._avm import AvmIcon
 from ._mullvad import MullvadIcon
 from ._vitepress import VitepressIcon
 from ._myget import MygetIcon
@@ -414,6 +415,7 @@ from ._broadcom import BroadcomIcon
 from ._webex import WebexIcon
 from ._redbull import RedBullIcon
 from ._zilch import ZilchIcon
+from ._dolibarr import DolibarrIcon
 from ._ios import IosIcon
 from ._nestjs import NestjsIcon
 from ._rocket import RocketIcon
@@ -653,6 +655,7 @@ from ._eclipseide import EclipseIdeIcon
 from ._jovian import JovianIcon
 from ._iceland import IcelandIcon
 from ._peerlist import PeerlistIcon
+from ._fritz import FritzIcon
 from ._breaker import BreakerIcon
 from ._eagle import EagleIcon
 from ._phpstorm import PhpstormIcon
@@ -926,6 +929,7 @@ from ._transifex import TransifexIcon
 from ._webdotde import WebdotdeIcon
 from ._coderwall import CoderwallIcon
 from ._tasmota import TasmotaIcon
+from ._paysafe import PaysafeIcon
 from ._interactjs import InteractjsIcon
 from ._sst import SstIcon
 from ._observable import ObservableIcon
@@ -1041,6 +1045,7 @@ from ._htcvive import HtcViveIcon
 from ._homeadvisor import HomeadvisorIcon
 from ._librariesdotio import LibrariesdotioIcon
 from ._gradleplaypublisher import GradlePlayPublisherIcon
+from ._macports import MacportsIcon
 from ._delphi import DelphiIcon
 from ._uber import UberIcon
 from ._coder import CoderIcon
@@ -1191,6 +1196,7 @@ from ._vestel import VestelIcon
 from ._podman import PodmanIcon
 from ._buysellads import BuyselladsIcon
 from ._studio3t import StudioThreeTIcon
+from ._padlet import PadletIcon
 from ._googleappsscript import GoogleAppsScriptIcon
 from ._smugmug import SmugmugIcon
 from ._webtrees import WebtreesIcon
@@ -1761,6 +1767,7 @@ from ._antv import AntvIcon
 from ._deutschewelle import DeutscheWelleIcon
 from ._planetscale import PlanetscaleIcon
 from ._aircall import AircallIcon
+from ._ada import AdaIcon
 from ._gatsby import GatsbyIcon
 from ._googlepubsub import GooglePubsubIcon
 from ._zigbee2mqtt import ZigbeeTwoMqttIcon
@@ -1957,6 +1964,7 @@ from ._subversion import SubversionIcon
 from ._dvc import DvcIcon
 from ._viadeo import ViadeoIcon
 from ._hostinger import HostingerIcon
+from ._revenuecat import RevenuecatIcon
 from ._libreofficedraw import LibreofficeDrawIcon
 from ._unacademy import UnacademyIcon
 from ._wikipedia import WikipediaIcon
@@ -2244,6 +2252,7 @@ from ._simpleicons import SimpleIconsIcon
 from ._coinbase import CoinbaseIcon
 from ._kyocera import KyoceraIcon
 from ._rootme import RootMeIcon
+from ._nodebb import NodebbIcon
 from ._tradingview import TradingviewIcon
 from ._seafile import SeafileIcon
 from ._googletasks import GoogleTasksIcon
@@ -2716,6 +2725,7 @@ from ._vauxhall import VauxhallIcon
 from ._spyderide import SpyderIdeIcon
 from ._hearth import HearthIcon
 from ._odoo import OdooIcon
+from ._nextbike import NextbikeIcon
 from ._netbsd import NetbsdIcon
 from ._grav import GravIcon
 from ._livechat import LivechatIcon
@@ -2845,6 +2855,7 @@ from ._opera import OperaIcon
 from ._alternativeto import AlternativetoIcon
 from ._strapi import StrapiIcon
 from ._vaultwarden import VaultwardenIcon
+from ._mezmo import MezmoIcon
 from ._bugatti import BugattiIcon
 from ._diagramsdotnet import DiagramsdotnetIcon
 from ._snyk import SnykIcon
@@ -3127,6 +3138,7 @@ from ._doi import DoiIcon
 from ._hexo import HexoIcon
 from ._inkdrop import InkdropIcon
 from ._cultura import CulturaIcon
+from ._qodo import QodoIcon
 from ._sonatype import SonatypeIcon
 from ._playstation3 import PlaystationThreeIcon
 from ._openaigym import OpenaiGymIcon
@@ -3245,6 +3257,7 @@ from ._circle import CircleIcon
 from ._flickr import FlickrIcon
 from ._linuxprofessionalinstitute import LinuxProfessionalInstituteIcon
 from ._trainerroad import TrainerroadIcon
+from ._what3words import WhatThreeWordsIcon
 from ._freetube import FreetubeIcon
 from ._chromewebstore import ChromeWebStoreIcon
 from ._gumtree import GumtreeIcon
@@ -3256,6 +3269,7 @@ from ._dassaultsystemes import DassaultSystemesIcon
 from ._qemu import QemuIcon
 from ._fi import FiIcon
 from ._accusoft import AccusoftIcon
+from ._discorddotjs import DiscorddotjsIcon
 from ._quickbooks import QuickbooksIcon
 from ._grunt import GruntIcon
 from ._telefonica import TelefonicaIcon
@@ -3422,6 +3436,7 @@ ALL_ICONS: "Final[list[str]]" = [
     UnocssIcon.__name__,
     PingdomIcon.__name__,
     StagetimerIcon.__name__,
+    AvmIcon.__name__,
     MullvadIcon.__name__,
     VitepressIcon.__name__,
     MygetIcon.__name__,
@@ -3718,6 +3733,7 @@ ALL_ICONS: "Final[list[str]]" = [
     WebexIcon.__name__,
     RedBullIcon.__name__,
     ZilchIcon.__name__,
+    DolibarrIcon.__name__,
     IosIcon.__name__,
     NestjsIcon.__name__,
     RocketIcon.__name__,
@@ -3957,6 +3973,7 @@ ALL_ICONS: "Final[list[str]]" = [
     JovianIcon.__name__,
     IcelandIcon.__name__,
     PeerlistIcon.__name__,
+    FritzIcon.__name__,
     BreakerIcon.__name__,
     EagleIcon.__name__,
     PhpstormIcon.__name__,
@@ -4230,6 +4247,7 @@ ALL_ICONS: "Final[list[str]]" = [
     WebdotdeIcon.__name__,
     CoderwallIcon.__name__,
     TasmotaIcon.__name__,
+    PaysafeIcon.__name__,
     InteractjsIcon.__name__,
     SstIcon.__name__,
     ObservableIcon.__name__,
@@ -4345,6 +4363,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HomeadvisorIcon.__name__,
     LibrariesdotioIcon.__name__,
     GradlePlayPublisherIcon.__name__,
+    MacportsIcon.__name__,
     DelphiIcon.__name__,
     UberIcon.__name__,
     CoderIcon.__name__,
@@ -4495,6 +4514,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PodmanIcon.__name__,
     BuyselladsIcon.__name__,
     StudioThreeTIcon.__name__,
+    PadletIcon.__name__,
     GoogleAppsScriptIcon.__name__,
     SmugmugIcon.__name__,
     WebtreesIcon.__name__,
@@ -5063,6 +5083,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DeutscheWelleIcon.__name__,
     PlanetscaleIcon.__name__,
     AircallIcon.__name__,
+    AdaIcon.__name__,
     GatsbyIcon.__name__,
     GooglePubsubIcon.__name__,
     ZigbeeTwoMqttIcon.__name__,
@@ -5259,6 +5280,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DvcIcon.__name__,
     ViadeoIcon.__name__,
     HostingerIcon.__name__,
+    RevenuecatIcon.__name__,
     LibreofficeDrawIcon.__name__,
     UnacademyIcon.__name__,
     WikipediaIcon.__name__,
@@ -5546,6 +5568,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CoinbaseIcon.__name__,
     KyoceraIcon.__name__,
     RootMeIcon.__name__,
+    NodebbIcon.__name__,
     TradingviewIcon.__name__,
     SeafileIcon.__name__,
     GoogleTasksIcon.__name__,
@@ -6016,6 +6039,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SpyderIdeIcon.__name__,
     HearthIcon.__name__,
     OdooIcon.__name__,
+    NextbikeIcon.__name__,
     NetbsdIcon.__name__,
     GravIcon.__name__,
     LivechatIcon.__name__,
@@ -6145,6 +6169,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AlternativetoIcon.__name__,
     StrapiIcon.__name__,
     VaultwardenIcon.__name__,
+    MezmoIcon.__name__,
     BugattiIcon.__name__,
     DiagramsdotnetIcon.__name__,
     SnykIcon.__name__,
@@ -6427,6 +6452,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HexoIcon.__name__,
     InkdropIcon.__name__,
     CulturaIcon.__name__,
+    QodoIcon.__name__,
     SonatypeIcon.__name__,
     PlaystationThreeIcon.__name__,
     OpenaiGymIcon.__name__,
@@ -6545,6 +6571,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FlickrIcon.__name__,
     LinuxProfessionalInstituteIcon.__name__,
     TrainerroadIcon.__name__,
+    WhatThreeWordsIcon.__name__,
     FreetubeIcon.__name__,
     ChromeWebStoreIcon.__name__,
     GumtreeIcon.__name__,
@@ -6556,6 +6583,7 @@ ALL_ICONS: "Final[list[str]]" = [
     QemuIcon.__name__,
     FiIcon.__name__,
     AccusoftIcon.__name__,
+    DiscorddotjsIcon.__name__,
     QuickbooksIcon.__name__,
     GruntIcon.__name__,
     TelefonicaIcon.__name__,

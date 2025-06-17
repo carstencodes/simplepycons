@@ -204,6 +204,20 @@ icons_by_titles = {normalize_name(i["title"], i.get("slug", None)): i for i in i
 
 icons_files = icons_dir.glob("*.svg")
 
+alternative_class_template = Template(
+    """
+
+class $class_name($name):
+    \"\"\"$class_name is an alternative implementation name for $name. 
+          It is deprecated and may be removed in future versions.\"\"\"
+    def __init__(self, *args, **kwargs) -> "None":
+        import warnings
+        warnings.warn("The usage of '$class_name' is discouraged and may be removed in future major versions. Use '$name' instead.", DeprecationWarning)
+        super().__init__(*args, **kwargs)
+
+"""
+)
+
 class_template = Template(
     """# pylint: disable=C0302
 # Justification: Code is generated
@@ -276,10 +290,20 @@ all_icons = {}
 missing_info = False
 class_names = {}
 
-for icon_file in icons_files:
+sorted_icon_titles = list(icons_by_titles.keys())
+
+files_by_stem = {f.stem: f for f in icons_files}
+
+for icon_name in sorted_icon_titles:
+    
+    if icon_name not in files_by_stem:
+        missing_info = True
+        continue
+
+    icon_file = files_by_stem[icon_name]
+
     with (open(str(icon_file), "r") as f):
         icon_text = f.read()
-        icon_name = icon_file.stem
 
         canonical_icon_name = icon_name.lower()
 
@@ -288,9 +312,11 @@ for icon_file in icons_files:
             "hex": "MISSING",
             "source": "unknown",
             "guidelines": "NONE",
+            "slug": None,
             "license_type": "",
             "license_url": "",
             "aliases": [],
+            "alternative_class_name": None
         }
 
         icon_text = format_icon_text(icon_text)
@@ -316,6 +342,8 @@ for icon_file in icons_files:
                     if key in icons_by_titles[canonical_icon_name]["license"]:
                         icons_by_titles[canonical_icon_name][f"license_{key}"] = hard_line_break(
                             all_icons[canonical_icon_name]["license"][key])
+            if "slug" in icons_by_titles[canonical_icon_name]:
+                all_icons[canonical_icon_name]["slug"] = icons_by_titles[canonical_icon_name]["slug"]
         else:
             print(f"Failed to get icon meta data for {canonical_icon_name} from icon file {icon_file}", file=stderr)
             missing_info = True
@@ -331,6 +359,16 @@ for icon_file in icons_files:
                 f"  Trying to generate {class_name} for {icon_file}",
                 file=stderr)
             ctr += 1
+
+        if ctr > 1 and all_icons[canonical_icon_name]["slug"] is not None:
+            slug: "str" = all_icons[canonical_icon_name]["slug"]
+            alt_name = "".join([s.title() for s in slug.split("_")]) + "Icon"
+            all_icons[canonical_icon_name]["alternative_class_name"] = alt_name
+            if alt_name not in class_names:
+                print(
+                    f"class {alt_name} will also be generated for {icon_file}",
+                    file=stderr)
+                class_names[alt_name] = icon_file
 
         all_icons[canonical_icon_name]["class_name"] = class_name
         class_names[class_name] = icon_file
@@ -360,9 +398,17 @@ for f_name, icon_data in all_icons.items():
     with file_path.open("w") as f:
         add_license_header(f)
         f.write(module_doc_template.substitute(**icon_data))
-        f.write(class_template.substitute(**icon_data))
-
-    generated.append((f"_{name}", icon_data["class_name"]))
+        if "alternative_class_name" in icon_data and icon_data["alternative_class_name"] is not None:
+            class_name = icon_data["class_name"]
+            icon_data["class_name"] = icon_data["alternative_class_name"]
+            icon_data["alternative_class_name"] = class_name
+            del class_name
+            f.write(class_template.substitute(**icon_data))
+            f.write(alternative_class_template.substitute(name=icon_data["class_name"], class_name=icon_data["alternative_class_name"]))
+            generated.append((f"_{name}", icon_data["alternative_class_name"], icon_data["class_name"]))
+        else:
+            f.write(class_template.substitute(**icon_data))
+            generated.append((f"_{name}", icon_data["class_name"]))
 
 all_icons_file = src_package_dir / "all.py"
 
@@ -379,7 +425,9 @@ with all_icons_file.open("w") as f:
     f.write("from typing import TYPE_CHECKING\n")
     f.write("\n")
     for data in generated:
-        f.write(import_line_break(f"from .{data[0]} import {data[1]}\n"))
+        imports_data = data[1:]
+        imports = ",".join(imports_data)
+        f.write(import_line_break(f"from .{data[0]} import {imports}\n"))
 
     f.write("\n")
 
@@ -390,7 +438,8 @@ with all_icons_file.open("w") as f:
 
     f.write("ALL_ICONS: \"Final[list[str]]\" = [\n")
     for data in generated:
-        f.write(f"    {data[1]}.__name__,\n")
+        for name in data[1:]:
+            f.write(f"    {name}.__name__,\n")
     f.write("]\n\n")
     f.write("__all__: \"Final[list[str]]\" = [\"ALL_ICONS\"] + ALL_ICONS\n")
 
@@ -404,7 +453,7 @@ with registry_file.open("w") as f:
     f.write("from typing import TYPE_CHECKING\n")
     f.write("from .icons import IconCollection\n")
     for data in generated:
-        f.write(import_line_break(f"from .{data[0]} import {data[1]}\n"))
+        f.write(import_line_break(f"from .{data[0]} import {data[-1]}\n"))
 
     f.write("\n")
 
@@ -415,7 +464,7 @@ with registry_file.open("w") as f:
 
     f.write("ICONS: \"Final[IconCollection]\" = IconCollection({\n")
     for data in generated:
-        f.write(f"    '{data[0].lstrip('_')}': {data[1]},\n")
+        f.write(f"    '{data[0].lstrip('_')}': {data[-1]},\n")
     f.write("})\n\n")
     f.write("__all__: \"Final[list[str]]\" = [\"ICONS\"]\n")
 

@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class HiveIcon1(Icon):
+class HiveIcon(Icon):
     """"""
     @property
     def name(self) -> "str":

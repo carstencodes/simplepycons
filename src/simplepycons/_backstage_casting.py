@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class BackstageIcon1(Icon):
+class BackstageCastingIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
@@ -75,3 +75,13 @@ class BackstageIcon1(Icon):
     @property
     def aliases(self) -> "Iterable[str]":
         yield from []
+
+
+class BackstageIcon1(BackstageCastingIcon):
+    """BackstageIcon1 is an alternative implementation name for BackstageCastingIcon. 
+          It is deprecated and may be removed in future versions."""
+    def __init__(self, *args, **kwargs) -> "None":
+        import warnings
+        warnings.warn("The usage of 'BackstageIcon1' is discouraged and may be removed in future major versions. Use 'BackstageCastingIcon' instead.", DeprecationWarning)
+        super().__init__(*args, **kwargs)
+

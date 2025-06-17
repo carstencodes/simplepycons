@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class UniqloIcon(Icon):
+class UniqloJaIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
@@ -79,3 +79,13 @@ class UniqloIcon(Icon):
     @property
     def aliases(self) -> "Iterable[str]":
         yield from []
+
+
+class UniqloIcon1(UniqloJaIcon):
+    """UniqloIcon1 is an alternative implementation name for UniqloJaIcon. 
+          It is deprecated and may be removed in future versions."""
+    def __init__(self, *args, **kwargs) -> "None":
+        import warnings
+        warnings.warn("The usage of 'UniqloIcon1' is discouraged and may be removed in future major versions. Use 'UniqloJaIcon' instead.", DeprecationWarning)
+        super().__init__(*args, **kwargs)
+

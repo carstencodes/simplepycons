@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class MongooseIcon1(Icon):
+class MongoosedotwsIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
@@ -94,3 +94,13 @@ class MongooseIcon1(Icon):
     @property
     def aliases(self) -> "Iterable[str]":
         yield from []
+
+
+class MongooseIcon1(MongoosedotwsIcon):
+    """MongooseIcon1 is an alternative implementation name for MongoosedotwsIcon. 
+          It is deprecated and may be removed in future versions."""
+    def __init__(self, *args, **kwargs) -> "None":
+        import warnings
+        warnings.warn("The usage of 'MongooseIcon1' is discouraged and may be removed in future major versions. Use 'MongoosedotwsIcon' instead.", DeprecationWarning)
+        super().__init__(*args, **kwargs)
+

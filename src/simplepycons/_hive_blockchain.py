@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class HiveIcon(Icon):
+class HiveBlockchainIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
@@ -83,3 +83,13 @@ class HiveIcon(Icon):
     @property
     def aliases(self) -> "Iterable[str]":
         yield from []
+
+
+class HiveIcon1(HiveBlockchainIcon):
+    """HiveIcon1 is an alternative implementation name for HiveBlockchainIcon. 
+          It is deprecated and may be removed in future versions."""
+    def __init__(self, *args, **kwargs) -> "None":
+        import warnings
+        warnings.warn("The usage of 'HiveIcon1' is discouraged and may be removed in future major versions. Use 'HiveBlockchainIcon' instead.", DeprecationWarning)
+        super().__init__(*args, **kwargs)
+

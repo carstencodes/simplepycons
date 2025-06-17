@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class UniqloIcon1(Icon):
+class UniqloIcon(Icon):
     """"""
     @property
     def name(self) -> "str":

@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class SpringIcon1(Icon):
+class SpringCreatorsIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
@@ -86,3 +86,13 @@ class SpringIcon1(Icon):
     @property
     def aliases(self) -> "Iterable[str]":
         yield from []
+
+
+class SpringIcon1(SpringCreatorsIcon):
+    """SpringIcon1 is an alternative implementation name for SpringCreatorsIcon. 
+          It is deprecated and may be removed in future versions."""
+    def __init__(self, *args, **kwargs) -> "None":
+        import warnings
+        warnings.warn("The usage of 'SpringIcon1' is discouraged and may be removed in future major versions. Use 'SpringCreatorsIcon' instead.", DeprecationWarning)
+        super().__init__(*args, **kwargs)
+

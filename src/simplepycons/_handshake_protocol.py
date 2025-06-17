@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class HandshakeIcon1(Icon):
+class HandshakeProtocolIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
@@ -87,3 +87,13 @@ class HandshakeIcon1(Icon):
     @property
     def aliases(self) -> "Iterable[str]":
         yield from []
+
+
+class HandshakeIcon1(HandshakeProtocolIcon):
+    """HandshakeIcon1 is an alternative implementation name for HandshakeProtocolIcon. 
+          It is deprecated and may be removed in future versions."""
+    def __init__(self, *args, **kwargs) -> "None":
+        import warnings
+        warnings.warn("The usage of 'HandshakeIcon1' is discouraged and may be removed in future major versions. Use 'HandshakeProtocolIcon' instead.", DeprecationWarning)
+        super().__init__(*args, **kwargs)
+

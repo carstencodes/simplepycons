@@ -51,6 +51,7 @@ from ._accuweather import AccuweatherIcon
 from ._acer import AcerIcon
 from ._acm import AcmIcon
 from ._actigraph import ActigraphIcon
+from ._activeloop import ActiveloopIcon
 from ._activision import ActivisionIcon
 from ._activitypub import ActivitypubIcon
 from ._actix import ActixIcon
@@ -58,6 +59,7 @@ from ._actualbudget import ActualBudgetIcon
 from ._acura import AcuraIcon
 from ._ada import AdaIcon
 from ._adafruit import AdafruitIcon
+from ._adaway import AdawayIcon
 from ._adblock import AdblockIcon
 from ._adblockplus import AdblockPlusIcon
 from ._addydotio import AddydotioIcon
@@ -177,6 +179,7 @@ from ._apachecloudstack import ApacheCloudstackIcon
 from ._apachecordova import ApacheCordovaIcon
 from ._apachecouchdb import ApacheCouchdbIcon
 from ._apachedolphinscheduler import ApacheDolphinschedulerIcon
+from ._apachedoris import ApacheDorisIcon
 from ._apachedruid import ApacheDruidIcon
 from ._apacheecharts import ApacheEchartsIcon
 from ._apacheflink import ApacheFlinkIcon
@@ -338,6 +341,7 @@ from ._bentobox import BentoboxIcon
 from ._bentoml import BentomlIcon
 from ._bereal import BerealIcon
 from ._betfair import BetfairIcon
+from ._betterauth import BetterAuthIcon
 from ._betterstack import BetterStackIcon
 from ._betterdiscord import BetterdiscordIcon
 from ._bevy import BevyIcon
@@ -389,6 +393,7 @@ from ._bohemiainteractive import BohemiaInteractiveIcon
 from ._bombardier import BombardierIcon
 from ._bookalope import BookalopeIcon
 from ._bookbub import BookbubIcon
+from ._bookingdotcom import BookingdotcomIcon
 from ._bookmeter import BookmeterIcon
 from ._bookmyshow import BookmyshowIcon
 from ._bookstack import BookstackIcon
@@ -432,6 +437,7 @@ from ._bukalapak import BukalapakIcon
 from ._bulma import BulmaIcon
 from ._bun import BunIcon
 from ._bungie import BungieIcon
+from ._bunnydotnet import BunnydotnetIcon
 from ._bunq import BunqIcon
 from ._burgerking import BurgerKingIcon
 from ._burpsuite import BurpSuiteIcon
@@ -539,6 +545,7 @@ from ._clockify import ClockifyIcon
 from ._clojure import ClojureIcon
 from ._cloud66 import CloudSixtySixIcon
 from ._cloudfoundry import CloudFoundryIcon
+from ._cloudnativebuild import CloudNativeBuildIcon
 from ._cloudbees import CloudbeesIcon
 from ._cloudcannon import CloudcannonIcon
 from ._cloudera import ClouderaIcon
@@ -1255,6 +1262,7 @@ from ._hatenabookmark import HatenaBookmarkIcon
 from ._haveibeenpwned import HaveIBeenPwnedIcon
 from ._havells import HavellsIcon
 from ._haxe import HaxeIcon
+from ._haystack import HaystackIcon
 from ._hbo import HboIcon
 from ._hbomax import HboMaxIcon
 from ._hcl import HclIcon
@@ -1512,6 +1520,7 @@ from ._keepachangelog import KeepAChangelogIcon
 from ._keepassxc import KeepassxcIcon
 from ._keeper import KeeperIcon
 from ._keeweb import KeewebIcon
+from ._kenmei import KenmeiIcon
 from ._kentico import KenticoIcon
 from ._keras import KerasIcon
 from ._keybase import KeybaseIcon
@@ -1816,6 +1825,7 @@ from ._minutemailer import MinutemailerIcon
 from ._miraheze import MirahezeIcon
 from ._miro import MiroIcon
 from ._misskey import MisskeyIcon
+from ._mistralai import MistralAiIcon
 from ._mitsubishi import MitsubishiIcon
 from ._mix import MixIcon
 from ._mixcloud import MixcloudIcon
@@ -1876,6 +1886,7 @@ from ._mxlinux import MxLinuxIcon
 from ._myanimelist import MyanimelistIcon
 from ._myget import MygetIcon
 from ._myob import MyobIcon
+from ._myshows import MyshowsIcon
 from ._myspace import MyspaceIcon
 from ._mysql import MysqlIcon
 from ._n26 import NTwentySixIcon
@@ -3070,6 +3081,7 @@ from ._vagrant import VagrantIcon
 from ._vala import ValaIcon
 from ._valorant import ValorantIcon
 from ._valve import ValveIcon
+from ._vanillaextract import VanillaExtractIcon
 from ._vapor import VaporIcon
 from ._vault import VaultIcon
 from ._vaultwarden import VaultwardenIcon
@@ -3369,6 +3381,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AcerIcon.__name__,
     AcmIcon.__name__,
     ActigraphIcon.__name__,
+    ActiveloopIcon.__name__,
     ActivisionIcon.__name__,
     ActivitypubIcon.__name__,
     ActixIcon.__name__,
@@ -3376,6 +3389,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AcuraIcon.__name__,
     AdaIcon.__name__,
     AdafruitIcon.__name__,
+    AdawayIcon.__name__,
     AdblockIcon.__name__,
     AdblockPlusIcon.__name__,
     AddydotioIcon.__name__,
@@ -3495,6 +3509,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ApacheCordovaIcon.__name__,
     ApacheCouchdbIcon.__name__,
     ApacheDolphinschedulerIcon.__name__,
+    ApacheDorisIcon.__name__,
     ApacheDruidIcon.__name__,
     ApacheEchartsIcon.__name__,
     ApacheFlinkIcon.__name__,
@@ -3657,6 +3672,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BentomlIcon.__name__,
     BerealIcon.__name__,
     BetfairIcon.__name__,
+    BetterAuthIcon.__name__,
     BetterStackIcon.__name__,
     BetterdiscordIcon.__name__,
     BevyIcon.__name__,
@@ -3708,6 +3724,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BombardierIcon.__name__,
     BookalopeIcon.__name__,
     BookbubIcon.__name__,
+    BookingdotcomIcon.__name__,
     BookmeterIcon.__name__,
     BookmyshowIcon.__name__,
     BookstackIcon.__name__,
@@ -3751,6 +3768,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BulmaIcon.__name__,
     BunIcon.__name__,
     BungieIcon.__name__,
+    BunnydotnetIcon.__name__,
     BunqIcon.__name__,
     BurgerKingIcon.__name__,
     BurpSuiteIcon.__name__,
@@ -3858,6 +3876,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ClojureIcon.__name__,
     CloudSixtySixIcon.__name__,
     CloudFoundryIcon.__name__,
+    CloudNativeBuildIcon.__name__,
     CloudbeesIcon.__name__,
     CloudcannonIcon.__name__,
     ClouderaIcon.__name__,
@@ -4571,6 +4590,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HaveIBeenPwnedIcon.__name__,
     HavellsIcon.__name__,
     HaxeIcon.__name__,
+    HaystackIcon.__name__,
     HboIcon.__name__,
     HboMaxIcon.__name__,
     HclIcon.__name__,
@@ -4829,6 +4849,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KeepassxcIcon.__name__,
     KeeperIcon.__name__,
     KeewebIcon.__name__,
+    KenmeiIcon.__name__,
     KenticoIcon.__name__,
     KerasIcon.__name__,
     KeybaseIcon.__name__,
@@ -5133,6 +5154,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MirahezeIcon.__name__,
     MiroIcon.__name__,
     MisskeyIcon.__name__,
+    MistralAiIcon.__name__,
     MitsubishiIcon.__name__,
     MixIcon.__name__,
     MixcloudIcon.__name__,
@@ -5194,6 +5216,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MyanimelistIcon.__name__,
     MygetIcon.__name__,
     MyobIcon.__name__,
+    MyshowsIcon.__name__,
     MyspaceIcon.__name__,
     MysqlIcon.__name__,
     NTwentySixIcon.__name__,
@@ -6390,6 +6413,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ValaIcon.__name__,
     ValorantIcon.__name__,
     ValveIcon.__name__,
+    VanillaExtractIcon.__name__,
     VaporIcon.__name__,
     VaultIcon.__name__,
     VaultwardenIcon.__name__,

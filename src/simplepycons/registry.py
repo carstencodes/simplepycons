@@ -51,6 +51,7 @@ from ._accuweather import AccuweatherIcon
 from ._acer import AcerIcon
 from ._acm import AcmIcon
 from ._actigraph import ActigraphIcon
+from ._activeloop import ActiveloopIcon
 from ._activision import ActivisionIcon
 from ._activitypub import ActivitypubIcon
 from ._actix import ActixIcon
@@ -58,6 +59,7 @@ from ._actualbudget import ActualBudgetIcon
 from ._acura import AcuraIcon
 from ._ada import AdaIcon
 from ._adafruit import AdafruitIcon
+from ._adaway import AdawayIcon
 from ._adblock import AdblockIcon
 from ._adblockplus import AdblockPlusIcon
 from ._addydotio import AddydotioIcon
@@ -177,6 +179,7 @@ from ._apachecloudstack import ApacheCloudstackIcon
 from ._apachecordova import ApacheCordovaIcon
 from ._apachecouchdb import ApacheCouchdbIcon
 from ._apachedolphinscheduler import ApacheDolphinschedulerIcon
+from ._apachedoris import ApacheDorisIcon
 from ._apachedruid import ApacheDruidIcon
 from ._apacheecharts import ApacheEchartsIcon
 from ._apacheflink import ApacheFlinkIcon
@@ -338,6 +341,7 @@ from ._bentobox import BentoboxIcon
 from ._bentoml import BentomlIcon
 from ._bereal import BerealIcon
 from ._betfair import BetfairIcon
+from ._betterauth import BetterAuthIcon
 from ._betterstack import BetterStackIcon
 from ._betterdiscord import BetterdiscordIcon
 from ._bevy import BevyIcon
@@ -389,6 +393,7 @@ from ._bohemiainteractive import BohemiaInteractiveIcon
 from ._bombardier import BombardierIcon
 from ._bookalope import BookalopeIcon
 from ._bookbub import BookbubIcon
+from ._bookingdotcom import BookingdotcomIcon
 from ._bookmeter import BookmeterIcon
 from ._bookmyshow import BookmyshowIcon
 from ._bookstack import BookstackIcon
@@ -432,6 +437,7 @@ from ._bukalapak import BukalapakIcon
 from ._bulma import BulmaIcon
 from ._bun import BunIcon
 from ._bungie import BungieIcon
+from ._bunnydotnet import BunnydotnetIcon
 from ._bunq import BunqIcon
 from ._burgerking import BurgerKingIcon
 from ._burpsuite import BurpSuiteIcon
@@ -539,6 +545,7 @@ from ._clockify import ClockifyIcon
 from ._clojure import ClojureIcon
 from ._cloud66 import CloudSixtySixIcon
 from ._cloudfoundry import CloudFoundryIcon
+from ._cloudnativebuild import CloudNativeBuildIcon
 from ._cloudbees import CloudbeesIcon
 from ._cloudcannon import CloudcannonIcon
 from ._cloudera import ClouderaIcon
@@ -1255,6 +1262,7 @@ from ._hatenabookmark import HatenaBookmarkIcon
 from ._haveibeenpwned import HaveIBeenPwnedIcon
 from ._havells import HavellsIcon
 from ._haxe import HaxeIcon
+from ._haystack import HaystackIcon
 from ._hbo import HboIcon
 from ._hbomax import HboMaxIcon
 from ._hcl import HclIcon
@@ -1512,6 +1520,7 @@ from ._keepachangelog import KeepAChangelogIcon
 from ._keepassxc import KeepassxcIcon
 from ._keeper import KeeperIcon
 from ._keeweb import KeewebIcon
+from ._kenmei import KenmeiIcon
 from ._kentico import KenticoIcon
 from ._keras import KerasIcon
 from ._keybase import KeybaseIcon
@@ -1816,6 +1825,7 @@ from ._minutemailer import MinutemailerIcon
 from ._miraheze import MirahezeIcon
 from ._miro import MiroIcon
 from ._misskey import MisskeyIcon
+from ._mistralai import MistralAiIcon
 from ._mitsubishi import MitsubishiIcon
 from ._mix import MixIcon
 from ._mixcloud import MixcloudIcon
@@ -1876,6 +1886,7 @@ from ._mxlinux import MxLinuxIcon
 from ._myanimelist import MyanimelistIcon
 from ._myget import MygetIcon
 from ._myob import MyobIcon
+from ._myshows import MyshowsIcon
 from ._myspace import MyspaceIcon
 from ._mysql import MysqlIcon
 from ._n26 import NTwentySixIcon
@@ -3070,6 +3081,7 @@ from ._vagrant import VagrantIcon
 from ._vala import ValaIcon
 from ._valorant import ValorantIcon
 from ._valve import ValveIcon
+from ._vanillaextract import VanillaExtractIcon
 from ._vapor import VaporIcon
 from ._vault import VaultIcon
 from ._vaultwarden import VaultwardenIcon
@@ -3369,6 +3381,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'acer': AcerIcon,
     'acm': AcmIcon,
     'actigraph': ActigraphIcon,
+    'activeloop': ActiveloopIcon,
     'activision': ActivisionIcon,
     'activitypub': ActivitypubIcon,
     'actix': ActixIcon,
@@ -3376,6 +3389,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'acura': AcuraIcon,
     'ada': AdaIcon,
     'adafruit': AdafruitIcon,
+    'adaway': AdawayIcon,
     'adblock': AdblockIcon,
     'adblockplus': AdblockPlusIcon,
     'addydotio': AddydotioIcon,
@@ -3495,6 +3509,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'apachecordova': ApacheCordovaIcon,
     'apachecouchdb': ApacheCouchdbIcon,
     'apachedolphinscheduler': ApacheDolphinschedulerIcon,
+    'apachedoris': ApacheDorisIcon,
     'apachedruid': ApacheDruidIcon,
     'apacheecharts': ApacheEchartsIcon,
     'apacheflink': ApacheFlinkIcon,
@@ -3656,6 +3671,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'bentoml': BentomlIcon,
     'bereal': BerealIcon,
     'betfair': BetfairIcon,
+    'betterauth': BetterAuthIcon,
     'betterstack': BetterStackIcon,
     'betterdiscord': BetterdiscordIcon,
     'bevy': BevyIcon,
@@ -3707,6 +3723,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'bombardier': BombardierIcon,
     'bookalope': BookalopeIcon,
     'bookbub': BookbubIcon,
+    'bookingdotcom': BookingdotcomIcon,
     'bookmeter': BookmeterIcon,
     'bookmyshow': BookmyshowIcon,
     'bookstack': BookstackIcon,
@@ -3750,6 +3767,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'bulma': BulmaIcon,
     'bun': BunIcon,
     'bungie': BungieIcon,
+    'bunnydotnet': BunnydotnetIcon,
     'bunq': BunqIcon,
     'burgerking': BurgerKingIcon,
     'burpsuite': BurpSuiteIcon,
@@ -3857,6 +3875,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'clojure': ClojureIcon,
     'cloud66': CloudSixtySixIcon,
     'cloudfoundry': CloudFoundryIcon,
+    'cloudnativebuild': CloudNativeBuildIcon,
     'cloudbees': CloudbeesIcon,
     'cloudcannon': CloudcannonIcon,
     'cloudera': ClouderaIcon,
@@ -4569,6 +4588,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'haveibeenpwned': HaveIBeenPwnedIcon,
     'havells': HavellsIcon,
     'haxe': HaxeIcon,
+    'haystack': HaystackIcon,
     'hbo': HboIcon,
     'hbomax': HboMaxIcon,
     'hcl': HclIcon,
@@ -4826,6 +4846,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'keepassxc': KeepassxcIcon,
     'keeper': KeeperIcon,
     'keeweb': KeewebIcon,
+    'kenmei': KenmeiIcon,
     'kentico': KenticoIcon,
     'keras': KerasIcon,
     'keybase': KeybaseIcon,
@@ -5130,6 +5151,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'miraheze': MirahezeIcon,
     'miro': MiroIcon,
     'misskey': MisskeyIcon,
+    'mistralai': MistralAiIcon,
     'mitsubishi': MitsubishiIcon,
     'mix': MixIcon,
     'mixcloud': MixcloudIcon,
@@ -5190,6 +5212,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'myanimelist': MyanimelistIcon,
     'myget': MygetIcon,
     'myob': MyobIcon,
+    'myshows': MyshowsIcon,
     'myspace': MyspaceIcon,
     'mysql': MysqlIcon,
     'n26': NTwentySixIcon,
@@ -6384,6 +6407,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'vala': ValaIcon,
     'valorant': ValorantIcon,
     'valve': ValveIcon,
+    'vanillaextract': VanillaExtractIcon,
     'vapor': VaporIcon,
     'vault': VaultIcon,
     'vaultwarden': VaultwardenIcon,

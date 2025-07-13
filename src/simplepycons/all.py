@@ -410,6 +410,7 @@ from ._bower import BowerIcon
 from ._box import BoxIcon
 from ._boxysvg import BoxySvgIcon
 from ._braintree import BraintreeIcon
+from ._braintrust import BraintrustIcon
 from ._brandfetch import BrandfetchIcon
 from ._brandfolder import BrandfolderIcon
 from ._brave import BraveIcon
@@ -792,6 +793,7 @@ from ._dogecoin import DogecoinIcon
 from ._doi import DoiIcon
 from ._dolby import DolbyIcon
 from ._dolibarr import DolibarrIcon
+from ._dolphin import DolphinIcon
 from ._doordash import DoordashIcon
 from ._dota2 import DotaTwoIcon
 from ._douban import DoubanIcon
@@ -878,6 +880,7 @@ from ._emlakjet import EmlakjetIcon
 from ._endeavouros import EndeavourosIcon
 from ._enpass import EnpassIcon
 from ._ens import EnsIcon
+from ._ente import EnteIcon
 from ._enterprisedb import EnterprisedbIcon
 from ._envato import EnvatoIcon
 from ._envoyproxy import EnvoyProxyIcon
@@ -1197,6 +1200,7 @@ from ._googletasks import GoogleTasksIcon
 from ._googletranslate import GoogleTranslateIcon
 from ._googletv import GoogleTvIcon
 from ._gotomeeting import GotomeetingIcon
+from ._gplv3 import GplvThreeIcon
 from ._grab import GrabIcon
 from ._gradio import GradioIcon
 from ._gradle import GradleIcon
@@ -1693,6 +1697,7 @@ from ._lotpolishairlines import LotPolishAirlinesIcon
 from ._lottiefiles import LottiefilesIcon
 from ._ltspice import LtspiceIcon
 from ._lua import LuaIcon
+from ._luau import LuauIcon
 from ._lubuntu import LubuntuIcon
 from ._lucia import LuciaIcon
 from ._lucid import LucidIcon
@@ -3113,6 +3118,7 @@ from ._viber import ViberIcon
 from ._viblo import VibloIcon
 from ._victoriametrics import VictoriametricsIcon
 from ._victronenergy import VictronEnergyIcon
+from ._vikunja import VikunjaIcon
 from ._vim import VimIcon
 from ._vimeo import VimeoIcon
 from ._vimeolivestream import VimeoLivestreamIcon
@@ -3274,6 +3280,7 @@ from ._xstate import XstateIcon
 from ._xubuntu import XubuntuIcon
 from ._xyflow import XyflowIcon
 from ._ycombinator import YCombinatorIcon
+from ._yaak import YaakIcon
 from ._yabai import YabaiIcon
 from ._yale import YaleIcon
 from ._yamahacorporation import YamahaCorporationIcon
@@ -3741,6 +3748,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BoxIcon.__name__,
     BoxySvgIcon.__name__,
     BraintreeIcon.__name__,
+    BraintrustIcon.__name__,
     BrandfetchIcon.__name__,
     BrandfolderIcon.__name__,
     BraveIcon.__name__,
@@ -4123,6 +4131,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DoiIcon.__name__,
     DolbyIcon.__name__,
     DolibarrIcon.__name__,
+    DolphinIcon.__name__,
     DoordashIcon.__name__,
     DotaTwoIcon.__name__,
     DoubanIcon.__name__,
@@ -4209,6 +4218,7 @@ ALL_ICONS: "Final[list[str]]" = [
     EndeavourosIcon.__name__,
     EnpassIcon.__name__,
     EnsIcon.__name__,
+    EnteIcon.__name__,
     EnterprisedbIcon.__name__,
     EnvatoIcon.__name__,
     EnvoyProxyIcon.__name__,
@@ -4524,6 +4534,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GoogleTranslateIcon.__name__,
     GoogleTvIcon.__name__,
     GotomeetingIcon.__name__,
+    GplvThreeIcon.__name__,
     GrabIcon.__name__,
     GradioIcon.__name__,
     GradleIcon.__name__,
@@ -5022,6 +5033,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LottiefilesIcon.__name__,
     LtspiceIcon.__name__,
     LuaIcon.__name__,
+    LuauIcon.__name__,
     LubuntuIcon.__name__,
     LuciaIcon.__name__,
     LucidIcon.__name__,
@@ -6445,6 +6457,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VibloIcon.__name__,
     VictoriametricsIcon.__name__,
     VictronEnergyIcon.__name__,
+    VikunjaIcon.__name__,
     VimIcon.__name__,
     VimeoIcon.__name__,
     VimeoLivestreamIcon.__name__,
@@ -6606,6 +6619,7 @@ ALL_ICONS: "Final[list[str]]" = [
     XubuntuIcon.__name__,
     XyflowIcon.__name__,
     YCombinatorIcon.__name__,
+    YaakIcon.__name__,
     YabaiIcon.__name__,
     YaleIcon.__name__,
     YamahaCorporationIcon.__name__,

@@ -37,7 +37,7 @@ class PolarsIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#CD792C"
+        return "#0075FF"
 
     @property
     def raw_svg(self) -> "str":

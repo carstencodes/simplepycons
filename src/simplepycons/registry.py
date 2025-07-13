@@ -410,6 +410,7 @@ from ._bower import BowerIcon
 from ._box import BoxIcon
 from ._boxysvg import BoxySvgIcon
 from ._braintree import BraintreeIcon
+from ._braintrust import BraintrustIcon
 from ._brandfetch import BrandfetchIcon
 from ._brandfolder import BrandfolderIcon
 from ._brave import BraveIcon
@@ -792,6 +793,7 @@ from ._dogecoin import DogecoinIcon
 from ._doi import DoiIcon
 from ._dolby import DolbyIcon
 from ._dolibarr import DolibarrIcon
+from ._dolphin import DolphinIcon
 from ._doordash import DoordashIcon
 from ._dota2 import DotaTwoIcon
 from ._douban import DoubanIcon
@@ -878,6 +880,7 @@ from ._emlakjet import EmlakjetIcon
 from ._endeavouros import EndeavourosIcon
 from ._enpass import EnpassIcon
 from ._ens import EnsIcon
+from ._ente import EnteIcon
 from ._enterprisedb import EnterprisedbIcon
 from ._envato import EnvatoIcon
 from ._envoyproxy import EnvoyProxyIcon
@@ -1197,6 +1200,7 @@ from ._googletasks import GoogleTasksIcon
 from ._googletranslate import GoogleTranslateIcon
 from ._googletv import GoogleTvIcon
 from ._gotomeeting import GotomeetingIcon
+from ._gplv3 import GplvThreeIcon
 from ._grab import GrabIcon
 from ._gradio import GradioIcon
 from ._gradle import GradleIcon
@@ -1693,6 +1697,7 @@ from ._lotpolishairlines import LotPolishAirlinesIcon
 from ._lottiefiles import LottiefilesIcon
 from ._ltspice import LtspiceIcon
 from ._lua import LuaIcon
+from ._luau import LuauIcon
 from ._lubuntu import LubuntuIcon
 from ._lucia import LuciaIcon
 from ._lucid import LucidIcon
@@ -3113,6 +3118,7 @@ from ._viber import ViberIcon
 from ._viblo import VibloIcon
 from ._victoriametrics import VictoriametricsIcon
 from ._victronenergy import VictronEnergyIcon
+from ._vikunja import VikunjaIcon
 from ._vim import VimIcon
 from ._vimeo import VimeoIcon
 from ._vimeolivestream import VimeoLivestreamIcon
@@ -3274,6 +3280,7 @@ from ._xstate import XstateIcon
 from ._xubuntu import XubuntuIcon
 from ._xyflow import XyflowIcon
 from ._ycombinator import YCombinatorIcon
+from ._yaak import YaakIcon
 from ._yabai import YabaiIcon
 from ._yale import YaleIcon
 from ._yamahacorporation import YamahaCorporationIcon
@@ -3740,6 +3747,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'box': BoxIcon,
     'boxysvg': BoxySvgIcon,
     'braintree': BraintreeIcon,
+    'braintrust': BraintrustIcon,
     'brandfetch': BrandfetchIcon,
     'brandfolder': BrandfolderIcon,
     'brave': BraveIcon,
@@ -4122,6 +4130,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'doi': DoiIcon,
     'dolby': DolbyIcon,
     'dolibarr': DolibarrIcon,
+    'dolphin': DolphinIcon,
     'doordash': DoordashIcon,
     'dota2': DotaTwoIcon,
     'douban': DoubanIcon,
@@ -4208,6 +4217,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'endeavouros': EndeavourosIcon,
     'enpass': EnpassIcon,
     'ens': EnsIcon,
+    'ente': EnteIcon,
     'enterprisedb': EnterprisedbIcon,
     'envato': EnvatoIcon,
     'envoyproxy': EnvoyProxyIcon,
@@ -4523,6 +4533,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'googletranslate': GoogleTranslateIcon,
     'googletv': GoogleTvIcon,
     'gotomeeting': GotomeetingIcon,
+    'gplv3': GplvThreeIcon,
     'grab': GrabIcon,
     'gradio': GradioIcon,
     'gradle': GradleIcon,
@@ -5019,6 +5030,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'lottiefiles': LottiefilesIcon,
     'ltspice': LtspiceIcon,
     'lua': LuaIcon,
+    'luau': LuauIcon,
     'lubuntu': LubuntuIcon,
     'lucia': LuciaIcon,
     'lucid': LucidIcon,
@@ -6439,6 +6451,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'viblo': VibloIcon,
     'victoriametrics': VictoriametricsIcon,
     'victronenergy': VictronEnergyIcon,
+    'vikunja': VikunjaIcon,
     'vim': VimIcon,
     'vimeo': VimeoIcon,
     'vimeolivestream': VimeoLivestreamIcon,
@@ -6600,6 +6613,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'xubuntu': XubuntuIcon,
     'xyflow': XyflowIcon,
     'ycombinator': YCombinatorIcon,
+    'yaak': YaakIcon,
     'yabai': YabaiIcon,
     'yale': YaleIcon,
     'yamahacorporation': YamahaCorporationIcon,

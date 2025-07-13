@@ -11,30 +11,30 @@ on:
 permissions:
     contents: write
 jobs:
-    get-version:
-        name: "Get version to update"
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout Sources
-              uses: actions/checkout@v4
-              with:
-                clean: true
-                submodules: false
-            - name: Get submodule version
-              run: |
-                _version=$(awk -F= '/branch/{ print $2 }' .gitmodules)
-                git submodule foreach git fetch --tags
-                git submodule git checkout tags/${_version}
-                git add vendor/simple-icons
-                git config --global user.name 'Github actions (carstencodes)'
-                git config --global user.email 'carstencodes@users.noreply.github.com'
-                git commit -m "chore(deps): Checkout submodule to tag ${_version}"
-                git push
+#    get-version:
+#        name: "Get version to update"
+#        runs-on: ubuntu-latest
+#        steps:
+#            - name: Checkout Sources
+#              uses: actions/checkout@v4
+#              with:
+#                clean: true
+#                submodules: false
+#            - name: Get submodule version
+#              run: |
+#                _version=$(awk -F= '/branch/{ print $2 }' .gitmodules)
+#                git submodule foreach git fetch --tags
+#                git submodule git checkout tags/${_version}
+#                git add vendor/simple-icons
+#                git config --global user.name 'Github actions (carstencodes)'
+#                git config --global user.email 'carstencodes@users.noreply.github.com'
+#                git commit -m "chore(deps): Checkout submodule to tag ${_version}"
+#                git push
     perform-update:
         name: "Perform update using PDM generate"
         runs-on: ubuntu-latest
-        needs: 
-            - get-version
+#        needs: 
+#            - get-version
         steps:
             - uses: actions/checkout@v4
               with:

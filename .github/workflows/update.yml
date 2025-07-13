@@ -56,7 +56,7 @@ jobs:
               run: |
                 _epoch=$(pdm show --version | awk -F! '{ print $1 }')
                 _version=$(awk -F= '/branch/{ print $2 }' .gitmodules)
-                _new_version=$(echo "${_epoch}!${_version}")
+                _new_version=$(echo "${_epoch}!${_version} | tr -d [:space:]")
                 _old_version=$(pdm show --version)
                 sed -i "s/${_old_version}/${_new_version}/g" pyproject.toml
                 git add pyproject.toml

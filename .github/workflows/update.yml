@@ -43,7 +43,9 @@ jobs:
             - name: Setup PDM
               uses: pdm-project/setup-pdm@v4
             - name: Install dependencies
-              run: pdm install -d -G:all --plugins
+              run: | 
+                pdm install -d -G:all
+                pdm install --plugins
             - name: Setup git configuration
               run: |
                 git config --global user.name 'Github actions (carstencodes)'

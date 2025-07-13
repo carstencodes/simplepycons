@@ -1009,6 +1009,7 @@ from ._flyway import FlywayIcon
 from ._fmod import FmodIcon
 from ._fnac import FnacIcon
 from ._folium import FoliumIcon
+from ._folo import FoloIcon
 from ._fonoma import FonomaIcon
 from ._fontawesome import FontAwesomeIcon
 from ._fontbase import FontbaseIcon
@@ -1844,6 +1845,7 @@ from ._mobxstatetree import MobxstatetreeIcon
 from ._mocha import MochaIcon
 from ._mockserviceworker import MockServiceWorkerIcon
 from ._modal import ModalIcon
+from ._modelcontextprotocol import ModelContextProtocolIcon
 from ._modin import ModinIcon
 from ._modrinth import ModrinthIcon
 from ._modx import ModxIcon
@@ -2950,6 +2952,7 @@ from ._tmux import TmuxIcon
 from ._todoist import TodoistIcon
 from ._toggl import TogglIcon
 from ._toggltrack import TogglTrackIcon
+from ._tokio import TokioIcon
 from ._tokyometro import TokyoMetroIcon
 from ._toll import TollIcon
 from ._toml import TomlIcon
@@ -4351,6 +4354,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FmodIcon.__name__,
     FnacIcon.__name__,
     FoliumIcon.__name__,
+    FoloIcon.__name__,
     FonomaIcon.__name__,
     FontAwesomeIcon.__name__,
     FontbaseIcon.__name__,
@@ -5184,6 +5188,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MochaIcon.__name__,
     MockServiceWorkerIcon.__name__,
     ModalIcon.__name__,
+    ModelContextProtocolIcon.__name__,
     ModinIcon.__name__,
     ModrinthIcon.__name__,
     ModxIcon.__name__,
@@ -6292,6 +6297,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TodoistIcon.__name__,
     TogglIcon.__name__,
     TogglTrackIcon.__name__,
+    TokioIcon.__name__,
     TokyoMetroIcon.__name__,
     TollIcon.__name__,
     TomlIcon.__name__,

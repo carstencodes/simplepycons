@@ -1009,6 +1009,7 @@ from ._flyway import FlywayIcon
 from ._fmod import FmodIcon
 from ._fnac import FnacIcon
 from ._folium import FoliumIcon
+from ._folo import FoloIcon
 from ._fonoma import FonomaIcon
 from ._fontawesome import FontAwesomeIcon
 from ._fontbase import FontbaseIcon
@@ -1844,6 +1845,7 @@ from ._mobxstatetree import MobxstatetreeIcon
 from ._mocha import MochaIcon
 from ._mockserviceworker import MockServiceWorkerIcon
 from ._modal import ModalIcon
+from ._modelcontextprotocol import ModelContextProtocolIcon
 from ._modin import ModinIcon
 from ._modrinth import ModrinthIcon
 from ._modx import ModxIcon
@@ -2950,6 +2952,7 @@ from ._tmux import TmuxIcon
 from ._todoist import TodoistIcon
 from ._toggl import TogglIcon
 from ._toggltrack import TogglTrackIcon
+from ._tokio import TokioIcon
 from ._tokyometro import TokyoMetroIcon
 from ._toll import TollIcon
 from ._toml import TomlIcon
@@ -4350,6 +4353,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'fmod': FmodIcon,
     'fnac': FnacIcon,
     'folium': FoliumIcon,
+    'folo': FoloIcon,
     'fonoma': FonomaIcon,
     'fontawesome': FontAwesomeIcon,
     'fontbase': FontbaseIcon,
@@ -5181,6 +5185,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'mocha': MochaIcon,
     'mockserviceworker': MockServiceWorkerIcon,
     'modal': ModalIcon,
+    'modelcontextprotocol': ModelContextProtocolIcon,
     'modin': ModinIcon,
     'modrinth': ModrinthIcon,
     'modx': ModxIcon,
@@ -6287,6 +6292,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'todoist': TodoistIcon,
     'toggl': TogglIcon,
     'toggltrack': TogglTrackIcon,
+    'tokio': TokioIcon,
     'tokyometro': TokyoMetroIcon,
     'toll': TollIcon,
     'toml': TomlIcon,

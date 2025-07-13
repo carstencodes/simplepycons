@@ -7,6 +7,7 @@ on:
         paths:
             - .gitmodules
             - vendor/simple-icons
+    workflow_dispatch: 
 permissions:
     contents: write
 jobs:
@@ -23,11 +24,11 @@ jobs:
               run: |
                 _version=$(awk -F= '/branch/{ print $2 }' .gitmodules)
                 git submodule foreach git fetch --tags
-                git submodule git checkout tags/$(_version)
+                git submodule git checkout tags/${_version}
                 git add vendor/simple-icons
                 git config --global user.name 'Github actions (carstencodes)'
                 git config --global user.email 'carstencodes@users.noreply.github.com'
-                git commit -m "chore(deps): Checkout submodule to tag $(_version)"
+                git commit -m "chore(deps): Checkout submodule to tag ${_version}"
                 git push
     perform-update:
         name: "Perform update using PDM generate"

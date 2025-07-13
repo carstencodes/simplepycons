@@ -48,7 +48,7 @@ jobs:
                 pdm install --plugins
             - name: Setup git configuration
               run: |
-                git checkout ${{ github.head_ref }}
+                git checkout -b ${{ github.head_ref }}
                 git config --global user.name 'Github actions (carstencodes)'
                 git config --global user.email 'carstencodes@users.noreply.github.com'
             - name: Setup new version

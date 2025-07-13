@@ -40,6 +40,8 @@ jobs:
               with:
                 clean: true
                 submodules: true
+                ref: ${{ github.head_ref }}
+                fetch-depth: 0
             - name: Setup PDM
               uses: pdm-project/setup-pdm@v4
             - name: Install dependencies
@@ -48,7 +50,6 @@ jobs:
                 pdm install --plugins
             - name: Setup git configuration
               run: |
-                git checkout -b ${{ github.head_ref }}
                 git config --global user.name 'Github actions (carstencodes)'
                 git config --global user.email 'carstencodes@users.noreply.github.com'
             - name: Setup new version

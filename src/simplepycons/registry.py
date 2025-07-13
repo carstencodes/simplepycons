@@ -368,6 +368,7 @@ from ._bitrise import BitriseIcon
 from ._bittorrent import BittorrentIcon
 from ._bitwarden import BitwardenIcon
 from ._bitwig import BitwigIcon
+from ._black import BlackIcon
 from ._blackberry import BlackberryIcon
 from ._blackmagicdesign import BlackmagicDesignIcon
 from ._blazemeter import BlazemeterIcon
@@ -472,6 +473,7 @@ from ._capacitor import CapacitorIcon
 from ._caprover import CaproverIcon
 from ._carthrottle import CarThrottleIcon
 from ._cardano import CardanoIcon
+from ._cardmarket import CardmarketIcon
 from ._carlsberggroup import CarlsbergGroupIcon
 from ._carrd import CarrdIcon
 from ._carrefour import CarrefourIcon
@@ -2136,6 +2138,7 @@ from ._parsedotly import ParsedotlyIcon
 from ._passport import PassportIcon
 from ._pastebin import PastebinIcon
 from ._patreon import PatreonIcon
+from ._payback import PaybackIcon
 from ._paychex import PaychexIcon
 from ._payhip import PayhipIcon
 from ._payloadcms import PayloadCmsIcon
@@ -2488,6 +2491,7 @@ from ._rockwellautomation import RockwellAutomationIcon
 from ._rockylinux import RockyLinuxIcon
 from ._roku import RokuIcon
 from ._roll20 import RollTwentyIcon
+from ._rollbar import RollbarIcon
 from ._rollsroyce import RollsroyceIcon
 from ._rollupdotjs import RollupdotjsIcon
 from ._rook import RookIcon
@@ -3705,6 +3709,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'bittorrent': BittorrentIcon,
     'bitwarden': BitwardenIcon,
     'bitwig': BitwigIcon,
+    'black': BlackIcon,
     'blackberry': BlackberryIcon,
     'blackmagicdesign': BlackmagicDesignIcon,
     'blazemeter': BlazemeterIcon,
@@ -3809,6 +3814,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'caprover': CaproverIcon,
     'carthrottle': CarThrottleIcon,
     'cardano': CardanoIcon,
+    'cardmarket': CardmarketIcon,
     'carlsberggroup': CarlsbergGroupIcon,
     'carrd': CarrdIcon,
     'carrefour': CarrefourIcon,
@@ -5469,6 +5475,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'passport': PassportIcon,
     'pastebin': PastebinIcon,
     'patreon': PatreonIcon,
+    'payback': PaybackIcon,
     'paychex': PaychexIcon,
     'payhip': PayhipIcon,
     'payloadcms': PayloadCmsIcon,
@@ -5821,6 +5828,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'rockylinux': RockyLinuxIcon,
     'roku': RokuIcon,
     'roll20': RollTwentyIcon,
+    'rollbar': RollbarIcon,
     'rollsroyce': RollsroyceIcon,
     'rollupdotjs': RollupdotjsIcon,
     'rook': RookIcon,

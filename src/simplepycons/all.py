@@ -368,6 +368,7 @@ from ._bitrise import BitriseIcon
 from ._bittorrent import BittorrentIcon
 from ._bitwarden import BitwardenIcon
 from ._bitwig import BitwigIcon
+from ._black import BlackIcon
 from ._blackberry import BlackberryIcon
 from ._blackmagicdesign import BlackmagicDesignIcon
 from ._blazemeter import BlazemeterIcon
@@ -472,6 +473,7 @@ from ._capacitor import CapacitorIcon
 from ._caprover import CaproverIcon
 from ._carthrottle import CarThrottleIcon
 from ._cardano import CardanoIcon
+from ._cardmarket import CardmarketIcon
 from ._carlsberggroup import CarlsbergGroupIcon
 from ._carrd import CarrdIcon
 from ._carrefour import CarrefourIcon
@@ -2136,6 +2138,7 @@ from ._parsedotly import ParsedotlyIcon
 from ._passport import PassportIcon
 from ._pastebin import PastebinIcon
 from ._patreon import PatreonIcon
+from ._payback import PaybackIcon
 from ._paychex import PaychexIcon
 from ._payhip import PayhipIcon
 from ._payloadcms import PayloadCmsIcon
@@ -2488,6 +2491,7 @@ from ._rockwellautomation import RockwellAutomationIcon
 from ._rockylinux import RockyLinuxIcon
 from ._roku import RokuIcon
 from ._roll20 import RollTwentyIcon
+from ._rollbar import RollbarIcon
 from ._rollsroyce import RollsroyceIcon
 from ._rollupdotjs import RollupdotjsIcon
 from ._rook import RookIcon
@@ -3706,6 +3710,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BittorrentIcon.__name__,
     BitwardenIcon.__name__,
     BitwigIcon.__name__,
+    BlackIcon.__name__,
     BlackberryIcon.__name__,
     BlackmagicDesignIcon.__name__,
     BlazemeterIcon.__name__,
@@ -3810,6 +3815,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CaproverIcon.__name__,
     CarThrottleIcon.__name__,
     CardanoIcon.__name__,
+    CardmarketIcon.__name__,
     CarlsbergGroupIcon.__name__,
     CarrdIcon.__name__,
     CarrefourIcon.__name__,
@@ -5473,6 +5479,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PassportIcon.__name__,
     PastebinIcon.__name__,
     PatreonIcon.__name__,
+    PaybackIcon.__name__,
     PaychexIcon.__name__,
     PayhipIcon.__name__,
     PayloadCmsIcon.__name__,
@@ -5825,6 +5832,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RockyLinuxIcon.__name__,
     RokuIcon.__name__,
     RollTwentyIcon.__name__,
+    RollbarIcon.__name__,
     RollsroyceIcon.__name__,
     RollupdotjsIcon.__name__,
     RookIcon.__name__,

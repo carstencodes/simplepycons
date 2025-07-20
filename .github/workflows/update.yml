@@ -56,16 +56,26 @@ jobs:
               run: |
                 _epoch=$(pdm show --version | awk -F! '{ print $1 }')
                 _version=$(awk -F= '/branch/{ print $2 }' .gitmodules)
-                _new_version=$(echo "${_epoch}!${_version} | tr -d [:space:]")
+                _new_version=$(echo "${_epoch}!${_version}" | tr -d [:space:])
                 _old_version=$(pdm show --version)
                 sed -i "s/${_old_version}/${_new_version}/g" pyproject.toml
-                git add pyproject.toml
-                git commit -m "chore: Update version from ${_old_version} to ${_new_version}"
+                if [ "$(git status --porcelain | wc -l)" -ne "0"];
+                then
+                    git add pyproject.toml
+                    git commit -m "chore: Update version from ${_old_version} to ${_new_version}"
+                else
+                    echo "Nothing to do."
+                fi
             - name: Generate new Icons
               run: pdm generate
             - name: Check-in differences
               run: |
-                git add src/simplepycons
-                git commit -m "chore: Updated icons according to new tags"
+                if [ "$(git status --porcelain | wc -l)" -ne "0"];
+                then
+                    git add src/simplepycons
+                    git commit -m "chore: Updated icons according to new tags"
+                else
+                    echo "Nothing to do."
+                fi
             - name: Push changes
               run: git push origin HEAD

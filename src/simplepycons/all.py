@@ -1099,6 +1099,7 @@ from ._gitextensions import GitExtensionsIcon
 from ._gitforwindows import GitForWindowsIcon
 from ._gitlfs import GitLfsIcon
 from ._gitbook import GitbookIcon
+from ._gitcode import GitcodeIcon
 from ._gitconnected import GitconnectedIcon
 from ._gitea import GiteaIcon
 from ._gitee import GiteeIcon
@@ -2394,6 +2395,7 @@ from ._rapid import RapidIcon
 from ._rarible import RaribleIcon
 from ._rasa import RasaIcon
 from ._raspberrypi import RaspberryPiIcon
+from ._ratatui import RatatuiIcon
 from ._ravelry import RavelryIcon
 from ._ray import RayIcon
 from ._raycast import RaycastIcon
@@ -4444,6 +4446,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GitForWindowsIcon.__name__,
     GitLfsIcon.__name__,
     GitbookIcon.__name__,
+    GitcodeIcon.__name__,
     GitconnectedIcon.__name__,
     GiteaIcon.__name__,
     GiteeIcon.__name__,
@@ -5738,6 +5741,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RaribleIcon.__name__,
     RasaIcon.__name__,
     RaspberryPiIcon.__name__,
+    RatatuiIcon.__name__,
     RavelryIcon.__name__,
     RayIcon.__name__,
     RaycastIcon.__name__,

@@ -65,7 +65,12 @@ jobs:
               run: pdm generate
             - name: Check-in differences
               run: |
-                git add src/simplepycons
-                git commit -m "chore: Updated icons according to new tags"
+                if [ "$(git status --porcelain | wc -l)" -ne "0"];
+                then
+                    git add src/simplepycons
+                    git commit -m "chore: Updated icons according to new tags"
+                else
+                    echo "Nothing to do."
+                fi
             - name: Push changes
               run: git push origin HEAD

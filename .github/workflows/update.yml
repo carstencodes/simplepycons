@@ -59,7 +59,7 @@ jobs:
                 _new_version=$(echo "${_epoch}"'!'"${_version}" | tr -d [:space:])
                 _old_version=$(pdm show --version)
                 sed -i "s/${_old_version}/${_new_version}/g" pyproject.toml
-                if [ "$(git status --porcelain | wc -l)" -ne "0"];
+                if [ "$(git status --porcelain | wc -l)" -ne "0" ];
                 then
                     git add pyproject.toml
                     git commit -m "chore: Update version from ${_old_version} to ${_new_version}"
@@ -70,7 +70,7 @@ jobs:
               run: pdm generate
             - name: Check-in differences
               run: |
-                if [ "$(git status --porcelain | wc -l)" -ne "0"];
+                if [ "$(git status --porcelain | wc -l)" -ne "0" ];
                 then
                     git add src/simplepycons
                     git commit -m "chore: Updated icons according to new tags"

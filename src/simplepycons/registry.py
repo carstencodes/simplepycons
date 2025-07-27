@@ -288,6 +288,7 @@ from ._automattic import AutomatticIcon
 from ._autoprefixer import AutoprefixerIcon
 from ._autozone import AutozoneIcon
 from ._avajs import AvajsIcon
+from ._avaloniaui import AvaloniauiIcon
 from ._avast import AvastIcon
 from ._avianca import AviancaIcon
 from ._avira import AviraIcon
@@ -2292,6 +2293,7 @@ from ._privateinternetaccess import PrivateInternetAccessIcon
 from ._protools import ProToolsIcon
 from ._probot import ProbotIcon
 from ._processingfoundation import ProcessingFoundationIcon
+from ._processon import ProcessonIcon
 from ._processwire import ProcesswireIcon
 from ._producthunt import ProductHuntIcon
 from ._progate import ProgateIcon
@@ -3634,6 +3636,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'autoprefixer': AutoprefixerIcon,
     'autozone': AutozoneIcon,
     'avajs': AvajsIcon,
+    'avaloniaui': AvaloniauiIcon,
     'avast': AvastIcon,
     'avianca': AviancaIcon,
     'avira': AviraIcon,
@@ -5634,6 +5637,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'protools': ProToolsIcon,
     'probot': ProbotIcon,
     'processingfoundation': ProcessingFoundationIcon,
+    'processon': ProcessonIcon,
     'processwire': ProcesswireIcon,
     'producthunt': ProductHuntIcon,
     'progate': ProgateIcon,

@@ -288,6 +288,7 @@ from ._automattic import AutomatticIcon
 from ._autoprefixer import AutoprefixerIcon
 from ._autozone import AutozoneIcon
 from ._avajs import AvajsIcon
+from ._avaloniaui import AvaloniauiIcon
 from ._avast import AvastIcon
 from ._avianca import AviancaIcon
 from ._avira import AviraIcon
@@ -2292,6 +2293,7 @@ from ._privateinternetaccess import PrivateInternetAccessIcon
 from ._protools import ProToolsIcon
 from ._probot import ProbotIcon
 from ._processingfoundation import ProcessingFoundationIcon
+from ._processon import ProcessonIcon
 from ._processwire import ProcesswireIcon
 from ._producthunt import ProductHuntIcon
 from ._progate import ProgateIcon
@@ -3634,6 +3636,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AutoprefixerIcon.__name__,
     AutozoneIcon.__name__,
     AvajsIcon.__name__,
+    AvaloniauiIcon.__name__,
     AvastIcon.__name__,
     AviancaIcon.__name__,
     AviraIcon.__name__,
@@ -5638,6 +5641,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ProToolsIcon.__name__,
     ProbotIcon.__name__,
     ProcessingFoundationIcon.__name__,
+    ProcessonIcon.__name__,
     ProcesswireIcon.__name__,
     ProductHuntIcon.__name__,
     ProgateIcon.__name__,

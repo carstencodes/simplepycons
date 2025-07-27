@@ -21,41 +21,45 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PaypalIcon(Icon):
+class AvaloniauiIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "paypal"
+        return "avaloniaui"
 
     @property
     def original_file_name(self) -> "str":
-        return "paypal.svg"
+        return "avaloniaui.svg"
 
     @property
     def title(self) -> "str":
-        return "PayPal"
+        return "AvaloniaUI"
 
     @property
     def primary_color(self) -> "str":
-        return "#002991"
+        return "#165BFF"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>PayPal</title>
-     <path d="M15.607 4.653H8.941L6.645 19.251H1.82L4.862
- 0h7.995c3.754 0 6.375 2.294 6.473
- 5.513-.648-.478-2.105-.86-3.722-.86m6.57 5.546c0 3.41-3.01
- 6.853-6.958 6.853h-2.493L11.595 24H6.74l1.845-11.538h3.592c4.208 0
- 7.346-3.634 7.153-6.949a5.24 5.24 0 0 1 2.848 4.686M9.653
- 5.546h6.408c.907 0 1.942.222 2.363.541-.195 2.741-2.655 5.483-6.441
- 5.483H8.714Z" />
+    <title>AvaloniaUI</title>
+     <path d="M12.034 8.208c-2.003 0-3.627 1.696-3.627 3.789s1.624
+ 3.789 3.627 3.789 3.627-1.697
+ 3.627-3.79-1.624-3.788-3.627-3.788m-7.392 2.067c.72.211 1.248.902
+ 1.248 1.722s-.528 1.51-1.248 1.721c.752 3.54 3.776 6.188 7.392 6.188
+ 1.316 0 2.554-.35 3.632-.967v.914h3.94v-7.528a5 5 0 0 0
+ 0-.224v-.104c0-4.369-3.39-7.91-7.572-7.91-3.616 0-6.64 2.648-7.392
+ 6.188m-.5 2.982c.67 0 1.212-.567
+ 1.212-1.266s-.542-1.265-1.212-1.265-1.211.566-1.211 1.265c0 .7.542
+ 1.266 1.211 1.266M20.682 24H11.8C5.549 23.887.515 18.556.515
+ 12c0-6.627 5.143-12 11.487-12 6.241 0 11.32 5.2 11.483 11.678l-.02
+ 9.743C23.3 22.876 22.12 24 20.683 24" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://newsroom.paypal-corp.com/media-resour'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None

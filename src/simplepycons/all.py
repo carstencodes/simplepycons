@@ -1229,6 +1229,7 @@ from ._grocy import GrocyIcon
 from ._groupme import GroupmeIcon
 from ._groupon import GrouponIcon
 from ._grunt import GruntIcon
+from ._gsap import GsapIcon
 from ._gsk import GskIcon
 from ._gsma import GsmaIcon
 from ._gsmarenadotcom import GsmarenadotcomIcon
@@ -1531,6 +1532,7 @@ from ._keeper import KeeperIcon
 from ._keeweb import KeewebIcon
 from ._kenmei import KenmeiIcon
 from ._kentico import KenticoIcon
+from ._keploy import KeployIcon
 from ._keras import KerasIcon
 from ._keybase import KeybaseIcon
 from ._keycdn import KeycdnIcon
@@ -2607,6 +2609,7 @@ from ._sensu import SensuIcon
 from ._sentry import SentryIcon
 from ._sepa import SepaIcon
 from ._sequelize import SequelizeIcon
+from ._servbay import ServbayIcon
 from ._serverfault import ServerFaultIcon
 from ._serverless import ServerlessIcon
 from ._session import SessionIcon
@@ -4574,6 +4577,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GroupmeIcon.__name__,
     GrouponIcon.__name__,
     GruntIcon.__name__,
+    GsapIcon.__name__,
     GskIcon.__name__,
     GsmaIcon.__name__,
     GsmarenadotcomIcon.__name__,
@@ -4878,6 +4882,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KeewebIcon.__name__,
     KenmeiIcon.__name__,
     KenticoIcon.__name__,
+    KeployIcon.__name__,
     KerasIcon.__name__,
     KeybaseIcon.__name__,
     KeycdnIcon.__name__,
@@ -5955,6 +5960,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SentryIcon.__name__,
     SepaIcon.__name__,
     SequelizeIcon.__name__,
+    ServbayIcon.__name__,
     ServerFaultIcon.__name__,
     ServerlessIcon.__name__,
     SessionIcon.__name__,

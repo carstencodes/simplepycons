@@ -1229,6 +1229,7 @@ from ._grocy import GrocyIcon
 from ._groupme import GroupmeIcon
 from ._groupon import GrouponIcon
 from ._grunt import GruntIcon
+from ._gsap import GsapIcon
 from ._gsk import GskIcon
 from ._gsma import GsmaIcon
 from ._gsmarenadotcom import GsmarenadotcomIcon
@@ -1531,6 +1532,7 @@ from ._keeper import KeeperIcon
 from ._keeweb import KeewebIcon
 from ._kenmei import KenmeiIcon
 from ._kentico import KenticoIcon
+from ._keploy import KeployIcon
 from ._keras import KerasIcon
 from ._keybase import KeybaseIcon
 from ._keycdn import KeycdnIcon
@@ -2607,6 +2609,7 @@ from ._sensu import SensuIcon
 from ._sentry import SentryIcon
 from ._sepa import SepaIcon
 from ._sequelize import SequelizeIcon
+from ._servbay import ServbayIcon
 from ._serverfault import ServerFaultIcon
 from ._serverless import ServerlessIcon
 from ._session import SessionIcon
@@ -4573,6 +4576,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'groupme': GroupmeIcon,
     'groupon': GrouponIcon,
     'grunt': GruntIcon,
+    'gsap': GsapIcon,
     'gsk': GskIcon,
     'gsma': GsmaIcon,
     'gsmarenadotcom': GsmarenadotcomIcon,
@@ -4875,6 +4879,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'keeweb': KeewebIcon,
     'kenmei': KenmeiIcon,
     'kentico': KenticoIcon,
+    'keploy': KeployIcon,
     'keras': KerasIcon,
     'keybase': KeybaseIcon,
     'keycdn': KeycdnIcon,
@@ -5951,6 +5956,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'sentry': SentryIcon,
     'sepa': SepaIcon,
     'sequelize': SequelizeIcon,
+    'servbay': ServbayIcon,
     'serverfault': ServerFaultIcon,
     'serverless': ServerlessIcon,
     'session': SessionIcon,

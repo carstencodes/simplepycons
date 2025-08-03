@@ -23,6 +23,9 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+plugins = [
+    "pdm-bump",
+]
 
 [tool.pdm.dev-dependencies]
 test = [

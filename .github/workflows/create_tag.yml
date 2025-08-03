@@ -19,7 +19,6 @@ jobs:
               uses: pdm-project/setup-pdm@v4
             - name: Install dependencies
               run: | 
-                pdm install -d -G:all
                 pdm install --plugins
             - name: Setup git configuration
               run: |

@@ -21,55 +21,50 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class MastercardIcon(Icon):
+class ServbayIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "mastercard"
+        return "servbay"
 
     @property
     def original_file_name(self) -> "str":
-        return "mastercard.svg"
+        return "servbay.svg"
 
     @property
     def title(self) -> "str":
-        return "MasterCard"
+        return "ServBay"
 
     @property
     def primary_color(self) -> "str":
-        return "#EB001B"
+        return "#00103C"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>MasterCard</title>
-     <path d="M11.343 18.031c.058.049.12.098.181.146-1.177.783-2.59
- 1.238-4.107 1.238C3.32 19.416 0 16.096 0 12c0-4.095 3.32-7.416
- 7.416-7.416 1.518 0 2.931.456 4.105 1.238-.06.051-.12.098-.165.15C9.6
- 7.489 8.595 9.688 8.595 12c0 2.311 1.001 4.51 2.748
- 6.031zm5.241-13.447c-1.52 0-2.931.456-4.105
- 1.238.06.051.12.098.165.15C14.4 7.489 15.405 9.688 15.405 12c0
- 2.31-1.001 4.507-2.748 6.031-.058.049-.12.098-.181.146 1.177.783
- 2.588 1.238 4.107 1.238C20.68 19.416 24 16.096 24
- 12c0-4.094-3.32-7.416-7.416-7.416zM12
- 6.174c-.096.075-.189.15-.28.231C10.156 7.764 9.169 9.765 9.169 12c0
- 2.236.987 4.236 2.551
- 5.595.09.08.185.158.28.232.096-.074.189-.152.28-.232 1.563-1.359
- 2.551-3.359 2.551-5.595
- 0-2.235-.987-4.236-2.551-5.595-.09-.08-.184-.156-.28-.231z" />
+    <title>ServBay</title>
+     <path d="M14.201.028a.505.505 0 0 1
+ .643.313c.04.11.043.23.006.341l-2.258 6.356a.512.512 0 0 1-.319.302L1
+ 11.168l2.665-7.33a.513.513 0 0 1 .319-.302L14.2.028h.001ZM1
+ 11.757l2.776 4.05a.55.55 0 0 0 .622.227l5.12-1.892a.483.483 0 0 0
+ .29-.653l-.03-.063L7.412 9.62 1 11.756Zm8.799 12.215a.505.505 0 0
+ 1-.643-.312.517.517 0 0 1-.006-.342l2.235-6.365a.513.513 0 0 1
+ .319-.3L23 12.832l-2.665 7.33a.51.51 0 0 1-.318.3l-10.218
+ 3.51v-.001ZM20.437 8.079a.55.55 0 0 0-.622-.226l-5.12 1.893a.483.483
+ 0 0 0-.29.65l.03.064 2.336 3.85 6.215-2.12-2.55-4.11h.001Z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://www.mastercard.com/brandcenter/us/en/'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://www.mastercard.com/brandcenter/us/en/'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -5,7 +5,7 @@
 groups = ["default", "checkstyle", "formatting", "generation", "release", "static-code-analysis", "test"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:3ea2b2ec711ad8d53b11e4e5c4e802bee8f5bdbd62f333780a4871a54d2112ae"
+content_hash = "sha256:00628a91d70a698dea2b93e519b1dd3451960acb39d6c8e40486e622a54059d6"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -410,7 +410,7 @@ files = [
 name = "docopt"
 version = "0.6.2"
 summary = "Pythonic argument parser, that will make you smile"
-groups = ["generation"]
+groups = ["generation", "test"]
 files = [
     {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
 ]
@@ -760,7 +760,7 @@ files = [
 name = "num2words"
 version = "0.5.13"
 summary = "Modules to convert numbers to words. Easily extensible."
-groups = ["generation"]
+groups = ["generation", "test"]
 dependencies = [
     "docopt>=0.6.2",
 ]

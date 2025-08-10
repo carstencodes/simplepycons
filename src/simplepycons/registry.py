@@ -1388,6 +1388,7 @@ from ._imdb import ImdbIcon
 from ._imessage import ImessageIcon
 from ._imgur import ImgurIcon
 from ._immer import ImmerIcon
+from ._immersivetranslate import ImmersiveTranslateIcon
 from ._immich import ImmichIcon
 from ._imou import ImouIcon
 from ._improvmx import ImprovmxIcon
@@ -3354,6 +3355,7 @@ from ._zingat import ZingatIcon
 from ._zod import ZodIcon
 from ._zoho import ZohoIcon
 from ._zoiper import ZoiperIcon
+from ._zola import ZolaIcon
 from ._zomato import ZomatoIcon
 from ._zoom import ZoomIcon
 from ._zorin import ZorinIcon
@@ -4735,6 +4737,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'imessage': ImessageIcon,
     'imgur': ImgurIcon,
     'immer': ImmerIcon,
+    'immersivetranslate': ImmersiveTranslateIcon,
     'immich': ImmichIcon,
     'imou': ImouIcon,
     'improvmx': ImprovmxIcon,
@@ -6701,6 +6704,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'zod': ZodIcon,
     'zoho': ZohoIcon,
     'zoiper': ZoiperIcon,
+    'zola': ZolaIcon,
     'zomato': ZomatoIcon,
     'zoom': ZoomIcon,
     'zorin': ZorinIcon,

@@ -1388,6 +1388,7 @@ from ._imdb import ImdbIcon
 from ._imessage import ImessageIcon
 from ._imgur import ImgurIcon
 from ._immer import ImmerIcon
+from ._immersivetranslate import ImmersiveTranslateIcon
 from ._immich import ImmichIcon
 from ._imou import ImouIcon
 from ._improvmx import ImprovmxIcon
@@ -3354,6 +3355,7 @@ from ._zingat import ZingatIcon
 from ._zod import ZodIcon
 from ._zoho import ZohoIcon
 from ._zoiper import ZoiperIcon
+from ._zola import ZolaIcon
 from ._zomato import ZomatoIcon
 from ._zoom import ZoomIcon
 from ._zorin import ZorinIcon
@@ -4738,6 +4740,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ImessageIcon.__name__,
     ImgurIcon.__name__,
     ImmerIcon.__name__,
+    ImmersiveTranslateIcon.__name__,
     ImmichIcon.__name__,
     ImouIcon.__name__,
     ImprovmxIcon.__name__,
@@ -6707,6 +6710,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ZodIcon.__name__,
     ZohoIcon.__name__,
     ZoiperIcon.__name__,
+    ZolaIcon.__name__,
     ZomatoIcon.__name__,
     ZoomIcon.__name__,
     ZorinIcon.__name__,

@@ -1689,6 +1689,8 @@ from ._llvm import LlvmIcon
 from ._lmms import LmmsIcon
 from ._lobsters import LobstersIcon
 from ._local import LocalIcon
+from ._localsend import LocalsendIcon
+from ._localxpose import LocalxposeIcon
 from ._lodash import LodashIcon
 from ._logitech import LogitechIcon
 from ._logitechg import LogitechGIcon
@@ -2113,6 +2115,7 @@ from ._ovh import OvhIcon
 from ._owasp import OwaspIcon
 from ._dependencycheck import OwaspDependencycheckIcon
 from ._owncloud import OwncloudIcon
+from ._oxc import OxcIcon
 from ._oxygen import OxygenIcon
 from ._oyo import OyoIcon
 from ._p5dotjs import PFiveDotjsIcon
@@ -2501,6 +2504,7 @@ from ._rockylinux import RockyLinuxIcon
 from ._roku import RokuIcon
 from ._roll20 import RollTwentyIcon
 from ._rollbar import RollbarIcon
+from ._rolldown import RolldownIcon
 from ._rollsroyce import RollsroyceIcon
 from ._rollupdotjs import RollupdotjsIcon
 from ._rook import RookIcon
@@ -5038,6 +5042,8 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'lmms': LmmsIcon,
     'lobsters': LobstersIcon,
     'local': LocalIcon,
+    'localsend': LocalsendIcon,
+    'localxpose': LocalxposeIcon,
     'lodash': LodashIcon,
     'logitech': LogitechIcon,
     'logitechg': LogitechGIcon,
@@ -5462,6 +5468,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'owasp': OwaspIcon,
     'dependencycheck': OwaspDependencycheckIcon,
     'owncloud': OwncloudIcon,
+    'oxc': OxcIcon,
     'oxygen': OxygenIcon,
     'oyo': OyoIcon,
     'p5dotjs': PFiveDotjsIcon,
@@ -5850,6 +5857,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'roku': RokuIcon,
     'roll20': RollTwentyIcon,
     'rollbar': RollbarIcon,
+    'rolldown': RolldownIcon,
     'rollsroyce': RollsroyceIcon,
     'rollupdotjs': RollupdotjsIcon,
     'rook': RookIcon,

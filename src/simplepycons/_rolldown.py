@@ -21,34 +21,32 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class CoderIcon(Icon):
+class RolldownIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "coder"
+        return "rolldown"
 
     @property
     def original_file_name(self) -> "str":
-        return "coder.svg"
+        return "rolldown.svg"
 
     @property
     def title(self) -> "str":
-        return "Coder"
+        return "Rolldown"
 
     @property
     def primary_color(self) -> "str":
-        return "#090B0B"
+        return "#FF7E17"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Coder</title>
-     <path d="M14.862 6.67H24v10.663h-9.138zM6.945 15.304c-1.934
- 0-3.366-1.264-3.366-3.305s1.432-3.323 3.366-3.365c1.411-.03 2.787.99
- 2.878 2.543l3.472-.106c-.076-2.802-2.33-4.706-6.35-4.706S0 8.558 0
- 12c0 3.426 3.046 5.635 6.945 5.635 3.898 0 6.29-1.935
- 6.38-4.782l-3.472-.077c-.152 1.553-1.497 2.528-2.908 2.528Z" />
+    <title>Rolldown</title>
+     <path d="M17.657 3.18H9.09L7.792 4.978h8.537ZM20.005 0h-8.62L10.2
+ 1.641h8.594zm1.643 8.188h-7.69l1.186-1.604-8.496-.02-4.15
+ 5.752h8.065l-3.562 5.377H.916L8.306 24l14.778-6.307h-7.313z" />
 </svg>'''
 
     @property

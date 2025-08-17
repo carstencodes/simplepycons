@@ -1689,6 +1689,8 @@ from ._llvm import LlvmIcon
 from ._lmms import LmmsIcon
 from ._lobsters import LobstersIcon
 from ._local import LocalIcon
+from ._localsend import LocalsendIcon
+from ._localxpose import LocalxposeIcon
 from ._lodash import LodashIcon
 from ._logitech import LogitechIcon
 from ._logitechg import LogitechGIcon
@@ -2113,6 +2115,7 @@ from ._ovh import OvhIcon
 from ._owasp import OwaspIcon
 from ._dependencycheck import OwaspDependencycheckIcon
 from ._owncloud import OwncloudIcon
+from ._oxc import OxcIcon
 from ._oxygen import OxygenIcon
 from ._oyo import OyoIcon
 from ._p5dotjs import PFiveDotjsIcon
@@ -2501,6 +2504,7 @@ from ._rockylinux import RockyLinuxIcon
 from ._roku import RokuIcon
 from ._roll20 import RollTwentyIcon
 from ._rollbar import RollbarIcon
+from ._rolldown import RolldownIcon
 from ._rollsroyce import RollsroyceIcon
 from ._rollupdotjs import RollupdotjsIcon
 from ._rook import RookIcon
@@ -5041,6 +5045,8 @@ ALL_ICONS: "Final[list[str]]" = [
     LmmsIcon.__name__,
     LobstersIcon.__name__,
     LocalIcon.__name__,
+    LocalsendIcon.__name__,
+    LocalxposeIcon.__name__,
     LodashIcon.__name__,
     LogitechIcon.__name__,
     LogitechGIcon.__name__,
@@ -5466,6 +5472,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OwaspIcon.__name__,
     OwaspDependencycheckIcon.__name__,
     OwncloudIcon.__name__,
+    OxcIcon.__name__,
     OxygenIcon.__name__,
     OyoIcon.__name__,
     PFiveDotjsIcon.__name__,
@@ -5854,6 +5861,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RokuIcon.__name__,
     RollTwentyIcon.__name__,
     RollbarIcon.__name__,
+    RolldownIcon.__name__,
     RollsroyceIcon.__name__,
     RollupdotjsIcon.__name__,
     RookIcon.__name__,

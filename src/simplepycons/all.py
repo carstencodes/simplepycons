@@ -738,6 +738,7 @@ from ._deepcool import DeepcoolIcon
 from ._deepgram import DeepgramIcon
 from ._deepin import DeepinIcon
 from ._deepl import DeeplIcon
+from ._deepmind import DeepmindIcon
 from ._deepnote import DeepnoteIcon
 from ._deliveroo import DeliverooIcon
 from ._dell import DellIcon
@@ -1050,6 +1051,7 @@ from ._freenet import FreenetIcon
 from ._freepik import FreepikIcon
 from ._freetube import FreetubeIcon
 from ._fresh import FreshIcon
+from ._freshrss import FreshrssIcon
 from ._frigate import FrigateIcon
 from ._fritz import FritzIcon
 from ._frontendmentor import FrontendMentorIcon
@@ -1989,6 +1991,7 @@ from ._nordvpn import NordvpnIcon
 from ._normalizedotcss import NormalizedotcssIcon
 from ._norton import NortonIcon
 from ._norwegian import NorwegianIcon
+from ._note import NoteIcon
 from ._notebooklm import NotebooklmIcon
 from ._notepadplusplus import NotepadplusplusIcon
 from ._notion import NotionIcon
@@ -2395,6 +2398,7 @@ from ._radiofrance import RadioFranceIcon
 from ._radixui import RadixUiIcon
 from ._railway import RailwayIcon
 from ._rainmeter import RainmeterIcon
+from ._rainyun import RainyunIcon
 from ._rakuten import RakutenIcon
 from ._rakutenkobo import RakutenKoboIcon
 from ._ram import RamIcon
@@ -2819,6 +2823,7 @@ from ._subtitleedit import SubtitleEditIcon
 from ._subversion import SubversionIcon
 from ._suckless import SucklessIcon
 from ._sui import SuiIcon
+from ._suitest import SuitestIcon
 from ._sumologic import SumoLogicIcon
 from ._suno import SunoIcon
 from ._sunrise import SunriseIcon
@@ -3229,6 +3234,7 @@ from ._welcometothejungle import WelcomeToTheJungleIcon
 from ._wellfound import WellfoundIcon
 from ._wellsfargo import WellsFargoIcon
 from ._wemo import WemoIcon
+from ._weread import WereadIcon
 from ._westerndigital import WesternDigitalIcon
 from ._westernunion import WesternUnionIcon
 from ._wetransfer import WetransferIcon
@@ -4096,6 +4102,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DeepgramIcon.__name__,
     DeepinIcon.__name__,
     DeeplIcon.__name__,
+    DeepmindIcon.__name__,
     DeepnoteIcon.__name__,
     DeliverooIcon.__name__,
     DellIcon.__name__,
@@ -4408,6 +4415,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FreepikIcon.__name__,
     FreetubeIcon.__name__,
     FreshIcon.__name__,
+    FreshrssIcon.__name__,
     FrigateIcon.__name__,
     FritzIcon.__name__,
     FrontendMentorIcon.__name__,
@@ -5346,6 +5354,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NormalizedotcssIcon.__name__,
     NortonIcon.__name__,
     NorwegianIcon.__name__,
+    NoteIcon.__name__,
     NotebooklmIcon.__name__,
     NotepadplusplusIcon.__name__,
     NotionIcon.__name__,
@@ -5752,6 +5761,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RadixUiIcon.__name__,
     RailwayIcon.__name__,
     RainmeterIcon.__name__,
+    RainyunIcon.__name__,
     RakutenIcon.__name__,
     RakutenKoboIcon.__name__,
     RamIcon.__name__,
@@ -6177,6 +6187,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SubversionIcon.__name__,
     SucklessIcon.__name__,
     SuiIcon.__name__,
+    SuitestIcon.__name__,
     SumoLogicIcon.__name__,
     SunoIcon.__name__,
     SunriseIcon.__name__,
@@ -6588,6 +6599,7 @@ ALL_ICONS: "Final[list[str]]" = [
     WellfoundIcon.__name__,
     WellsFargoIcon.__name__,
     WemoIcon.__name__,
+    WereadIcon.__name__,
     WesternDigitalIcon.__name__,
     WesternUnionIcon.__name__,
     WetransferIcon.__name__,

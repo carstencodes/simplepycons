@@ -738,6 +738,7 @@ from ._deepcool import DeepcoolIcon
 from ._deepgram import DeepgramIcon
 from ._deepin import DeepinIcon
 from ._deepl import DeeplIcon
+from ._deepmind import DeepmindIcon
 from ._deepnote import DeepnoteIcon
 from ._deliveroo import DeliverooIcon
 from ._dell import DellIcon
@@ -1050,6 +1051,7 @@ from ._freenet import FreenetIcon
 from ._freepik import FreepikIcon
 from ._freetube import FreetubeIcon
 from ._fresh import FreshIcon
+from ._freshrss import FreshrssIcon
 from ._frigate import FrigateIcon
 from ._fritz import FritzIcon
 from ._frontendmentor import FrontendMentorIcon
@@ -1989,6 +1991,7 @@ from ._nordvpn import NordvpnIcon
 from ._normalizedotcss import NormalizedotcssIcon
 from ._norton import NortonIcon
 from ._norwegian import NorwegianIcon
+from ._note import NoteIcon
 from ._notebooklm import NotebooklmIcon
 from ._notepadplusplus import NotepadplusplusIcon
 from ._notion import NotionIcon
@@ -2395,6 +2398,7 @@ from ._radiofrance import RadioFranceIcon
 from ._radixui import RadixUiIcon
 from ._railway import RailwayIcon
 from ._rainmeter import RainmeterIcon
+from ._rainyun import RainyunIcon
 from ._rakuten import RakutenIcon
 from ._rakutenkobo import RakutenKoboIcon
 from ._ram import RamIcon
@@ -2819,6 +2823,7 @@ from ._subtitleedit import SubtitleEditIcon
 from ._subversion import SubversionIcon
 from ._suckless import SucklessIcon
 from ._sui import SuiIcon
+from ._suitest import SuitestIcon
 from ._sumologic import SumoLogicIcon
 from ._suno import SunoIcon
 from ._sunrise import SunriseIcon
@@ -3229,6 +3234,7 @@ from ._welcometothejungle import WelcomeToTheJungleIcon
 from ._wellfound import WellfoundIcon
 from ._wellsfargo import WellsFargoIcon
 from ._wemo import WemoIcon
+from ._weread import WereadIcon
 from ._westerndigital import WesternDigitalIcon
 from ._westernunion import WesternUnionIcon
 from ._wetransfer import WetransferIcon
@@ -4095,6 +4101,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'deepgram': DeepgramIcon,
     'deepin': DeepinIcon,
     'deepl': DeeplIcon,
+    'deepmind': DeepmindIcon,
     'deepnote': DeepnoteIcon,
     'deliveroo': DeliverooIcon,
     'dell': DellIcon,
@@ -4407,6 +4414,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'freepik': FreepikIcon,
     'freetube': FreetubeIcon,
     'fresh': FreshIcon,
+    'freshrss': FreshrssIcon,
     'frigate': FrigateIcon,
     'fritz': FritzIcon,
     'frontendmentor': FrontendMentorIcon,
@@ -5342,6 +5350,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'normalizedotcss': NormalizedotcssIcon,
     'norton': NortonIcon,
     'norwegian': NorwegianIcon,
+    'note': NoteIcon,
     'notebooklm': NotebooklmIcon,
     'notepadplusplus': NotepadplusplusIcon,
     'notion': NotionIcon,
@@ -5748,6 +5757,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'radixui': RadixUiIcon,
     'railway': RailwayIcon,
     'rainmeter': RainmeterIcon,
+    'rainyun': RainyunIcon,
     'rakuten': RakutenIcon,
     'rakutenkobo': RakutenKoboIcon,
     'ram': RamIcon,
@@ -6172,6 +6182,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'subversion': SubversionIcon,
     'suckless': SucklessIcon,
     'sui': SuiIcon,
+    'suitest': SuitestIcon,
     'sumologic': SumoLogicIcon,
     'suno': SunoIcon,
     'sunrise': SunriseIcon,
@@ -6582,6 +6593,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'wellfound': WellfoundIcon,
     'wellsfargo': WellsFargoIcon,
     'wemo': WemoIcon,
+    'weread': WereadIcon,
     'westerndigital': WesternDigitalIcon,
     'westernunion': WesternUnionIcon,
     'wetransfer': WetransferIcon,

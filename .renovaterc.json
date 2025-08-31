@@ -38,6 +38,5 @@
         "at 6pm every weekday"
     ],
     "timezone": "Etc/UTC",
-    "updateLockFiles": true,
     "updateNotScheduled": true
 }

@@ -3153,6 +3153,7 @@ from ._virginmedia import VirginMediaIcon
 from ._virtualbox import VirtualboxIcon
 from ._virustotal import VirustotalIcon
 from ._visa import VisaIcon
+from ._visualparadigm import VisualParadigmIcon
 from ._visx import VisxIcon
 from ._vite import ViteIcon
 from ._vitepress import VitepressIcon
@@ -6512,6 +6513,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'virtualbox': VirtualboxIcon,
     'virustotal': VirustotalIcon,
     'visa': VisaIcon,
+    'visualparadigm': VisualParadigmIcon,
     'visx': VisxIcon,
     'vite': ViteIcon,
     'vitepress': VitepressIcon,

@@ -3153,6 +3153,7 @@ from ._virginmedia import VirginMediaIcon
 from ._virtualbox import VirtualboxIcon
 from ._virustotal import VirustotalIcon
 from ._visa import VisaIcon
+from ._visualparadigm import VisualParadigmIcon
 from ._visx import VisxIcon
 from ._vite import ViteIcon
 from ._vitepress import VitepressIcon
@@ -6518,6 +6519,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VirtualboxIcon.__name__,
     VirustotalIcon.__name__,
     VisaIcon.__name__,
+    VisualParadigmIcon.__name__,
     VisxIcon.__name__,
     ViteIcon.__name__,
     VitepressIcon.__name__,

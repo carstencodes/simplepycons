@@ -3153,6 +3153,7 @@ class _IconCollection:
     get_virtualbox_icon: "Final[IconFactory]"
     get_virustotal_icon: "Final[IconFactory]"
     get_visa_icon: "Final[IconFactory]"
+    get_visualparadigm_icon: "Final[IconFactory]"
     get_visx_icon: "Final[IconFactory]"
     get_vite_icon: "Final[IconFactory]"
     get_vitepress_icon: "Final[IconFactory]"

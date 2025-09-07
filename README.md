@@ -1,6 +1,7 @@
 # simplepycons
 
-![PyPI](https://img.shields.io/pypi/v/simplepycons?logo=python&logoColor=%23cccccc) ![Simple Icons version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcarstencodes%2Fsimplepycons%2Frefs%2Fheads%2Fmain%2F.gitmodules&search=%5C%5Bsubmodule%20%22vendor%5C%2Fsimple-icons%22%5C%5D%5B%5E%5C%5B%5D%2Bbranch%5Cs*%3D%5Cs*%28%3F%3Cversion%3E%5Cd%2B%5C.%5Cd%2B%5C.%5Cd%2B%3F%29&replace=%24%3Cversion%3E&flags=ims&label=Simple%20Icons%20version) ![License](https://img.shields.io/github/license/carstencodes/simplepycons?label=License) [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
+![PyPI](https://img.shields.io/pypi/v/simplepycons?logo=python&logoColor=%23cccccc) ![Simple Icons version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcarstencodes%2Fsimplepycons%2Frefs%2Fheads%2Fmain%2F.gitmodules&search=%5C%5Bsubmodule%20%22vendor%5C%2Fsimple-icons%22%5C%5D%5B%5E%5C%5B%5D%2Bbranch%5Cs*%3D%5Cs*%28%3F%3Cversion%3E%5Cd%2B%5C.%5Cd%2B%5C.%5Cd%2B%3F%29&replace=%24%3Cversion%3E&flags=ims&label=Simple%20Icons%20version) ![License](https://img.shields.io/github/license/carstencodes/simplepycons?label=License) ![Latest Simple Icons Release](https://img.shields.io/github/v/release/simple-icons/simple-icons)
+ [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
 
 Python wrappers for [simple-icons](https://github.com/simple-icons/simple-icons)
 inspired by the [wonderful work of sachinraja](https://github.com/sachinraja/simple-icons-py).

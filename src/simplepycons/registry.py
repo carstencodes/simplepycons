@@ -3183,6 +3183,7 @@ from ._vscodium import VscodiumIcon
 from ._vtex import VtexIcon
 from ._vuedotjs import VuedotjsIcon
 from ._vuetify import VuetifyIcon
+from ._vueuse import VueuseIcon
 from ._vulkan import VulkanIcon
 from ._vultr import VultrIcon
 from ._vyond import VyondIcon
@@ -6543,6 +6544,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'vtex': VtexIcon,
     'vuedotjs': VuedotjsIcon,
     'vuetify': VuetifyIcon,
+    'vueuse': VueuseIcon,
     'vulkan': VulkanIcon,
     'vultr': VultrIcon,
     'vyond': VyondIcon,

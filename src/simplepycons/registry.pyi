@@ -3183,6 +3183,7 @@ class _IconCollection:
     get_vtex_icon: "Final[IconFactory]"
     get_vuedotjs_icon: "Final[IconFactory]"
     get_vuetify_icon: "Final[IconFactory]"
+    get_vueuse_icon: "Final[IconFactory]"
     get_vulkan_icon: "Final[IconFactory]"
     get_vultr_icon: "Final[IconFactory]"
     get_vyond_icon: "Final[IconFactory]"

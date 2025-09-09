@@ -3183,6 +3183,7 @@ from ._vscodium import VscodiumIcon
 from ._vtex import VtexIcon
 from ._vuedotjs import VuedotjsIcon
 from ._vuetify import VuetifyIcon
+from ._vueuse import VueuseIcon
 from ._vulkan import VulkanIcon
 from ._vultr import VultrIcon
 from ._vyond import VyondIcon
@@ -6549,6 +6550,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VtexIcon.__name__,
     VuedotjsIcon.__name__,
     VuetifyIcon.__name__,
+    VueuseIcon.__name__,
     VulkanIcon.__name__,
     VultrIcon.__name__,
     VyondIcon.__name__,

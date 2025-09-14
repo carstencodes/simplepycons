@@ -37,7 +37,7 @@ class AssemblyscriptIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#007AAC"
+        return "#007ACC"
 
     @property
     def raw_svg(self) -> "str":

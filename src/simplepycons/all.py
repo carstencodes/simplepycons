@@ -1225,6 +1225,7 @@ from ._greasyfork import GreasyForkIcon
 from ._greatlearning import GreatLearningIcon
 from ._greenhouse import GreenhouseIcon
 from ._greensock import GreensockIcon
+from ._greptimedb import GreptimedbIcon
 from ._griddotai import GriddotaiIcon
 from ._gridsome import GridsomeIcon
 from ._grocy import GrocyIcon
@@ -4587,6 +4588,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GreatLearningIcon.__name__,
     GreenhouseIcon.__name__,
     GreensockIcon.__name__,
+    GreptimedbIcon.__name__,
     GriddotaiIcon.__name__,
     GridsomeIcon.__name__,
     GrocyIcon.__name__,

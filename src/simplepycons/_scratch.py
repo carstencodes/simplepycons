@@ -37,7 +37,7 @@ class ScratchIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#4D97FF"
+        return "#855CD6"
 
     @property
     def raw_svg(self) -> "str":

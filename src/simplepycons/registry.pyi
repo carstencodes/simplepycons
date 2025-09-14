@@ -1225,6 +1225,7 @@ class _IconCollection:
     get_greatlearning_icon: "Final[IconFactory]"
     get_greenhouse_icon: "Final[IconFactory]"
     get_greensock_icon: "Final[IconFactory]"
+    get_greptimedb_icon: "Final[IconFactory]"
     get_griddotai_icon: "Final[IconFactory]"
     get_gridsome_icon: "Final[IconFactory]"
     get_grocy_icon: "Final[IconFactory]"

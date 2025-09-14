@@ -1225,6 +1225,7 @@ from ._greasyfork import GreasyForkIcon
 from ._greatlearning import GreatLearningIcon
 from ._greenhouse import GreenhouseIcon
 from ._greensock import GreensockIcon
+from ._greptimedb import GreptimedbIcon
 from ._griddotai import GriddotaiIcon
 from ._gridsome import GridsomeIcon
 from ._grocy import GrocyIcon
@@ -4586,6 +4587,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'greatlearning': GreatLearningIcon,
     'greenhouse': GreenhouseIcon,
     'greensock': GreensockIcon,
+    'greptimedb': GreptimedbIcon,
     'griddotai': GriddotaiIcon,
     'gridsome': GridsomeIcon,
     'grocy': GrocyIcon,

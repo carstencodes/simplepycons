@@ -37,7 +37,7 @@ class LuaIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#2C2D72"
+        return "#000080"
 
     @property
     def raw_svg(self) -> "str":

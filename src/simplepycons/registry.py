@@ -157,6 +157,7 @@ from ._androidstudio import AndroidStudioIcon
 from ._angular import AngularIcon
 from ._anilist import AnilistIcon
 from ._animalplanet import AnimalPlanetIcon
+from ._animedotjs import AnimedotjsIcon
 from ._ankermake import AnkermakeIcon
 from ._anki import AnkiIcon
 from ._ansible import AnsibleIcon
@@ -1078,6 +1079,7 @@ from ._gameloft import GameloftIcon
 from ._gamemaker import GamemakerIcon
 from ._gandi import GandiIcon
 from ._garmin import GarminIcon
+from ._garudalinux import GarudaLinuxIcon
 from ._gatling import GatlingIcon
 from ._gatsby import GatsbyIcon
 from ._gcore import GcoreIcon
@@ -1687,6 +1689,7 @@ from ._literal import LiteralIcon
 from ._litiengine import LitiengineIcon
 from ._livechat import LivechatIcon
 from ._livejournal import LivejournalIcon
+from ._livekit import LivekitIcon
 from ._livewire import LivewireIcon
 from ._llvm import LlvmIcon
 from ._lmms import LmmsIcon
@@ -2099,6 +2102,7 @@ from ._oppo import OppoIcon
 from ._opsgenie import OpsgenieIcon
 from ._opslevel import OpslevelIcon
 from ._optimism import OptimismIcon
+from ._optuna import OptunaIcon
 from ._orange import OrangeIcon
 from ._orcid import OrcidIcon
 from ._org import OrgIcon
@@ -2210,6 +2214,7 @@ from ._pimcore import PimcoreIcon
 from ._pinboard import PinboardIcon
 from ._pinescript import PineScriptIcon
 from ._pingdom import PingdomIcon
+from ._pinia import PiniaIcon
 from ._pino import PinoIcon
 from ._pinterest import PinterestIcon
 from ._pioneerdj import PioneerDjIcon
@@ -2666,6 +2671,7 @@ from ._sitecore import SitecoreIcon
 from ._sitepoint import SitepointIcon
 from ._siyuan import SiyuanIcon
 from ._skaffold import SkaffoldIcon
+from ._skeleton import SkeletonIcon
 from ._sketch import SketchIcon
 from ._sketchfab import SketchfabIcon
 from ._sketchup import SketchupIcon
@@ -2683,6 +2689,7 @@ from ._slint import SlintIcon
 from ._smart import SmartIcon
 from ._smartthings import SmartthingsIcon
 from ._smashingmagazine import SmashingMagazineIcon
+from ._smoothcomp import SmoothcompIcon
 from ._smrt import SmrtIcon
 from ._smugmug import SmugmugIcon
 from ._snapchat import SnapchatIcon
@@ -3089,6 +3096,7 @@ from ._unpkg import UnpkgIcon
 from ._unraid import UnraidIcon
 from ._unrealengine import UnrealEngineIcon
 from ._unsplash import UnsplashIcon
+from ._unstop import UnstopIcon
 from ._untappd import UntappdIcon
 from ._upcloud import UpcloudIcon
 from ._uphold import UpholdIcon
@@ -3523,6 +3531,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'angular': AngularIcon,
     'anilist': AnilistIcon,
     'animalplanet': AnimalPlanetIcon,
+    'animedotjs': AnimedotjsIcon,
     'ankermake': AnkermakeIcon,
     'anki': AnkiIcon,
     'ansible': AnsibleIcon,
@@ -4444,6 +4453,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'gamemaker': GamemakerIcon,
     'gandi': GandiIcon,
     'garmin': GarminIcon,
+    'garudalinux': GarudaLinuxIcon,
     'gatling': GatlingIcon,
     'gatsby': GatsbyIcon,
     'gcore': GcoreIcon,
@@ -5049,6 +5059,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'litiengine': LitiengineIcon,
     'livechat': LivechatIcon,
     'livejournal': LivejournalIcon,
+    'livekit': LivekitIcon,
     'livewire': LivewireIcon,
     'llvm': LlvmIcon,
     'lmms': LmmsIcon,
@@ -5461,6 +5472,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'opsgenie': OpsgenieIcon,
     'opslevel': OpslevelIcon,
     'optimism': OptimismIcon,
+    'optuna': OptunaIcon,
     'orange': OrangeIcon,
     'orcid': OrcidIcon,
     'org': OrgIcon,
@@ -5572,6 +5584,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'pinboard': PinboardIcon,
     'pinescript': PineScriptIcon,
     'pingdom': PingdomIcon,
+    'pinia': PiniaIcon,
     'pino': PinoIcon,
     'pinterest': PinterestIcon,
     'pioneerdj': PioneerDjIcon,
@@ -6028,6 +6041,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'sitepoint': SitepointIcon,
     'siyuan': SiyuanIcon,
     'skaffold': SkaffoldIcon,
+    'skeleton': SkeletonIcon,
     'sketch': SketchIcon,
     'sketchfab': SketchfabIcon,
     'sketchup': SketchupIcon,
@@ -6045,6 +6059,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'smart': SmartIcon,
     'smartthings': SmartthingsIcon,
     'smashingmagazine': SmashingMagazineIcon,
+    'smoothcomp': SmoothcompIcon,
     'smrt': SmrtIcon,
     'smugmug': SmugmugIcon,
     'snapchat': SnapchatIcon,
@@ -6451,6 +6466,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'unraid': UnraidIcon,
     'unrealengine': UnrealEngineIcon,
     'unsplash': UnsplashIcon,
+    'unstop': UnstopIcon,
     'untappd': UntappdIcon,
     'upcloud': UpcloudIcon,
     'uphold': UpholdIcon,

@@ -157,6 +157,7 @@ from ._androidstudio import AndroidStudioIcon
 from ._angular import AngularIcon
 from ._anilist import AnilistIcon
 from ._animalplanet import AnimalPlanetIcon
+from ._animedotjs import AnimedotjsIcon
 from ._ankermake import AnkermakeIcon
 from ._anki import AnkiIcon
 from ._ansible import AnsibleIcon
@@ -1078,6 +1079,7 @@ from ._gameloft import GameloftIcon
 from ._gamemaker import GamemakerIcon
 from ._gandi import GandiIcon
 from ._garmin import GarminIcon
+from ._garudalinux import GarudaLinuxIcon
 from ._gatling import GatlingIcon
 from ._gatsby import GatsbyIcon
 from ._gcore import GcoreIcon
@@ -1687,6 +1689,7 @@ from ._literal import LiteralIcon
 from ._litiengine import LitiengineIcon
 from ._livechat import LivechatIcon
 from ._livejournal import LivejournalIcon
+from ._livekit import LivekitIcon
 from ._livewire import LivewireIcon
 from ._llvm import LlvmIcon
 from ._lmms import LmmsIcon
@@ -2099,6 +2102,7 @@ from ._oppo import OppoIcon
 from ._opsgenie import OpsgenieIcon
 from ._opslevel import OpslevelIcon
 from ._optimism import OptimismIcon
+from ._optuna import OptunaIcon
 from ._orange import OrangeIcon
 from ._orcid import OrcidIcon
 from ._org import OrgIcon
@@ -2210,6 +2214,7 @@ from ._pimcore import PimcoreIcon
 from ._pinboard import PinboardIcon
 from ._pinescript import PineScriptIcon
 from ._pingdom import PingdomIcon
+from ._pinia import PiniaIcon
 from ._pino import PinoIcon
 from ._pinterest import PinterestIcon
 from ._pioneerdj import PioneerDjIcon
@@ -2666,6 +2671,7 @@ from ._sitecore import SitecoreIcon
 from ._sitepoint import SitepointIcon
 from ._siyuan import SiyuanIcon
 from ._skaffold import SkaffoldIcon
+from ._skeleton import SkeletonIcon
 from ._sketch import SketchIcon
 from ._sketchfab import SketchfabIcon
 from ._sketchup import SketchupIcon
@@ -2683,6 +2689,7 @@ from ._slint import SlintIcon
 from ._smart import SmartIcon
 from ._smartthings import SmartthingsIcon
 from ._smashingmagazine import SmashingMagazineIcon
+from ._smoothcomp import SmoothcompIcon
 from ._smrt import SmrtIcon
 from ._smugmug import SmugmugIcon
 from ._snapchat import SnapchatIcon
@@ -3089,6 +3096,7 @@ from ._unpkg import UnpkgIcon
 from ._unraid import UnraidIcon
 from ._unrealengine import UnrealEngineIcon
 from ._unsplash import UnsplashIcon
+from ._unstop import UnstopIcon
 from ._untappd import UntappdIcon
 from ._upcloud import UpcloudIcon
 from ._uphold import UpholdIcon
@@ -3523,6 +3531,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AngularIcon.__name__,
     AnilistIcon.__name__,
     AnimalPlanetIcon.__name__,
+    AnimedotjsIcon.__name__,
     AnkermakeIcon.__name__,
     AnkiIcon.__name__,
     AnsibleIcon.__name__,
@@ -4445,6 +4454,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GamemakerIcon.__name__,
     GandiIcon.__name__,
     GarminIcon.__name__,
+    GarudaLinuxIcon.__name__,
     GatlingIcon.__name__,
     GatsbyIcon.__name__,
     GcoreIcon.__name__,
@@ -5052,6 +5062,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LitiengineIcon.__name__,
     LivechatIcon.__name__,
     LivejournalIcon.__name__,
+    LivekitIcon.__name__,
     LivewireIcon.__name__,
     LlvmIcon.__name__,
     LmmsIcon.__name__,
@@ -5465,6 +5476,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OpsgenieIcon.__name__,
     OpslevelIcon.__name__,
     OptimismIcon.__name__,
+    OptunaIcon.__name__,
     OrangeIcon.__name__,
     OrcidIcon.__name__,
     OrgIcon.__name__,
@@ -5576,6 +5588,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PinboardIcon.__name__,
     PineScriptIcon.__name__,
     PingdomIcon.__name__,
+    PiniaIcon.__name__,
     PinoIcon.__name__,
     PinterestIcon.__name__,
     PioneerDjIcon.__name__,
@@ -6032,6 +6045,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SitepointIcon.__name__,
     SiyuanIcon.__name__,
     SkaffoldIcon.__name__,
+    SkeletonIcon.__name__,
     SketchIcon.__name__,
     SketchfabIcon.__name__,
     SketchupIcon.__name__,
@@ -6049,6 +6063,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SmartIcon.__name__,
     SmartthingsIcon.__name__,
     SmashingMagazineIcon.__name__,
+    SmoothcompIcon.__name__,
     SmrtIcon.__name__,
     SmugmugIcon.__name__,
     SnapchatIcon.__name__,
@@ -6457,6 +6472,7 @@ ALL_ICONS: "Final[list[str]]" = [
     UnraidIcon.__name__,
     UnrealEngineIcon.__name__,
     UnsplashIcon.__name__,
+    UnstopIcon.__name__,
     UntappdIcon.__name__,
     UpcloudIcon.__name__,
     UpholdIcon.__name__,

@@ -1722,6 +1722,7 @@ from ._ludwig import LudwigIcon
 from ._lufthansa import LufthansaIcon
 from ._lumen import LumenIcon
 from ._lunacy import LunacyIcon
+from ._luogu import LuoguIcon
 from ._lutris import LutrisIcon
 from ._lvgl import LvglIcon
 from ._lydia import LydiaIcon
@@ -5095,6 +5096,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LufthansaIcon.__name__,
     LumenIcon.__name__,
     LunacyIcon.__name__,
+    LuoguIcon.__name__,
     LutrisIcon.__name__,
     LvglIcon.__name__,
     LydiaIcon.__name__,

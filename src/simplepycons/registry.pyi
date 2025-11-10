@@ -1604,6 +1604,7 @@ class _IconCollection:
     get_kx_icon: "Final[IconFactory]"
     get_kyocera_icon: "Final[IconFactory]"
     get_lequipe_icon: "Final[IconFactory]"
+    get_labex_icon: "Final[IconFactory]"
     get_labview_icon: "Final[IconFactory]"
     get_lada_icon: "Final[IconFactory]"
     get_lamborghini_icon: "Final[IconFactory]"

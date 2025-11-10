@@ -1604,6 +1604,7 @@ from ._kuula import KuulaIcon
 from ._kx import KxIcon
 from ._kyocera import KyoceraIcon
 from ._lequipe import LequipeIcon
+from ._labex import LabexIcon
 from ._labview import LabviewIcon
 from ._lada import LadaIcon
 from ._lamborghini import LamborghiniIcon
@@ -4979,6 +4980,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'kx': KxIcon,
     'kyocera': KyoceraIcon,
     'lequipe': LequipeIcon,
+    'labex': LabexIcon,
     'labview': LabviewIcon,
     'lada': LadaIcon,
     'lamborghini': LamborghiniIcon,

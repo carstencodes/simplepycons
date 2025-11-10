@@ -1604,6 +1604,7 @@ from ._kuula import KuulaIcon
 from ._kx import KxIcon
 from ._kyocera import KyoceraIcon
 from ._lequipe import LequipeIcon
+from ._labex import LabexIcon
 from ._labview import LabviewIcon
 from ._lada import LadaIcon
 from ._lamborghini import LamborghiniIcon
@@ -4982,6 +4983,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KxIcon.__name__,
     KyoceraIcon.__name__,
     LequipeIcon.__name__,
+    LabexIcon.__name__,
     LabviewIcon.__name__,
     LadaIcon.__name__,
     LamborghiniIcon.__name__,

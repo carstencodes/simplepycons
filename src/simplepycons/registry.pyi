@@ -1722,6 +1722,7 @@ class _IconCollection:
     get_lufthansa_icon: "Final[IconFactory]"
     get_lumen_icon: "Final[IconFactory]"
     get_lunacy_icon: "Final[IconFactory]"
+    get_luogu_icon: "Final[IconFactory]"
     get_lutris_icon: "Final[IconFactory]"
     get_lvgl_icon: "Final[IconFactory]"
     get_lydia_icon: "Final[IconFactory]"

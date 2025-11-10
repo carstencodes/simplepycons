@@ -1722,6 +1722,7 @@ from ._ludwig import LudwigIcon
 from ._lufthansa import LufthansaIcon
 from ._lumen import LumenIcon
 from ._lunacy import LunacyIcon
+from ._luogu import LuoguIcon
 from ._lutris import LutrisIcon
 from ._lvgl import LvglIcon
 from ._lydia import LydiaIcon
@@ -5092,6 +5093,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'lufthansa': LufthansaIcon,
     'lumen': LumenIcon,
     'lunacy': LunacyIcon,
+    'luogu': LuoguIcon,
     'lutris': LutrisIcon,
     'lvgl': LvglIcon,
     'lydia': LydiaIcon,

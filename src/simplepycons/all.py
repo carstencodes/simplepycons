@@ -175,6 +175,7 @@ from ._anytype import AnytypeIcon
 from ._apache import ApacheIcon
 from ._apacheairflow import ApacheAirflowIcon
 from ._apacheant import ApacheAntIcon
+from ._apacheavro import ApacheAvroIcon
 from ._apachecassandra import ApacheCassandraIcon
 from ._apachecloudstack import ApacheCloudstackIcon
 from ._apachecordova import ApacheCordovaIcon
@@ -644,6 +645,7 @@ from ._conventionalcommits import ConventionalCommitsIcon
 from ._convertio import ConvertioIcon
 from ._cookiecutter import CookiecutterIcon
 from ._coolermaster import CoolerMasterIcon
+from ._coolify import CoolifyIcon
 from ._copaairlines import CopaAirlinesIcon
 from ._coppel import CoppelIcon
 from ._cora import CoraIcon
@@ -985,6 +987,7 @@ from ._firefoxbrowser import FirefoxBrowserIcon
 from ._fireship import FireshipIcon
 from ._firewalla import FirewallaIcon
 from ._first import FirstIcon
+from ._fishaudio import FishAudioIcon
 from ._fishshell import FishShellIcon
 from ._fitbit import FitbitIcon
 from ._fivem import FivemIcon
@@ -1682,6 +1685,7 @@ from ._linuxprofessionalinstitute import LinuxProfessionalInstituteIcon
 from ._linuxserver import LinuxserverIcon
 from ._lionair import LionAirIcon
 from ._liquibase import LiquibaseIcon
+from ._listenhub import ListenhubIcon
 from ._listmonk import ListmonkIcon
 from ._lit import LitIcon
 from ._litecoin import LitecoinIcon
@@ -3550,6 +3554,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ApacheIcon.__name__,
     ApacheAirflowIcon.__name__,
     ApacheAntIcon.__name__,
+    ApacheAvroIcon.__name__,
     ApacheCassandraIcon.__name__,
     ApacheCloudstackIcon.__name__,
     ApacheCordovaIcon.__name__,
@@ -4020,6 +4025,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ConvertioIcon.__name__,
     CookiecutterIcon.__name__,
     CoolerMasterIcon.__name__,
+    CoolifyIcon.__name__,
     CopaAirlinesIcon.__name__,
     CoppelIcon.__name__,
     CoraIcon.__name__,
@@ -4361,6 +4367,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FireshipIcon.__name__,
     FirewallaIcon.__name__,
     FirstIcon.__name__,
+    FishAudioIcon.__name__,
     FishShellIcon.__name__,
     FitbitIcon.__name__,
     FivemIcon.__name__,
@@ -5056,6 +5063,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LinuxserverIcon.__name__,
     LionAirIcon.__name__,
     LiquibaseIcon.__name__,
+    ListenhubIcon.__name__,
     ListmonkIcon.__name__,
     LitIcon.__name__,
     LitecoinIcon.__name__,

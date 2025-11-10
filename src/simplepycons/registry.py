@@ -175,6 +175,7 @@ from ._anytype import AnytypeIcon
 from ._apache import ApacheIcon
 from ._apacheairflow import ApacheAirflowIcon
 from ._apacheant import ApacheAntIcon
+from ._apacheavro import ApacheAvroIcon
 from ._apachecassandra import ApacheCassandraIcon
 from ._apachecloudstack import ApacheCloudstackIcon
 from ._apachecordova import ApacheCordovaIcon
@@ -644,6 +645,7 @@ from ._conventionalcommits import ConventionalCommitsIcon
 from ._convertio import ConvertioIcon
 from ._cookiecutter import CookiecutterIcon
 from ._coolermaster import CoolerMasterIcon
+from ._coolify import CoolifyIcon
 from ._copaairlines import CopaAirlinesIcon
 from ._coppel import CoppelIcon
 from ._cora import CoraIcon
@@ -985,6 +987,7 @@ from ._firefoxbrowser import FirefoxBrowserIcon
 from ._fireship import FireshipIcon
 from ._firewalla import FirewallaIcon
 from ._first import FirstIcon
+from ._fishaudio import FishAudioIcon
 from ._fishshell import FishShellIcon
 from ._fitbit import FitbitIcon
 from ._fivem import FivemIcon
@@ -1682,6 +1685,7 @@ from ._linuxprofessionalinstitute import LinuxProfessionalInstituteIcon
 from ._linuxserver import LinuxserverIcon
 from ._lionair import LionAirIcon
 from ._liquibase import LiquibaseIcon
+from ._listenhub import ListenhubIcon
 from ._listmonk import ListmonkIcon
 from ._lit import LitIcon
 from ._litecoin import LitecoinIcon
@@ -3550,6 +3554,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'apache': ApacheIcon,
     'apacheairflow': ApacheAirflowIcon,
     'apacheant': ApacheAntIcon,
+    'apacheavro': ApacheAvroIcon,
     'apachecassandra': ApacheCassandraIcon,
     'apachecloudstack': ApacheCloudstackIcon,
     'apachecordova': ApacheCordovaIcon,
@@ -4019,6 +4024,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'convertio': ConvertioIcon,
     'cookiecutter': CookiecutterIcon,
     'coolermaster': CoolerMasterIcon,
+    'coolify': CoolifyIcon,
     'copaairlines': CopaAirlinesIcon,
     'coppel': CoppelIcon,
     'cora': CoraIcon,
@@ -4360,6 +4366,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'fireship': FireshipIcon,
     'firewalla': FirewallaIcon,
     'first': FirstIcon,
+    'fishaudio': FishAudioIcon,
     'fishshell': FishShellIcon,
     'fitbit': FitbitIcon,
     'fivem': FivemIcon,
@@ -5053,6 +5060,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'linuxserver': LinuxserverIcon,
     'lionair': LionAirIcon,
     'liquibase': LiquibaseIcon,
+    'listenhub': ListenhubIcon,
     'listmonk': ListmonkIcon,
     'lit': LitIcon,
     'litecoin': LitecoinIcon,

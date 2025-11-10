@@ -691,6 +691,7 @@ from ._cucumber import CucumberIcon
 from ._cultura import CulturaIcon
 from ._curl import CurlIcon
 from ._curseforge import CurseforgeIcon
+from ._cursor import CursorIcon
 from ._customink import CustomInkIcon
 from ._cyberdefenders import CyberdefendersIcon
 from ._cycling74 import CyclingSeventyFourIcon
@@ -4071,6 +4072,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'cultura': CulturaIcon,
     'curl': CurlIcon,
     'curseforge': CurseforgeIcon,
+    'cursor': CursorIcon,
     'customink': CustomInkIcon,
     'cyberdefenders': CyberdefendersIcon,
     'cycling74': CyclingSeventyFourIcon,

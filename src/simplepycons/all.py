@@ -691,6 +691,7 @@ from ._cucumber import CucumberIcon
 from ._cultura import CulturaIcon
 from ._curl import CurlIcon
 from ._curseforge import CurseforgeIcon
+from ._cursor import CursorIcon
 from ._customink import CustomInkIcon
 from ._cyberdefenders import CyberdefendersIcon
 from ._cycling74 import CyclingSeventyFourIcon
@@ -4072,6 +4073,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CulturaIcon.__name__,
     CurlIcon.__name__,
     CurseforgeIcon.__name__,
+    CursorIcon.__name__,
     CustomInkIcon.__name__,
     CyberdefendersIcon.__name__,
     CyclingSeventyFourIcon.__name__,

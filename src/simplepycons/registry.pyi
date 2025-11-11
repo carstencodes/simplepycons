@@ -695,6 +695,7 @@ class _IconCollection:
     get_cultura_icon: "Final[IconFactory]"
     get_curl_icon: "Final[IconFactory]"
     get_curseforge_icon: "Final[IconFactory]"
+    get_cursor_icon: "Final[IconFactory]"
     get_customink_icon: "Final[IconFactory]"
     get_cyberdefenders_icon: "Final[IconFactory]"
     get_cycling74_icon: "Final[IconFactory]"

@@ -50,6 +50,7 @@ from ._accusoft import AccusoftIcon
 from ._accuweather import AccuweatherIcon
 from ._acer import AcerIcon
 from ._acm import AcmIcon
+from ._acode import AcodeIcon
 from ._actigraph import ActigraphIcon
 from ._activeloop import ActiveloopIcon
 from ._activision import ActivisionIcon
@@ -223,6 +224,7 @@ from ._applenews import AppleNewsIcon
 from ._applepay import ApplePayIcon
 from ._applepodcasts import ApplePodcastsIcon
 from ._appletv import AppleTvIcon
+from ._appmanager import AppmanagerIcon
 from ._appsignal import AppsignalIcon
 from ._appsmith import AppsmithIcon
 from ._appveyor import AppveyorIcon
@@ -275,6 +277,7 @@ from ._audiobookshelf import AudiobookshelfIcon
 from ._audioboom import AudioboomIcon
 from ._audiomack import AudiomackIcon
 from ._aurelia import AureliaIcon
+from ._autentique import AutentiqueIcon
 from ._auth0 import AuthZeroIcon
 from ._authelia import AutheliaIcon
 from ._authentik import AuthentikIcon
@@ -712,6 +715,7 @@ from ._dart import DartIcon
 from ._darty import DartyIcon
 from ._daserste import DasErsteIcon
 from ._dash import DashIcon
+from ._dash0 import DashZeroIcon
 from ._dashlane import DashlaneIcon
 from ._dask import DaskIcon
 from ._dassaultsystemes import DassaultSystemesIcon
@@ -797,6 +801,7 @@ from ._docsdotrs import DocsdotrsIcon
 from ._docsify import DocsifyIcon
 from ._doctrine import DoctrineIcon
 from ._docusaurus import DocusaurusIcon
+from ._dodopayments import DodoPaymentsIcon
 from ._dogecoin import DogecoinIcon
 from ._doi import DoiIcon
 from ._dolby import DolbyIcon
@@ -1123,6 +1128,7 @@ from ._gitlab import GitlabIcon
 from ._gitpod import GitpodIcon
 from ._gitter import GitterIcon
 from ._gldotinet import GldotinetIcon
+from ._glance import GlanceIcon
 from ._glassdoor import GlassdoorIcon
 from ._gleam import GleamIcon
 from ._glide import GlideIcon
@@ -1273,6 +1279,7 @@ from ._handshake_protocol import HandshakeIcon1,HandshakeProtocolIcon
 from ._happycow import HappycowIcon
 from ._harbor import HarborIcon
 from ._harmonyos import HarmonyosIcon
+from ._hashcat import HashcatIcon
 from ._hashicorp import HashicorpIcon
 from ._hashnode import HashnodeIcon
 from ._haskell import HaskellIcon
@@ -1523,6 +1530,7 @@ from ._kakao import KakaoIcon
 from ._kakaotalk import KakaotalkIcon
 from ._kalilinux import KaliLinuxIcon
 from ._kamailio import KamailioIcon
+from ._kando import KandoIcon
 from ._kaniko import KanikoIcon
 from ._karlsruherverkehrsverbund import KarlsruherVerkehrsverbundIcon
 from ._kasasmart import KasaSmartIcon
@@ -1847,6 +1855,7 @@ from ._minds import MindsIcon
 from ._minetest import MinetestIcon
 from ._mingww64 import MingwwSixtyFourIcon
 from ._mini import MiniIcon
+from ._minimax import MinimaxIcon
 from ._minio import MinioIcon
 from ._mintlify import MintlifyIcon
 from ._minutemailer import MinutemailerIcon
@@ -2087,6 +2096,7 @@ from ._openmediavault import OpenmediavaultIcon
 from ._openmined import OpenminedIcon
 from ._opennebula import OpennebulaIcon
 from ._openproject import OpenprojectIcon
+from ._openrouter import OpenrouterIcon
 from ._openscad import OpenscadIcon
 from ._opensea import OpenseaIcon
 from ._opensearch import OpensearchIcon
@@ -2483,6 +2493,7 @@ from ._resend import ResendIcon
 from ._resharper import ResharperIcon
 from ._resurrectionremixos import ResurrectionRemixOsIcon
 from ._retool import RetoolIcon
+from ._retroachievements import RetroAchievementsIcon
 from ._retroarch import RetroarchIcon
 from ._retropie import RetropieIcon
 from ._revanced import RevancedIcon
@@ -2526,6 +2537,7 @@ from ._rollsroyce import RollsroyceIcon
 from ._rollupdotjs import RollupdotjsIcon
 from ._rook import RookIcon
 from ._roon import RoonIcon
+from ._root import RootIcon
 from ._rootme import RootMeIcon
 from ._roots import RootsIcon
 from ._rootsbedrock import RootsBedrockIcon
@@ -3431,6 +3443,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AccuweatherIcon.__name__,
     AcerIcon.__name__,
     AcmIcon.__name__,
+    AcodeIcon.__name__,
     ActigraphIcon.__name__,
     ActiveloopIcon.__name__,
     ActivisionIcon.__name__,
@@ -3604,6 +3617,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ApplePayIcon.__name__,
     ApplePodcastsIcon.__name__,
     AppleTvIcon.__name__,
+    AppmanagerIcon.__name__,
     AppsignalIcon.__name__,
     AppsmithIcon.__name__,
     AppveyorIcon.__name__,
@@ -3656,6 +3670,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AudioboomIcon.__name__,
     AudiomackIcon.__name__,
     AureliaIcon.__name__,
+    AutentiqueIcon.__name__,
     AuthZeroIcon.__name__,
     AutheliaIcon.__name__,
     AuthentikIcon.__name__,
@@ -4094,6 +4109,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DartyIcon.__name__,
     DasErsteIcon.__name__,
     DashIcon.__name__,
+    DashZeroIcon.__name__,
     DashlaneIcon.__name__,
     DaskIcon.__name__,
     DassaultSystemesIcon.__name__,
@@ -4179,6 +4195,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DocsifyIcon.__name__,
     DoctrineIcon.__name__,
     DocusaurusIcon.__name__,
+    DodoPaymentsIcon.__name__,
     DogecoinIcon.__name__,
     DoiIcon.__name__,
     DolbyIcon.__name__,
@@ -4505,6 +4522,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GitpodIcon.__name__,
     GitterIcon.__name__,
     GldotinetIcon.__name__,
+    GlanceIcon.__name__,
     GlassdoorIcon.__name__,
     GleamIcon.__name__,
     GlideIcon.__name__,
@@ -4652,6 +4670,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HappycowIcon.__name__,
     HarborIcon.__name__,
     HarmonyosIcon.__name__,
+    HashcatIcon.__name__,
     HashicorpIcon.__name__,
     HashnodeIcon.__name__,
     HaskellIcon.__name__,
@@ -4903,6 +4922,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KakaotalkIcon.__name__,
     KaliLinuxIcon.__name__,
     KamailioIcon.__name__,
+    KandoIcon.__name__,
     KanikoIcon.__name__,
     KarlsruherVerkehrsverbundIcon.__name__,
     KasaSmartIcon.__name__,
@@ -5227,6 +5247,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MinetestIcon.__name__,
     MingwwSixtyFourIcon.__name__,
     MiniIcon.__name__,
+    MinimaxIcon.__name__,
     MinioIcon.__name__,
     MintlifyIcon.__name__,
     MinutemailerIcon.__name__,
@@ -5468,6 +5489,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OpenminedIcon.__name__,
     OpennebulaIcon.__name__,
     OpenprojectIcon.__name__,
+    OpenrouterIcon.__name__,
     OpenscadIcon.__name__,
     OpenseaIcon.__name__,
     OpensearchIcon.__name__,
@@ -5864,6 +5886,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ResharperIcon.__name__,
     ResurrectionRemixOsIcon.__name__,
     RetoolIcon.__name__,
+    RetroAchievementsIcon.__name__,
     RetroarchIcon.__name__,
     RetropieIcon.__name__,
     RevancedIcon.__name__,
@@ -5907,6 +5930,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RollupdotjsIcon.__name__,
     RookIcon.__name__,
     RoonIcon.__name__,
+    RootIcon.__name__,
     RootMeIcon.__name__,
     RootsIcon.__name__,
     RootsBedrockIcon.__name__,

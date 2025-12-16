@@ -349,6 +349,7 @@ from ._billboard import BillboardIcon
 from ._bim import BimIcon
 from ._binance import BinanceIcon
 from ._biolink import BioLinkIcon
+from ._bioconductor import BioconductorIcon
 from ._biome import BiomeIcon
 from ._bisecthosting import BisecthostingIcon
 from ._bit import BitIcon
@@ -2224,6 +2225,7 @@ from ._pixelfed import PixelfedIcon
 from ._pixiv import PixivIcon
 from ._pixlr import PixlrIcon
 from ._pkgsrc import PkgsrcIcon
+from ._plane import PlaneIcon
 from ._planet import PlanetIcon
 from ._planetscale import PlanetscaleIcon
 from ._plangrid import PlangridIcon
@@ -3715,6 +3717,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'bim': BimIcon,
     'binance': BinanceIcon,
     'biolink': BioLinkIcon,
+    'bioconductor': BioconductorIcon,
     'biome': BiomeIcon,
     'bisecthosting': BisecthostingIcon,
     'bit': BitIcon,
@@ -5586,6 +5589,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'pixiv': PixivIcon,
     'pixlr': PixlrIcon,
     'pkgsrc': PkgsrcIcon,
+    'plane': PlaneIcon,
     'planet': PlanetIcon,
     'planetscale': PlanetscaleIcon,
     'plangrid': PlangridIcon,

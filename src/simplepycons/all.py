@@ -349,6 +349,7 @@ from ._billboard import BillboardIcon
 from ._bim import BimIcon
 from ._binance import BinanceIcon
 from ._biolink import BioLinkIcon
+from ._bioconductor import BioconductorIcon
 from ._biome import BiomeIcon
 from ._bisecthosting import BisecthostingIcon
 from ._bit import BitIcon
@@ -2224,6 +2225,7 @@ from ._pixelfed import PixelfedIcon
 from ._pixiv import PixivIcon
 from ._pixlr import PixlrIcon
 from ._pkgsrc import PkgsrcIcon
+from ._plane import PlaneIcon
 from ._planet import PlanetIcon
 from ._planetscale import PlanetscaleIcon
 from ._plangrid import PlangridIcon
@@ -3716,6 +3718,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BimIcon.__name__,
     BinanceIcon.__name__,
     BioLinkIcon.__name__,
+    BioconductorIcon.__name__,
     BiomeIcon.__name__,
     BisecthostingIcon.__name__,
     BitIcon.__name__,
@@ -5590,6 +5593,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PixivIcon.__name__,
     PixlrIcon.__name__,
     PkgsrcIcon.__name__,
+    PlaneIcon.__name__,
     PlanetIcon.__name__,
     PlanetscaleIcon.__name__,
     PlangridIcon.__name__,

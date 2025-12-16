@@ -204,6 +204,7 @@ from ._apostrophe import ApostropheIcon
 from ._appstore import AppStoreIcon
 from ._appgallery import AppgalleryIcon
 from ._appian import AppianIcon
+from ._appimage import AppimageIcon
 from ._appium import AppiumIcon
 from ._apple import AppleIcon
 from ._applearcade import AppleArcadeIcon
@@ -866,6 +867,7 @@ from ._elevenlabs import ElevenlabsIcon
 from ._eleventy import EleventyIcon
 from ._elgato import ElgatoIcon
 from ._elixir import ElixirIcon
+from ._elk import ElkIcon
 from ._elm import ElmIcon
 from ._elsevier import ElsevierIcon
 from ._embarcadero import EmbarcaderoIcon
@@ -1088,6 +1090,7 @@ from ._gerrit import GerritIcon
 from ._getx import GetxIcon
 from ._ghost import GhostIcon
 from ._ghostery import GhosteryIcon
+from ._ghostty import GhosttyIcon
 from ._gimp import GimpIcon
 from ._gin import GinIcon
 from ._giphy import GiphyIcon
@@ -1742,6 +1745,7 @@ from ._mambaui import MambaUiIcon
 from ._mamp import MampIcon
 from ._man import ManIcon
 from ._manageiq import ManageiqIcon
+from ._mangacollec import MangacollecIcon
 from ._mangaupdates import MangaupdatesIcon
 from ._manjaro import ManjaroIcon
 from ._mantine import MantineIcon
@@ -1976,6 +1980,7 @@ from ._nobaralinux import NobaraLinuxIcon
 from ._nodered import NoderedIcon
 from ._nodedotjs import NodedotjsIcon
 from ._nodebb import NodebbIcon
+from ._nodegui import NodeguiIcon
 from ._nodemon import NodemonIcon
 from ._nokia import NokiaIcon
 from ._nomad import NomadIcon
@@ -2621,6 +2626,7 @@ from ._serverless import ServerlessIcon
 from ._session import SessionIcon
 from ._sessionize import SessionizeIcon
 from ._setapp import SetappIcon
+from ._setuptools import SetuptoolsIcon
 from ._sfml import SfmlIcon
 from ._shadcnui import ShadcnuiIcon
 from ._shadow import ShadowIcon
@@ -3564,6 +3570,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'appstore': AppStoreIcon,
     'appgallery': AppgalleryIcon,
     'appian': AppianIcon,
+    'appimage': AppimageIcon,
     'appium': AppiumIcon,
     'apple': AppleIcon,
     'applearcade': AppleArcadeIcon,
@@ -4226,6 +4233,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'eleventy': EleventyIcon,
     'elgato': ElgatoIcon,
     'elixir': ElixirIcon,
+    'elk': ElkIcon,
     'elm': ElmIcon,
     'elsevier': ElsevierIcon,
     'embarcadero': EmbarcaderoIcon,
@@ -4448,6 +4456,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'getx': GetxIcon,
     'ghost': GhostIcon,
     'ghostery': GhosteryIcon,
+    'ghostty': GhosttyIcon,
     'gimp': GimpIcon,
     'gin': GinIcon,
     'giphy': GiphyIcon,
@@ -5098,6 +5107,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'mamp': MampIcon,
     'man': ManIcon,
     'manageiq': ManageiqIcon,
+    'mangacollec': MangacollecIcon,
     'mangaupdates': MangaupdatesIcon,
     'manjaro': ManjaroIcon,
     'mantine': MantineIcon,
@@ -5332,6 +5342,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nodered': NoderedIcon,
     'nodedotjs': NodedotjsIcon,
     'nodebb': NodebbIcon,
+    'nodegui': NodeguiIcon,
     'nodemon': NodemonIcon,
     'nokia': NokiaIcon,
     'nomad': NomadIcon,
@@ -5977,6 +5988,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'session': SessionIcon,
     'sessionize': SessionizeIcon,
     'setapp': SetappIcon,
+    'setuptools': SetuptoolsIcon,
     'sfml': SfmlIcon,
     'shadcnui': ShadcnuiIcon,
     'shadow': ShadowIcon,

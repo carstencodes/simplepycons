@@ -64,8 +64,8 @@ class ActualBudgetIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/actualbudget/actual/blob/8
-4af8b76be6bb6c866c32a5be6e8c7a092ab9e38/packages/desktop-client/src/ic'''
+        return '''https://github.com/actualbudget/actual/blob/f
+9f6917fcdeadd138f5e21c7bd24e475778c4263/packages/component-library/src'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

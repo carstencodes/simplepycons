@@ -21,39 +21,36 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class AllocineIcon(Icon):
+class TextualIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "allocine"
+        return "textual"
 
     @property
     def original_file_name(self) -> "str":
-        return "allocine.svg"
+        return "textual.svg"
 
     @property
     def title(self) -> "str":
-        return "AlloCiné"
+        return "Textual"
 
     @property
     def primary_color(self) -> "str":
-        return "#FECC00"
+        return "#FFFFFF"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>AlloCiné</title>
-     <path d="M16.434.001a.826.826 0 00-.164.008l-3.423.543a2.635
- 2.635 0 01-2.189 3.01 2.629 2.629 0 01-3.01-2.185l-3.417.538a.818.818
- 0 00-.677.931l3.24 20.467a.818.818 0 00.931.677l3.423-.543a2.635
- 2.635 0 012.189-3.01 2.629 2.629 0 013.01 2.185l3.422-.543a.818.818 0
- 00.677-.93L17.2.685a.816.816 0 00-.767-.685zm-3.22 6.534c.066 0
- .128.005.185.017.423.09.975.6 1.315.955.178.187.192.519.048.73l-1.228
- 1.795a.89.89 0 01-.437.283c-.504.125-1.248-.95-1.771 1.507-.524
- 2.458.59 1.776 1.003 2.098a.828.828 0 01.283.437l.394 2.14a.613.613 0
- 01-.341.649c-.456.182-1.167.427-1.589.336-.907-.192-2.342-2.4-1.57-6.044.725-3.415
- 2.71-4.89 3.708-4.903Z" />
+    <title>Textual</title>
+     <path d="M13.746 2.731H24l-1.722 3.873-3.143 1.768H17l-5.182
+ 10.552-3.128 2.345H5.283l.747-11.216H1.67L0
+ 6.296l2.511-1.884h8.246zM2.709 5.006l-1.45
+ 1.088h8.952l.249-1.088zM.825 6.69l1.23 2.77h4.611l-.747
+ 11.215h.941L10.074 6.69zm7.567 13.985
+ 5.232-12.897h5.24l1.23-2.77H11.07L7.469
+ 20.675zm14.02-17.35h-8.508l-1.935 1.087h8.505z" />
 </svg>'''
 
     @property
@@ -65,7 +62,8 @@ class AllocineIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/Textualize/textual/blob/e6
+6c098588360515864ce88982de494c64d2c097/docs/images/icons/logo%20light%'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -21,52 +21,56 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class HerokuIcon(Icon):
+class BFourXIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "heroku"
+        return "b4x"
 
     @property
     def original_file_name(self) -> "str":
-        return "heroku.svg"
+        return "b4x.svg"
 
     @property
     def title(self) -> "str":
-        return "Heroku"
+        return "B4X"
 
     @property
     def primary_color(self) -> "str":
-        return "#430098"
+        return "#14AECB"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Heroku</title>
-     <path d="M20.61 0H3.39C2.189 0 1.23.96 1.23 2.16v19.681c0
- 1.198.959 2.159 2.16 2.159h17.22c1.2 0 2.159-.961
- 2.159-2.159V2.16C22.77.96 21.811 0 20.61 0zm.96 21.841c0
- .539-.421.96-.96.96H3.39c-.54
- 0-.96-.421-.96-.96V2.16c0-.54.42-.961.96-.961h17.22c.539 0
- .96.421.96.961v19.681zM6.63 20.399L9.33
- 18l-2.7-2.4v4.799zm9.72-9.719c-.479-.48-1.379-1.08-2.879-1.08-1.621
- 0-3.301.421-4.5.84V3.6h-2.4v10.38l1.68-.78s2.76-1.26 5.16-1.26c1.2 0
- 1.5.66 1.5 1.26v7.2h2.4v-7.2c.059-.179.059-1.501-.961-2.52zM13.17
- 7.5h2.4c1.08-1.26 1.62-2.521 1.8-3.9h-2.399c-.241 1.379-.841
- 2.64-1.801 3.9z" />
+    <title>B4X</title>
+     <path d="M14.538 23.992c-6.265-.455-10.82-3-13.57-7.574a13 13 0 0
+ 1-.814-1.575c0-.09 7.728-14.238 7.76-14.22a2 2 0 0 1
+ .068.46c.075.925.373 2.335.71 3.357a14.8 14.8 0 0 0 2.044 3.97 4 4 0
+ 0 0
+ .37.456c.033.022.22.227.417.462.198.235.49.553.653.71l.299.283-.325-.355a19
+ 19 0 0 1-.597-.697l-.276-.34.478-.843
+ 3.835-6.769c.418-.735.769-1.328.776-1.317a8 8 0 0 1-.126.746c-.665
+ 3.291-.5 6.258.477 8.728.164.418.523 1.157.56 1.157.015 0
+ .26-.433.545-.96a1795 1795 0 0 1 4.13-7.593 1 1 0 0 1 .13-.201c.012
+ 0-.066.239-.17.53-.575 1.593-.945 3.097-1.135 4.627-.093.746-.082
+ 2.492.026 3.194.287 1.899.95 3.455 2.026
+ 4.735.362.429.787.828.952.888.048.018.074.06.063.09l-1.683 3.79A284
+ 284 0 0 0 20.5 23.5c0
+ .09-.168.142-.735.235-1.16.186-1.948.242-3.478.261-.82.008-1.604.004-1.75-.007"
+ />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://devcenter.heroku.com/articles/heroku-'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://devcenter.heroku.com/articles/heroku-'''
+        return '''https://www.b4x.com/android/forum/threads/b4x'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

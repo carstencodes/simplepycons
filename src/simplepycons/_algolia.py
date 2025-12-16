@@ -61,7 +61,7 @@ class AlgoliaIcon(Icon):
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://algolia.frontify.com/d/1AZwVNcFZiu7/s'''
         if len(_value) > 0:
             return _value
         return None

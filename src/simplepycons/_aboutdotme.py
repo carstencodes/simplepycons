@@ -33,7 +33,7 @@ class AboutdotmeIcon(Icon):
 
     @property
     def title(self) -> "str":
-        return "About.me"
+        return "about.me"
 
     @property
     def primary_color(self) -> "str":
@@ -43,7 +43,7 @@ class AboutdotmeIcon(Icon):
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>About.me</title>
+    <title>about.me</title>
      <path d="M3.158 9.897v4.131h.65v-.408c.23.297.577.483.961.483.768
  0 1.332-.582 1.332-1.573 0-.967-.558-1.568-1.332-1.568-.372
  0-.719.168-.96.49V9.897Zm10.285.322v.818h-.495v.563h.495v1.729c0

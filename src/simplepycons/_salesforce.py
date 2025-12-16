@@ -21,50 +21,48 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class GhosttyIcon(Icon):
+class SalesforceIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "ghostty"
+        return "salesforce"
 
     @property
     def original_file_name(self) -> "str":
-        return "ghostty.svg"
+        return "salesforce.svg"
 
     @property
     def title(self) -> "str":
-        return "Ghostty"
+        return "Salesforce"
 
     @property
     def primary_color(self) -> "str":
-        return "#3551F3"
+        return "#00A1E0"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Ghostty</title>
-     <path d="M12 0C6.7 0 2.4 4.3 2.4 9.6v11.146c0 1.772 1.45 3.267
- 3.222 3.254a3.18 3.18 0 0 0 1.955-.686 1.96 1.96 0 0 1 2.444 0 3.18
- 3.18 0 0 0 1.976.686c.75 0 1.436-.257 1.98-.686.715-.563 1.71-.587
- 2.419-.018.59.476 1.355.743 2.182.699 1.705-.094 3.022-1.537
- 3.022-3.244V9.601C21.6 4.3 17.302 0 12 0M6.069 6.562a1 1 0 0 1
- .46.131l3.578 2.065v.002a.974.974 0 0 1 0 1.687L6.53 12.512a.975.975
- 0 0 1-.976-1.687L7.67 9.602 5.553 8.38a.975.975 0 0 1
- .515-1.818m7.438 2.063h4.7a.975.975 0 1 1 0 1.95h-4.7a.975.975 0 0 1
- 0-1.95" />
+    <title>Salesforce</title>
+     <path d="M10.006 5.415a4.195 4.195 0 013.045-1.306c1.56 0 2.954.9
+ 3.69 2.205.63-.3 1.35-.45 2.1-.45 2.85 0 5.159 2.34 5.159 5.22s-2.31
+ 5.22-5.176 5.22c-.345 0-.69-.044-1.02-.104a3.75 3.75 0 01-3.3
+ 1.95c-.6 0-1.155-.15-1.65-.375A4.314 4.314 0 018.88 20.4a4.302 4.302
+ 0 01-4.05-2.82c-.27.062-.54.076-.825.076-2.204 0-4.005-1.8-4.005-4.05
+ 0-1.5.811-2.805 2.01-3.51-.255-.57-.39-1.2-.39-1.846 0-2.58 2.1-4.65
+ 4.65-4.65 1.53 0 2.85.705 3.72 1.8" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://brand.salesforce.com/content/logo-gui'''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/ghostty-org/website/blob/7'''
+        return '''https://brand.salesforce.com/content/logo-gui'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

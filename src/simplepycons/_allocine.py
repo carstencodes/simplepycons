@@ -21,38 +21,39 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PlaneIcon(Icon):
+class AllocineIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "plane"
+        return "allocine"
 
     @property
     def original_file_name(self) -> "str":
-        return "plane.svg"
+        return "allocine.svg"
 
     @property
     def title(self) -> "str":
-        return "Plane"
+        return "AlloCiné"
 
     @property
     def primary_color(self) -> "str":
-        return "#121212"
+        return "#FECC00"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Plane</title>
-     <path d="M0 5.358a.854.854 0 0 1 1.235-.767L6.134 7.05v5.768c0
- .81.456 1.553 1.179 1.915l4.42 2.218v1.692a.853.853 0 0
- 1-1.235.766L1.18 14.732A2.14 2.14 0 0 1 0 12.817zm6.134 0a.853.853 0
- 0 1 1.235-.766l4.898 2.458v5.768c0 .81.457 1.552 1.18 1.915l4.42
- 2.218v1.692a.853.853 0 0 1-1.235.765l-4.899-2.457v-5.769a2.14 2.14 0
- 0 0-1.179-1.914L6.134 7.05zm6.133 0a.853.853 0 0 1 1.235-.766l9.319
- 4.676A2.14 2.14 0 0 1 24 11.182v7.46a.853.853 0 0
- 1-1.235.766l-4.899-2.457v-5.769a2.14 2.14 0 0
- 0-1.179-1.914l-4.42-2.218z" />
+    <title>AlloCiné</title>
+     <path d="M16.434.001a.826.826 0 00-.164.008l-3.423.543a2.635
+ 2.635 0 01-2.189 3.01 2.629 2.629 0 01-3.01-2.185l-3.417.538a.818.818
+ 0 00-.677.931l3.24 20.467a.818.818 0 00.931.677l3.423-.543a2.635
+ 2.635 0 012.189-3.01 2.629 2.629 0 013.01 2.185l3.422-.543a.818.818 0
+ 00.677-.93L17.2.685a.816.816 0 00-.767-.685zm-3.22 6.534c.066 0
+ .128.005.185.017.423.09.975.6 1.315.955.178.187.192.519.048.73l-1.228
+ 1.795a.89.89 0 01-.437.283c-.504.125-1.248-.95-1.771 1.507-.524
+ 2.458.59 1.776 1.003 2.098a.828.828 0 01.283.437l.394 2.14a.613.613 0
+ 01-.341.649c-.456.182-1.167.427-1.589.336-.907-.192-2.342-2.4-1.57-6.044.725-3.415
+ 2.71-4.89 3.708-4.903Z" />
 </svg>'''
 
     @property
@@ -64,7 +65,7 @@ class PlaneIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://plane.so/brand-logos/logo-with-wordma'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

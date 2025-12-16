@@ -21,56 +21,52 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class NewgroundsIcon(Icon):
+class MulesoftIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "newgrounds"
+        return "mulesoft"
 
     @property
     def original_file_name(self) -> "str":
-        return "newgrounds.svg"
+        return "mulesoft.svg"
 
     @property
     def title(self) -> "str":
-        return "Newgrounds"
+        return "Mulesoft"
 
     @property
     def primary_color(self) -> "str":
-        return "#FDA238"
+        return "#00A0DF"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Newgrounds</title>
-     <path d="M1.187 3.236C.397 3.966.002 4.876.002
- 5.97v15.584c-.02.243.101.364.365.364H3.07c.243 0
- .365-.121.365-.364V6.03c0-.405.212-.608.638-.608H6.29c.405 0
- .608.203.608.608v15.523c0 .243.142.364.425.364h2.643c.243 0
- .374-.121.395-.364V5.97c-.02-1.093-.415-2.005-1.185-2.734A4.047 4.047
- 0 0 0 6.29 2.082H4.073c-1.134 0-2.096.385-2.886 1.154m20.9
- 18.105c.263-.162.506-.344.728-.547.79-.77 1.185-1.68
- 1.185-2.734v-5.62c-.02-.263-.152-.394-.395-.394h-4.374c-.263
- 0-.395.131-.395.394v2.522c0 .263.132.395.395.395h.941c.244 0
- .365.141.365.425v2.278c0 .385-.192.577-.577.577h-2.248c-.425
- 0-.638-.192-.638-.577V6.03c0-.404.213-.607.638-.607h2.248c.385 0
- .577.203.577.608V8.34c-.02.243.111.374.395.394h2.673c.243-.02.375-.151.395-.394V5.97c0-1.073-.395-1.984-1.185-2.734-.81-.77-1.762-1.154-2.855-1.154h-2.248c-1.114
- 0-2.066.385-2.855 1.154-.83.75-1.236 1.66-1.216 2.734v12.09c-.02
- 1.053.385 1.965 1.216 2.734.222.203.465.385.729.547.627.385 1.336.577
- 2.126.577h2.248c.79 0 1.498-.192 2.126-.577Z" />
+    <title>Mulesoft</title>
+     <path d="M12 0C5.373 0 0 5.373 0 12c0 6.628 5.373 12 12 12 6.628
+ 0 12-5.373 12-12S18.627 0 12 0zm0 1.055c6.045 0 10.945 4.9 10.945
+ 10.945S18.045 22.945 12 22.945 1.055 18.045 1.055 12c0-6.044
+ 4.9-10.945 10.945-10.945zM7.33 4.364s-2.993 1.647-3.96 5.25c-.647
+ 2.224-.39 4.702.903 6.914a8.957 8.957 0 0 0 3.95
+ 3.596l.802-3.062c-1.801-.85-3.11-2.571-3.11-4.79a5.647 5.647 0 0 1
+ .943-3.141l3.752 5.866h2.792l3.753-5.866a5.647 5.647 0 0 1 .943
+ 3.14c0 2.22-1.308 3.94-3.109 4.791l.802 3.062a8.957 8.957 0 0 0
+ 3.948-3.594c1.294-2.213
+ 1.551-4.692.904-6.916l.002.003c-.966-3.603-3.96-5.251-3.96-5.251l-.336.527-4.341
+ 6.797h-.003L7.656 4.876z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://www.newgrounds.com/wiki/creator-resou'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://www.newgrounds.com/wiki/creator-resou'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -21,38 +21,37 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class ActualBudgetIcon(Icon):
+class AffinityDesignerIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "actualbudget"
+        return "affinitydesigner"
 
     @property
     def original_file_name(self) -> "str":
-        return "actualbudget.svg"
+        return "affinitydesigner.svg"
 
     @property
     def title(self) -> "str":
-        return "Actual Budget"
+        return "Affinity Designer"
 
     @property
     def primary_color(self) -> "str":
-        return "#6B46C1"
+        return "#134881"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Actual Budget</title>
-     <path d="m17.442 10.779.737 2.01-16.758 6.145a.253.253 0 0
- 1-.324-.15l-.563-1.536a.253.253 0 0 1 .15-.324zM1.13 23.309
- 12.036.145A.253.253 0 0 1 12.265 0h.478c.097 0 .185.055.227.142l7.036
- 14.455 2.206-.848c.13-.05.277.015.327.145l.587 1.526a.253.253 0 0
- 1-.145.327l-2.034.783 2.51 5.156a.253.253 0 0
- 1-.117.338l-1.47.716a.253.253 0 0 1-.339-.117l-2.59-5.322-17.37
- 6.682a.253.253 0 0 1-.328-.145c0-.001
- 0-.003-.002-.004l-.12-.33a.252.252 0 0 1 .009-.195zM12.528 4.127
- 4.854 20.425 18 15.369z" />
+    <title>Affinity Designer</title>
+     <path d="M24 2.344v19.312A2.345 2.345 0 0 1 21.656 24H2.344A2.345
+ 2.345 0 0 1 0 21.656V2.344A2.345 2.345 0 0 1 2.344 0h19.312A2.345
+ 2.345 0 0 1 24 2.344ZM1.758 21.305c0
+ .517.42.937.938.937h8.226l-4.299-7.445 7.528-13.039h-3.482L1.758
+ 17.192v4.113Zm11.418-6.866-2.712-4.698-1.761 3.051a1.098 1.098 0 0 0
+ .952 1.647h3.521Zm9.066 6.873v-6.075H7.799l4.044 7.005h9.462a.937.937
+ 0 0 0 .937-.93Zm-.937-19.554h-6.232l-4.148 7.185 3.173
+ 5.496h8.144V2.688a.937.937 0 0 0-.937-.93Z" />
 </svg>'''
 
     @property
@@ -64,8 +63,7 @@ class ActualBudgetIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/actualbudget/actual/blob/8
-4af8b76be6bb6c866c32a5be6e8c7a092ab9e38/packages/desktop-client/src/ic'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

@@ -21,38 +21,39 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class ActualBudgetIcon(Icon):
+class WesternDigitalIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "actualbudget"
+        return "westerndigital"
 
     @property
     def original_file_name(self) -> "str":
-        return "actualbudget.svg"
+        return "westerndigital.svg"
 
     @property
     def title(self) -> "str":
-        return "Actual Budget"
+        return "Western Digital"
 
     @property
     def primary_color(self) -> "str":
-        return "#6B46C1"
+        return "#995DFF"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Actual Budget</title>
-     <path d="m17.442 10.779.737 2.01-16.758 6.145a.253.253 0 0
- 1-.324-.15l-.563-1.536a.253.253 0 0 1 .15-.324zM1.13 23.309
- 12.036.145A.253.253 0 0 1 12.265 0h.478c.097 0 .185.055.227.142l7.036
- 14.455 2.206-.848c.13-.05.277.015.327.145l.587 1.526a.253.253 0 0
- 1-.145.327l-2.034.783 2.51 5.156a.253.253 0 0
- 1-.117.338l-1.47.716a.253.253 0 0 1-.339-.117l-2.59-5.322-17.37
- 6.682a.253.253 0 0 1-.328-.145c0-.001
- 0-.003-.002-.004l-.12-.33a.252.252 0 0 1 .009-.195zM12.528 4.127
- 4.854 20.425 18 15.369z" />
+    <title>Western Digital</title>
+     <path d="M1.4916 4.6198C.1766 4.6235-.4917 6.2026.4214
+ 7.149c1.1578 1.1552 2.3139 2.312 3.4705 3.4684 2.4059 2.3815 4.8088
+ 4.766 7.2025 7.1596l1.0703 1.1152c.9402.9525 2.5611.2658
+ 2.531-1.0722v-3.4255c-.0105-.8247-.677-1.4905-1.5018-1.4999h-4.156c-1.4481.0095-2.6245-1.1669-2.615-2.615v-4.16c-.0104-.8248-.677-1.4905-1.5018-1.5Zm9.261
+ 0c-1.316.002-1.9858 1.582-1.0722 2.5292 3.9317 3.927 7.8588 7.8588
+ 11.7881 11.788.9396.9519 2.5594.267
+ 2.5311-1.0702v-3.4293c-.0105-.8247-.677-1.4905-1.5019-1.4999-1.4004.0137-2.8005-.0184-4.2007-.043-1.4475.0085-2.6227-1.1676-2.6131-2.615v-4.16c-.0105-.8247-.677-1.4904-1.502-1.4998Zm8.2728
+ 0c-1.3516-.0072-2.0127 1.645-1.0292 2.5722l3.4313 3.4293c.9472.9137
+ 2.5273.2439
+ 2.5291-1.0721V6.1196c-.0104-.8239-.676-1.4893-1.4998-1.4998z" />
 </svg>'''
 
     @property
@@ -64,8 +65,7 @@ class ActualBudgetIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/actualbudget/actual/blob/8
-4af8b76be6bb6c866c32a5be6e8c7a092ab9e38/packages/desktop-client/src/ic'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":
@@ -82,4 +82,6 @@ class ActualBudgetIcon(Icon):
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from []
+        yield from [
+            "WD",
+        ]

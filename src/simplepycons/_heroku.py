@@ -21,49 +21,52 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class TextualIcon(Icon):
+class HerokuIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "textual"
+        return "heroku"
 
     @property
     def original_file_name(self) -> "str":
-        return "textual.svg"
+        return "heroku.svg"
 
     @property
     def title(self) -> "str":
-        return "Textual"
+        return "Heroku"
 
     @property
     def primary_color(self) -> "str":
-        return "#FFFFFF"
+        return "#430098"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Textual</title>
-     <path d="M13.746 2.731H24l-1.722 3.873-3.143 1.768H17l-5.182
- 10.552-3.128 2.345H5.283l.747-11.216H1.67L0
- 6.296l2.511-1.884h8.246zM2.709 5.006l-1.45
- 1.088h8.952l.249-1.088zM.825 6.69l1.23 2.77h4.611l-.747
- 11.215h.941L10.074 6.69zm7.567 13.985
- 5.232-12.897h5.24l1.23-2.77H11.07L7.469
- 20.675zm14.02-17.35h-8.508l-1.935 1.087h8.505z" />
+    <title>Heroku</title>
+     <path d="M20.61 0H3.39C2.189 0 1.23.96 1.23 2.16v19.681c0
+ 1.198.959 2.159 2.16 2.159h17.22c1.2 0 2.159-.961
+ 2.159-2.159V2.16C22.77.96 21.811 0 20.61 0zm.96 21.841c0
+ .539-.421.96-.96.96H3.39c-.54
+ 0-.96-.421-.96-.96V2.16c0-.54.42-.961.96-.961h17.22c.539 0
+ .96.421.96.961v19.681zM6.63 20.399L9.33
+ 18l-2.7-2.4v4.799zm9.72-9.719c-.479-.48-1.379-1.08-2.879-1.08-1.621
+ 0-3.301.421-4.5.84V3.6h-2.4v10.38l1.68-.78s2.76-1.26 5.16-1.26c1.2 0
+ 1.5.66 1.5 1.26v7.2h2.4v-7.2c.059-.179.059-1.501-.961-2.52zM13.17
+ 7.5h2.4c1.08-1.26 1.62-2.521 1.8-3.9h-2.399c-.241 1.379-.841
+ 2.64-1.801 3.9z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://devcenter.heroku.com/articles/heroku-'''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/Textualize/textual/blob/e6
-6c098588360515864ce88982de494c64d2c097/docs/images/icons/logo%20light%'''
+        return '''https://devcenter.heroku.com/articles/heroku-'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

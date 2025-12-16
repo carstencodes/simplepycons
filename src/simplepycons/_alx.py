@@ -21,38 +21,39 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class ActualBudgetIcon(Icon):
+class AlxIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "actualbudget"
+        return "alx"
 
     @property
     def original_file_name(self) -> "str":
-        return "actualbudget.svg"
+        return "alx.svg"
 
     @property
     def title(self) -> "str":
-        return "Actual Budget"
+        return "ALX"
 
     @property
     def primary_color(self) -> "str":
-        return "#6B46C1"
+        return "#002B56"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Actual Budget</title>
-     <path d="m17.442 10.779.737 2.01-16.758 6.145a.253.253 0 0
- 1-.324-.15l-.563-1.536a.253.253 0 0 1 .15-.324zM1.13 23.309
- 12.036.145A.253.253 0 0 1 12.265 0h.478c.097 0 .185.055.227.142l7.036
- 14.455 2.206-.848c.13-.05.277.015.327.145l.587 1.526a.253.253 0 0
- 1-.145.327l-2.034.783 2.51 5.156a.253.253 0 0
- 1-.117.338l-1.47.716a.253.253 0 0 1-.339-.117l-2.59-5.322-17.37
- 6.682a.253.253 0 0 1-.328-.145c0-.001
- 0-.003-.002-.004l-.12-.33a.252.252 0 0 1 .009-.195zM12.528 4.127
- 4.854 20.425 18 15.369z" />
+    <title>ALX</title>
+     <path d="m13.732 5.879-2.903 1.299V18.12h2.903V5.879Zm3.219
+ 1.436c-.361.36-1.59 1.587-1.977 1.978.839.851 1.684 1.696 2.527
+ 2.543l-2.529 2.529 1.978 1.978c.844-.842 1.686-1.686
+ 2.529-2.529l2.543 2.529c.66-.659 1.319-1.319
+ 1.978-1.98-.848-.841-1.695-1.684-2.543-2.527L24
+ 9.293l-1.978-1.978-2.543 2.543-2.528-2.543ZM6.157 9.271v.382C3.256
+ 8.379.002 10.503 0 13.671c.001 3.169 3.256 5.293 6.157
+ 4.018v.431H9.06V9.271H6.157ZM4.39 11.902c.978 0 1.718.741 1.767
+ 1.674v.19a1.77 1.77 0 0 1-1.767 1.675c-.946
+ 0-1.77-.792-1.77-1.77s.792-1.77 1.77-1.77v.001Z" />
 </svg>'''
 
     @property
@@ -64,8 +65,7 @@ class ActualBudgetIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/actualbudget/actual/blob/8
-4af8b76be6bb6c866c32a5be6e8c7a092ab9e38/packages/desktop-client/src/ic'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

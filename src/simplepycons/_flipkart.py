@@ -21,38 +21,41 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class ActualBudgetIcon(Icon):
+class FlipkartIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "actualbudget"
+        return "flipkart"
 
     @property
     def original_file_name(self) -> "str":
-        return "actualbudget.svg"
+        return "flipkart.svg"
 
     @property
     def title(self) -> "str":
-        return "Actual Budget"
+        return "Flipkart"
 
     @property
     def primary_color(self) -> "str":
-        return "#6B46C1"
+        return "#2874F0"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Actual Budget</title>
-     <path d="m17.442 10.779.737 2.01-16.758 6.145a.253.253 0 0
- 1-.324-.15l-.563-1.536a.253.253 0 0 1 .15-.324zM1.13 23.309
- 12.036.145A.253.253 0 0 1 12.265 0h.478c.097 0 .185.055.227.142l7.036
- 14.455 2.206-.848c.13-.05.277.015.327.145l.587 1.526a.253.253 0 0
- 1-.145.327l-2.034.783 2.51 5.156a.253.253 0 0
- 1-.117.338l-1.47.716a.253.253 0 0 1-.339-.117l-2.59-5.322-17.37
- 6.682a.253.253 0 0 1-.328-.145c0-.001
- 0-.003-.002-.004l-.12-.33a.252.252 0 0 1 .009-.195zM12.528 4.127
- 4.854 20.425 18 15.369z" />
+    <title>Flipkart</title>
+     <path d="M3.833 1.333a.993.993 0 0 0-.333.061V1c0-.551.449-1
+ 1-1h14.667c.551 0 1 .449 1 1v.333H3.833zm17.334 2.334H2.833c-.551 0-1
+ .449-1 1V23c0 .551.449 1 1 1h7.3l1.098-5.645h-2.24c-.051
+ 0-5.158-.241-5.158-.241l4.639-.327-.078-.366-1.978-.285
+ 1.882-.158-.124-.449-3.075-.467s3.341-.373
+ 3.392-.373h3.232l.247-1.331c.289-1.616.945-2.807 1.973-3.693
+ 1.033-.892 2.344-1.332 3.937-1.332.643 0 1.053.151
+ 1.231.463.118.186.201.516.279.859.074.352.14.671.095.903-.057.345-.461.465-1.197.465h-.253c-1.327
+ 0-2.134.763-2.405 2.31l-.243 1.355h1.54c.574 0 .781.402.622
+ 1.306-.17.941-.539 1.36-1.111 1.36H14.9L13.804 24h7.362c.551 0 1-.449
+ 1-1V4.667a1 1 0 0 0-.999-1zM20.5 2.333A.334.334 0 0 0 20.167
+ 2H3.833a.334.334 0 0 0-.333.333V3h17v-.667z" />
 </svg>'''
 
     @property
@@ -64,8 +67,7 @@ class ActualBudgetIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/actualbudget/actual/blob/8
-4af8b76be6bb6c866c32a5be6e8c7a092ab9e38/packages/desktop-client/src/ic'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

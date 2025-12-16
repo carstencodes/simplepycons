@@ -95,7 +95,7 @@ class AlmalinuxIcon(Icon):
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://almalinux.org/p/the-almalinux-os-trad'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None

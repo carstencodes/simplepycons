@@ -21,43 +21,37 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PassboltIcon(Icon):
+class InformaticaIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "passbolt"
+        return "informatica"
 
     @property
     def original_file_name(self) -> "str":
-        return "passbolt.svg"
+        return "informatica.svg"
 
     @property
     def title(self) -> "str":
-        return "Passbolt"
+        return "Informatica"
 
     @property
     def primary_color(self) -> "str":
-        return "#D40101"
+        return "#FF4D00"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Passbolt</title>
-     <path d="M1.393 9.736a2.691 2.691 0 0 1 1.145-.274h.001c1.391 0
- 2.538 1.153 2.483 2.525a2.51 2.51 0 0 1-2.51 2.524c-.438
- 0-.847-.11-1.202-.302A2.519 2.519 0 0 1 0 11.987c0-.988.572-1.84
- 1.393-2.25zm12.14-8.562 9.77 9.193h.001c.928.907.928 2.387 0
- 3.266l-9.74 9.193c-.875.795-2.211.795-3.058 0l-6.167-5.79c1.638-.577
- 2.894-1.949 3.358-3.65h3.682v1.782c0 .411.326.768.764.768h2.1c.41 0
- .764-.329.764-.768v-1.783h.955c.41 0
- .764-.328.764-.768v-1.263a.764.764 0 0 0-.764-.767H7.667a5.444 5.444
- 0 0 0-3.33-3.623l6.14-5.79c.874-.795 2.21-.795 3.057 0z" />
+    <title>Informatica</title>
+     <path d="M12 0l3.547 10.788-4.5-1.255-.25 4.43 7.121
+ 4.035V18h.001l5.919-6zm-.64.65L.162 12l6.32 6.407L12
+ 24l5.184-5.255-9.736-3.856z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://www.passbolt.com/credits/brand-guidel'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None

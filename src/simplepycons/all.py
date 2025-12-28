@@ -970,6 +970,7 @@ from ._filedotio import FiledotioIcon
 from ._filen import FilenIcon
 from ._files import FilesIcon
 from ._filezilla import FilezillaIcon
+from ._fillout import FilloutIcon
 from ._fineco import FinecoIcon
 from ._fing import FingIcon
 from ._firebase import FirebaseIcon
@@ -1182,6 +1183,7 @@ from ._googlefonts import GoogleFontsIcon
 from ._googleforms import GoogleFormsIcon
 from ._googlegemini import GoogleGeminiIcon
 from ._googlehome import GoogleHomeIcon
+from ._googlejules import GoogleJulesIcon
 from ._googlekeep import GoogleKeepIcon
 from ._googlelens import GoogleLensIcon
 from ._googlemaps import GoogleMapsIcon
@@ -1257,6 +1259,7 @@ from ._hackernoon import HackerNoonIcon
 from ._hackerearth import HackerearthIcon
 from ._hackerone import HackeroneIcon
 from ._hackerrank import HackerrankIcon
+from ._hackmd import HackmdIcon
 from ._hackster import HacksterIcon
 from ._hal import HalIcon
 from ._handlebarsdotjs import HandlebarsdotjsIcon
@@ -1500,6 +1503,7 @@ from ._julia import JuliaIcon
 from ._junipernetworks import JuniperNetworksIcon
 from ._junit5 import JunitFiveIcon
 from ._jupyter import JupyterIcon
+from ._just import JustIcon
 from ._justeat import JustEatIcon
 from ._justgiving import JustgivingIcon
 from ._k3s import KThreeSIcon
@@ -2062,6 +2066,7 @@ from ._open3d import OpenThreeDIcon
 from ._openaigym import OpenaiGymIcon
 from ._openapiinitiative import OpenapiInitiativeIcon
 from ._openbsd import OpenbsdIcon
+from ._opencage import OpencageIcon
 from ._opencritic import OpencriticIcon
 from ._opencv import OpencvIcon
 from ._openfaas import OpenfaasIcon
@@ -2266,6 +2271,7 @@ from ._poly import PolyIcon
 from ._polygon import PolygonIcon
 from ._polymerproject import PolymerProjectIcon
 from ._polywork import PolyworkIcon
+from ._pomerium import PomeriumIcon
 from ._pond5 import PondFiveIcon
 from ._popos import PoposIcon
 from ._porkbun import PorkbunIcon
@@ -4339,6 +4345,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FilenIcon.__name__,
     FilesIcon.__name__,
     FilezillaIcon.__name__,
+    FilloutIcon.__name__,
     FinecoIcon.__name__,
     FingIcon.__name__,
     FirebaseIcon.__name__,
@@ -4547,6 +4554,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GoogleFormsIcon.__name__,
     GoogleGeminiIcon.__name__,
     GoogleHomeIcon.__name__,
+    GoogleJulesIcon.__name__,
     GoogleKeepIcon.__name__,
     GoogleLensIcon.__name__,
     GoogleMapsIcon.__name__,
@@ -4622,6 +4630,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HackerearthIcon.__name__,
     HackeroneIcon.__name__,
     HackerrankIcon.__name__,
+    HackmdIcon.__name__,
     HacksterIcon.__name__,
     HalIcon.__name__,
     HandlebarsdotjsIcon.__name__,
@@ -4867,6 +4876,7 @@ ALL_ICONS: "Final[list[str]]" = [
     JuniperNetworksIcon.__name__,
     JunitFiveIcon.__name__,
     JupyterIcon.__name__,
+    JustIcon.__name__,
     JustEatIcon.__name__,
     JustgivingIcon.__name__,
     KThreeSIcon.__name__,
@@ -5430,6 +5440,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OpenaiGymIcon.__name__,
     OpenapiInitiativeIcon.__name__,
     OpenbsdIcon.__name__,
+    OpencageIcon.__name__,
     OpencriticIcon.__name__,
     OpencvIcon.__name__,
     OpenfaasIcon.__name__,
@@ -5634,6 +5645,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PolygonIcon.__name__,
     PolymerProjectIcon.__name__,
     PolyworkIcon.__name__,
+    PomeriumIcon.__name__,
     PondFiveIcon.__name__,
     PoposIcon.__name__,
     PorkbunIcon.__name__,

@@ -1,7 +1,7 @@
 #
 # SPDX-License-Identifier: MIT
 #
-# Copyright (c) 2025 Carsten Igel.
+# Copyright (c) 2026 Carsten Igel.
 #
 # This file is part of simplepycons
 # (see https://github.com/carstencodes/simplepycons).
@@ -365,6 +365,7 @@ class _IconCollection:
     get_bitdefender_icon: "Final[IconFactory]"
     get_bitly_icon: "Final[IconFactory]"
     get_bitrise_icon: "Final[IconFactory]"
+    get_bitsy_icon: "Final[IconFactory]"
     get_bittorrent_icon: "Final[IconFactory]"
     get_bitwarden_icon: "Final[IconFactory]"
     get_bitwig_icon: "Final[IconFactory]"
@@ -1217,6 +1218,7 @@ class _IconCollection:
     get_grandfrais_icon: "Final[IconFactory]"
     get_grapheneos_icon: "Final[IconFactory]"
     get_graphite_icon: "Final[IconFactory]"
+    get_graphite_editor_icon: "Final[IconFactory]"
     get_graphql_icon: "Final[IconFactory]"
     get_grav_icon: "Final[IconFactory]"
     get_gravatar_icon: "Final[IconFactory]"
@@ -1386,6 +1388,7 @@ class _IconCollection:
     get_ikea_icon: "Final[IconFactory]"
     get_iledefrancemobilites_icon: "Final[IconFactory]"
     get_ilovepdf_icon: "Final[IconFactory]"
+    get_imagetoolbox_icon: "Final[IconFactory]"
     get_imagedotsc_icon: "Final[IconFactory]"
     get_imagej_icon: "Final[IconFactory]"
     get_imdb_icon: "Final[IconFactory]"
@@ -1860,6 +1863,7 @@ class _IconCollection:
     get_mockserviceworker_icon: "Final[IconFactory]"
     get_modal_icon: "Final[IconFactory]"
     get_modelcontextprotocol_icon: "Final[IconFactory]"
+    get_modelscope_icon: "Final[IconFactory]"
     get_modin_icon: "Final[IconFactory]"
     get_modrinth_icon: "Final[IconFactory]"
     get_modx_icon: "Final[IconFactory]"
@@ -3221,6 +3225,7 @@ class _IconCollection:
     get_wazirx_icon: "Final[IconFactory]"
     get_wearos_icon: "Final[IconFactory]"
     get_weasyl_icon: "Final[IconFactory]"
+    get_webawesome_icon: "Final[IconFactory]"
     get_webdotde_icon: "Final[IconFactory]"
     get_web3dotjs_icon: "Final[IconFactory]"
     get_webassembly_icon: "Final[IconFactory]"

@@ -1,7 +1,7 @@
 #
 # SPDX-License-Identifier: MIT
 #
-# Copyright (c) 2025 Carsten Igel.
+# Copyright (c) 2026 Carsten Igel.
 #
 # This file is part of simplepycons
 # (see https://github.com/carstencodes/simplepycons).
@@ -361,6 +361,7 @@ from ._bitcomet import BitcometIcon
 from ._bitdefender import BitdefenderIcon
 from ._bitly import BitlyIcon
 from ._bitrise import BitriseIcon
+from ._bitsy import BitsyIcon
 from ._bittorrent import BittorrentIcon
 from ._bitwarden import BitwardenIcon
 from ._bitwig import BitwigIcon
@@ -1217,6 +1218,7 @@ from ._grammarly import GrammarlyIcon
 from ._grandfrais import GrandFraisIcon
 from ._grapheneos import GrapheneosIcon
 from ._graphite import GraphiteIcon
+from ._graphite_editor import GraphiteIcon1,GraphiteEditorIcon
 from ._graphql import GraphqlIcon
 from ._grav import GravIcon
 from ._gravatar import GravatarIcon
@@ -1386,6 +1388,7 @@ from ._iheartradio import IheartradioIcon
 from ._ikea import IkeaIcon
 from ._iledefrancemobilites import IledefranceMobilitesIcon
 from ._ilovepdf import IlovepdfIcon
+from ._imagetoolbox import ImageToolboxIcon
 from ._imagedotsc import ImagedotscIcon
 from ._imagej import ImagejIcon
 from ._imdb import ImdbIcon
@@ -1860,6 +1863,7 @@ from ._mocha import MochaIcon
 from ._mockserviceworker import MockServiceWorkerIcon
 from ._modal import ModalIcon
 from ._modelcontextprotocol import ModelContextProtocolIcon
+from ._modelscope import ModelscopeIcon
 from ._modin import ModinIcon
 from ._modrinth import ModrinthIcon
 from ._modx import ModxIcon
@@ -3221,6 +3225,7 @@ from ._waze import WazeIcon
 from ._wazirx import WazirxIcon
 from ._wearos import WearOsIcon
 from ._weasyl import WeasylIcon
+from ._webawesome import WebAwesomeIcon
 from ._webdotde import WebdotdeIcon
 from ._web3dotjs import WebThreeDotjsIcon
 from ._webassembly import WebassemblyIcon
@@ -3736,6 +3741,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BitdefenderIcon.__name__,
     BitlyIcon.__name__,
     BitriseIcon.__name__,
+    BitsyIcon.__name__,
     BittorrentIcon.__name__,
     BitwardenIcon.__name__,
     BitwigIcon.__name__,
@@ -4588,6 +4594,8 @@ ALL_ICONS: "Final[list[str]]" = [
     GrandFraisIcon.__name__,
     GrapheneosIcon.__name__,
     GraphiteIcon.__name__,
+    GraphiteIcon1.__name__,
+    GraphiteEditorIcon.__name__,
     GraphqlIcon.__name__,
     GravIcon.__name__,
     GravatarIcon.__name__,
@@ -4759,6 +4767,7 @@ ALL_ICONS: "Final[list[str]]" = [
     IkeaIcon.__name__,
     IledefranceMobilitesIcon.__name__,
     IlovepdfIcon.__name__,
+    ImageToolboxIcon.__name__,
     ImagedotscIcon.__name__,
     ImagejIcon.__name__,
     ImdbIcon.__name__,
@@ -5233,6 +5242,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MockServiceWorkerIcon.__name__,
     ModalIcon.__name__,
     ModelContextProtocolIcon.__name__,
+    ModelscopeIcon.__name__,
     ModinIcon.__name__,
     ModrinthIcon.__name__,
     ModxIcon.__name__,
@@ -6597,6 +6607,7 @@ ALL_ICONS: "Final[list[str]]" = [
     WazirxIcon.__name__,
     WearOsIcon.__name__,
     WeasylIcon.__name__,
+    WebAwesomeIcon.__name__,
     WebdotdeIcon.__name__,
     WebThreeDotjsIcon.__name__,
     WebassemblyIcon.__name__,

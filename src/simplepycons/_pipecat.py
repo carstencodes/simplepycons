@@ -21,38 +21,37 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class SanityIcon(Icon):
+class PipecatIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "sanity"
+        return "pipecat"
 
     @property
     def original_file_name(self) -> "str":
-        return "sanity.svg"
+        return "pipecat.svg"
 
     @property
     def title(self) -> "str":
-        return "Sanity"
+        return "Pipecat"
 
     @property
     def primary_color(self) -> "str":
-        return "#0D0E12"
+        return "#000000"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Sanity</title>
-     <path d="m23.327 15.205-.893-1.555-4.321 2.632
- 4.799-6.11.726-.426-.179-.27.33-.421-1.515-1.261-.693.883-13.992
- 8.186 5.173-6.221 9.636-5.282-.915-1.769-5.248 2.876
- 2.584-3.106-1.481-1.305-5.816 6.994-5.777 3.168 4.423-5.847
- 2.771-1.442-.88-1.789-8.075 4.203L6.186 4.43 4.648 3.198 0
- 9.349l.072.058.868 1.768 5.153-2.683-4.696 6.207.77.617.458.885
- 5.425-2.974-5.974 7.185 1.481 1.304.297-.358 14.411-8.459-4.785
- 6.094.078.065-.007.005.992 1.726 6.364-3.877-2.451 3.954 1.642
- 1.077L24 15.648z" />
+    <title>Pipecat</title>
+     <path d="M3.309 5.116a.87.87 0 0 1 .958.24L7.369
+ 8.89h9.262l3.102-3.536a.867.867 0 0 1
+ 1.52.573v7.807H24v1.735h-4.482V8.232l-1.842 2.099a.87.87 0 0
+ 1-.652.295H6.976a.87.87 0 0
+ 1-.652-.295l-1.842-2.1v7.239H0v-1.735h2.747V5.928c0-.362.224-.685.562-.812m16.209
+ 12.089H24v1.735h-4.482zM0 17.205h4.482v1.735H0zm9.253-2.892a1.157
+ 1.157 0 1 1-2.314 0 1.157 1.157 0 0 1 2.314 0m7.807 0a1.157 1.157 0 1
+ 1-2.313 0 1.157 1.157 0 0 1 2.313 0" />
 </svg>'''
 
     @property
@@ -64,7 +63,7 @@ class SanityIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/sanity-io/logos/blob/e298a'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

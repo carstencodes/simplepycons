@@ -21,38 +21,39 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class SanityIcon(Icon):
+class ScanIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "sanity"
+        return "scan"
 
     @property
     def original_file_name(self) -> "str":
-        return "sanity.svg"
+        return "scan.svg"
 
     @property
     def title(self) -> "str":
-        return "Sanity"
+        return "Scan"
 
     @property
     def primary_color(self) -> "str":
-        return "#0D0E12"
+        return "#004C97"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Sanity</title>
-     <path d="m23.327 15.205-.893-1.555-4.321 2.632
- 4.799-6.11.726-.426-.179-.27.33-.421-1.515-1.261-.693.883-13.992
- 8.186 5.173-6.221 9.636-5.282-.915-1.769-5.248 2.876
- 2.584-3.106-1.481-1.305-5.816 6.994-5.777 3.168 4.423-5.847
- 2.771-1.442-.88-1.789-8.075 4.203L6.186 4.43 4.648 3.198 0
- 9.349l.072.058.868 1.768 5.153-2.683-4.696 6.207.77.617.458.885
- 5.425-2.974-5.974 7.185 1.481 1.304.297-.358 14.411-8.459-4.785
- 6.094.078.065-.007.005.992 1.726 6.364-3.877-2.451 3.954 1.642
- 1.077L24 15.648z" />
+    <title>Scan</title>
+     <path d="M23.363 9.13a5.8 5.8 0 0 1 0 5.285l-3.376 5.948a6.11
+ 6.11 0 0 1-4.603 2.853h-6.76a6.09 6.09 0 0
+ 1-4.605-2.83l-3.384-6.03a5.8 5.8 0 0 1 0-5.276l3.384-5.806A5.73 5.73
+ 0 0 1 8.623.784h6.76a5.74 5.74 0 0 1 4.605 2.49zm-14.47 5.94a2.22
+ 2.22 0 0 0-1.542.73 5.41 5.41 0 0 0 4.43 2.44 4.305 4.305 0 0 0
+ 4.886-3.716c.124-3.02-2.04-3.834-4.264-4.248-1.12-.232-2.207-.382-2.207-1.427
+ 0-.888.946-1.26 1.95-1.26a2.49 2.49 0 0 1 2.132 1.21l2.182-1.46a4.98
+ 4.98 0 0 0-4.314-2.256c-2.298 0-4.513 1.27-4.662 3.683 0 2.821 2.04
+ 3.759 4.048 4.066 1.319.183 2.489.43 2.489 1.535 0 1.302-1.012
+ 1.6-2.15 1.6-1.658 0-1.658-.88-2.92-.88" />
 </svg>'''
 
     @property
@@ -64,7 +65,7 @@ class SanityIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/sanity-io/logos/blob/e298a'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

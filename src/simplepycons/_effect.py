@@ -21,38 +21,42 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class SanityIcon(Icon):
+class EffectIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "sanity"
+        return "effect"
 
     @property
     def original_file_name(self) -> "str":
-        return "sanity.svg"
+        return "effect.svg"
 
     @property
     def title(self) -> "str":
-        return "Sanity"
+        return "Effect"
 
     @property
     def primary_color(self) -> "str":
-        return "#0D0E12"
+        return "#FFFFFF"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Sanity</title>
-     <path d="m23.327 15.205-.893-1.555-4.321 2.632
- 4.799-6.11.726-.426-.179-.27.33-.421-1.515-1.261-.693.883-13.992
- 8.186 5.173-6.221 9.636-5.282-.915-1.769-5.248 2.876
- 2.584-3.106-1.481-1.305-5.816 6.994-5.777 3.168 4.423-5.847
- 2.771-1.442-.88-1.789-8.075 4.203L6.186 4.43 4.648 3.198 0
- 9.349l.072.058.868 1.768 5.153-2.683-4.696 6.207.77.617.458.885
- 5.425-2.974-5.974 7.185 1.481 1.304.297-.358 14.411-8.459-4.785
- 6.094.078.065-.007.005.992 1.726 6.364-3.877-2.451 3.954 1.642
- 1.077L24 15.648z" />
+    <title>Effect</title>
+     <path d="M11.846.007a.8.8 0 0 0-.312.103L.454 6.346a.8.8 0 0
+ 0-.397.855.8.8 0 0 0 .408.78L3.99 9.976 1.033 11.64a.76.76 0 0
+ 0-.374.838c-.033.265.07.541.378.715l10.546 5.967a.8.8 0 0 0
+ .61.073.8.8 0 0 0
+ .27-.094l10.548-5.968c.31-.175.412-.454.376-.72a.76.76 0 0
+ 0-.383-.79l-3.01-1.693 3.554-2.012a.8.8 0 0 0 .399-.836.8.8 0 0
+ 0-.412-.753L12.455.13a.8.8 0 0 0-.28-.097.8.8 0 0 0-.227-.033m6.482
+ 10.853 2.78 1.566-9.205 5.21-9.21-5.213 2.76-1.554 5.99 3.387a.83.83
+ 0 0 0 .638.076.8.8 0 0 0 .285-.098zm3.572 6.03a.75.75 0 0
+ 0-.35.098l-9.67 5.47-9.635-5.45a.75.75 0 0 0-1.01.267.717.717 0 0 0
+ .27.99l9.976 5.644a.75.75 0 0 0 .372.098c.079 0
+ .294-.026.46-.117l9.978-5.645a.716.716 0 0 0 .27-.99.75.75 0 0
+ 0-.661-.364" />
 </svg>'''
 
     @property
@@ -64,7 +68,7 @@ class SanityIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/sanity-io/logos/blob/e298a'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

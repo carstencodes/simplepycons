@@ -144,6 +144,7 @@ from ._android import AndroidIcon
 from ._androidauto import AndroidAutoIcon
 from ._androidstudio import AndroidStudioIcon
 from ._angular import AngularIcon
+from ._anichart import AnichartIcon
 from ._anilist import AnilistIcon
 from ._animalplanet import AnimalPlanetIcon
 from ._animedotjs import AnimedotjsIcon
@@ -189,6 +190,7 @@ from ._apachenetbeanside import ApacheNetbeansIdeIcon
 from ._apachenifi import ApacheNifiIcon
 from ._apacheopenoffice import ApacheOpenofficeIcon
 from ._apacheparquet import ApacheParquetIcon
+from ._apachepdfbox import ApachePdfboxIcon
 from ._apachepulsar import ApachePulsarIcon
 from ._apacherocketmq import ApacheRocketmqIcon
 from ._apachesolr import ApacheSolrIcon
@@ -848,6 +850,7 @@ from ._edgeimpulse import EdgeImpulseIcon
 from ._editorconfig import EditorconfigIcon
 from ._educative import EducativeIcon
 from ._edx import EdxIcon
+from ._effect import EffectIcon
 from ._egghead import EggheadIcon
 from ._egnyte import EgnyteIcon
 from ._eight import EightIcon
@@ -999,6 +1002,7 @@ from ._flipboard import FlipboardIcon
 from ._floatplane import FloatplaneIcon
 from ._flood import FloodIcon
 from ._floorp import FloorpIcon
+from ._flower import FlowerIcon
 from ._fluentbit import FluentBitIcon
 from ._fluentd import FluentdIcon
 from ._fluke import FlukeIcon
@@ -1983,6 +1987,7 @@ from ._niconico import NiconicoIcon
 from ._nike import NikeIcon
 from ._nikon import NikonIcon
 from ._nim import NimIcon
+from ._niri import NiriIcon
 from ._nissan import NissanIcon
 from ._nixos import NixosIcon
 from ._nobaralinux import NobaraLinuxIcon
@@ -2042,6 +2047,7 @@ from ._octobercms import OctoberCmsIcon
 from ._octoprint import OctoprintIcon
 from ._octopusdeploy import OctopusDeployIcon
 from ._oculus import OculusIcon
+from ._odido import OdidoIcon
 from ._odin import OdinIcon
 from ._odnoklassniki import OdnoklassnikiIcon
 from ._odoo import OdooIcon
@@ -2052,6 +2058,7 @@ from ._okta import OktaIcon
 from ._okx import OkxIcon
 from ._ollama import OllamaIcon
 from ._omadacloud import OmadaCloudIcon
+from ._omarchy import OmarchyIcon
 from ._oneplus import OneplusIcon
 from ._onestream import OnestreamIcon
 from ._onlyfans import OnlyfansIcon
@@ -2224,6 +2231,7 @@ from ._pinia import PiniaIcon
 from ._pino import PinoIcon
 from ._pinterest import PinterestIcon
 from ._pioneerdj import PioneerDjIcon
+from ._pipecat import PipecatIcon
 from ._piped import PipedIcon
 from ._pipx import PipxIcon
 from ._pivotaltracker import PivotalTrackerIcon
@@ -2463,6 +2471,7 @@ from ._redwoodjs import RedwoodjsIcon
 from ._reebok import ReebokIcon
 from ._refine import RefineIcon
 from ._refinedgithub import RefinedGithubIcon
+from ._reflex import ReflexIcon
 from ._rekaui import RekaUiIcon
 from ._relay import RelayIcon
 from ._relianceindustrieslimited import RelianceIndustriesLimitedIcon
@@ -2592,6 +2601,7 @@ from ._saudia import SaudiaIcon
 from ._scala import ScalaIcon
 from ._scalar import ScalarIcon
 from ._scaleway import ScalewayIcon
+from ._scan import ScanIcon
 from ._scania import ScaniaIcon
 from ._schneiderelectric import SchneiderElectricIcon
 from ._scikitlearn import ScikitlearnIcon
@@ -3523,6 +3533,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AndroidAutoIcon.__name__,
     AndroidStudioIcon.__name__,
     AngularIcon.__name__,
+    AnichartIcon.__name__,
     AnilistIcon.__name__,
     AnimalPlanetIcon.__name__,
     AnimedotjsIcon.__name__,
@@ -3568,6 +3579,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ApacheNifiIcon.__name__,
     ApacheOpenofficeIcon.__name__,
     ApacheParquetIcon.__name__,
+    ApachePdfboxIcon.__name__,
     ApachePulsarIcon.__name__,
     ApacheRocketmqIcon.__name__,
     ApacheSolrIcon.__name__,
@@ -4228,6 +4240,7 @@ ALL_ICONS: "Final[list[str]]" = [
     EditorconfigIcon.__name__,
     EducativeIcon.__name__,
     EdxIcon.__name__,
+    EffectIcon.__name__,
     EggheadIcon.__name__,
     EgnyteIcon.__name__,
     EightIcon.__name__,
@@ -4379,6 +4392,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FloatplaneIcon.__name__,
     FloodIcon.__name__,
     FloorpIcon.__name__,
+    FlowerIcon.__name__,
     FluentBitIcon.__name__,
     FluentdIcon.__name__,
     FlukeIcon.__name__,
@@ -5363,6 +5377,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NikeIcon.__name__,
     NikonIcon.__name__,
     NimIcon.__name__,
+    NiriIcon.__name__,
     NissanIcon.__name__,
     NixosIcon.__name__,
     NobaraLinuxIcon.__name__,
@@ -5422,6 +5437,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OctoprintIcon.__name__,
     OctopusDeployIcon.__name__,
     OculusIcon.__name__,
+    OdidoIcon.__name__,
     OdinIcon.__name__,
     OdnoklassnikiIcon.__name__,
     OdooIcon.__name__,
@@ -5432,6 +5448,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OkxIcon.__name__,
     OllamaIcon.__name__,
     OmadaCloudIcon.__name__,
+    OmarchyIcon.__name__,
     OneplusIcon.__name__,
     OnestreamIcon.__name__,
     OnlyfansIcon.__name__,
@@ -5604,6 +5621,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PinoIcon.__name__,
     PinterestIcon.__name__,
     PioneerDjIcon.__name__,
+    PipecatIcon.__name__,
     PipedIcon.__name__,
     PipxIcon.__name__,
     PivotalTrackerIcon.__name__,
@@ -5843,6 +5861,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ReebokIcon.__name__,
     RefineIcon.__name__,
     RefinedGithubIcon.__name__,
+    ReflexIcon.__name__,
     RekaUiIcon.__name__,
     RelayIcon.__name__,
     RelianceIndustriesLimitedIcon.__name__,
@@ -5972,6 +5991,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ScalaIcon.__name__,
     ScalarIcon.__name__,
     ScalewayIcon.__name__,
+    ScanIcon.__name__,
     ScaniaIcon.__name__,
     SchneiderElectricIcon.__name__,
     ScikitlearnIcon.__name__,

@@ -21,50 +21,52 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class SanityIcon(Icon):
+class NiriIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "sanity"
+        return "niri"
 
     @property
     def original_file_name(self) -> "str":
-        return "sanity.svg"
+        return "niri.svg"
 
     @property
     def title(self) -> "str":
-        return "Sanity"
+        return "niri"
 
     @property
     def primary_color(self) -> "str":
-        return "#0D0E12"
+        return "#D55C44"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Sanity</title>
-     <path d="m23.327 15.205-.893-1.555-4.321 2.632
- 4.799-6.11.726-.426-.179-.27.33-.421-1.515-1.261-.693.883-13.992
- 8.186 5.173-6.221 9.636-5.282-.915-1.769-5.248 2.876
- 2.584-3.106-1.481-1.305-5.816 6.994-5.777 3.168 4.423-5.847
- 2.771-1.442-.88-1.789-8.075 4.203L6.186 4.43 4.648 3.198 0
- 9.349l.072.058.868 1.768 5.153-2.683-4.696 6.207.77.617.458.885
- 5.425-2.974-5.974 7.185 1.481 1.304.297-.358 14.411-8.459-4.785
- 6.094.078.065-.007.005.992 1.726 6.364-3.877-2.451 3.954 1.642
- 1.077L24 15.648z" />
+    <title>niri</title>
+     <path d="M16.23881 21.91267c0 1.04353-.5217 2.08705-4.17383
+ 2.08705-3.65226 0-4.17395-1.04365-4.17395-2.08705 0-1.56521
+ 1.04352-2.6086 4.17395-2.6086s4.17383 1.04339 4.17383
+ 2.6086zM7.89103-.00038c2.08691 0 10.43483 6.26087 10.43483 11.47835 0
+ 3.52136-1.65048 5.06209-3.09492
+ 5.73623-1.09417.5108-1.39726-.17027-.78877-1.21866.409-.7044.75325-1.55688.75325-2.43065
+ 0-1.56522-.52182-2.60874-1.56522-3.65214-1.04352-1.04352-2.38385-1.56521-3.13043-1.56521-1.04353
+ 0-1.56522 3.06697-1.56522 4.69565 0 1.29764.3872 2.4663.77658
+ 3.31301.3672.79877.05988 1.34726-.76363
+ 1.04442-.89954-.33079-1.97832-.98377-2.6217-2.27064-1.04351-2.08679-.52182-5.09017-.52182-7.82597
+ 0-4.17395 0-7.30426 2.08705-7.30426z" />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = ''''''
+        _value: "str" = '''https://yalter.github.io/niri/Name-and-Logo.h'''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/sanity-io/logos/blob/e298a'''
+        return '''https://yalter.github.io/niri/logo/niri-icon-'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

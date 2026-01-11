@@ -21,38 +21,38 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class SanityIcon(Icon):
+class AnichartIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "sanity"
+        return "anichart"
 
     @property
     def original_file_name(self) -> "str":
-        return "sanity.svg"
+        return "anichart.svg"
 
     @property
     def title(self) -> "str":
-        return "Sanity"
+        return "AniChart"
 
     @property
     def primary_color(self) -> "str":
-        return "#0D0E12"
+        return "#41B1EA"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Sanity</title>
-     <path d="m23.327 15.205-.893-1.555-4.321 2.632
- 4.799-6.11.726-.426-.179-.27.33-.421-1.515-1.261-.693.883-13.992
- 8.186 5.173-6.221 9.636-5.282-.915-1.769-5.248 2.876
- 2.584-3.106-1.481-1.305-5.816 6.994-5.777 3.168 4.423-5.847
- 2.771-1.442-.88-1.789-8.075 4.203L6.186 4.43 4.648 3.198 0
- 9.349l.072.058.868 1.768 5.153-2.683-4.696 6.207.77.617.458.885
- 5.425-2.974-5.974 7.185 1.481 1.304.297-.358 14.411-8.459-4.785
- 6.094.078.065-.007.005.992 1.726 6.364-3.877-2.451 3.954 1.642
- 1.077L24 15.648z" />
+    <title>AniChart</title>
+     <path d="M17.293 2.951a9 9 0 0 0-5.162 1.62l1.572 4.483a4.68 4.68
+ 0 0 1 3.596-1.706c1.068 0 2.113.364 2.935 1.045.51.41.957.487
+ 1.468.07l1.837-1.438c.552-.44.622-.98.135-1.467a9.12 9.12 0 0
+ 0-6.38-2.607M6.3 3.127 0 21.05h4.89l1.068-3.1h5.33l1.04
+ 3.1h4.871L10.92 3.127Zm2.3 5.882 1.674 4.966h-3.2Zm12.386
+ 6.318c-.272-.014-.544.103-.845.327-.81.646-1.808.98-2.841.98q-.502
+ 0-.976-.102l1.58 4.508a9.13 9.13 0 0 0
+ 5.583-2.421c.517-.494.446-1.057-.058-1.497l-1.797-1.515c-.223-.18-.434-.27-.646-.28"
+ />
 </svg>'''
 
     @property
@@ -64,7 +64,7 @@ class SanityIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/sanity-io/logos/blob/e298a'''
+        return ''''''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

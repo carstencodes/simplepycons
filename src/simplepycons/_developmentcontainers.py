@@ -21,35 +21,38 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class ViteIcon(Icon):
+class DevelopmentContainersIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "vite"
+        return "developmentcontainers"
 
     @property
     def original_file_name(self) -> "str":
-        return "vite.svg"
+        return "developmentcontainers.svg"
 
     @property
     def title(self) -> "str":
-        return "Vite"
+        return "Development Containers"
 
     @property
     def primary_color(self) -> "str":
-        return "#9135FF"
+        return "#2753E3"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Vite</title>
-     <path d="M13.056 23.238a.57.57 0 0
- 1-1.02-.355v-5.202c0-.63-.512-1.143-1.144-1.143H5.148a.57.57 0 0
- 1-.464-.903l3.777-5.29c.54-.753 0-1.804-.93-1.804H.57a.574.574 0 0
- 1-.543-.746.6.6 0 0 1 .08-.157L5.008.78a.57.57 0 0 1
- .467-.24h14.589a.57.57 0 0 1 .466.903l-3.778 5.29c-.54.755 0 1.806.93
- 1.806h5.745c.238 0 .424.138.513.322a.56.56 0 0 1-.063.603z" />
+    <title>Development Containers</title>
+     <path d="M10.31.615a4.5 4.5 0 0 1 3.382 0l8.998 3.648A2.1 2.1 0 0
+ 1 24 6.208v11.584a2.1 2.1 0 0 1-1.311 1.946l-8.998 3.648a4.5 4.5 0 0
+ 1-3.382 0l-8.998-3.648A2.1 2.1 0 0 1 0 17.792V6.208a2.1 2.1 0 0 1
+ 1.311-1.946Zm2.705 1.668a2.7 2.7 0 0 0-2.028 0l-9 3.647a.3.3 0 0
+ 0-.187.278v11.584a.3.3 0 0 0 .187.278l8.999 3.648a2.7 2.7 0 0 0 2.028
+ 0l8.999-3.648a.3.3 0 0 0 .187-.278V6.208a.3.3 0 0 0-.187-.278ZM6.019
+ 6.658 12 8.928l5.98-2.27c1.122-.427 1.762 1.256.64 1.683l-5.72
+ 2.17V17.1c0 1.2-1.8 1.2-1.8 0v-6.59L5.38
+ 8.34c-1.122-.426-.482-2.109.64-1.683" />
 </svg>'''
 
     @property
@@ -61,8 +64,8 @@ class ViteIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/voidzero-dev/community-des
-ign-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-asse'''
+        return '''https://github.com/microsoft/fluentui-system-
+icons/blob/3e1e525f4499a22d46039ef54e9b9a86b809bc66/assets/Cube/SVG/ic'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":
@@ -79,4 +82,6 @@ ign-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-asse'''
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from []
+        yield from [
+            "devcontainers",
+        ]

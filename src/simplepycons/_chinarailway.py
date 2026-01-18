@@ -21,35 +21,39 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class ViteIcon(Icon):
+class ChinaRailwayIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "vite"
+        return "chinarailway"
 
     @property
     def original_file_name(self) -> "str":
-        return "vite.svg"
+        return "chinarailway.svg"
 
     @property
     def title(self) -> "str":
-        return "Vite"
+        return "China Railway"
 
     @property
     def primary_color(self) -> "str":
-        return "#9135FF"
+        return "#FF2600"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Vite</title>
-     <path d="M13.056 23.238a.57.57 0 0
- 1-1.02-.355v-5.202c0-.63-.512-1.143-1.144-1.143H5.148a.57.57 0 0
- 1-.464-.903l3.777-5.29c.54-.753 0-1.804-.93-1.804H.57a.574.574 0 0
- 1-.543-.746.6.6 0 0 1 .08-.157L5.008.78a.57.57 0 0 1
- .467-.24h14.589a.57.57 0 0 1 .466.903l-3.778 5.29c-.54.755 0 1.806.93
- 1.806h5.745c.238 0 .424.138.513.322a.56.56 0 0 1-.063.603z" />
+    <title>China Railway</title>
+     <path d="M15.642 18.64a8.035 8.035 0 1 0-7.284 0l-1.476
+ 1.932a10.435 10.435 0 0 1 3.136-19.339 1.043 1.043 0 0 1 .939-1.186
+ 11.478 11.478 0 0 1 2.086 0 1.043 1.043 0 0 1 .939 1.186 10.435
+ 10.435 0 0 1 3.136 19.339zm2.805 4.04a.417.417 0 0 1
+ .336.41V24H5.217v-.91a.417.417 0 0 1 .336-.41l4.438-.887a1.46 1.46 0
+ 0 0 1.174-1.432v-5.934a1.043 1.043 0 0
+ 0-.757-1.003l-2.06-.59V10.94a1.46 1.46 0 0 1 1.345-1.456 29.217
+ 29.217 0 0 1 4.614 0 1.46 1.46 0 0 1 1.345
+ 1.456v1.896l-2.06.589a1.043 1.043 0 0 0-.757 1.003v5.934a1.46 1.46 0
+ 0 0 1.174 1.432z" />
 </svg>'''
 
     @property
@@ -61,8 +65,7 @@ class ViteIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return '''https://github.com/voidzero-dev/community-des
-ign-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-asse'''
+        return '''https://commons.wikimedia.org/wiki/File:China'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

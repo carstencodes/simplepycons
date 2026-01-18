@@ -515,6 +515,7 @@ from ._chessdotcom import ChessdotcomIcon
 from ._chevrolet import ChevroletIcon
 from ._chianetwork import ChiaNetworkIcon
 from ._chinaeasternairlines import ChinaEasternAirlinesIcon
+from ._chinarailway import ChinaRailwayIcon
 from ._chinasouthernairlines import ChinaSouthernAirlinesIcon
 from ._chocolatey import ChocolateyIcon
 from ._chromatic import ChromaticIcon
@@ -642,6 +643,7 @@ from ._coolify import CoolifyIcon
 from ._copaairlines import CopaAirlinesIcon
 from ._coppel import CoppelIcon
 from ._cora import CoraIcon
+from ._coreboot import CorebootIcon
 from ._coreldraw import CoreldrawIcon
 from ._coronaengine import CoronaEngineIcon
 from ._coronarenderer import CoronaRendererIcon
@@ -754,6 +756,7 @@ from ._deutschetelekom import DeutscheTelekomIcon
 from ._deutschewelle import DeutscheWelleIcon
 from ._devdotto import DevdottoIcon
 from ._devbox import DevboxIcon
+from ._developmentcontainers import DevelopmentContainersIcon
 from ._devexpress import DevexpressIcon
 from ._deviantart import DeviantartIcon
 from ._devpost import DevpostIcon
@@ -2303,6 +2306,7 @@ from ._prdotco import PrdotcoIcon
 from ._precommit import PrecommitIcon
 from ._preact import PreactIcon
 from ._prefect import PrefectIcon
+from ._prek import PrekIcon
 from ._premid import PremidIcon
 from ._premierleague import PremierLeagueIcon
 from ._prepbytes import PrepbytesIcon
@@ -2962,6 +2966,7 @@ from ._thestorygraph import TheStorygraphIcon
 from ._thewashingtonpost import TheWashingtonPostIcon
 from ._theweatherchannel import TheWeatherChannelIcon
 from ._thingiverse import ThingiverseIcon
+from ._things import ThingsIcon
 from ._thinkpad import ThinkpadIcon
 from ._thirdweb import ThirdwebIcon
 from ._threadless import ThreadlessIcon
@@ -3904,6 +3909,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'chevrolet': ChevroletIcon,
     'chianetwork': ChiaNetworkIcon,
     'chinaeasternairlines': ChinaEasternAirlinesIcon,
+    'chinarailway': ChinaRailwayIcon,
     'chinasouthernairlines': ChinaSouthernAirlinesIcon,
     'chocolatey': ChocolateyIcon,
     'chromatic': ChromaticIcon,
@@ -4031,6 +4037,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'copaairlines': CopaAirlinesIcon,
     'coppel': CoppelIcon,
     'cora': CoraIcon,
+    'coreboot': CorebootIcon,
     'coreldraw': CoreldrawIcon,
     'coronaengine': CoronaEngineIcon,
     'coronarenderer': CoronaRendererIcon,
@@ -4143,6 +4150,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'deutschewelle': DeutscheWelleIcon,
     'devdotto': DevdottoIcon,
     'devbox': DevboxIcon,
+    'developmentcontainers': DevelopmentContainersIcon,
     'devexpress': DevexpressIcon,
     'deviantart': DeviantartIcon,
     'devpost': DevpostIcon,
@@ -5688,6 +5696,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'precommit': PrecommitIcon,
     'preact': PreactIcon,
     'prefect': PrefectIcon,
+    'prek': PrekIcon,
     'premid': PremidIcon,
     'premierleague': PremierLeagueIcon,
     'prepbytes': PrepbytesIcon,
@@ -6347,6 +6356,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'thewashingtonpost': TheWashingtonPostIcon,
     'theweatherchannel': TheWeatherChannelIcon,
     'thingiverse': ThingiverseIcon,
+    'things': ThingsIcon,
     'thinkpad': ThinkpadIcon,
     'thirdweb': ThirdwebIcon,
     'threadless': ThreadlessIcon,

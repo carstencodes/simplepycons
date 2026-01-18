@@ -515,6 +515,7 @@ from ._chessdotcom import ChessdotcomIcon
 from ._chevrolet import ChevroletIcon
 from ._chianetwork import ChiaNetworkIcon
 from ._chinaeasternairlines import ChinaEasternAirlinesIcon
+from ._chinarailway import ChinaRailwayIcon
 from ._chinasouthernairlines import ChinaSouthernAirlinesIcon
 from ._chocolatey import ChocolateyIcon
 from ._chromatic import ChromaticIcon
@@ -642,6 +643,7 @@ from ._coolify import CoolifyIcon
 from ._copaairlines import CopaAirlinesIcon
 from ._coppel import CoppelIcon
 from ._cora import CoraIcon
+from ._coreboot import CorebootIcon
 from ._coreldraw import CoreldrawIcon
 from ._coronaengine import CoronaEngineIcon
 from ._coronarenderer import CoronaRendererIcon
@@ -754,6 +756,7 @@ from ._deutschetelekom import DeutscheTelekomIcon
 from ._deutschewelle import DeutscheWelleIcon
 from ._devdotto import DevdottoIcon
 from ._devbox import DevboxIcon
+from ._developmentcontainers import DevelopmentContainersIcon
 from ._devexpress import DevexpressIcon
 from ._deviantart import DeviantartIcon
 from ._devpost import DevpostIcon
@@ -2303,6 +2306,7 @@ from ._prdotco import PrdotcoIcon
 from ._precommit import PrecommitIcon
 from ._preact import PreactIcon
 from ._prefect import PrefectIcon
+from ._prek import PrekIcon
 from ._premid import PremidIcon
 from ._premierleague import PremierLeagueIcon
 from ._prepbytes import PrepbytesIcon
@@ -2962,6 +2966,7 @@ from ._thestorygraph import TheStorygraphIcon
 from ._thewashingtonpost import TheWashingtonPostIcon
 from ._theweatherchannel import TheWeatherChannelIcon
 from ._thingiverse import ThingiverseIcon
+from ._things import ThingsIcon
 from ._thinkpad import ThinkpadIcon
 from ._thirdweb import ThirdwebIcon
 from ._threadless import ThreadlessIcon
@@ -3905,6 +3910,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ChevroletIcon.__name__,
     ChiaNetworkIcon.__name__,
     ChinaEasternAirlinesIcon.__name__,
+    ChinaRailwayIcon.__name__,
     ChinaSouthernAirlinesIcon.__name__,
     ChocolateyIcon.__name__,
     ChromaticIcon.__name__,
@@ -4032,6 +4038,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CopaAirlinesIcon.__name__,
     CoppelIcon.__name__,
     CoraIcon.__name__,
+    CorebootIcon.__name__,
     CoreldrawIcon.__name__,
     CoronaEngineIcon.__name__,
     CoronaRendererIcon.__name__,
@@ -4144,6 +4151,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DeutscheWelleIcon.__name__,
     DevdottoIcon.__name__,
     DevboxIcon.__name__,
+    DevelopmentContainersIcon.__name__,
     DevexpressIcon.__name__,
     DeviantartIcon.__name__,
     DevpostIcon.__name__,
@@ -5693,6 +5701,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PrecommitIcon.__name__,
     PreactIcon.__name__,
     PrefectIcon.__name__,
+    PrekIcon.__name__,
     PremidIcon.__name__,
     PremierLeagueIcon.__name__,
     PrepbytesIcon.__name__,
@@ -6353,6 +6362,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TheWashingtonPostIcon.__name__,
     TheWeatherChannelIcon.__name__,
     ThingiverseIcon.__name__,
+    ThingsIcon.__name__,
     ThinkpadIcon.__name__,
     ThirdwebIcon.__name__,
     ThreadlessIcon.__name__,

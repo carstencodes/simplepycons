@@ -637,6 +637,7 @@ from ._continente import ContinenteIcon
 from ._contributorcovenant import ContributorCovenantIcon
 from ._conventionalcommits import ConventionalCommitsIcon
 from ._convertio import ConvertioIcon
+from ._convex import ConvexIcon
 from ._cookiecutter import CookiecutterIcon
 from ._coolermaster import CoolerMasterIcon
 from ._coolify import CoolifyIcon
@@ -761,6 +762,7 @@ from ._devexpress import DevexpressIcon
 from ._deviantart import DeviantartIcon
 from ._devpost import DevpostIcon
 from ._devrant import DevrantIcon
+from ._devuan import DevuanIcon
 from ._dgraph import DgraphIcon
 from ._dhl import DhlIcon
 from ._diagramsdotnet import DiagramsdotnetIcon
@@ -1419,6 +1421,7 @@ from ._infomaniak import InfomaniakIcon
 from ._infoq import InfoqIcon
 from ._infosys import InfosysIcon
 from ._infracost import InfracostIcon
+from ._infuse import InfuseIcon
 from ._ingress import IngressIcon
 from ._inkdrop import InkdropIcon
 from ._inkscape import InkscapeIcon
@@ -1583,6 +1586,7 @@ from ._koa import KoaIcon
 from ._koc import KocIcon
 from ._kodak import KodakIcon
 from ._kodi import KodiIcon
+from ._kodular import KodularIcon
 from ._koenigsegg import KoenigseggIcon
 from ._kofax import KofaxIcon
 from ._komoot import KomootIcon
@@ -2123,6 +2127,7 @@ from ._orcid import OrcidIcon
 from ._org import OrgIcon
 from ._organicmaps import OrganicMapsIcon
 from ._origin import OriginIcon
+from ._ory import OryIcon
 from ._osano import OsanoIcon
 from ._osf import OsfIcon
 from ._osgeo import OsgeoIcon
@@ -4032,6 +4037,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ContributorCovenantIcon.__name__,
     ConventionalCommitsIcon.__name__,
     ConvertioIcon.__name__,
+    ConvexIcon.__name__,
     CookiecutterIcon.__name__,
     CoolerMasterIcon.__name__,
     CoolifyIcon.__name__,
@@ -4156,6 +4162,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DeviantartIcon.__name__,
     DevpostIcon.__name__,
     DevrantIcon.__name__,
+    DevuanIcon.__name__,
     DgraphIcon.__name__,
     DhlIcon.__name__,
     DiagramsdotnetIcon.__name__,
@@ -4813,6 +4820,7 @@ ALL_ICONS: "Final[list[str]]" = [
     InfoqIcon.__name__,
     InfosysIcon.__name__,
     InfracostIcon.__name__,
+    InfuseIcon.__name__,
     IngressIcon.__name__,
     InkdropIcon.__name__,
     InkscapeIcon.__name__,
@@ -4977,6 +4985,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KocIcon.__name__,
     KodakIcon.__name__,
     KodiIcon.__name__,
+    KodularIcon.__name__,
     KoenigseggIcon.__name__,
     KofaxIcon.__name__,
     KomootIcon.__name__,
@@ -5518,6 +5527,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OrgIcon.__name__,
     OrganicMapsIcon.__name__,
     OriginIcon.__name__,
+    OryIcon.__name__,
     OsanoIcon.__name__,
     OsfIcon.__name__,
     OsgeoIcon.__name__,

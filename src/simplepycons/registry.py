@@ -637,6 +637,7 @@ from ._continente import ContinenteIcon
 from ._contributorcovenant import ContributorCovenantIcon
 from ._conventionalcommits import ConventionalCommitsIcon
 from ._convertio import ConvertioIcon
+from ._convex import ConvexIcon
 from ._cookiecutter import CookiecutterIcon
 from ._coolermaster import CoolerMasterIcon
 from ._coolify import CoolifyIcon
@@ -761,6 +762,7 @@ from ._devexpress import DevexpressIcon
 from ._deviantart import DeviantartIcon
 from ._devpost import DevpostIcon
 from ._devrant import DevrantIcon
+from ._devuan import DevuanIcon
 from ._dgraph import DgraphIcon
 from ._dhl import DhlIcon
 from ._diagramsdotnet import DiagramsdotnetIcon
@@ -1419,6 +1421,7 @@ from ._infomaniak import InfomaniakIcon
 from ._infoq import InfoqIcon
 from ._infosys import InfosysIcon
 from ._infracost import InfracostIcon
+from ._infuse import InfuseIcon
 from ._ingress import IngressIcon
 from ._inkdrop import InkdropIcon
 from ._inkscape import InkscapeIcon
@@ -1583,6 +1586,7 @@ from ._koa import KoaIcon
 from ._koc import KocIcon
 from ._kodak import KodakIcon
 from ._kodi import KodiIcon
+from ._kodular import KodularIcon
 from ._koenigsegg import KoenigseggIcon
 from ._kofax import KofaxIcon
 from ._komoot import KomootIcon
@@ -2123,6 +2127,7 @@ from ._orcid import OrcidIcon
 from ._org import OrgIcon
 from ._organicmaps import OrganicMapsIcon
 from ._origin import OriginIcon
+from ._ory import OryIcon
 from ._osano import OsanoIcon
 from ._osf import OsfIcon
 from ._osgeo import OsgeoIcon
@@ -4031,6 +4036,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'contributorcovenant': ContributorCovenantIcon,
     'conventionalcommits': ConventionalCommitsIcon,
     'convertio': ConvertioIcon,
+    'convex': ConvexIcon,
     'cookiecutter': CookiecutterIcon,
     'coolermaster': CoolerMasterIcon,
     'coolify': CoolifyIcon,
@@ -4155,6 +4161,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'deviantart': DeviantartIcon,
     'devpost': DevpostIcon,
     'devrant': DevrantIcon,
+    'devuan': DevuanIcon,
     'dgraph': DgraphIcon,
     'dhl': DhlIcon,
     'diagramsdotnet': DiagramsdotnetIcon,
@@ -4809,6 +4816,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'infoq': InfoqIcon,
     'infosys': InfosysIcon,
     'infracost': InfracostIcon,
+    'infuse': InfuseIcon,
     'ingress': IngressIcon,
     'inkdrop': InkdropIcon,
     'inkscape': InkscapeIcon,
@@ -4973,6 +4981,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'koc': KocIcon,
     'kodak': KodakIcon,
     'kodi': KodiIcon,
+    'kodular': KodularIcon,
     'koenigsegg': KoenigseggIcon,
     'kofax': KofaxIcon,
     'komoot': KomootIcon,
@@ -5513,6 +5522,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'org': OrgIcon,
     'organicmaps': OrganicMapsIcon,
     'origin': OriginIcon,
+    'ory': OryIcon,
     'osano': OsanoIcon,
     'osf': OsfIcon,
     'osgeo': OsgeoIcon,

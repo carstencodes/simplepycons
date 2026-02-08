@@ -740,12 +740,14 @@ from ._deepin import DeepinIcon
 from ._deepl import DeeplIcon
 from ._deepmind import DeepmindIcon
 from ._deepnote import DeepnoteIcon
+from ._deezer import DeezerIcon
 from ._deliveroo import DeliverooIcon
 from ._dell import DellIcon
 from ._delphi import DelphiIcon
 from ._delta import DeltaIcon
 from ._deluge import DelugeIcon
 from ._deno import DenoIcon
+from ._denodeploy import DenoDeployIcon
 from ._denon import DenonIcon
 from ._dependabot import DependabotIcon
 from ._depositphotos import DepositphotosIcon
@@ -1944,6 +1946,7 @@ from ._naver import NaverIcon
 from ._nba import NbaIcon
 from ._nbb import NbbIcon
 from ._nbc import NbcIcon
+from ._ndi import NdiIcon
 from ._ndr import NdrIcon
 from ._near import NearIcon
 from ._nebula import NebulaIcon
@@ -2163,6 +2166,7 @@ from ._paloaltonetworks import PaloAltoNetworksIcon
 from ._paloaltosoftware import PaloAltoSoftwareIcon
 from ._panasonic import PanasonicIcon
 from ._pandas import PandasIcon
+from ._pandoc import PandocIcon
 from ._pandora import PandoraIcon
 from ._pantheon import PantheonIcon
 from ._paperlessngx import PaperlessngxIcon
@@ -4139,12 +4143,14 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'deepl': DeeplIcon,
     'deepmind': DeepmindIcon,
     'deepnote': DeepnoteIcon,
+    'deezer': DeezerIcon,
     'deliveroo': DeliverooIcon,
     'dell': DellIcon,
     'delphi': DelphiIcon,
     'delta': DeltaIcon,
     'deluge': DelugeIcon,
     'deno': DenoIcon,
+    'denodeploy': DenoDeployIcon,
     'denon': DenonIcon,
     'dependabot': DependabotIcon,
     'depositphotos': DepositphotosIcon,
@@ -5339,6 +5345,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nba': NbaIcon,
     'nbb': NbbIcon,
     'nbc': NbcIcon,
+    'ndi': NdiIcon,
     'ndr': NdrIcon,
     'near': NearIcon,
     'nebula': NebulaIcon,
@@ -5558,6 +5565,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'paloaltosoftware': PaloAltoSoftwareIcon,
     'panasonic': PanasonicIcon,
     'pandas': PandasIcon,
+    'pandoc': PandocIcon,
     'pandora': PandoraIcon,
     'pantheon': PantheonIcon,
     'paperlessngx': PaperlessngxIcon,

@@ -740,12 +740,14 @@ from ._deepin import DeepinIcon
 from ._deepl import DeeplIcon
 from ._deepmind import DeepmindIcon
 from ._deepnote import DeepnoteIcon
+from ._deezer import DeezerIcon
 from ._deliveroo import DeliverooIcon
 from ._dell import DellIcon
 from ._delphi import DelphiIcon
 from ._delta import DeltaIcon
 from ._deluge import DelugeIcon
 from ._deno import DenoIcon
+from ._denodeploy import DenoDeployIcon
 from ._denon import DenonIcon
 from ._dependabot import DependabotIcon
 from ._depositphotos import DepositphotosIcon
@@ -1944,6 +1946,7 @@ from ._naver import NaverIcon
 from ._nba import NbaIcon
 from ._nbb import NbbIcon
 from ._nbc import NbcIcon
+from ._ndi import NdiIcon
 from ._ndr import NdrIcon
 from ._near import NearIcon
 from ._nebula import NebulaIcon
@@ -2163,6 +2166,7 @@ from ._paloaltonetworks import PaloAltoNetworksIcon
 from ._paloaltosoftware import PaloAltoSoftwareIcon
 from ._panasonic import PanasonicIcon
 from ._pandas import PandasIcon
+from ._pandoc import PandocIcon
 from ._pandora import PandoraIcon
 from ._pantheon import PantheonIcon
 from ._paperlessngx import PaperlessngxIcon
@@ -4140,12 +4144,14 @@ ALL_ICONS: "Final[list[str]]" = [
     DeeplIcon.__name__,
     DeepmindIcon.__name__,
     DeepnoteIcon.__name__,
+    DeezerIcon.__name__,
     DeliverooIcon.__name__,
     DellIcon.__name__,
     DelphiIcon.__name__,
     DeltaIcon.__name__,
     DelugeIcon.__name__,
     DenoIcon.__name__,
+    DenoDeployIcon.__name__,
     DenonIcon.__name__,
     DependabotIcon.__name__,
     DepositphotosIcon.__name__,
@@ -5344,6 +5350,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NbaIcon.__name__,
     NbbIcon.__name__,
     NbcIcon.__name__,
+    NdiIcon.__name__,
     NdrIcon.__name__,
     NearIcon.__name__,
     NebulaIcon.__name__,
@@ -5563,6 +5570,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PaloAltoSoftwareIcon.__name__,
     PanasonicIcon.__name__,
     PandasIcon.__name__,
+    PandocIcon.__name__,
     PandoraIcon.__name__,
     PantheonIcon.__name__,
     PaperlessngxIcon.__name__,

@@ -1413,6 +1413,7 @@ from ._improvmx import ImprovmxIcon
 from ._indeed import IndeedIcon
 from ._indiansuperleague import IndianSuperLeagueIcon
 from ._indiehackers import IndieHackersIcon
+from ._indieweb import IndiewebIcon
 from ._indigo import IndigoIcon
 from ._inductiveautomation import InductiveAutomationIcon
 from ._inertia import InertiaIcon
@@ -2126,6 +2127,7 @@ from ._opslevel import OpslevelIcon
 from ._optimism import OptimismIcon
 from ._optuna import OptunaIcon
 from ._orange import OrangeIcon
+from ._orchardcore import OrchardCoreIcon
 from ._orcid import OrcidIcon
 from ._org import OrgIcon
 from ._organicmaps import OrganicMapsIcon
@@ -2867,6 +2869,7 @@ from ._suno import SunoIcon
 from ._sunrise import SunriseIcon
 from ._supabase import SupabaseIcon
 from ._superuser import SuperUserIcon
+from ._supercell import SupercellIcon
 from ._supercrease import SupercreaseIcon
 from ._supermicro import SupermicroIcon
 from ._surfshark import SurfsharkIcon
@@ -2917,6 +2920,7 @@ from ._taobao import TaobaoIcon
 from ._tapas import TapasIcon
 from ._target import TargetIcon
 from ._tarom import TaromIcon
+from ._tarteaucitron import TarteaucitronIcon
 from ._task import TaskIcon
 from ._tasmota import TasmotaIcon
 from ._tata import TataIcon
@@ -4812,6 +4816,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'indeed': IndeedIcon,
     'indiansuperleague': IndianSuperLeagueIcon,
     'indiehackers': IndieHackersIcon,
+    'indieweb': IndiewebIcon,
     'indigo': IndigoIcon,
     'inductiveautomation': InductiveAutomationIcon,
     'inertia': InertiaIcon,
@@ -5525,6 +5530,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'optimism': OptimismIcon,
     'optuna': OptunaIcon,
     'orange': OrangeIcon,
+    'orchardcore': OrchardCoreIcon,
     'orcid': OrcidIcon,
     'org': OrgIcon,
     'organicmaps': OrganicMapsIcon,
@@ -6266,6 +6272,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'sunrise': SunriseIcon,
     'supabase': SupabaseIcon,
     'superuser': SuperUserIcon,
+    'supercell': SupercellIcon,
     'supercrease': SupercreaseIcon,
     'supermicro': SupermicroIcon,
     'surfshark': SurfsharkIcon,
@@ -6316,6 +6323,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'tapas': TapasIcon,
     'target': TargetIcon,
     'tarom': TaromIcon,
+    'tarteaucitron': TarteaucitronIcon,
     'task': TaskIcon,
     'tasmota': TasmotaIcon,
     'tata': TataIcon,

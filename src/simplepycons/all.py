@@ -1413,6 +1413,7 @@ from ._improvmx import ImprovmxIcon
 from ._indeed import IndeedIcon
 from ._indiansuperleague import IndianSuperLeagueIcon
 from ._indiehackers import IndieHackersIcon
+from ._indieweb import IndiewebIcon
 from ._indigo import IndigoIcon
 from ._inductiveautomation import InductiveAutomationIcon
 from ._inertia import InertiaIcon
@@ -2126,6 +2127,7 @@ from ._opslevel import OpslevelIcon
 from ._optimism import OptimismIcon
 from ._optuna import OptunaIcon
 from ._orange import OrangeIcon
+from ._orchardcore import OrchardCoreIcon
 from ._orcid import OrcidIcon
 from ._org import OrgIcon
 from ._organicmaps import OrganicMapsIcon
@@ -2867,6 +2869,7 @@ from ._suno import SunoIcon
 from ._sunrise import SunriseIcon
 from ._supabase import SupabaseIcon
 from ._superuser import SuperUserIcon
+from ._supercell import SupercellIcon
 from ._supercrease import SupercreaseIcon
 from ._supermicro import SupermicroIcon
 from ._surfshark import SurfsharkIcon
@@ -2917,6 +2920,7 @@ from ._taobao import TaobaoIcon
 from ._tapas import TapasIcon
 from ._target import TargetIcon
 from ._tarom import TaromIcon
+from ._tarteaucitron import TarteaucitronIcon
 from ._task import TaskIcon
 from ._tasmota import TasmotaIcon
 from ._tata import TataIcon
@@ -4816,6 +4820,7 @@ ALL_ICONS: "Final[list[str]]" = [
     IndeedIcon.__name__,
     IndianSuperLeagueIcon.__name__,
     IndieHackersIcon.__name__,
+    IndiewebIcon.__name__,
     IndigoIcon.__name__,
     InductiveAutomationIcon.__name__,
     InertiaIcon.__name__,
@@ -5530,6 +5535,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OptimismIcon.__name__,
     OptunaIcon.__name__,
     OrangeIcon.__name__,
+    OrchardCoreIcon.__name__,
     OrcidIcon.__name__,
     OrgIcon.__name__,
     OrganicMapsIcon.__name__,
@@ -6272,6 +6278,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SunriseIcon.__name__,
     SupabaseIcon.__name__,
     SuperUserIcon.__name__,
+    SupercellIcon.__name__,
     SupercreaseIcon.__name__,
     SupermicroIcon.__name__,
     SurfsharkIcon.__name__,
@@ -6322,6 +6329,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TapasIcon.__name__,
     TargetIcon.__name__,
     TaromIcon.__name__,
+    TarteaucitronIcon.__name__,
     TaskIcon.__name__,
     TasmotaIcon.__name__,
     TataIcon.__name__,

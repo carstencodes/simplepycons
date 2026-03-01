@@ -316,6 +316,7 @@ from ._bankofamerica import BankOfAmericaIcon
 from ._barclays import BarclaysIcon
 from ._baremetrics import BaremetricsIcon
 from ._barmenia import BarmeniaIcon
+from ._baseui import BaseUiIcon
 from ._basecamp import BasecampIcon
 from ._baserow import BaserowIcon
 from ._basicattentiontoken import BasicAttentionTokenIcon
@@ -1104,6 +1105,7 @@ from ._gerrit import GerritIcon
 from ._getx import GetxIcon
 from ._ghost import GhostIcon
 from ._ghostery import GhosteryIcon
+from ._ghostfolio import GhostfolioIcon
 from ._ghostty import GhosttyIcon
 from ._gimp import GimpIcon
 from ._gin import GinIcon
@@ -1534,6 +1536,7 @@ from ._kalilinux import KaliLinuxIcon
 from ._kamailio import KamailioIcon
 from ._kando import KandoIcon
 from ._kaniko import KanikoIcon
+from ._karakeep import KarakeepIcon
 from ._karlsruherverkehrsverbund import KarlsruherVerkehrsverbundIcon
 from ._kasasmart import KasaSmartIcon
 from ._kashflow import KashflowIcon
@@ -1687,6 +1690,7 @@ from ._linkerd import LinkerdIcon
 from ._linkfire import LinkfireIcon
 from ._linksys import LinksysIcon
 from ._linktree import LinktreeIcon
+from ._linkvertise import LinkvertiseIcon
 from ._linphone import LinphoneIcon
 from ._lintcode import LintcodeIcon
 from ._linux import LinuxIcon
@@ -1721,6 +1725,7 @@ from ._looker import LookerIcon
 from ._loom import LoomIcon
 from ._loop import LoopIcon
 from ._loopback import LoopbackIcon
+from ._loops import LoopsIcon
 from ._lootcrate import LootCrateIcon
 from ._lospec import LospecIcon
 from ._lotpolishairlines import LotPolishAirlinesIcon
@@ -2170,6 +2175,7 @@ from ._panasonic import PanasonicIcon
 from ._pandas import PandasIcon
 from ._pandoc import PandocIcon
 from ._pandora import PandoraIcon
+from ._pangolin import PangolinIcon
 from ._pantheon import PantheonIcon
 from ._paperlessngx import PaperlessngxIcon
 from ._paperswithcode import PapersWithCodeIcon
@@ -2744,6 +2750,7 @@ from ._solid import SolidIcon
 from ._solidity import SolidityIcon
 from ._sololearn import SololearnIcon
 from ._solus import SolusIcon
+from ._solveddotac import SolveddotacIcon
 from ._sonar import SonarIcon
 from ._sonarqubecloud import SonarqubeCloudIcon
 from ._sonarqubeforide import SonarqubeForIdeIcon
@@ -2994,6 +3001,7 @@ from ._thymeleaf import ThymeleafIcon
 from ._ticketmaster import TicketmasterIcon
 from ._ticktick import TicktickIcon
 from ._tidal import TidalIcon
+from ._tidb import TidbIcon
 from ._tiddlywiki import TiddlywikiIcon
 from ._tide import TideIcon
 from ._tidyverse import TidyverseIcon
@@ -3051,6 +3059,7 @@ from ._trello import TrelloIcon
 from ._trendmicro import TrendMicroIcon
 from ._tresorit import TresoritIcon
 from ._treyarch import TreyarchIcon
+from ._trezor import TrezorIcon
 from ._tricentis import TricentisIcon
 from ._trilium import TriliumIcon
 from ._triller import TrillerIcon
@@ -3359,6 +3368,7 @@ from ._yandexcloud import YandexCloudIcon
 from ._yarn import YarnIcon
 from ._yelp import YelpIcon
 from ._yeti import YetiIcon
+from ._yew import YewIcon
 from ._yii import YiiIcon
 from ._yoast import YoastIcon
 from ._yolo import YoloIcon
@@ -3723,6 +3733,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'barclays': BarclaysIcon,
     'baremetrics': BaremetricsIcon,
     'barmenia': BarmeniaIcon,
+    'baseui': BaseUiIcon,
     'basecamp': BasecampIcon,
     'baserow': BaserowIcon,
     'basicattentiontoken': BasicAttentionTokenIcon,
@@ -4511,6 +4522,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'getx': GetxIcon,
     'ghost': GhostIcon,
     'ghostery': GhosteryIcon,
+    'ghostfolio': GhostfolioIcon,
     'ghostty': GhosttyIcon,
     'gimp': GimpIcon,
     'gin': GinIcon,
@@ -4937,6 +4949,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'kamailio': KamailioIcon,
     'kando': KandoIcon,
     'kaniko': KanikoIcon,
+    'karakeep': KarakeepIcon,
     'karlsruherverkehrsverbund': KarlsruherVerkehrsverbundIcon,
     'kasasmart': KasaSmartIcon,
     'kashflow': KashflowIcon,
@@ -5090,6 +5103,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'linkfire': LinkfireIcon,
     'linksys': LinksysIcon,
     'linktree': LinktreeIcon,
+    'linkvertise': LinkvertiseIcon,
     'linphone': LinphoneIcon,
     'lintcode': LintcodeIcon,
     'linux': LinuxIcon,
@@ -5124,6 +5138,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'loom': LoomIcon,
     'loop': LoopIcon,
     'loopback': LoopbackIcon,
+    'loops': LoopsIcon,
     'lootcrate': LootCrateIcon,
     'lospec': LospecIcon,
     'lotpolishairlines': LotPolishAirlinesIcon,
@@ -5573,6 +5588,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'pandas': PandasIcon,
     'pandoc': PandocIcon,
     'pandora': PandoraIcon,
+    'pangolin': PangolinIcon,
     'pantheon': PantheonIcon,
     'paperlessngx': PaperlessngxIcon,
     'paperswithcode': PapersWithCodeIcon,
@@ -6147,6 +6163,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'solidity': SolidityIcon,
     'sololearn': SololearnIcon,
     'solus': SolusIcon,
+    'solveddotac': SolveddotacIcon,
     'sonar': SonarIcon,
     'sonarqubecloud': SonarqubeCloudIcon,
     'sonarqubeforide': SonarqubeForIdeIcon,
@@ -6397,6 +6414,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'ticketmaster': TicketmasterIcon,
     'ticktick': TicktickIcon,
     'tidal': TidalIcon,
+    'tidb': TidbIcon,
     'tiddlywiki': TiddlywikiIcon,
     'tide': TideIcon,
     'tidyverse': TidyverseIcon,
@@ -6454,6 +6472,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'trendmicro': TrendMicroIcon,
     'tresorit': TresoritIcon,
     'treyarch': TreyarchIcon,
+    'trezor': TrezorIcon,
     'tricentis': TricentisIcon,
     'trilium': TriliumIcon,
     'triller': TrillerIcon,
@@ -6762,6 +6781,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'yarn': YarnIcon,
     'yelp': YelpIcon,
     'yeti': YetiIcon,
+    'yew': YewIcon,
     'yii': YiiIcon,
     'yoast': YoastIcon,
     'yolo': YoloIcon,

@@ -316,6 +316,7 @@ from ._bankofamerica import BankOfAmericaIcon
 from ._barclays import BarclaysIcon
 from ._baremetrics import BaremetricsIcon
 from ._barmenia import BarmeniaIcon
+from ._baseui import BaseUiIcon
 from ._basecamp import BasecampIcon
 from ._baserow import BaserowIcon
 from ._basicattentiontoken import BasicAttentionTokenIcon
@@ -1104,6 +1105,7 @@ from ._gerrit import GerritIcon
 from ._getx import GetxIcon
 from ._ghost import GhostIcon
 from ._ghostery import GhosteryIcon
+from ._ghostfolio import GhostfolioIcon
 from ._ghostty import GhosttyIcon
 from ._gimp import GimpIcon
 from ._gin import GinIcon
@@ -1534,6 +1536,7 @@ from ._kalilinux import KaliLinuxIcon
 from ._kamailio import KamailioIcon
 from ._kando import KandoIcon
 from ._kaniko import KanikoIcon
+from ._karakeep import KarakeepIcon
 from ._karlsruherverkehrsverbund import KarlsruherVerkehrsverbundIcon
 from ._kasasmart import KasaSmartIcon
 from ._kashflow import KashflowIcon
@@ -1687,6 +1690,7 @@ from ._linkerd import LinkerdIcon
 from ._linkfire import LinkfireIcon
 from ._linksys import LinksysIcon
 from ._linktree import LinktreeIcon
+from ._linkvertise import LinkvertiseIcon
 from ._linphone import LinphoneIcon
 from ._lintcode import LintcodeIcon
 from ._linux import LinuxIcon
@@ -1721,6 +1725,7 @@ from ._looker import LookerIcon
 from ._loom import LoomIcon
 from ._loop import LoopIcon
 from ._loopback import LoopbackIcon
+from ._loops import LoopsIcon
 from ._lootcrate import LootCrateIcon
 from ._lospec import LospecIcon
 from ._lotpolishairlines import LotPolishAirlinesIcon
@@ -2170,6 +2175,7 @@ from ._panasonic import PanasonicIcon
 from ._pandas import PandasIcon
 from ._pandoc import PandocIcon
 from ._pandora import PandoraIcon
+from ._pangolin import PangolinIcon
 from ._pantheon import PantheonIcon
 from ._paperlessngx import PaperlessngxIcon
 from ._paperswithcode import PapersWithCodeIcon
@@ -2744,6 +2750,7 @@ from ._solid import SolidIcon
 from ._solidity import SolidityIcon
 from ._sololearn import SololearnIcon
 from ._solus import SolusIcon
+from ._solveddotac import SolveddotacIcon
 from ._sonar import SonarIcon
 from ._sonarqubecloud import SonarqubeCloudIcon
 from ._sonarqubeforide import SonarqubeForIdeIcon
@@ -2994,6 +3001,7 @@ from ._thymeleaf import ThymeleafIcon
 from ._ticketmaster import TicketmasterIcon
 from ._ticktick import TicktickIcon
 from ._tidal import TidalIcon
+from ._tidb import TidbIcon
 from ._tiddlywiki import TiddlywikiIcon
 from ._tide import TideIcon
 from ._tidyverse import TidyverseIcon
@@ -3051,6 +3059,7 @@ from ._trello import TrelloIcon
 from ._trendmicro import TrendMicroIcon
 from ._tresorit import TresoritIcon
 from ._treyarch import TreyarchIcon
+from ._trezor import TrezorIcon
 from ._tricentis import TricentisIcon
 from ._trilium import TriliumIcon
 from ._triller import TrillerIcon
@@ -3359,6 +3368,7 @@ from ._yandexcloud import YandexCloudIcon
 from ._yarn import YarnIcon
 from ._yelp import YelpIcon
 from ._yeti import YetiIcon
+from ._yew import YewIcon
 from ._yii import YiiIcon
 from ._yoast import YoastIcon
 from ._yolo import YoloIcon
@@ -3724,6 +3734,7 @@ ALL_ICONS: "Final[list[str]]" = [
     BarclaysIcon.__name__,
     BaremetricsIcon.__name__,
     BarmeniaIcon.__name__,
+    BaseUiIcon.__name__,
     BasecampIcon.__name__,
     BaserowIcon.__name__,
     BasicAttentionTokenIcon.__name__,
@@ -4512,6 +4523,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GetxIcon.__name__,
     GhostIcon.__name__,
     GhosteryIcon.__name__,
+    GhostfolioIcon.__name__,
     GhosttyIcon.__name__,
     GimpIcon.__name__,
     GinIcon.__name__,
@@ -4941,6 +4953,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KamailioIcon.__name__,
     KandoIcon.__name__,
     KanikoIcon.__name__,
+    KarakeepIcon.__name__,
     KarlsruherVerkehrsverbundIcon.__name__,
     KasaSmartIcon.__name__,
     KashflowIcon.__name__,
@@ -5094,6 +5107,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LinkfireIcon.__name__,
     LinksysIcon.__name__,
     LinktreeIcon.__name__,
+    LinkvertiseIcon.__name__,
     LinphoneIcon.__name__,
     LintcodeIcon.__name__,
     LinuxIcon.__name__,
@@ -5128,6 +5142,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LoomIcon.__name__,
     LoopIcon.__name__,
     LoopbackIcon.__name__,
+    LoopsIcon.__name__,
     LootCrateIcon.__name__,
     LospecIcon.__name__,
     LotPolishAirlinesIcon.__name__,
@@ -5578,6 +5593,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PandasIcon.__name__,
     PandocIcon.__name__,
     PandoraIcon.__name__,
+    PangolinIcon.__name__,
     PantheonIcon.__name__,
     PaperlessngxIcon.__name__,
     PapersWithCodeIcon.__name__,
@@ -6152,6 +6168,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SolidityIcon.__name__,
     SololearnIcon.__name__,
     SolusIcon.__name__,
+    SolveddotacIcon.__name__,
     SonarIcon.__name__,
     SonarqubeCloudIcon.__name__,
     SonarqubeForIdeIcon.__name__,
@@ -6403,6 +6420,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TicketmasterIcon.__name__,
     TicktickIcon.__name__,
     TidalIcon.__name__,
+    TidbIcon.__name__,
     TiddlywikiIcon.__name__,
     TideIcon.__name__,
     TidyverseIcon.__name__,
@@ -6460,6 +6478,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TrendMicroIcon.__name__,
     TresoritIcon.__name__,
     TreyarchIcon.__name__,
+    TrezorIcon.__name__,
     TricentisIcon.__name__,
     TriliumIcon.__name__,
     TrillerIcon.__name__,
@@ -6769,6 +6788,7 @@ ALL_ICONS: "Final[list[str]]" = [
     YarnIcon.__name__,
     YelpIcon.__name__,
     YetiIcon.__name__,
+    YewIcon.__name__,
     YiiIcon.__name__,
     YoastIcon.__name__,
     YoloIcon.__name__,

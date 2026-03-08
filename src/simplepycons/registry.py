@@ -543,6 +543,7 @@ from ._clerk import ClerkIcon
 from ._clevercloud import CleverCloudIcon
 from ._clickhouse import ClickhouseIcon
 from ._clickup import ClickupIcon
+from ._cline import ClineIcon
 from ._clion import ClionIcon
 from ._clockify import ClockifyIcon
 from ._clojure import ClojureIcon
@@ -791,6 +792,7 @@ from ._django import DjangoIcon
 from ._dji import DjiIcon
 from ._dlib import DlibIcon
 from ._dlna import DlnaIcon
+from ._dlthub import DlthubIcon
 from ._dm import DmIcon
 from ._dmm import DmmIcon
 from ._docker import DockerIcon
@@ -1721,6 +1723,7 @@ from ._lodash import LodashIcon
 from ._logmein import LogmeinIcon
 from ._logseq import LogseqIcon
 from ._logstash import LogstashIcon
+from ._longhorn import LonghornIcon
 from ._looker import LookerIcon
 from ._loom import LoomIcon
 from ._loop import LoopIcon
@@ -3960,6 +3963,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'clevercloud': CleverCloudIcon,
     'clickhouse': ClickhouseIcon,
     'clickup': ClickupIcon,
+    'cline': ClineIcon,
     'clion': ClionIcon,
     'clockify': ClockifyIcon,
     'clojure': ClojureIcon,
@@ -4208,6 +4212,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'dji': DjiIcon,
     'dlib': DlibIcon,
     'dlna': DlnaIcon,
+    'dlthub': DlthubIcon,
     'dm': DmIcon,
     'dmm': DmmIcon,
     'docker': DockerIcon,
@@ -5134,6 +5139,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'logmein': LogmeinIcon,
     'logseq': LogseqIcon,
     'logstash': LogstashIcon,
+    'longhorn': LonghornIcon,
     'looker': LookerIcon,
     'loom': LoomIcon,
     'loop': LoopIcon,

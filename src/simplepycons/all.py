@@ -543,6 +543,7 @@ from ._clerk import ClerkIcon
 from ._clevercloud import CleverCloudIcon
 from ._clickhouse import ClickhouseIcon
 from ._clickup import ClickupIcon
+from ._cline import ClineIcon
 from ._clion import ClionIcon
 from ._clockify import ClockifyIcon
 from ._clojure import ClojureIcon
@@ -791,6 +792,7 @@ from ._django import DjangoIcon
 from ._dji import DjiIcon
 from ._dlib import DlibIcon
 from ._dlna import DlnaIcon
+from ._dlthub import DlthubIcon
 from ._dm import DmIcon
 from ._dmm import DmmIcon
 from ._docker import DockerIcon
@@ -1721,6 +1723,7 @@ from ._lodash import LodashIcon
 from ._logmein import LogmeinIcon
 from ._logseq import LogseqIcon
 from ._logstash import LogstashIcon
+from ._longhorn import LonghornIcon
 from ._looker import LookerIcon
 from ._loom import LoomIcon
 from ._loop import LoopIcon
@@ -3961,6 +3964,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CleverCloudIcon.__name__,
     ClickhouseIcon.__name__,
     ClickupIcon.__name__,
+    ClineIcon.__name__,
     ClionIcon.__name__,
     ClockifyIcon.__name__,
     ClojureIcon.__name__,
@@ -4209,6 +4213,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DjiIcon.__name__,
     DlibIcon.__name__,
     DlnaIcon.__name__,
+    DlthubIcon.__name__,
     DmIcon.__name__,
     DmmIcon.__name__,
     DockerIcon.__name__,
@@ -5138,6 +5143,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LogmeinIcon.__name__,
     LogseqIcon.__name__,
     LogstashIcon.__name__,
+    LonghornIcon.__name__,
     LookerIcon.__name__,
     LoomIcon.__name__,
     LoopIcon.__name__,

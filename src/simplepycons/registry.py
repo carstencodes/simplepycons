@@ -633,6 +633,7 @@ from ._contabo import ContaboIcon
 from ._contactlesspayment import ContactlessPaymentIcon
 from ._containerd import ContainerdIcon
 from ._contao import ContaoIcon
+from ._contensis import ContensisIcon
 from ._contentful import ContentfulIcon
 from ._contentstack import ContentstackIcon
 from ._continente import ContinenteIcon
@@ -772,6 +773,7 @@ from ._dhl import DhlIcon
 from ._diagramsdotnet import DiagramsdotnetIcon
 from ._dialogflow import DialogflowIcon
 from ._diaspora import DiasporaIcon
+from ._dicebear import DicebearIcon
 from ._dictionarydotcom import DictionarydotcomIcon
 from ._digg import DiggIcon
 from ._digikeyelectronics import DigikeyElectronicsIcon
@@ -4053,6 +4055,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'contactlesspayment': ContactlessPaymentIcon,
     'containerd': ContainerdIcon,
     'contao': ContaoIcon,
+    'contensis': ContensisIcon,
     'contentful': ContentfulIcon,
     'contentstack': ContentstackIcon,
     'continente': ContinenteIcon,
@@ -4192,6 +4195,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'diagramsdotnet': DiagramsdotnetIcon,
     'dialogflow': DialogflowIcon,
     'diaspora': DiasporaIcon,
+    'dicebear': DicebearIcon,
     'dictionarydotcom': DictionarydotcomIcon,
     'digg': DiggIcon,
     'digikeyelectronics': DigikeyElectronicsIcon,

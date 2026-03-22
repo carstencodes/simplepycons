@@ -775,6 +775,7 @@ from ._dialogflow import DialogflowIcon
 from ._diaspora import DiasporaIcon
 from ._dicebear import DicebearIcon
 from ._dictionarydotcom import DictionarydotcomIcon
+from ._dify import DifyIcon
 from ._digg import DiggIcon
 from ._digikeyelectronics import DigikeyElectronicsIcon
 from ._digitalocean import DigitaloceanIcon
@@ -2097,6 +2098,7 @@ from ._opensourceinitiative import OpenSourceInitiativeIcon
 from ._open3d import OpenThreeDIcon
 from ._openaigym import OpenaiGymIcon
 from ._openapiinitiative import OpenapiInitiativeIcon
+from ._openbao import OpenbaoIcon
 from ._openbsd import OpenbsdIcon
 from ._opencage import OpencageIcon
 from ._opencritic import OpencriticIcon
@@ -4198,6 +4200,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DiasporaIcon.__name__,
     DicebearIcon.__name__,
     DictionarydotcomIcon.__name__,
+    DifyIcon.__name__,
     DiggIcon.__name__,
     DigikeyElectronicsIcon.__name__,
     DigitaloceanIcon.__name__,
@@ -5520,6 +5523,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OpenThreeDIcon.__name__,
     OpenaiGymIcon.__name__,
     OpenapiInitiativeIcon.__name__,
+    OpenbaoIcon.__name__,
     OpenbsdIcon.__name__,
     OpencageIcon.__name__,
     OpencriticIcon.__name__,

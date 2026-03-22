@@ -775,6 +775,7 @@ from ._dialogflow import DialogflowIcon
 from ._diaspora import DiasporaIcon
 from ._dicebear import DicebearIcon
 from ._dictionarydotcom import DictionarydotcomIcon
+from ._dify import DifyIcon
 from ._digg import DiggIcon
 from ._digikeyelectronics import DigikeyElectronicsIcon
 from ._digitalocean import DigitaloceanIcon
@@ -2097,6 +2098,7 @@ from ._opensourceinitiative import OpenSourceInitiativeIcon
 from ._open3d import OpenThreeDIcon
 from ._openaigym import OpenaiGymIcon
 from ._openapiinitiative import OpenapiInitiativeIcon
+from ._openbao import OpenbaoIcon
 from ._openbsd import OpenbsdIcon
 from ._opencage import OpencageIcon
 from ._opencritic import OpencriticIcon
@@ -4197,6 +4199,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'diaspora': DiasporaIcon,
     'dicebear': DicebearIcon,
     'dictionarydotcom': DictionarydotcomIcon,
+    'dify': DifyIcon,
     'digg': DiggIcon,
     'digikeyelectronics': DigikeyElectronicsIcon,
     'digitalocean': DigitaloceanIcon,
@@ -5515,6 +5518,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'open3d': OpenThreeDIcon,
     'openaigym': OpenaiGymIcon,
     'openapiinitiative': OpenapiInitiativeIcon,
+    'openbao': OpenbaoIcon,
     'openbsd': OpenbsdIcon,
     'opencage': OpencageIcon,
     'opencritic': OpencriticIcon,

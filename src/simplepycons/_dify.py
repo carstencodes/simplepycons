@@ -21,48 +21,50 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class QgisIcon(Icon):
+class DifyIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "qgis"
+        return "dify"
 
     @property
     def original_file_name(self) -> "str":
-        return "qgis.svg"
+        return "dify.svg"
 
     @property
     def title(self) -> "str":
-        return "QGIS"
+        return "Dify"
 
     @property
     def primary_color(self) -> "str":
-        return "#589632"
+        return "#0033FF"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>QGIS</title>
-     <path d="M12.879 13.006v3.65l-3.004-3.048v-3.495h3.582l2.852
- 2.893h-3.43zm10.886 7.606V24h-3.654l-5.73-5.9v-3.55h3.354l6.03
- 6.062zm-10.828-1.448l3.372 3.371c-1.309.442-2.557.726-4.325.726C5.136
- 23.26 0 18.243 0 11.565 0 4.92 5.136 0 11.984 0 18.864 0 24 4.952 24
- 11.565c0 2.12-.523 4.076-1.457 5.759l-3.625-3.725a8.393 8.393 0 0 0
- .24-2.005c0-4.291-3.148-7.527-7.1-7.527-3.954 0-7.248 3.236-7.248
- 7.527s3.33 7.6 7.247 7.6c.548 0 .661.017.88-.03z" />
+    <title>Dify</title>
+     <path d="m22.417 9.334-1.333 4.333-1.334-4.333h-1.583L20.1
+ 14.94c.2.583-.14 1.06-.756 1.06h-.678v1.334h.996c.869 0 1.65-.55
+ 1.945-1.367L24 9.334ZM2.833 6.667H0v8.666h2.833c3.5 0 4.5-2
+ 4.5-4.333s-1-4.334-4.5-4.334zM2.866 14H1.6V8h1.266c2.013 0 2.867.988
+ 2.867 3s-.854 3-2.867
+ 3m11-5.267v.6h-1.532v1.334h1.533V14h-2.534V9.334H8v1.334h1.867V14h-2.2v1.334h10V14h-2.332v-3.333h2.333V9.334h-2.333V8h2.333V6.667h-1.733a2.07
+ 2.07 0 0 0-2.067 2.067Zm-3.266-.2c.681 0 .933-.417.933-.933
+ 0-.515-.252-.933-.933-.933-.68 0-.934.418-.934.933s.253.934.934.934"
+ />
 </svg>'''
 
     @property
     def guidelines_url(self) -> "str | None":
-        _value: "str" = '''https://www.qgis.org/en/site/getinvolved/styl'''
+        _value: "str" = ''''''
         if len(_value) > 0:
             return _value
         return None
 
     @property
     def source(self) -> "str":
-        return '''https://www.qgis.org/en/site/getinvolved/styl'''
+        return '''https://github.com/langgenius/dify/blob/48f6b'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

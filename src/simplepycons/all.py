@@ -949,6 +949,7 @@ from ._facebooklive import FacebookLiveIcon
 from ._faceit import FaceitIcon
 from ._facepunch import FacepunchIcon
 from ._fairphone import FairphoneIcon
+from ._faker import FakerIcon
 from ._falco import FalcoIcon
 from ._falcon import FalconIcon
 from ._fampay import FampayIcon
@@ -2359,6 +2360,7 @@ from ._progate import ProgateIcon
 from ._progress import ProgressIcon
 from ._prometheus import PrometheusIcon
 from ._pronounsdotpage import PronounsdotpageIcon
+from ._prosemirror import ProsemirrorIcon
 from ._prosieben import ProsiebenIcon
 from ._proteus import ProteusIcon
 from ._protodotio import ProtodotioIcon
@@ -2403,6 +2405,7 @@ from ._qantas import QantasIcon
 from ._qase import QaseIcon
 from ._qatarairways import QatarAirwaysIcon
 from ._qbittorrent import QbittorrentIcon
+from ._qdrant import QdrantIcon
 from ._qemu import QemuIcon
 from ._qgis import QgisIcon
 from ._qi import QiIcon
@@ -4374,6 +4377,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FaceitIcon.__name__,
     FacepunchIcon.__name__,
     FairphoneIcon.__name__,
+    FakerIcon.__name__,
     FalcoIcon.__name__,
     FalconIcon.__name__,
     FampayIcon.__name__,
@@ -5784,6 +5788,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ProgressIcon.__name__,
     PrometheusIcon.__name__,
     PronounsdotpageIcon.__name__,
+    ProsemirrorIcon.__name__,
     ProsiebenIcon.__name__,
     ProteusIcon.__name__,
     ProtodotioIcon.__name__,
@@ -5828,6 +5833,7 @@ ALL_ICONS: "Final[list[str]]" = [
     QaseIcon.__name__,
     QatarAirwaysIcon.__name__,
     QbittorrentIcon.__name__,
+    QdrantIcon.__name__,
     QemuIcon.__name__,
     QgisIcon.__name__,
     QiIcon.__name__,

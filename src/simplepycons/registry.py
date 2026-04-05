@@ -2601,6 +2601,7 @@ from ._runkit import RunkitIcon
 from ._runrundotit import RunrundotitIcon
 from ._rust import RustIcon
 from ._rustdesk import RustdeskIcon
+from ._rustfs import RustfsIcon
 from ._rxdb import RxdbIcon
 from ._ryanair import RyanairIcon
 from ._rye import RyeIcon
@@ -2795,6 +2796,7 @@ from ._speedtest import SpeedtestIcon
 from ._speedypage import SpeedypageIcon
 from ._spoj import SphereOnlineJudgeIcon
 from ._sphinx import SphinxIcon
+from ._spidermonkey import SpidermonkeyIcon
 from ._spigotmc import SpigotmcIcon
 from ._spine import SpineIcon
 from ._spinnaker import SpinnakerIcon
@@ -3106,6 +3108,7 @@ from ._twenty import TwentyIcon
 from ._twinkly import TwinklyIcon
 from ._twinmotion import TwinmotionIcon
 from ._twitch import TwitchIcon
+from ._ty import TyIcon
 from ._typeform import TypeformIcon
 from ._typeorm import TypeormIcon
 from ._typer import TyperIcon
@@ -6024,6 +6027,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'runrundotit': RunrundotitIcon,
     'rust': RustIcon,
     'rustdesk': RustdeskIcon,
+    'rustfs': RustfsIcon,
     'rxdb': RxdbIcon,
     'ryanair': RyanairIcon,
     'rye': RyeIcon,
@@ -6218,6 +6222,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'speedypage': SpeedypageIcon,
     'spoj': SphereOnlineJudgeIcon,
     'sphinx': SphinxIcon,
+    'spidermonkey': SpidermonkeyIcon,
     'spigotmc': SpigotmcIcon,
     'spine': SpineIcon,
     'spinnaker': SpinnakerIcon,
@@ -6529,6 +6534,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'twinkly': TwinklyIcon,
     'twinmotion': TwinmotionIcon,
     'twitch': TwitchIcon,
+    'ty': TyIcon,
     'typeform': TypeformIcon,
     'typeorm': TypeormIcon,
     'typer': TyperIcon,

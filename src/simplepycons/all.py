@@ -2601,6 +2601,7 @@ from ._runkit import RunkitIcon
 from ._runrundotit import RunrundotitIcon
 from ._rust import RustIcon
 from ._rustdesk import RustdeskIcon
+from ._rustfs import RustfsIcon
 from ._rxdb import RxdbIcon
 from ._ryanair import RyanairIcon
 from ._rye import RyeIcon
@@ -2795,6 +2796,7 @@ from ._speedtest import SpeedtestIcon
 from ._speedypage import SpeedypageIcon
 from ._spoj import SphereOnlineJudgeIcon
 from ._sphinx import SphinxIcon
+from ._spidermonkey import SpidermonkeyIcon
 from ._spigotmc import SpigotmcIcon
 from ._spine import SpineIcon
 from ._spinnaker import SpinnakerIcon
@@ -3106,6 +3108,7 @@ from ._twenty import TwentyIcon
 from ._twinkly import TwinklyIcon
 from ._twinmotion import TwinmotionIcon
 from ._twitch import TwitchIcon
+from ._ty import TyIcon
 from ._typeform import TypeformIcon
 from ._typeorm import TypeormIcon
 from ._typer import TyperIcon
@@ -6029,6 +6032,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RunrundotitIcon.__name__,
     RustIcon.__name__,
     RustdeskIcon.__name__,
+    RustfsIcon.__name__,
     RxdbIcon.__name__,
     RyanairIcon.__name__,
     RyeIcon.__name__,
@@ -6223,6 +6227,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SpeedypageIcon.__name__,
     SphereOnlineJudgeIcon.__name__,
     SphinxIcon.__name__,
+    SpidermonkeyIcon.__name__,
     SpigotmcIcon.__name__,
     SpineIcon.__name__,
     SpinnakerIcon.__name__,
@@ -6535,6 +6540,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TwinklyIcon.__name__,
     TwinmotionIcon.__name__,
     TwitchIcon.__name__,
+    TyIcon.__name__,
     TypeformIcon.__name__,
     TypeormIcon.__name__,
     TyperIcon.__name__,

@@ -454,6 +454,7 @@ from ._c import CIcon
 from ._cplusplus import CplusplusIcon
 from ._cplusplusbuilder import CplusplusBuilderIcon
 from ._cachet import CachetIcon
+from ._cachyos import CachyosIcon
 from ._caddy import CaddyIcon
 from ._cadillac import CadillacIcon
 from ._cafepress import CafepressIcon
@@ -1022,6 +1023,7 @@ from ._fluentd import FluentdIcon
 from ._fluke import FlukeIcon
 from ._flutter import FlutterIcon
 from ._flux import FluxIcon
+from ._fluxer import FluxerIcon
 from ._flydotio import FlydotioIcon
 from ._flyway import FlywayIcon
 from ._fmod import FmodIcon
@@ -3082,6 +3084,7 @@ from ._tripdotcom import TripdotcomIcon
 from ._tripadvisor import TripadvisorIcon
 from ._trivago import TrivagoIcon
 from ._trivy import TrivyIcon
+from ._trmnl import TrmnlIcon
 from ._trove import TroveIcon
 from ._trpc import TrpcIcon
 from ._truenas import TruenasIcon
@@ -3884,6 +3887,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'cplusplus': CplusplusIcon,
     'cplusplusbuilder': CplusplusBuilderIcon,
     'cachet': CachetIcon,
+    'cachyos': CachyosIcon,
     'caddy': CaddyIcon,
     'cadillac': CadillacIcon,
     'cafepress': CafepressIcon,
@@ -4452,6 +4456,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'fluke': FlukeIcon,
     'flutter': FlutterIcon,
     'flux': FluxIcon,
+    'fluxer': FluxerIcon,
     'flydotio': FlydotioIcon,
     'flyway': FlywayIcon,
     'fmod': FmodIcon,
@@ -6508,6 +6513,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'tripadvisor': TripadvisorIcon,
     'trivago': TrivagoIcon,
     'trivy': TrivyIcon,
+    'trmnl': TrmnlIcon,
     'trove': TroveIcon,
     'trpc': TrpcIcon,
     'truenas': TruenasIcon,

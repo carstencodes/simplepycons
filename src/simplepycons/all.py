@@ -454,6 +454,7 @@ from ._c import CIcon
 from ._cplusplus import CplusplusIcon
 from ._cplusplusbuilder import CplusplusBuilderIcon
 from ._cachet import CachetIcon
+from ._cachyos import CachyosIcon
 from ._caddy import CaddyIcon
 from ._cadillac import CadillacIcon
 from ._cafepress import CafepressIcon
@@ -1022,6 +1023,7 @@ from ._fluentd import FluentdIcon
 from ._fluke import FlukeIcon
 from ._flutter import FlutterIcon
 from ._flux import FluxIcon
+from ._fluxer import FluxerIcon
 from ._flydotio import FlydotioIcon
 from ._flyway import FlywayIcon
 from ._fmod import FmodIcon
@@ -3082,6 +3084,7 @@ from ._tripdotcom import TripdotcomIcon
 from ._tripadvisor import TripadvisorIcon
 from ._trivago import TrivagoIcon
 from ._trivy import TrivyIcon
+from ._trmnl import TrmnlIcon
 from ._trove import TroveIcon
 from ._trpc import TrpcIcon
 from ._truenas import TruenasIcon
@@ -3885,6 +3888,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CplusplusIcon.__name__,
     CplusplusBuilderIcon.__name__,
     CachetIcon.__name__,
+    CachyosIcon.__name__,
     CaddyIcon.__name__,
     CadillacIcon.__name__,
     CafepressIcon.__name__,
@@ -4453,6 +4457,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FlukeIcon.__name__,
     FlutterIcon.__name__,
     FluxIcon.__name__,
+    FluxerIcon.__name__,
     FlydotioIcon.__name__,
     FlywayIcon.__name__,
     FmodIcon.__name__,
@@ -6514,6 +6519,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TripadvisorIcon.__name__,
     TrivagoIcon.__name__,
     TrivyIcon.__name__,
+    TrmnlIcon.__name__,
     TroveIcon.__name__,
     TrpcIcon.__name__,
     TruenasIcon.__name__,

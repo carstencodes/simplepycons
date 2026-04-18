@@ -24,7 +24,8 @@
     "enabledManagers": [
         "pyenv",
         "github-actions",
-        "git-submodules"
+        "git-submodules",
+        "pre-commit"
     ],
     "git-submodules": {
         "enabled": true

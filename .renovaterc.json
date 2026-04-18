@@ -1,7 +1,8 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:recommended"
+        "config:recommended",
+        "local>carstencodes/.shared/renovate/conventional"
     ],
     "addLabels": [
         "dependencies",

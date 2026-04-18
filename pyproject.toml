@@ -42,6 +42,10 @@ formatting = [
     "autoflake>=2.0.2",
     "pyment>=0.3.3",
 ]
+devenv = [
+    "pre-commit>=3.0.0",
+    "gitlint>=0.17.0",
+]
 release = [
     "gitlint>=0.17.0",
     "pip-audit>=2.4.4",

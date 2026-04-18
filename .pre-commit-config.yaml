@@ -1,0 +1,9 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v1.2.3
+    hooks:
+    -   id: trailing-whitespace
+-   repo: https://github.com/jorisroovers/gitlint
+    rev:  v0.19.1
+    hooks:
+    -   id: gitlint

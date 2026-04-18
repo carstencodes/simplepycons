@@ -2,7 +2,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "config:recommended",
-        "local>carstencodes/.shared/renovate/conventional"
+        "local>carstencodes/.shared//renovate/conventional"
     ],
     "addLabels": [
         "dependencies",

@@ -57,8 +57,7 @@
             "matchPaths": ["vendor/simple-icons"],
             "matchUpdateTypes": ["major"],
             "automerge": false,
-            "reviewersFromCodeOwners": true,
-            "minimumApprovals": 1
+            "reviewersFromCodeOwners": true
         }
     ]
 }

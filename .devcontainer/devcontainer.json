@@ -1,0 +1,12 @@
+{
+  "name": "Python with PDM",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/python": {
+      "version": "${localEnv:PYTHON_VERSION:-latest}"
+    }
+  },
+  "envFile": ".devcontainer/.env",
+  "postCreateCommand": "curl -sSL https://pdm.fming.dev/install-pdm.py | python3 - && pdm install && pdm install --plugins"
+}
+

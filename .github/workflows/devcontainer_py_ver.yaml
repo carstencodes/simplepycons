@@ -1,0 +1,38 @@
+name: Update Python Versions in tasks.json
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - '.python-version'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-tasks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Update tasks.json
+        run: |
+          # Extract non-empty lines from .python-version, ignoring comments
+          versions=$(sed 's/#.*//' .python-version | grep -v '^$' | jq -R . | jq -s .)
+          # Add "latest" to the options
+          options=$(jq -n --argjson vers "$versions" '$vers + ["latest"]')
+          # Update the options in tasks.json for the input with id "pythonVersion"
+          jq --argjson opts "$options" '.inputs |= map(if .id == "pythonVersion" then .options = $opts else . end)' .vscode/tasks.json > tmp.json && mv tmp.json .vscode/tasks.json
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .vscode/tasks.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Update Python versions in tasks.json"
+            git push
+          else
+            echo "No changes to commit"
+          fi

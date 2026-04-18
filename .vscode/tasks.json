@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "pythonVersion",
+      "description": "Select the Python version for the devcontainer",
+      "type": "pickString",
+      "options": [
+        "3.14",
+        "3.13",
+        "3.12",
+        "3.11",
+        "3.10",
+        "latest"
+      ],
+      "default": "latest"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "Choose Python version for devcontainer",
+      "type": "shell",
+      "command": "sed -i '/^PYTHON_VERSION=/d' .devcontainer/.env 2>/dev/null || true; echo 'PYTHON_VERSION=${input:pythonVersion}' >> .devcontainer/.env",
+      "windows": {
+        "command": "powershell",
+        "args": [
+          "-Command",
+          "(Get-Content .devcontainer/.env -ErrorAction SilentlyContinue | Where-Object { $_ -notmatch '^PYTHON_VERSION=' }) + 'PYTHON_VERSION=${input:pythonVersion}' | Set-Content .devcontainer/.env"
+        ]
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

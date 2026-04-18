@@ -38,5 +38,25 @@
         "at 6pm every weekday"
     ],
     "timezone": "Etc/UTC",
-    "updateNotScheduled": true
+    "updateNotScheduled": true,
+    "packageRules": [
+        {
+            "matchPaths": ["vendor/simple-icons"],
+            "matchUpdateTypes": ["minor"],
+            "automerge": true,
+            "schedule": [
+                "at 00:00 on Sunday",
+                "at 06:00 on Sunday",
+                "at 12:00 on Sunday",
+                "at 18:00 on Sunday"
+            ]
+        },
+        {
+            "matchPaths": ["vendor/simple-icons"],
+            "matchUpdateTypes": ["major"],
+            "automerge": false,
+            "reviewersFromCodeOwners": true,
+            "minimumApprovals": 1
+        }
+    ]
 }

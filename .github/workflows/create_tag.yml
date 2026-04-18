@@ -1,30 +1,40 @@
----
-name: "Create a git tag"
-on: 
-    workflow_dispatch: 
+name: Tag on Submodule Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'vendor/simple-icons'
+
 permissions:
-    contents: write
+  contents: write
+
 jobs:
-    tag:
-        name: "Add a git tag according to pyproject.toml"
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v6
-              with:
-                clean: true
-                submodules: true
-                ref: ${{ github.head_ref }}
-                fetch-depth: 0
-            - name: Setup PDM
-              uses: pdm-project/setup-pdm@v4
-            - name: Install dependencies
-              run: | 
-                pdm install --plugins
-            - name: Setup git configuration
-              run: |
-                git config --global user.name 'Github actions (carstencodes)'
-                git config --global user.email 'carstencodes@users.noreply.github.com'
-            - name: Create a new tag
-              run: pdm bump tag
-            - name: Push changes
-              run: git push origin HEAD --tags
+  tag:
+    name: Create a git tag according to pyproject.toml contents
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Configure Git
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Get Python version
+        id: pyver
+        run: |
+          VERSION=$(sort -V .python-version | head -1)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+      - name: Setup PDM
+        uses: pdm-project/setup-pdm@v4
+        with:
+          python-version: ${{ steps.pyver.outputs.version }}
+      - name: Install PDM plugins
+        run: pdm install --plugins
+      - name: Bump and tag version
+        run: pdm bump tag
+      - name: Push tag
+        run: git push --tags

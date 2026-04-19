@@ -43,7 +43,9 @@
     "updateNotScheduled": true,
     "packageRules": [
         {
-            "matchPaths": ["vendor/simple-icons"],
+            "matchFileNames": [
+                "vendor/simple-icons"
+            ],
             "matchUpdateTypes": ["minor"],
             "automerge": true,
             "schedule": [
@@ -54,7 +56,9 @@
             ]
         },
         {
-            "matchPaths": ["vendor/simple-icons"],
+            "matchFileNames": [
+                "vendor/simple-icons"
+            ],
             "matchUpdateTypes": ["major"],
             "automerge": false,
             "reviewersFromCodeOwners": true

@@ -1725,6 +1725,7 @@ from ._lobsters import LobstersIcon
 from ._local import LocalIcon
 from ._localsend import LocalsendIcon
 from ._localxpose import LocalxposeIcon
+from ._locust import LocustIcon
 from ._lodash import LodashIcon
 from ._logmein import LogmeinIcon
 from ._logseq import LogseqIcon
@@ -3235,6 +3236,7 @@ from ._vivint import VivintIcon
 from ._vivo import VivoIcon
 from ._vk import VkIcon
 from ._vlcmediaplayer import VlcMediaPlayerIcon
+from ._vllm import VllmIcon
 from ._vmware import VmwareIcon
 from ._vodafone import VodafoneIcon
 from ._voelkner import VoelknerIcon
@@ -5154,6 +5156,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'local': LocalIcon,
     'localsend': LocalsendIcon,
     'localxpose': LocalxposeIcon,
+    'locust': LocustIcon,
     'lodash': LodashIcon,
     'logmein': LogmeinIcon,
     'logseq': LogseqIcon,
@@ -6664,6 +6667,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'vivo': VivoIcon,
     'vk': VkIcon,
     'vlcmediaplayer': VlcMediaPlayerIcon,
+    'vllm': VllmIcon,
     'vmware': VmwareIcon,
     'vodafone': VodafoneIcon,
     'voelkner': VoelknerIcon,

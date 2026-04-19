@@ -1725,6 +1725,7 @@ from ._lobsters import LobstersIcon
 from ._local import LocalIcon
 from ._localsend import LocalsendIcon
 from ._localxpose import LocalxposeIcon
+from ._locust import LocustIcon
 from ._lodash import LodashIcon
 from ._logmein import LogmeinIcon
 from ._logseq import LogseqIcon
@@ -3235,6 +3236,7 @@ from ._vivint import VivintIcon
 from ._vivo import VivoIcon
 from ._vk import VkIcon
 from ._vlcmediaplayer import VlcMediaPlayerIcon
+from ._vllm import VllmIcon
 from ._vmware import VmwareIcon
 from ._vodafone import VodafoneIcon
 from ._voelkner import VoelknerIcon
@@ -5158,6 +5160,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LocalIcon.__name__,
     LocalsendIcon.__name__,
     LocalxposeIcon.__name__,
+    LocustIcon.__name__,
     LodashIcon.__name__,
     LogmeinIcon.__name__,
     LogseqIcon.__name__,
@@ -6671,6 +6674,7 @@ ALL_ICONS: "Final[list[str]]" = [
     VivoIcon.__name__,
     VkIcon.__name__,
     VlcMediaPlayerIcon.__name__,
+    VllmIcon.__name__,
     VmwareIcon.__name__,
     VodafoneIcon.__name__,
     VoelknerIcon.__name__,

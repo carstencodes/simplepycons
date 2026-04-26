@@ -744,6 +744,7 @@ from ._deepin import DeepinIcon
 from ._deepl import DeeplIcon
 from ._deepmind import DeepmindIcon
 from ._deepnote import DeepnoteIcon
+from ._deepseek import DeepseekIcon
 from ._deezer import DeezerIcon
 from ._deliveroo import DeliverooIcon
 from ._dell import DellIcon
@@ -1914,6 +1915,7 @@ from ._monzo import MonzoIcon
 from ._moo import MooIcon
 from ._moodle import MoodleIcon
 from ._moonrepo import MoonrepoIcon
+from ._moonshotai import MoonshotAiIcon
 from ._moq import MoqIcon
 from ._moqups import MoqupsIcon
 from ._morrisons import MorrisonsIcon
@@ -1969,6 +1971,7 @@ from ._nebula import NebulaIcon
 from ._nec import NecIcon
 from ._nederlandsespoorwegen import NederlandseSpoorwegenIcon
 from ._neo4j import NeoFourJIcon
+from ._neon import NeonIcon
 from ._neovim import NeovimIcon
 from ._neptune import NeptuneIcon
 from ._nestjs import NestjsIcon
@@ -2440,6 +2443,7 @@ from ._quicktype import QuicktypeIcon
 from ._quizlet import QuizletIcon
 from ._quora import QuoraIcon
 from ._qwant import QwantIcon
+from ._qwen import QwenIcon
 from ._qwik import QwikIcon
 from ._qwiklabs import QwiklabsIcon
 from ._qzone import QzoneIcon
@@ -4180,6 +4184,7 @@ ALL_ICONS: "Final[list[str]]" = [
     DeeplIcon.__name__,
     DeepmindIcon.__name__,
     DeepnoteIcon.__name__,
+    DeepseekIcon.__name__,
     DeezerIcon.__name__,
     DeliverooIcon.__name__,
     DellIcon.__name__,
@@ -5350,6 +5355,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MooIcon.__name__,
     MoodleIcon.__name__,
     MoonrepoIcon.__name__,
+    MoonshotAiIcon.__name__,
     MoqIcon.__name__,
     MoqupsIcon.__name__,
     MorrisonsIcon.__name__,
@@ -5405,6 +5411,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NecIcon.__name__,
     NederlandseSpoorwegenIcon.__name__,
     NeoFourJIcon.__name__,
+    NeonIcon.__name__,
     NeovimIcon.__name__,
     NeptuneIcon.__name__,
     NestjsIcon.__name__,
@@ -5876,6 +5883,7 @@ ALL_ICONS: "Final[list[str]]" = [
     QuizletIcon.__name__,
     QuoraIcon.__name__,
     QwantIcon.__name__,
+    QwenIcon.__name__,
     QwikIcon.__name__,
     QwiklabsIcon.__name__,
     QzoneIcon.__name__,

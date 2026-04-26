@@ -744,6 +744,7 @@ from ._deepin import DeepinIcon
 from ._deepl import DeeplIcon
 from ._deepmind import DeepmindIcon
 from ._deepnote import DeepnoteIcon
+from ._deepseek import DeepseekIcon
 from ._deezer import DeezerIcon
 from ._deliveroo import DeliverooIcon
 from ._dell import DellIcon
@@ -1914,6 +1915,7 @@ from ._monzo import MonzoIcon
 from ._moo import MooIcon
 from ._moodle import MoodleIcon
 from ._moonrepo import MoonrepoIcon
+from ._moonshotai import MoonshotAiIcon
 from ._moq import MoqIcon
 from ._moqups import MoqupsIcon
 from ._morrisons import MorrisonsIcon
@@ -1969,6 +1971,7 @@ from ._nebula import NebulaIcon
 from ._nec import NecIcon
 from ._nederlandsespoorwegen import NederlandseSpoorwegenIcon
 from ._neo4j import NeoFourJIcon
+from ._neon import NeonIcon
 from ._neovim import NeovimIcon
 from ._neptune import NeptuneIcon
 from ._nestjs import NestjsIcon
@@ -2440,6 +2443,7 @@ from ._quicktype import QuicktypeIcon
 from ._quizlet import QuizletIcon
 from ._quora import QuoraIcon
 from ._qwant import QwantIcon
+from ._qwen import QwenIcon
 from ._qwik import QwikIcon
 from ._qwiklabs import QwiklabsIcon
 from ._qzone import QzoneIcon
@@ -4179,6 +4183,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'deepl': DeeplIcon,
     'deepmind': DeepmindIcon,
     'deepnote': DeepnoteIcon,
+    'deepseek': DeepseekIcon,
     'deezer': DeezerIcon,
     'deliveroo': DeliverooIcon,
     'dell': DellIcon,
@@ -5345,6 +5350,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'moo': MooIcon,
     'moodle': MoodleIcon,
     'moonrepo': MoonrepoIcon,
+    'moonshotai': MoonshotAiIcon,
     'moq': MoqIcon,
     'moqups': MoqupsIcon,
     'morrisons': MorrisonsIcon,
@@ -5400,6 +5406,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nec': NecIcon,
     'nederlandsespoorwegen': NederlandseSpoorwegenIcon,
     'neo4j': NeoFourJIcon,
+    'neon': NeonIcon,
     'neovim': NeovimIcon,
     'neptune': NeptuneIcon,
     'nestjs': NestjsIcon,
@@ -5871,6 +5878,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'quizlet': QuizletIcon,
     'quora': QuoraIcon,
     'qwant': QwantIcon,
+    'qwen': QwenIcon,
     'qwik': QwikIcon,
     'qwiklabs': QwiklabsIcon,
     'qzone': QzoneIcon,

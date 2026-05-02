@@ -19,7 +19,7 @@ jobs:
   deploy:
     name: Deploy wheel to pypi
     runs-on: ubuntu-latest
-    outs:
+    outputs:
       tag: ${{ steps.get_tag.outputs.tag }}
 
     steps:

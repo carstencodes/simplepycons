@@ -14,6 +14,8 @@ jobs:
   tag:
     name: Create a git tag according to pyproject.toml contents
     runs-on: ubuntu-latest
+    outputs:
+      tag_version: ${{ steps.tag_version.outputs.tag_version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -43,8 +45,12 @@ jobs:
         run: 
           TAG_VERSION=$(pdm show --version --quiet)
           echo "tag_version=refs/tags/v${TAG_VERSION}" >> $GITHUB_OUTPUT
-      - name: Trigger a release after tag is pushed
-        uses: carstencodes/simplepycons/.github/workflows/release.yml@${GITHUB_REF}
-        with:
-          tag: ${{ steps.tag_version.outputs.tag_version }}
-    
+  
+  create_release:
+    name: Create a release after tag is pushed
+    needs: [tag]
+    uses: ./.github/workflows/release.yml
+    permissions:
+      contents: write
+    with:
+      tag: ${{ needs.jobs.tag.outputs.tag_version }}

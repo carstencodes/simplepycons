@@ -19,15 +19,17 @@ jobs:
   deploy:
     name: Deploy wheel to pypi
     runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.get_tag.outputs.tag }}
 
     steps:
     - name: Get Tag to build
       id: get_tag
       run: |
         _FULL_TAG_REF=${GITHUB_REF}
-        _TAG_REF=$(echo "${GITHUB_REF#refs/tags/}")
+        _TAG_REF=$(echo "${GITHUB_REF}" | sed 's|refs/tags/||')
         _FULL_TAG_INPUT=${{ inputs.tag }}
-        _TAG_INPUT=$(echo "${{ inputs.tag#refs/tags/}}")
+        _TAG_INPUT=$(echo "${{ inputs.tag }}" | sed 's|refs/tags/||')
         if [ -z "$_TAG_INPUT" ]; then
           echo "No tag input provided, using GITHUB_REF: $_TAG_REF"
           echo "tag=$_TAG_REF" >> $GITHUB_OUTPUT
@@ -63,9 +65,9 @@ jobs:
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ deploy.outputs.tag }}
+          TARGET_TAG: ${{ needs.deploy.outputs.tag }}
         run: |
-          gh release create "$tag" \
+          gh release create "$TARGET_TAG" \
               --repo="$GITHUB_REPOSITORY" \
-              --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
+              --title="${GITHUB_REPOSITORY#*/} ${TARGET_TAG#v}" \
               --generate-notes

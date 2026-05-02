@@ -49,7 +49,7 @@ jobs:
   create_release:
     name: Create a release after tag is pushed
     needs: [tag]
-    uses: ./.github/workflows/release.yml@${GITHUB_REF}
+    uses: ./.github/workflows/release.yml
     permissions:
       contents: write
     with:

@@ -48,8 +48,9 @@ jobs:
   
   create_release:
     name: Create a release after tag is pushed
-    needs: tag
-    runs-on: ubuntu-latest
+    needs: [tag]
     uses: .github/workflows/release.yml@${GITHUB_REF}
+    permissions:
+      contents: write
     with:
       tag: ${{ needs.jobs.tag.outputs.tag_version }}

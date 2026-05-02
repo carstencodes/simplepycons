@@ -44,7 +44,7 @@ jobs:
           TAG_VERSION=$(pdm show --version --quiet)
           echo "tag_version=refs/tags/v${TAG_VERSION}" >> $GITHUB_OUTPUT
       - name: Trigger a release after tag is pushed
-        uses: carstencodes/simplepyconss/.github/workflows/release.yml@${GITHUB_REF}
+        uses: carstencodes/simplepycons/.github/workflows/release.yml@${GITHUB_REF}
         with:
           tag: ${{ steps.tag_version.outputs.tag_version }}
     

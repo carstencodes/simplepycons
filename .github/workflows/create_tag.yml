@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 jobs:
   tag:
@@ -52,5 +53,6 @@ jobs:
     uses: ./.github/workflows/release.yml
     permissions:
       contents: write
+      id-token: write
     with:
-      tag: ${{ needs.jobs.tag.outputs.tag_version }}
+      tag: ${{ needs.tag.outputs.tag_version }}

@@ -3,11 +3,6 @@ name: Create release
 
 on:
   workflow_call:
-    inputs:
-      tag:
-        description: 'The tag to create the release for - must start with refs/tags/v or be empty to use the GITHUB_REF'
-        required: true
-        type: string
   push:
     tags:
       - 'v*'
@@ -20,29 +15,10 @@ jobs:
   deploy:
     name: Deploy wheel to pypi
     runs-on: ubuntu-latest
-    outputs:
-      tag: ${{ steps.get_tag.outputs.tag }}
-
     steps:
-    - name: Get Tag to build
-      id: get_tag
-      run: |
-        _FULL_TAG_REF=${GITHUB_REF}
-        _TAG_REF=$(echo "${GITHUB_REF}" | sed 's|refs/tags/||')
-        _FULL_TAG_INPUT=${{ inputs.tag }}
-        _TAG_INPUT=$(echo "${{ inputs.tag }}" | sed 's|refs/tags/||')
-        if [ -z "$_TAG_INPUT" ]; then
-          echo "No tag input provided, using GITHUB_REF: $_TAG_REF"
-          echo "tag=$_TAG_REF" >> $GITHUB_OUTPUT
-          echo "full_tag=$_FULL_TAG_REF" >> $GITHUB_OUTPUT
-        else
-          echo "Using provided tag input: $_TAG_INPUT"
-          echo "tag=$_TAG_INPUT" >> $GITHUB_OUTPUT
-          echo "full_tag=$_FULL_TAG_INPUT" >> $GITHUB_OUTPUT
-        fi
     - uses: actions/checkout@v6
       with:
-        ref: ${{ steps.get_tag.outputs.full_tag }}
+        ref: ${{ github.ref }}
     - name: Setup PDM
       uses: pdm-project/setup-pdm@v4
     - name: Install dependencies
@@ -66,9 +42,8 @@ jobs:
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TARGET_TAG: ${{ needs.deploy.outputs.tag }}
         run: |
-          gh release create "$TARGET_TAG" \
+          gh release create "$(git describe --tags)" \
               --repo="$GITHUB_REPOSITORY" \
-              --title="${GITHUB_REPOSITORY#*/} ${TARGET_TAG#v}" \
+              --title="${GITHUB_REPOSITORY#*/} $(git describe --tags)" \
               --generate-notes

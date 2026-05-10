@@ -21,36 +21,37 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class LangchainIcon(Icon):
+class CinnyIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "langchain"
+        return "cinny"
 
     @property
     def original_file_name(self) -> "str":
-        return "langchain.svg"
+        return "cinny.svg"
 
     @property
     def title(self) -> "str":
-        return "LangChain"
+        return "Cinny"
 
     @property
     def primary_color(self) -> "str":
-        return "#7FC8FF"
+        return "#000000"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>LangChain</title>
-     <path d="M13.796 0a6.93 6.93 0 0 0-4.91 2.019L5.451 5.455l3.273
- 3.27 3.432-3.432a2.284 2.284 0 0 1 3.277 0 2.28 2.28 0 0 1 0 3.275L12
- 12.001l3.273 3.273 3.433-3.435c2.692-2.692 2.692-7.127 0-9.82A6.92
- 6.92 0 0 0 13.796 0m-5.07 8.728-3.433 3.434c-2.692 2.693-2.692 7.126
- 0 9.819A6.92 6.92 0 0 0 10.203 24a6.93 6.93 0 0 0
- 4.911-2.02l3.432-3.432-3.271-3.272-3.433 3.433a2.284 2.284 0 0
- 1-3.277 0 2.28 2.28 0 0 1 0-3.276L12 12z" />
+    <title>Cinny</title>
+     <path d="M12 0C5.333 0 0 5.333 0 12s5.333 12 12 12 12-5.333
+ 12-12S18.667 0 12 0m-1.599 6.401h.531c1.6 0 3.067.8 3.867 2.133C15.2
+ 8.4 15.6 8.4 16 8.4c.533 0 1.066 0 1.599.133.933.267 1.867.667 2.667
+ 1.2a7.8 7.8 0 0 0-2.532-.4c-1.6 0-2.933.533-3.867 1.867a6.9 6.9 0 0
+ 0-1.466 4.265c0 2-.534 3.868-1.734 5.602-.4.533-.668.933-1.068
+ 1.333-4-.933-7.067-4-8-8l4.667-3.068v-.4C6.266 8.532 8 6.667 10.4
+ 6.4m2.266 1.466a.667.667 0 0 0-.667.667.667.667 0 0 0
+ .667.667.667.667 0 0 0 .666-.667.667.667 0 0 0-.666-.667" />
 </svg>'''
 
     @property

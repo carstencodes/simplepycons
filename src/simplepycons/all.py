@@ -527,6 +527,7 @@ from ._chupachups import ChupaChupsIcon
 from ._cilium import CiliumIcon
 from ._cinema4d import CinemaFourDIcon
 from ._cinnamon import CinnamonIcon
+from ._cinny import CinnyIcon
 from ._circle import CircleIcon
 from ._circleci import CircleciIcon
 from ._circuitverse import CircuitverseIcon
@@ -1314,6 +1315,7 @@ from ._hearthisdotat import HearthisdotatIcon
 from ._hedera import HederaIcon
 from ._hedgedoc import HedgedocIcon
 from ._helium import HeliumIcon
+from ._heliumbrowser import HeliumBrowserIcon
 from ._helix import HelixIcon
 from ._hellofresh import HellofreshIcon
 from ._hellyhansen import HellyHansenIcon
@@ -1633,6 +1635,7 @@ from ._labview import LabviewIcon
 from ._lada import LadaIcon
 from ._lamborghini import LamborghiniIcon
 from ._langchain import LangchainIcon
+from ._langchaincorporate import LangchainCorporateIcon
 from ._langflow import LangflowIcon
 from ._langgraph import LanggraphIcon
 from ._languagetool import LanguagetoolIcon
@@ -3967,6 +3970,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CiliumIcon.__name__,
     CinemaFourDIcon.__name__,
     CinnamonIcon.__name__,
+    CinnyIcon.__name__,
     CircleIcon.__name__,
     CircleciIcon.__name__,
     CircuitverseIcon.__name__,
@@ -4752,6 +4756,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HederaIcon.__name__,
     HedgedocIcon.__name__,
     HeliumIcon.__name__,
+    HeliumBrowserIcon.__name__,
     HelixIcon.__name__,
     HellofreshIcon.__name__,
     HellyHansenIcon.__name__,
@@ -5072,6 +5077,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LadaIcon.__name__,
     LamborghiniIcon.__name__,
     LangchainIcon.__name__,
+    LangchainCorporateIcon.__name__,
     LangflowIcon.__name__,
     LanggraphIcon.__name__,
     LanguagetoolIcon.__name__,

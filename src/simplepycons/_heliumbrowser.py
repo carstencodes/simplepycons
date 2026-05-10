@@ -21,36 +21,35 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class LangchainIcon(Icon):
+class HeliumBrowserIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "langchain"
+        return "heliumbrowser"
 
     @property
     def original_file_name(self) -> "str":
-        return "langchain.svg"
+        return "heliumbrowser.svg"
 
     @property
     def title(self) -> "str":
-        return "LangChain"
+        return "Helium Browser"
 
     @property
     def primary_color(self) -> "str":
-        return "#7FC8FF"
+        return "#3450D1"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>LangChain</title>
-     <path d="M13.796 0a6.93 6.93 0 0 0-4.91 2.019L5.451 5.455l3.273
- 3.27 3.432-3.432a2.284 2.284 0 0 1 3.277 0 2.28 2.28 0 0 1 0 3.275L12
- 12.001l3.273 3.273 3.433-3.435c2.692-2.692 2.692-7.127 0-9.82A6.92
- 6.92 0 0 0 13.796 0m-5.07 8.728-3.433 3.434c-2.692 2.693-2.692 7.126
- 0 9.819A6.92 6.92 0 0 0 10.203 24a6.93 6.93 0 0 0
- 4.911-2.02l3.432-3.432-3.271-3.272-3.433 3.433a2.284 2.284 0 0
- 1-3.277 0 2.28 2.28 0 0 1 0-3.276L12 12z" />
+    <title>Helium Browser</title>
+     <path d="M14.3081 22.2984 12 24l-2.3081-1.7016
+ 1.0489-8.1189-6.5174 4.9661L1.5938 18l.321-2.8467L9.4808
+ 12l-7.566-3.1533L1.5938 6l2.6296-1.1456 6.5174 4.9661-1.049-8.119L12
+ 0l2.3081 1.7016-1.0488 8.1189 6.5173-4.9661L22.4062 6l-.321
+ 2.8467L14.5192 12l7.566 3.1533.321 2.8467-2.6296
+ 1.1456-6.5173-4.9661z" />
 </svg>'''
 
     @property
@@ -62,7 +61,8 @@ class LangchainIcon(Icon):
 
     @property
     def source(self) -> "str":
-        return ''''''
+        return '''https://github.com/imputnet/helium-macos/blob
+/0567a6078847e7dd11ce3c4f2eedcf49aa327dfe/resources/assets/AppIcon.ico'''
 
     @property
     def license(self) -> "tuple[str | None, str | None]":

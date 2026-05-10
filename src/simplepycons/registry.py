@@ -527,6 +527,7 @@ from ._chupachups import ChupaChupsIcon
 from ._cilium import CiliumIcon
 from ._cinema4d import CinemaFourDIcon
 from ._cinnamon import CinnamonIcon
+from ._cinny import CinnyIcon
 from ._circle import CircleIcon
 from ._circleci import CircleciIcon
 from ._circuitverse import CircuitverseIcon
@@ -1314,6 +1315,7 @@ from ._hearthisdotat import HearthisdotatIcon
 from ._hedera import HederaIcon
 from ._hedgedoc import HedgedocIcon
 from ._helium import HeliumIcon
+from ._heliumbrowser import HeliumBrowserIcon
 from ._helix import HelixIcon
 from ._hellofresh import HellofreshIcon
 from ._hellyhansen import HellyHansenIcon
@@ -1633,6 +1635,7 @@ from ._labview import LabviewIcon
 from ._lada import LadaIcon
 from ._lamborghini import LamborghiniIcon
 from ._langchain import LangchainIcon
+from ._langchaincorporate import LangchainCorporateIcon
 from ._langflow import LangflowIcon
 from ._langgraph import LanggraphIcon
 from ._languagetool import LanguagetoolIcon
@@ -3966,6 +3969,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'cilium': CiliumIcon,
     'cinema4d': CinemaFourDIcon,
     'cinnamon': CinnamonIcon,
+    'cinny': CinnyIcon,
     'circle': CircleIcon,
     'circleci': CircleciIcon,
     'circuitverse': CircuitverseIcon,
@@ -4749,6 +4753,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'hedera': HederaIcon,
     'hedgedoc': HedgedocIcon,
     'helium': HeliumIcon,
+    'heliumbrowser': HeliumBrowserIcon,
     'helix': HelixIcon,
     'hellofresh': HellofreshIcon,
     'hellyhansen': HellyHansenIcon,
@@ -5068,6 +5073,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'lada': LadaIcon,
     'lamborghini': LamborghiniIcon,
     'langchain': LangchainIcon,
+    'langchaincorporate': LangchainCorporateIcon,
     'langflow': LangflowIcon,
     'langgraph': LanggraphIcon,
     'languagetool': LanguagetoolIcon,

@@ -1,6 +1,7 @@
 name: Tag on Submodule Update
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -15,8 +16,6 @@ jobs:
   tag:
     name: Create a git tag according to pyproject.toml contents
     runs-on: ubuntu-latest
-    outputs:
-      tag_version: ${{ steps.tag_version.outputs.tag_version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -41,11 +40,6 @@ jobs:
         run: pdm bump tag
       - name: Push tag
         run: git push --tags
-      - name: Use the created tag for the next job
-        id: tag_version
-        run: 
-          TAG_VERSION=$(pdm show --version --quiet)
-          echo "tag_version=refs/tags/v${TAG_VERSION}" >> $GITHUB_OUTPUT
   
   create_release:
     name: Create a release after tag is pushed
@@ -54,5 +48,3 @@ jobs:
     permissions:
       contents: write
       id-token: write
-    with:
-      tag: ${{ needs.tag.outputs.tag_version }}

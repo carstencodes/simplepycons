@@ -3020,6 +3020,7 @@ class _IconCollection:
     get_thunderstore_icon: "Final[IconFactory]"
     get_thurgauerkantonalbank_icon: "Final[IconFactory]"
     get_thymeleaf_icon: "Final[IconFactory]"
+    get_tickettailor_icon: "Final[IconFactory]"
     get_ticketmaster_icon: "Final[IconFactory]"
     get_ticktick_icon: "Final[IconFactory]"
     get_tidal_icon: "Final[IconFactory]"

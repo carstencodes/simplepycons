@@ -3020,6 +3020,7 @@ from ._thunderbird import ThunderbirdIcon
 from ._thunderstore import ThunderstoreIcon
 from ._thurgauerkantonalbank import ThurgauerKantonalbankIcon
 from ._thymeleaf import ThymeleafIcon
+from ._tickettailor import TicketTailorIcon
 from ._ticketmaster import TicketmasterIcon
 from ._ticktick import TicktickIcon
 from ._tidal import TidalIcon
@@ -6464,6 +6465,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ThunderstoreIcon.__name__,
     ThurgauerKantonalbankIcon.__name__,
     ThymeleafIcon.__name__,
+    TicketTailorIcon.__name__,
     TicketmasterIcon.__name__,
     TicktickIcon.__name__,
     TidalIcon.__name__,

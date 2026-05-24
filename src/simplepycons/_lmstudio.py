@@ -1,0 +1,82 @@
+#
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2026 Carsten Igel.
+#
+# This file is part of simplepycons
+# (see https://github.com/carstencodes/simplepycons).
+#
+# This file is published using the MIT license.
+# Refer to LICENSE for more information
+#
+""""""
+# pylint: disable=C0302
+# Justification: Code is generated
+
+from typing import TYPE_CHECKING
+
+from .base_icon import Icon
+
+if TYPE_CHECKING:
+    from collections.abc import Iterable
+
+
+class LmStudioIcon(Icon):
+    """"""
+    @property
+    def name(self) -> "str":
+        return "lmstudio"
+
+    @property
+    def original_file_name(self) -> "str":
+        return "lmstudio.svg"
+
+    @property
+    def title(self) -> "str":
+        return "LM Studio"
+
+    @property
+    def primary_color(self) -> "str":
+        return "#000000"
+
+    @property
+    def raw_svg(self) -> "str":
+        return ''' <svg xmlns="http://www.w3.org/2000/svg"
+ role="img" viewBox="0 0 24 24">
+    <title>LM Studio</title>
+     <path d="M5.6 0A5.6 5.6 0 0 0 0 5.6v12.8A5.6 5.6 0 0 0 5.6
+ 24h12.8a5.6 5.6 0 0 0 5.6-5.6V5.6A5.6 5.6 0 0 0 18.4 0zm0 2h12.8A3.6
+ 3.6 0 0 1 22 5.6v12.8a3.6 3.6 0 0 1-3.6 3.6H5.6A3.6 3.6 0 0 1 2
+ 18.4V5.6A3.6 3.6 0 0 1 5.6 2m-.4 2.8a1.2 1.2 0 0 0 0 2.4h10.4a1.2 1.2
+ 0 0 0 0-2.4zm3.2 4a1.2 1.2 0 0 0 0 2.4h10.4a1.2 1.2 0 0 0 0-2.4zm-3.2
+ 4a1.2 1.2 0 0 0 0 2.4h10.4a1.2 1.2 0 0 0 0-2.4zm3.2 4a1.2 1.2 0 0 0 0
+ 2.4h10.4a1.2 1.2 0 0 0 0-2.4z" />
+</svg>'''
+
+    @property
+    def guidelines_url(self) -> "str | None":
+        _value: "str" = ''''''
+        if len(_value) > 0:
+            return _value
+        return None
+
+    @property
+    def source(self) -> "str":
+        return ''''''
+
+    @property
+    def license(self) -> "tuple[str | None, str | None]":
+        _type: "str | None" = ''''''
+        _url: "str | None" = ''''''
+
+        if _type is not None and len(_type) == 0:
+            _type = None
+
+        if _url is not None and len(_url) == 0:
+            _url = None
+
+        return _type, _url
+
+    @property
+    def aliases(self) -> "Iterable[str]":
+        yield from []

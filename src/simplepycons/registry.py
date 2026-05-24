@@ -288,6 +288,7 @@ from ._avast import AvastIcon
 from ._avianca import AviancaIcon
 from ._avira import AviraIcon
 from ._avm import AvmIcon
+from ._await import AwaitIcon
 from ._awesomelists import AwesomeListsIcon
 from ._awesomewm import AwesomewmIcon
 from ._awwwards import AwwwardsIcon
@@ -1724,6 +1725,7 @@ from ._livejournal import LivejournalIcon
 from ._livekit import LivekitIcon
 from ._livewire import LivewireIcon
 from ._llvm import LlvmIcon
+from ._lmstudio import LmStudioIcon
 from ._lmms import LmmsIcon
 from ._lobsters import LobstersIcon
 from ._local import LocalIcon
@@ -2135,6 +2137,7 @@ from ._opensuse import OpensuseIcon
 from ._opentelemetry import OpentelemetryIcon
 from ._opentext import OpentextIcon
 from ._opentofu import OpentofuIcon
+from ._opentui import OpentuiIcon
 from ._openverse import OpenverseIcon
 from ._openvpn import OpenvpnIcon
 from ._openwrt import OpenwrtIcon
@@ -3731,6 +3734,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'avianca': AviancaIcon,
     'avira': AviraIcon,
     'avm': AvmIcon,
+    'await': AwaitIcon,
     'awesomelists': AwesomeListsIcon,
     'awesomewm': AwesomewmIcon,
     'awwwards': AwwwardsIcon,
@@ -5163,6 +5167,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'livekit': LivekitIcon,
     'livewire': LivewireIcon,
     'llvm': LlvmIcon,
+    'lmstudio': LmStudioIcon,
     'lmms': LmmsIcon,
     'lobsters': LobstersIcon,
     'local': LocalIcon,
@@ -5574,6 +5579,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'opentelemetry': OpentelemetryIcon,
     'opentext': OpentextIcon,
     'opentofu': OpentofuIcon,
+    'opentui': OpentuiIcon,
     'openverse': OpenverseIcon,
     'openvpn': OpenvpnIcon,
     'openwrt': OpenwrtIcon,

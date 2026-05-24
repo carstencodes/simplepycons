@@ -288,6 +288,7 @@ from ._avast import AvastIcon
 from ._avianca import AviancaIcon
 from ._avira import AviraIcon
 from ._avm import AvmIcon
+from ._await import AwaitIcon
 from ._awesomelists import AwesomeListsIcon
 from ._awesomewm import AwesomewmIcon
 from ._awwwards import AwwwardsIcon
@@ -1724,6 +1725,7 @@ from ._livejournal import LivejournalIcon
 from ._livekit import LivekitIcon
 from ._livewire import LivewireIcon
 from ._llvm import LlvmIcon
+from ._lmstudio import LmStudioIcon
 from ._lmms import LmmsIcon
 from ._lobsters import LobstersIcon
 from ._local import LocalIcon
@@ -2135,6 +2137,7 @@ from ._opensuse import OpensuseIcon
 from ._opentelemetry import OpentelemetryIcon
 from ._opentext import OpentextIcon
 from ._opentofu import OpentofuIcon
+from ._opentui import OpentuiIcon
 from ._openverse import OpenverseIcon
 from ._openvpn import OpenvpnIcon
 from ._openwrt import OpenwrtIcon
@@ -3731,6 +3734,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AviancaIcon.__name__,
     AviraIcon.__name__,
     AvmIcon.__name__,
+    AwaitIcon.__name__,
     AwesomeListsIcon.__name__,
     AwesomewmIcon.__name__,
     AwwwardsIcon.__name__,
@@ -5167,6 +5171,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LivekitIcon.__name__,
     LivewireIcon.__name__,
     LlvmIcon.__name__,
+    LmStudioIcon.__name__,
     LmmsIcon.__name__,
     LobstersIcon.__name__,
     LocalIcon.__name__,
@@ -5579,6 +5584,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OpentelemetryIcon.__name__,
     OpentextIcon.__name__,
     OpentofuIcon.__name__,
+    OpentuiIcon.__name__,
     OpenverseIcon.__name__,
     OpenvpnIcon.__name__,
     OpenwrtIcon.__name__,

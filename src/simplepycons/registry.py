@@ -165,6 +165,7 @@ from ._anytype import AnytypeIcon
 from ._apache import ApacheIcon
 from ._apacheairflow import ApacheAirflowIcon
 from ._apacheant import ApacheAntIcon
+from ._apachearrow import ApacheArrowIcon
 from ._apacheavro import ApacheAvroIcon
 from ._apachecassandra import ApacheCassandraIcon
 from ._apachecloudstack import ApacheCloudstackIcon
@@ -542,6 +543,7 @@ from ._clarifai import ClarifaiIcon
 from ._claris import ClarisIcon
 from ._clarivate import ClarivateIcon
 from ._claude import ClaudeIcon
+from ._claudecode import ClaudeCodeIcon
 from ._clerk import ClerkIcon
 from ._clevercloud import CleverCloudIcon
 from ._clickhouse import ClickhouseIcon
@@ -3611,6 +3613,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'apache': ApacheIcon,
     'apacheairflow': ApacheAirflowIcon,
     'apacheant': ApacheAntIcon,
+    'apachearrow': ApacheArrowIcon,
     'apacheavro': ApacheAvroIcon,
     'apachecassandra': ApacheCassandraIcon,
     'apachecloudstack': ApacheCloudstackIcon,
@@ -3988,6 +3991,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'claris': ClarisIcon,
     'clarivate': ClarivateIcon,
     'claude': ClaudeIcon,
+    'claudecode': ClaudeCodeIcon,
     'clerk': ClerkIcon,
     'clevercloud': CleverCloudIcon,
     'clickhouse': ClickhouseIcon,

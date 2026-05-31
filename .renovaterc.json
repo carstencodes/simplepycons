@@ -46,6 +46,7 @@
             "matchFileNames": [
                 "vendor/simple-icons"
             ],
+            "minimumReleaseAge": null,
             "matchUpdateTypes": ["minor"],
             "automerge": true,
             "schedule": [
@@ -59,9 +60,16 @@
             "matchFileNames": [
                 "vendor/simple-icons"
             ],
+            "minimumReleaseAge": null,
             "matchUpdateTypes": ["major"],
             "automerge": false,
-            "reviewersFromCodeOwners": true
+            "reviewersFromCodeOwners": true,
+            "schedule": [
+                "at 00:00 on Sunday",
+                "at 06:00 on Sunday",
+                "at 12:00 on Sunday",
+                "at 18:00 on Sunday"
+            ]
         }
     ]
 }

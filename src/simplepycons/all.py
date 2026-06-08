@@ -79,6 +79,7 @@ from ._afdian import AfdianIcon
 from ._affine import AffineIcon
 from ._afterpay import AfterpayIcon
 from ._aftership import AftershipIcon
+from ._agentskills import AgentSkillsIcon
 from ._agora import AgoraIcon
 from ._aidungeon import AiDungeonIcon
 from ._aib import AibIcon
@@ -1765,6 +1766,7 @@ from ._lutris import LutrisIcon
 from ._lvgl import LvglIcon
 from ._lydia import LydiaIcon
 from ._lyft import LyftIcon
+from ._m5stack import MFiveStackIcon
 from ._maas import MaasIcon
 from ._macos import MacosIcon
 from ._macpaw import MacpawIcon
@@ -2115,6 +2117,7 @@ from ._openapiinitiative import OpenapiInitiativeIcon
 from ._openbao import OpenbaoIcon
 from ._openbsd import OpenbsdIcon
 from ._opencage import OpencageIcon
+from ._opencode import OpencodeIcon
 from ._opencritic import OpencriticIcon
 from ._opencv import OpencvIcon
 from ._openfaas import OpenfaasIcon
@@ -2254,6 +2257,7 @@ from ._php import PhpIcon
 from ._phpbb import PhpbbIcon
 from ._phpmyadmin import PhpmyadminIcon
 from ._phpstorm import PhpstormIcon
+from ._pi import PiIcon
 from ._pinetwork import PiNetworkIcon
 from ._pihole import PiholeIcon
 from ._piaggiogroup import PiaggioGroupIcon
@@ -3527,6 +3531,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AffineIcon.__name__,
     AfterpayIcon.__name__,
     AftershipIcon.__name__,
+    AgentSkillsIcon.__name__,
     AgoraIcon.__name__,
     AiDungeonIcon.__name__,
     AibIcon.__name__,
@@ -5213,6 +5218,7 @@ ALL_ICONS: "Final[list[str]]" = [
     LvglIcon.__name__,
     LydiaIcon.__name__,
     LyftIcon.__name__,
+    MFiveStackIcon.__name__,
     MaasIcon.__name__,
     MacosIcon.__name__,
     MacpawIcon.__name__,
@@ -5564,6 +5570,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OpenbaoIcon.__name__,
     OpenbsdIcon.__name__,
     OpencageIcon.__name__,
+    OpencodeIcon.__name__,
     OpencriticIcon.__name__,
     OpencvIcon.__name__,
     OpenfaasIcon.__name__,
@@ -5703,6 +5710,7 @@ ALL_ICONS: "Final[list[str]]" = [
     PhpbbIcon.__name__,
     PhpmyadminIcon.__name__,
     PhpstormIcon.__name__,
+    PiIcon.__name__,
     PiNetworkIcon.__name__,
     PiholeIcon.__name__,
     PiaggioGroupIcon.__name__,

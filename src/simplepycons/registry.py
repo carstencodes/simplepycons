@@ -79,6 +79,7 @@ from ._afdian import AfdianIcon
 from ._affine import AffineIcon
 from ._afterpay import AfterpayIcon
 from ._aftership import AftershipIcon
+from ._agentskills import AgentSkillsIcon
 from ._agora import AgoraIcon
 from ._aidungeon import AiDungeonIcon
 from ._aib import AibIcon
@@ -1765,6 +1766,7 @@ from ._lutris import LutrisIcon
 from ._lvgl import LvglIcon
 from ._lydia import LydiaIcon
 from ._lyft import LyftIcon
+from ._m5stack import MFiveStackIcon
 from ._maas import MaasIcon
 from ._macos import MacosIcon
 from ._macpaw import MacpawIcon
@@ -2115,6 +2117,7 @@ from ._openapiinitiative import OpenapiInitiativeIcon
 from ._openbao import OpenbaoIcon
 from ._openbsd import OpenbsdIcon
 from ._opencage import OpencageIcon
+from ._opencode import OpencodeIcon
 from ._opencritic import OpencriticIcon
 from ._opencv import OpencvIcon
 from ._openfaas import OpenfaasIcon
@@ -2254,6 +2257,7 @@ from ._php import PhpIcon
 from ._phpbb import PhpbbIcon
 from ._phpmyadmin import PhpmyadminIcon
 from ._phpstorm import PhpstormIcon
+from ._pi import PiIcon
 from ._pinetwork import PiNetworkIcon
 from ._pihole import PiholeIcon
 from ._piaggiogroup import PiaggioGroupIcon
@@ -3527,6 +3531,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'affine': AffineIcon,
     'afterpay': AfterpayIcon,
     'aftership': AftershipIcon,
+    'agentskills': AgentSkillsIcon,
     'agora': AgoraIcon,
     'aidungeon': AiDungeonIcon,
     'aib': AibIcon,
@@ -5209,6 +5214,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'lvgl': LvglIcon,
     'lydia': LydiaIcon,
     'lyft': LyftIcon,
+    'm5stack': MFiveStackIcon,
     'maas': MaasIcon,
     'macos': MacosIcon,
     'macpaw': MacpawIcon,
@@ -5559,6 +5565,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'openbao': OpenbaoIcon,
     'openbsd': OpenbsdIcon,
     'opencage': OpencageIcon,
+    'opencode': OpencodeIcon,
     'opencritic': OpencriticIcon,
     'opencv': OpencvIcon,
     'openfaas': OpenfaasIcon,
@@ -5698,6 +5705,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'phpbb': PhpbbIcon,
     'phpmyadmin': PhpmyadminIcon,
     'phpstorm': PhpstormIcon,
+    'pi': PiIcon,
     'pinetwork': PiNetworkIcon,
     'pihole': PiholeIcon,
     'piaggiogroup': PiaggioGroupIcon,

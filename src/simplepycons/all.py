@@ -974,6 +974,7 @@ from ._fastly import FastlyIcon
 from ._fathom import FathomIcon
 from ._fauna import FaunaIcon
 from ._favro import FavroIcon
+from ._fawry import FawryIcon
 from ._fcc import FccIcon
 from ._fedex import FedexIcon
 from ._fedora import FedoraIcon
@@ -1853,6 +1854,7 @@ from ._mercurial import MercurialIcon
 from ._mermaid import MermaidIcon
 from ._messenger import MessengerIcon
 from ._meta import MetaIcon
+from ._metaai import MetaAiIcon
 from ._metabase import MetabaseIcon
 from ._metacritic import MetacriticIcon
 from ._metafilter import MetafilterIcon
@@ -2466,6 +2468,7 @@ from ._racket import RacketIcon
 from ._radstudio import RadStudioIcon
 from ._radar import RadarIcon
 from ._radarr import RadarrIcon
+from ._radiantearth import RadiantEarthIcon
 from ._radiofrance import RadioFranceIcon
 from ._radixui import RadixUiIcon
 from ._railway import RailwayIcon
@@ -2953,6 +2956,7 @@ from ._talenthouse import TalenthouseIcon
 from ._talos import TalosIcon
 from ._tamiya import TamiyaIcon
 from ._tampermonkey import TampermonkeyIcon
+from ._tangled import TangledIcon
 from ._tanstack import TanstackIcon
 from ._taobao import TaobaoIcon
 from ._tapas import TapasIcon
@@ -4427,6 +4431,7 @@ ALL_ICONS: "Final[list[str]]" = [
     FathomIcon.__name__,
     FaunaIcon.__name__,
     FavroIcon.__name__,
+    FawryIcon.__name__,
     FccIcon.__name__,
     FedexIcon.__name__,
     FedoraIcon.__name__,
@@ -5305,6 +5310,7 @@ ALL_ICONS: "Final[list[str]]" = [
     MermaidIcon.__name__,
     MessengerIcon.__name__,
     MetaIcon.__name__,
+    MetaAiIcon.__name__,
     MetabaseIcon.__name__,
     MetacriticIcon.__name__,
     MetafilterIcon.__name__,
@@ -5919,6 +5925,7 @@ ALL_ICONS: "Final[list[str]]" = [
     RadStudioIcon.__name__,
     RadarIcon.__name__,
     RadarrIcon.__name__,
+    RadiantEarthIcon.__name__,
     RadioFranceIcon.__name__,
     RadixUiIcon.__name__,
     RailwayIcon.__name__,
@@ -6407,6 +6414,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TalosIcon.__name__,
     TamiyaIcon.__name__,
     TampermonkeyIcon.__name__,
+    TangledIcon.__name__,
     TanstackIcon.__name__,
     TaobaoIcon.__name__,
     TapasIcon.__name__,

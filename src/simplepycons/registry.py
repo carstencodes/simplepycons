@@ -974,6 +974,7 @@ from ._fastly import FastlyIcon
 from ._fathom import FathomIcon
 from ._fauna import FaunaIcon
 from ._favro import FavroIcon
+from ._fawry import FawryIcon
 from ._fcc import FccIcon
 from ._fedex import FedexIcon
 from ._fedora import FedoraIcon
@@ -1853,6 +1854,7 @@ from ._mercurial import MercurialIcon
 from ._mermaid import MermaidIcon
 from ._messenger import MessengerIcon
 from ._meta import MetaIcon
+from ._metaai import MetaAiIcon
 from ._metabase import MetabaseIcon
 from ._metacritic import MetacriticIcon
 from ._metafilter import MetafilterIcon
@@ -2466,6 +2468,7 @@ from ._racket import RacketIcon
 from ._radstudio import RadStudioIcon
 from ._radar import RadarIcon
 from ._radarr import RadarrIcon
+from ._radiantearth import RadiantEarthIcon
 from ._radiofrance import RadioFranceIcon
 from ._radixui import RadixUiIcon
 from ._railway import RailwayIcon
@@ -2953,6 +2956,7 @@ from ._talenthouse import TalenthouseIcon
 from ._talos import TalosIcon
 from ._tamiya import TamiyaIcon
 from ._tampermonkey import TampermonkeyIcon
+from ._tangled import TangledIcon
 from ._tanstack import TanstackIcon
 from ._taobao import TaobaoIcon
 from ._tapas import TapasIcon
@@ -4426,6 +4430,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'fathom': FathomIcon,
     'fauna': FaunaIcon,
     'favro': FavroIcon,
+    'fawry': FawryIcon,
     'fcc': FccIcon,
     'fedex': FedexIcon,
     'fedora': FedoraIcon,
@@ -5301,6 +5306,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'mermaid': MermaidIcon,
     'messenger': MessengerIcon,
     'meta': MetaIcon,
+    'metaai': MetaAiIcon,
     'metabase': MetabaseIcon,
     'metacritic': MetacriticIcon,
     'metafilter': MetafilterIcon,
@@ -5914,6 +5920,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'radstudio': RadStudioIcon,
     'radar': RadarIcon,
     'radarr': RadarrIcon,
+    'radiantearth': RadiantEarthIcon,
     'radiofrance': RadioFranceIcon,
     'radixui': RadixUiIcon,
     'railway': RailwayIcon,
@@ -6401,6 +6408,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'talos': TalosIcon,
     'tamiya': TamiyaIcon,
     'tampermonkey': TampermonkeyIcon,
+    'tangled': TangledIcon,
     'tanstack': TanstackIcon,
     'taobao': TaobaoIcon,
     'tapas': TapasIcon,

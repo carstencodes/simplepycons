@@ -1146,6 +1146,7 @@ from ._gitpod import GitpodIcon
 from ._gitter import GitterIcon
 from ._gldotinet import GldotinetIcon
 from ._glance import GlanceIcon
+from ._glass import GlassIcon
 from ._glassdoor import GlassdoorIcon
 from ._gleam import GleamIcon
 from ._glide import GlideIcon
@@ -4603,6 +4604,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GitterIcon.__name__,
     GldotinetIcon.__name__,
     GlanceIcon.__name__,
+    GlassIcon.__name__,
     GlassdoorIcon.__name__,
     GleamIcon.__name__,
     GlideIcon.__name__,

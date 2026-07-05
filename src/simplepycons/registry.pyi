@@ -1150,6 +1150,7 @@ class _IconCollection:
     get_gitter_icon: "Final[IconFactory]"
     get_gldotinet_icon: "Final[IconFactory]"
     get_glance_icon: "Final[IconFactory]"
+    get_glass_icon: "Final[IconFactory]"
     get_glassdoor_icon: "Final[IconFactory]"
     get_gleam_icon: "Final[IconFactory]"
     get_glide_icon: "Final[IconFactory]"

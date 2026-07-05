@@ -1146,6 +1146,7 @@ from ._gitpod import GitpodIcon
 from ._gitter import GitterIcon
 from ._gldotinet import GldotinetIcon
 from ._glance import GlanceIcon
+from ._glass import GlassIcon
 from ._glassdoor import GlassdoorIcon
 from ._gleam import GleamIcon
 from ._glide import GlideIcon
@@ -4602,6 +4603,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'gitter': GitterIcon,
     'gldotinet': GldotinetIcon,
     'glance': GlanceIcon,
+    'glass': GlassIcon,
     'glassdoor': GlassdoorIcon,
     'gleam': GleamIcon,
     'glide': GlideIcon,

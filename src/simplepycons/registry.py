@@ -1587,6 +1587,7 @@ from ._kicad import KicadIcon
 from ._kick import KickIcon
 from ._kickstarter import KickstarterIcon
 from ._kik import KikIcon
+from ._kimi import KimiIcon
 from ._kingstontechnology import KingstonTechnologyIcon
 from ._kinopoisk import KinopoiskIcon
 from ._kinsta import KinstaIcon
@@ -3423,6 +3424,7 @@ from ._youtubetv import YoutubeTvIcon
 from ._yr import YrIcon
 from ._yubico import YubicoIcon
 from ._yunohost import YunohostIcon
+from ._zdotai import ZdotaiIcon
 from ._zabka import ZabkaIcon
 from ._zaim import ZaimIcon
 from ._zalando import ZalandoIcon
@@ -5040,6 +5042,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'kick': KickIcon,
     'kickstarter': KickstarterIcon,
     'kik': KikIcon,
+    'kimi': KimiIcon,
     'kingstontechnology': KingstonTechnologyIcon,
     'kinopoisk': KinopoiskIcon,
     'kinsta': KinstaIcon,
@@ -6876,6 +6879,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'yr': YrIcon,
     'yubico': YubicoIcon,
     'yunohost': YunohostIcon,
+    'zdotai': ZdotaiIcon,
     'zabka': ZabkaIcon,
     'zaim': ZaimIcon,
     'zalando': ZalandoIcon,

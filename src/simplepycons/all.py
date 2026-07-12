@@ -1587,6 +1587,7 @@ from ._kicad import KicadIcon
 from ._kick import KickIcon
 from ._kickstarter import KickstarterIcon
 from ._kik import KikIcon
+from ._kimi import KimiIcon
 from ._kingstontechnology import KingstonTechnologyIcon
 from ._kinopoisk import KinopoiskIcon
 from ._kinsta import KinstaIcon
@@ -3423,6 +3424,7 @@ from ._youtubetv import YoutubeTvIcon
 from ._yr import YrIcon
 from ._yubico import YubicoIcon
 from ._yunohost import YunohostIcon
+from ._zdotai import ZdotaiIcon
 from ._zabka import ZabkaIcon
 from ._zaim import ZaimIcon
 from ._zalando import ZalandoIcon
@@ -5044,6 +5046,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KickIcon.__name__,
     KickstarterIcon.__name__,
     KikIcon.__name__,
+    KimiIcon.__name__,
     KingstonTechnologyIcon.__name__,
     KinopoiskIcon.__name__,
     KinstaIcon.__name__,
@@ -6883,6 +6886,7 @@ ALL_ICONS: "Final[list[str]]" = [
     YrIcon.__name__,
     YubicoIcon.__name__,
     YunohostIcon.__name__,
+    ZdotaiIcon.__name__,
     ZabkaIcon.__name__,
     ZaimIcon.__name__,
     ZalandoIcon.__name__,

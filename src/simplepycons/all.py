@@ -586,6 +586,7 @@ from ._codacy import CodacyIcon
 from ._codeclimate import CodeClimateIcon
 from ._codeblocks import CodeblocksIcon
 from ._codeberg import CodebergIcon
+from ._codebuddy import CodebuddyIcon
 from ._codecademy import CodecademyIcon
 from ._codeceptjs import CodeceptjsIcon
 from ._codechef import CodechefIcon
@@ -4046,6 +4047,7 @@ ALL_ICONS: "Final[list[str]]" = [
     CodeClimateIcon.__name__,
     CodeblocksIcon.__name__,
     CodebergIcon.__name__,
+    CodebuddyIcon.__name__,
     CodecademyIcon.__name__,
     CodeceptjsIcon.__name__,
     CodechefIcon.__name__,

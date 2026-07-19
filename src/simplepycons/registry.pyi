@@ -590,6 +590,7 @@ class _IconCollection:
     get_codeclimate_icon: "Final[IconFactory]"
     get_codeblocks_icon: "Final[IconFactory]"
     get_codeberg_icon: "Final[IconFactory]"
+    get_codebuddy_icon: "Final[IconFactory]"
     get_codecademy_icon: "Final[IconFactory]"
     get_codeceptjs_icon: "Final[IconFactory]"
     get_codechef_icon: "Final[IconFactory]"

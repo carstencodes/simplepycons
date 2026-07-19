@@ -586,6 +586,7 @@ from ._codacy import CodacyIcon
 from ._codeclimate import CodeClimateIcon
 from ._codeblocks import CodeblocksIcon
 from ._codeberg import CodebergIcon
+from ._codebuddy import CodebuddyIcon
 from ._codecademy import CodecademyIcon
 from ._codeceptjs import CodeceptjsIcon
 from ._codechef import CodechefIcon
@@ -4045,6 +4046,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'codeclimate': CodeClimateIcon,
     'codeblocks': CodeblocksIcon,
     'codeberg': CodebergIcon,
+    'codebuddy': CodebuddyIcon,
     'codecademy': CodecademyIcon,
     'codeceptjs': CodeceptjsIcon,
     'codechef': CodechefIcon,

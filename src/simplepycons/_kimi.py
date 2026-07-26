@@ -33,7 +33,7 @@ class KimiIcon(Icon):
 
     @property
     def title(self) -> "str":
-        return "KIMI"
+        return "Kimi"
 
     @property
     def primary_color(self) -> "str":
@@ -43,7 +43,7 @@ class KimiIcon(Icon):
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>KIMI</title>
+    <title>Kimi</title>
      <path d="M21.765.351C22.998.351 24 1.353 24 2.586S22.998 4.82
  21.765 4.82h-1.974c-.15 0-.26-.12-.26-.26V2.586A2.237 2.237 0 0 1
  21.765.35M9.41

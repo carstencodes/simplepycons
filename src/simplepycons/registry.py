@@ -3083,6 +3083,7 @@ from ._tplink import TplinkIcon
 from ._tqdm import TqdmIcon
 from ._traccar import TraccarIcon
 from ._tradingview import TradingviewIcon
+from ._trae import TraeIcon
 from ._traefikmesh import TraefikMeshIcon
 from ._traefikproxy import TraefikProxyIcon
 from ._trailforks import TrailforksIcon
@@ -3439,6 +3440,7 @@ from ._zcool import ZcoolIcon
 from ._zdf import ZdfIcon
 from ._zebpay import ZebpayIcon
 from ._zebratechnologies import ZebraTechnologiesIcon
+from ._zectrix import ZectrixIcon
 from ._zedindustries import ZedIndustriesIcon
 from ._zelle import ZelleIcon
 from ._zenbrowser import ZenBrowserIcon
@@ -3469,6 +3471,7 @@ from ._zorin import ZorinIcon
 from ._zotero import ZoteroIcon
 from ._zsh import ZshIcon
 from ._zulip import ZulipIcon
+from ._zx import ZxIcon
 from ._zyte import ZyteIcon
 
 if TYPE_CHECKING:
@@ -6539,6 +6542,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'tqdm': TqdmIcon,
     'traccar': TraccarIcon,
     'tradingview': TradingviewIcon,
+    'trae': TraeIcon,
     'traefikmesh': TraefikMeshIcon,
     'traefikproxy': TraefikProxyIcon,
     'trailforks': TrailforksIcon,
@@ -6895,6 +6899,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'zdf': ZdfIcon,
     'zebpay': ZebpayIcon,
     'zebratechnologies': ZebraTechnologiesIcon,
+    'zectrix': ZectrixIcon,
     'zedindustries': ZedIndustriesIcon,
     'zelle': ZelleIcon,
     'zenbrowser': ZenBrowserIcon,
@@ -6925,6 +6930,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'zotero': ZoteroIcon,
     'zsh': ZshIcon,
     'zulip': ZulipIcon,
+    'zx': ZxIcon,
     'zyte': ZyteIcon,
 })
 

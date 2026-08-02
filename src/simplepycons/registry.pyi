@@ -3083,6 +3083,7 @@ class _IconCollection:
     get_tqdm_icon: "Final[IconFactory]"
     get_traccar_icon: "Final[IconFactory]"
     get_tradingview_icon: "Final[IconFactory]"
+    get_trae_icon: "Final[IconFactory]"
     get_traefikmesh_icon: "Final[IconFactory]"
     get_traefikproxy_icon: "Final[IconFactory]"
     get_trailforks_icon: "Final[IconFactory]"
@@ -3439,6 +3440,7 @@ class _IconCollection:
     get_zdf_icon: "Final[IconFactory]"
     get_zebpay_icon: "Final[IconFactory]"
     get_zebratechnologies_icon: "Final[IconFactory]"
+    get_zectrix_icon: "Final[IconFactory]"
     get_zedindustries_icon: "Final[IconFactory]"
     get_zelle_icon: "Final[IconFactory]"
     get_zenbrowser_icon: "Final[IconFactory]"
@@ -3469,6 +3471,7 @@ class _IconCollection:
     get_zotero_icon: "Final[IconFactory]"
     get_zsh_icon: "Final[IconFactory]"
     get_zulip_icon: "Final[IconFactory]"
+    get_zx_icon: "Final[IconFactory]"
     get_zyte_icon: "Final[IconFactory]"
 
 

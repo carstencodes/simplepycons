@@ -3083,6 +3083,7 @@ from ._tplink import TplinkIcon
 from ._tqdm import TqdmIcon
 from ._traccar import TraccarIcon
 from ._tradingview import TradingviewIcon
+from ._trae import TraeIcon
 from ._traefikmesh import TraefikMeshIcon
 from ._traefikproxy import TraefikProxyIcon
 from ._trailforks import TrailforksIcon
@@ -3439,6 +3440,7 @@ from ._zcool import ZcoolIcon
 from ._zdf import ZdfIcon
 from ._zebpay import ZebpayIcon
 from ._zebratechnologies import ZebraTechnologiesIcon
+from ._zectrix import ZectrixIcon
 from ._zedindustries import ZedIndustriesIcon
 from ._zelle import ZelleIcon
 from ._zenbrowser import ZenBrowserIcon
@@ -3469,6 +3471,7 @@ from ._zorin import ZorinIcon
 from ._zotero import ZoteroIcon
 from ._zsh import ZshIcon
 from ._zulip import ZulipIcon
+from ._zx import ZxIcon
 from ._zyte import ZyteIcon
 
 if TYPE_CHECKING:
@@ -6545,6 +6548,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TqdmIcon.__name__,
     TraccarIcon.__name__,
     TradingviewIcon.__name__,
+    TraeIcon.__name__,
     TraefikMeshIcon.__name__,
     TraefikProxyIcon.__name__,
     TrailforksIcon.__name__,
@@ -6902,6 +6906,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ZdfIcon.__name__,
     ZebpayIcon.__name__,
     ZebraTechnologiesIcon.__name__,
+    ZectrixIcon.__name__,
     ZedIndustriesIcon.__name__,
     ZelleIcon.__name__,
     ZenBrowserIcon.__name__,
@@ -6932,6 +6937,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ZoteroIcon.__name__,
     ZshIcon.__name__,
     ZulipIcon.__name__,
+    ZxIcon.__name__,
     ZyteIcon.__name__,
 ]
 

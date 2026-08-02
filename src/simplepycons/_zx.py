@@ -21,39 +21,33 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class LmStudioIcon(Icon):
+class ZxIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "lmstudio"
+        return "zx"
 
     @property
     def original_file_name(self) -> "str":
-        return "lmstudio.svg"
+        return "zx.svg"
 
     @property
     def title(self) -> "str":
-        return "LM Studio"
+        return "zx"
 
     @property
     def primary_color(self) -> "str":
-        return "#000000"
+        return "#F11A7B"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>LM Studio</title>
-     <path d="M14.025 0c3.492 0 5.237 0 6.571.68a6.24 6.24 0 0 1 2.725
- 2.724C24 4.738 24 6.484 24 9.975v4.05c0 3.492 0 5.237-.68 6.571a6.24
- 6.24 0 0 1-2.724 2.725c-1.334.679-3.08.679-6.571.679h-4.05c-3.492
- 0-5.237 0-6.571-.68A6.24 6.24 0 0 1 .68 20.597C0 19.262 0 17.516 0
- 14.025v-4.05c0-3.492 0-5.237.68-6.571A6.23 6.23 0 0 1 3.404.68C4.738
- 0 6.484 0 9.975 0zM7.688 16.313a1.313 1.313 0 0 0 0
- 2.625h11.625a1.313 1.313 0 0 0 0-2.625zm-3-3.75a1.313 1.313 0 0 0 0
- 2.624h11.625a1.313 1.313 0 0 0 0-2.624zm3-3.75a1.313 1.313 0 0 0 0
- 2.624h11.625a1.313 1.313 0 0 0 0-2.624zm-3-3.75a1.313 1.313 0 0 0 0
- 2.625h11.625a1.313 1.313 0 0 0 0-2.625z" />
+    <title>zx</title>
+     <path d="M22.036 18.327v5.673h-20.072v-5.673l6.152-6.56L2.4
+ 5.673V0h19.156v5.673l-5.716 6.094 6.153
+ 6.56h0.043Zm-10.058-10.677l1.855-1.977h-3.709l1.854 1.977Zm0
+ 8.235l-2.291 2.442h4.582l-2.291-2.442Z" />
 </svg>'''
 
     @property
@@ -82,8 +76,4 @@ class LmStudioIcon(Icon):
 
     @property
     def aliases(self) -> "Iterable[str]":
-        yield from [
-            "Bionic",
-            "LM Studio Bionic",
-            "lmstudio",
-        ]
+        yield from []

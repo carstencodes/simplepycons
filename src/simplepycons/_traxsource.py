@@ -21,35 +21,44 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PayloadCmsIcon(Icon):
+class TraxsourceIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "payloadcms"
+        return "traxsource"
 
     @property
     def original_file_name(self) -> "str":
-        return "payloadcms.svg"
+        return "traxsource.svg"
 
     @property
     def title(self) -> "str":
-        return "Payload CMS"
+        return "Traxsource"
 
     @property
     def primary_color(self) -> "str":
-        return "#000000"
+        return "#40A0FF"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Payload CMS</title>
-     <path d="M11.9 20.4q.1.1.2 0l5.5-3.2q.1-.05.2 0l2.6 1.5q.2.15 0
- .3l-8.3 5h-.2L1.8 18.1q-.2-.1-.2-.3V6.2q0-.2.2-.3l1.3-.8q.15-.1.3
- 0l9.8 5.7q.2.1.2.3v3.1q0 .3-.2.2L4.9 9.6q-.2-.1-.2.2V16q0
- .2.2.3zM22.3 5.9q.1.1.1.2v9.8q0
- .2-.2.1l-2.7-1.5q-.2-.1-.2-.3V7.9q0-.2-.2-.3l-7-4q-.1-.05-.2 0L9.5
- 5q-.1.05-.2 0L6.7 3.4q-.2-.15 0-.3L11.9 0h.2z" />
+    <title>Traxsource</title>
+     <path d="M23.068
+ 10.942c.067-.457.092-.904.101-1.587.073-5.269-4.504-9.32-9.608-9.349a198
+ 198 0 0 0-3.123 0C5.333.036.77 4.036.83 9.355c.008.669.03 1.14.093
+ 1.6-.655.957-.992 2.233-.85 3.592l.043.403c.28 2.673 2.305 4.652 4.52
+ 4.419l.118-.012c1.513 2.836 4.19 4.631 7.244 4.643h.007c.248 0
+ .449-.2.449-.45v-1.598a.45.45 0 0 0-.448-.449V21.5c-3.104
+ 0-5.901-3.795-5.901-7.614 0-3.775 2.797-7.634 5.888-7.634H12c.248 0
+ .449-.2.449-.449V4.225a.45.45 0 0 0-.443-.45v-.003C8.675 3.78 5.792
+ 5.91 4.378 9.2l-.801.084c-.042.005-.081.015-.123.02-.184-3.99
+ 3.493-6.872 7.434-6.893 1.007-.007 1.511-.007 2.519 0 3.936.021 7.328
+ 2.91 7.201
+ 6.904-.061-.01-.122-.024-.185-.03l-1.282-.136v.001l-.012-.002a.507.507
+ 0 0 0-.558.45l-.953 9.077a.506.506 0 0 0
+ .45.557h.013v.002l1.282.134c2.216.233 4.24-1.746
+ 4.52-4.419l.043-.403c.144-1.366-.197-2.646-.858-3.605" />
 </svg>'''
 
     @property

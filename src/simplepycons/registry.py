@@ -109,6 +109,7 @@ from ._akiflow import AkiflowIcon
 from ._alacritty import AlacrittyIcon
 from ._alamy import AlamyIcon
 from ._albertheijn import AlbertHeijnIcon
+from ._albumoftheyear import AlbumOfTheYearIcon
 from ._alby import AlbyIcon
 from ._alchemy import AlchemyIcon
 from ._aldinord import AldiNordIcon
@@ -2735,6 +2736,7 @@ from ._similarweb import SimilarwebIcon
 from ._simkl import SimklIcon
 from ._simpleanalytics import SimpleAnalyticsIcon
 from ._simpleicons import SimpleIconsIcon
+from ._simpleiconscdn import SimpleIconsCdnIcon
 from ._simplelocalize import SimplelocalizeIcon
 from ._simplelogin import SimpleloginIcon
 from ._simplenote import SimplenoteIcon
@@ -2988,6 +2990,7 @@ from ._telegram import TelegramIcon
 from ._telegraph import TelegraphIcon
 from ._telenor import TelenorIcon
 from ._temporal import TemporalIcon
+from ._tencenthy import TencentHyIcon
 from ._tensorflow import TensorflowIcon
 from ._teradata import TeradataIcon
 from ._teratail import TeratailIcon
@@ -3094,6 +3097,7 @@ from ._transmission import TransmissionIcon
 from ._transportforireland import TransportForIrelandIcon
 from ._transportforlondon import TransportForLondonIcon
 from ._travisci import TravisCiIcon
+from ._traxsource import TraxsourceIcon
 from ._treehouse import TreehouseIcon
 from ._trello import TrelloIcon
 from ._trendmicro import TrendMicroIcon
@@ -3572,6 +3576,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'alacritty': AlacrittyIcon,
     'alamy': AlamyIcon,
     'albertheijn': AlbertHeijnIcon,
+    'albumoftheyear': AlbumOfTheYearIcon,
     'alby': AlbyIcon,
     'alchemy': AlchemyIcon,
     'aldinord': AldiNordIcon,
@@ -6194,6 +6199,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'simkl': SimklIcon,
     'simpleanalytics': SimpleAnalyticsIcon,
     'simpleicons': SimpleIconsIcon,
+    'simpleiconscdn': SimpleIconsCdnIcon,
     'simplelocalize': SimplelocalizeIcon,
     'simplelogin': SimpleloginIcon,
     'simplenote': SimplenoteIcon,
@@ -6447,6 +6453,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'telegraph': TelegraphIcon,
     'telenor': TelenorIcon,
     'temporal': TemporalIcon,
+    'tencenthy': TencentHyIcon,
     'tensorflow': TensorflowIcon,
     'teradata': TeradataIcon,
     'teratail': TeratailIcon,
@@ -6553,6 +6560,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'transportforireland': TransportForIrelandIcon,
     'transportforlondon': TransportForLondonIcon,
     'travisci': TravisCiIcon,
+    'traxsource': TraxsourceIcon,
     'treehouse': TreehouseIcon,
     'trello': TrelloIcon,
     'trendmicro': TrendMicroIcon,

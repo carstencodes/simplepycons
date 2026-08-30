@@ -109,6 +109,7 @@ from ._akiflow import AkiflowIcon
 from ._alacritty import AlacrittyIcon
 from ._alamy import AlamyIcon
 from ._albertheijn import AlbertHeijnIcon
+from ._albumoftheyear import AlbumOfTheYearIcon
 from ._alby import AlbyIcon
 from ._alchemy import AlchemyIcon
 from ._aldinord import AldiNordIcon
@@ -2735,6 +2736,7 @@ from ._similarweb import SimilarwebIcon
 from ._simkl import SimklIcon
 from ._simpleanalytics import SimpleAnalyticsIcon
 from ._simpleicons import SimpleIconsIcon
+from ._simpleiconscdn import SimpleIconsCdnIcon
 from ._simplelocalize import SimplelocalizeIcon
 from ._simplelogin import SimpleloginIcon
 from ._simplenote import SimplenoteIcon
@@ -2988,6 +2990,7 @@ from ._telegram import TelegramIcon
 from ._telegraph import TelegraphIcon
 from ._telenor import TelenorIcon
 from ._temporal import TemporalIcon
+from ._tencenthy import TencentHyIcon
 from ._tensorflow import TensorflowIcon
 from ._teradata import TeradataIcon
 from ._teratail import TeratailIcon
@@ -3094,6 +3097,7 @@ from ._transmission import TransmissionIcon
 from ._transportforireland import TransportForIrelandIcon
 from ._transportforlondon import TransportForLondonIcon
 from ._travisci import TravisCiIcon
+from ._traxsource import TraxsourceIcon
 from ._treehouse import TreehouseIcon
 from ._trello import TrelloIcon
 from ._trendmicro import TrendMicroIcon
@@ -3572,6 +3576,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AlacrittyIcon.__name__,
     AlamyIcon.__name__,
     AlbertHeijnIcon.__name__,
+    AlbumOfTheYearIcon.__name__,
     AlbyIcon.__name__,
     AlchemyIcon.__name__,
     AldiNordIcon.__name__,
@@ -6199,6 +6204,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SimklIcon.__name__,
     SimpleAnalyticsIcon.__name__,
     SimpleIconsIcon.__name__,
+    SimpleIconsCdnIcon.__name__,
     SimplelocalizeIcon.__name__,
     SimpleloginIcon.__name__,
     SimplenoteIcon.__name__,
@@ -6453,6 +6459,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TelegraphIcon.__name__,
     TelenorIcon.__name__,
     TemporalIcon.__name__,
+    TencentHyIcon.__name__,
     TensorflowIcon.__name__,
     TeradataIcon.__name__,
     TeratailIcon.__name__,
@@ -6559,6 +6566,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TransportForIrelandIcon.__name__,
     TransportForLondonIcon.__name__,
     TravisCiIcon.__name__,
+    TraxsourceIcon.__name__,
     TreehouseIcon.__name__,
     TrelloIcon.__name__,
     TrendMicroIcon.__name__,

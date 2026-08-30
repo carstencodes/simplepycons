@@ -21,35 +21,38 @@ if TYPE_CHECKING:
     from collections.abc import Iterable
 
 
-class PayloadCmsIcon(Icon):
+class TencentHyIcon(Icon):
     """"""
     @property
     def name(self) -> "str":
-        return "payloadcms"
+        return "tencenthy"
 
     @property
     def original_file_name(self) -> "str":
-        return "payloadcms.svg"
+        return "tencenthy.svg"
 
     @property
     def title(self) -> "str":
-        return "Payload CMS"
+        return "Tencent Hy"
 
     @property
     def primary_color(self) -> "str":
-        return "#000000"
+        return "#0052D9"
 
     @property
     def raw_svg(self) -> "str":
         return ''' <svg xmlns="http://www.w3.org/2000/svg"
  role="img" viewBox="0 0 24 24">
-    <title>Payload CMS</title>
-     <path d="M11.9 20.4q.1.1.2 0l5.5-3.2q.1-.05.2 0l2.6 1.5q.2.15 0
- .3l-8.3 5h-.2L1.8 18.1q-.2-.1-.2-.3V6.2q0-.2.2-.3l1.3-.8q.15-.1.3
- 0l9.8 5.7q.2.1.2.3v3.1q0 .3-.2.2L4.9 9.6q-.2-.1-.2.2V16q0
- .2.2.3zM22.3 5.9q.1.1.1.2v9.8q0
- .2-.2.1l-2.7-1.5q-.2-.1-.2-.3V7.9q0-.2-.2-.3l-7-4q-.1-.05-.2 0L9.5
- 5q-.1.05-.2 0L6.7 3.4q-.2-.15 0-.3L11.9 0h.2z" />
+    <title>Tencent Hy</title>
+     <path d="M12 0a1 1 0 0 1 0 24 1 1 0 0 1 0-24m1.65 1.12c.533.097
+ 1.023.233 1.41.404 6.086 2.686 7.398 9.217 1.603 14.341a3.782 3.782 0
+ 0 1-6.126-1.75 3.66 3.66 0 0 1-.095-1.622c-1.934.6-3.295 2.305-3.524
+ 4.45-.204 1.912.324 4.044 2.056 5.634A11 11 0 1 0 13.65 1.12M2.748
+ 6.21A11 11 0 0 0 8.9 22.55c-5.377-4.022-6.06-8.4-2.43-13.87a2.234
+ 2.234 0 1 0-3.722-2.47m10.157-5.172c4.408 1.33 3.61 5.41 2.447
+ 6.924-.86 1.117-2.922 1.46-3.708 2.238a4.18 4.18 0 0 0-1.212
+ 2.292A5.3 5.3 0 0 1 12 12.258a5.672 5.672 0 0 0 1.404-11.169 11 11 0
+ 0 0-.5-.052" />
 </svg>'''
 
     @property

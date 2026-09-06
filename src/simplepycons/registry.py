@@ -262,6 +262,7 @@ from ._atandt import AtandtIcon
 from ._atari import AtariIcon
 from ._atlasos import AtlasosIcon
 from ._atlassian import AtlassianIcon
+from ._atomgit import AtomgitIcon
 from ._auchan import AuchanIcon
 from ._audacity import AudacityIcon
 from ._audi import AudiIcon
@@ -2109,6 +2110,7 @@ from ._onlyfans import OnlyfansIcon
 from ._onlyoffice import OnlyofficeIcon
 from ._onnx import OnnxIcon
 from ._onstar import OnstarIcon
+from ._oomol import OomolIcon
 from ._opel import OpelIcon
 from ._openaccess import OpenAccessIcon
 from ._openbadges import OpenBadgesIcon
@@ -3729,6 +3731,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'atari': AtariIcon,
     'atlasos': AtlasosIcon,
     'atlassian': AtlassianIcon,
+    'atomgit': AtomgitIcon,
     'auchan': AuchanIcon,
     'audacity': AudacityIcon,
     'audi': AudiIcon,
@@ -5572,6 +5575,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'onlyoffice': OnlyofficeIcon,
     'onnx': OnnxIcon,
     'onstar': OnstarIcon,
+    'oomol': OomolIcon,
     'opel': OpelIcon,
     'openaccess': OpenAccessIcon,
     'openbadges': OpenBadgesIcon,

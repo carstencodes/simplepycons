@@ -262,6 +262,7 @@ from ._atandt import AtandtIcon
 from ._atari import AtariIcon
 from ._atlasos import AtlasosIcon
 from ._atlassian import AtlassianIcon
+from ._atomgit import AtomgitIcon
 from ._auchan import AuchanIcon
 from ._audacity import AudacityIcon
 from ._audi import AudiIcon
@@ -2109,6 +2110,7 @@ from ._onlyfans import OnlyfansIcon
 from ._onlyoffice import OnlyofficeIcon
 from ._onnx import OnnxIcon
 from ._onstar import OnstarIcon
+from ._oomol import OomolIcon
 from ._opel import OpelIcon
 from ._openaccess import OpenAccessIcon
 from ._openbadges import OpenBadgesIcon
@@ -3729,6 +3731,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AtariIcon.__name__,
     AtlasosIcon.__name__,
     AtlassianIcon.__name__,
+    AtomgitIcon.__name__,
     AuchanIcon.__name__,
     AudacityIcon.__name__,
     AudiIcon.__name__,
@@ -5577,6 +5580,7 @@ ALL_ICONS: "Final[list[str]]" = [
     OnlyofficeIcon.__name__,
     OnnxIcon.__name__,
     OnstarIcon.__name__,
+    OomolIcon.__name__,
     OpelIcon.__name__,
     OpenAccessIcon.__name__,
     OpenBadgesIcon.__name__,

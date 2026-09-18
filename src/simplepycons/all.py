@@ -127,6 +127,7 @@ from ._allegro import AllegroIcon
 from ._alliedmodders import AlliedmoddersIcon
 from ._alltrails import AlltrailsIcon
 from ._almalinux import AlmalinuxIcon
+from ._alphaxiv import AlphaxivIcon
 from ._alpinelinux import AlpineLinuxIcon
 from ._alpinedotjs import AlpinedotjsIcon
 from ._alternativeto import AlternativetoIcon
@@ -3596,6 +3597,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AlliedmoddersIcon.__name__,
     AlltrailsIcon.__name__,
     AlmalinuxIcon.__name__,
+    AlphaxivIcon.__name__,
     AlpineLinuxIcon.__name__,
     AlpinedotjsIcon.__name__,
     AlternativetoIcon.__name__,

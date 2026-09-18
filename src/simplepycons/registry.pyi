@@ -131,6 +131,7 @@ class _IconCollection:
     get_alliedmodders_icon: "Final[IconFactory]"
     get_alltrails_icon: "Final[IconFactory]"
     get_almalinux_icon: "Final[IconFactory]"
+    get_alphaxiv_icon: "Final[IconFactory]"
     get_alpinelinux_icon: "Final[IconFactory]"
     get_alpinedotjs_icon: "Final[IconFactory]"
     get_alternativeto_icon: "Final[IconFactory]"

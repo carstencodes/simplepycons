@@ -1176,6 +1176,7 @@ class _IconCollection:
     get_gocd_icon: "Final[IconFactory]"
     get_godaddy_icon: "Final[IconFactory]"
     get_godotengine_icon: "Final[IconFactory]"
+    get_godox_icon: "Final[IconFactory]"
     get_gofundme_icon: "Final[IconFactory]"
     get_gogdotcom_icon: "Final[IconFactory]"
     get_gojek_icon: "Final[IconFactory]"

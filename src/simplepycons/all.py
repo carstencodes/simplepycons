@@ -1172,6 +1172,7 @@ from ._go import GoIcon
 from ._gocd import GocdIcon
 from ._godaddy import GodaddyIcon
 from ._godotengine import GodotEngineIcon
+from ._godox import GodoxIcon
 from ._gofundme import GofundmeIcon
 from ._gogdotcom import GogdotcomIcon
 from ._gojek import GojekIcon
@@ -4643,6 +4644,7 @@ ALL_ICONS: "Final[list[str]]" = [
     GocdIcon.__name__,
     GodaddyIcon.__name__,
     GodotEngineIcon.__name__,
+    GodoxIcon.__name__,
     GofundmeIcon.__name__,
     GogdotcomIcon.__name__,
     GojekIcon.__name__,

@@ -1172,6 +1172,7 @@ from ._go import GoIcon
 from ._gocd import GocdIcon
 from ._godaddy import GodaddyIcon
 from ._godotengine import GodotEngineIcon
+from ._godox import GodoxIcon
 from ._gofundme import GofundmeIcon
 from ._gogdotcom import GogdotcomIcon
 from ._gojek import GojekIcon
@@ -4642,6 +4643,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'gocd': GocdIcon,
     'godaddy': GodaddyIcon,
     'godotengine': GodotEngineIcon,
+    'godox': GodoxIcon,
     'gofundme': GofundmeIcon,
     'gogdotcom': GogdotcomIcon,
     'gojek': GojekIcon,

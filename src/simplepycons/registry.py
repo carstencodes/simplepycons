@@ -1393,6 +1393,7 @@ from ._husqvarna import HusqvarnaIcon
 from ._hyper import HyperIcon
 from ._hyperskill import HyperskillIcon
 from ._hyperx import HyperxIcon
+from ._hypit import HypitIcon
 from ._hypothesis import HypothesisIcon
 from ._hyprland import HyprlandIcon
 from ._hyundai import HyundaiIcon
@@ -2054,6 +2055,7 @@ from ._norwegian import NorwegianIcon
 from ._note import NoteIcon
 from ._notebooklm import NotebooklmIcon
 from ._notepadplusplus import NotepadplusplusIcon
+from ._notesnook import NotesnookIcon
 from ._notion import NotionIcon
 from ._notist import NotistIcon
 from ._nounproject import NounProjectIcon
@@ -4860,6 +4862,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'hyper': HyperIcon,
     'hyperskill': HyperskillIcon,
     'hyperx': HyperxIcon,
+    'hypit': HypitIcon,
     'hypothesis': HypothesisIcon,
     'hyprland': HyprlandIcon,
     'hyundai': HyundaiIcon,
@@ -5521,6 +5524,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'note': NoteIcon,
     'notebooklm': NotebooklmIcon,
     'notepadplusplus': NotepadplusplusIcon,
+    'notesnook': NotesnookIcon,
     'notion': NotionIcon,
     'notist': NotistIcon,
     'nounproject': NounProjectIcon,

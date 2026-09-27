@@ -1393,6 +1393,7 @@ from ._husqvarna import HusqvarnaIcon
 from ._hyper import HyperIcon
 from ._hyperskill import HyperskillIcon
 from ._hyperx import HyperxIcon
+from ._hypit import HypitIcon
 from ._hypothesis import HypothesisIcon
 from ._hyprland import HyprlandIcon
 from ._hyundai import HyundaiIcon
@@ -2054,6 +2055,7 @@ from ._norwegian import NorwegianIcon
 from ._note import NoteIcon
 from ._notebooklm import NotebooklmIcon
 from ._notepadplusplus import NotepadplusplusIcon
+from ._notesnook import NotesnookIcon
 from ._notion import NotionIcon
 from ._notist import NotistIcon
 from ._nounproject import NounProjectIcon
@@ -4864,6 +4866,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HyperIcon.__name__,
     HyperskillIcon.__name__,
     HyperxIcon.__name__,
+    HypitIcon.__name__,
     HypothesisIcon.__name__,
     HyprlandIcon.__name__,
     HyundaiIcon.__name__,
@@ -5526,6 +5529,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NoteIcon.__name__,
     NotebooklmIcon.__name__,
     NotepadplusplusIcon.__name__,
+    NotesnookIcon.__name__,
     NotionIcon.__name__,
     NotistIcon.__name__,
     NounProjectIcon.__name__,

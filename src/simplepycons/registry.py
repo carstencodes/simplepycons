@@ -2917,6 +2917,7 @@ from ._suckless import SucklessIcon
 from ._sui import SuiIcon
 from ._suitest import SuitestIcon
 from ._sumologic import SumoLogicIcon
+from ._sumup import SumupIcon
 from ._suno import SunoIcon
 from ._sunrise import SunriseIcon
 from ._supabase import SupabaseIcon
@@ -6386,6 +6387,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'sui': SuiIcon,
     'suitest': SuitestIcon,
     'sumologic': SumoLogicIcon,
+    'sumup': SumupIcon,
     'suno': SunoIcon,
     'sunrise': SunriseIcon,
     'supabase': SupabaseIcon,

@@ -2917,6 +2917,7 @@ class _IconCollection:
     get_sui_icon: "Final[IconFactory]"
     get_suitest_icon: "Final[IconFactory]"
     get_sumologic_icon: "Final[IconFactory]"
+    get_sumup_icon: "Final[IconFactory]"
     get_suno_icon: "Final[IconFactory]"
     get_sunrise_icon: "Final[IconFactory]"
     get_supabase_icon: "Final[IconFactory]"

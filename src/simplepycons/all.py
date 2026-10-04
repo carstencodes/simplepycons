@@ -2917,6 +2917,7 @@ from ._suckless import SucklessIcon
 from ._sui import SuiIcon
 from ._suitest import SuitestIcon
 from ._sumologic import SumoLogicIcon
+from ._sumup import SumupIcon
 from ._suno import SunoIcon
 from ._sunrise import SunriseIcon
 from ._supabase import SupabaseIcon
@@ -6392,6 +6393,7 @@ ALL_ICONS: "Final[list[str]]" = [
     SuiIcon.__name__,
     SuitestIcon.__name__,
     SumoLogicIcon.__name__,
+    SumupIcon.__name__,
     SunoIcon.__name__,
     SunriseIcon.__name__,
     SupabaseIcon.__name__,

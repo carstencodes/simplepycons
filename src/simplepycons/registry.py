@@ -252,6 +252,7 @@ from ._asciidoctor import AsciidoctorIcon
 from ._asciinema import AsciinemaIcon
 from ._asda import AsdaIcon
 from ._aseprite import AsepriteIcon
+from ._aspire import AspireIcon
 from ._assemblyscript import AssemblyscriptIcon
 from ._asterisk import AsteriskIcon
 from ._astonmartin import AstonMartinIcon
@@ -3460,6 +3461,7 @@ from ._zendesk import ZendeskIcon
 from ._zenn import ZennIcon
 from ._zenodo import ZenodoIcon
 from ._zensar import ZensarIcon
+from ._zensical import ZensicalIcon
 from ._zerodha import ZerodhaIcon
 from ._zerotier import ZerotierIcon
 from ._zettlr import ZettlrIcon
@@ -3726,6 +3728,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'asciinema': AsciinemaIcon,
     'asda': AsdaIcon,
     'aseprite': AsepriteIcon,
+    'aspire': AspireIcon,
     'assemblyscript': AssemblyscriptIcon,
     'asterisk': AsteriskIcon,
     'astonmartin': AstonMartinIcon,
@@ -6930,6 +6933,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'zenn': ZennIcon,
     'zenodo': ZenodoIcon,
     'zensar': ZensarIcon,
+    'zensical': ZensicalIcon,
     'zerodha': ZerodhaIcon,
     'zerotier': ZerotierIcon,
     'zettlr': ZettlrIcon,

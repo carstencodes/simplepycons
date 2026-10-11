@@ -252,6 +252,7 @@ from ._asciidoctor import AsciidoctorIcon
 from ._asciinema import AsciinemaIcon
 from ._asda import AsdaIcon
 from ._aseprite import AsepriteIcon
+from ._aspire import AspireIcon
 from ._assemblyscript import AssemblyscriptIcon
 from ._asterisk import AsteriskIcon
 from ._astonmartin import AstonMartinIcon
@@ -3460,6 +3461,7 @@ from ._zendesk import ZendeskIcon
 from ._zenn import ZennIcon
 from ._zenodo import ZenodoIcon
 from ._zensar import ZensarIcon
+from ._zensical import ZensicalIcon
 from ._zerodha import ZerodhaIcon
 from ._zerotier import ZerotierIcon
 from ._zettlr import ZettlrIcon
@@ -3726,6 +3728,7 @@ ALL_ICONS: "Final[list[str]]" = [
     AsciinemaIcon.__name__,
     AsdaIcon.__name__,
     AsepriteIcon.__name__,
+    AspireIcon.__name__,
     AssemblyscriptIcon.__name__,
     AsteriskIcon.__name__,
     AstonMartinIcon.__name__,
@@ -6937,6 +6940,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ZennIcon.__name__,
     ZenodoIcon.__name__,
     ZensarIcon.__name__,
+    ZensicalIcon.__name__,
     ZerodhaIcon.__name__,
     ZerotierIcon.__name__,
     ZettlrIcon.__name__,

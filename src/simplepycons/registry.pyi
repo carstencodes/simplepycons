@@ -1303,6 +1303,7 @@ class _IconCollection:
     get_handshake_icon: "Final[IconFactory]"
     get_handshake_protocol_icon: "Final[IconFactory]"
     get_happycow_icon: "Final[IconFactory]"
+    get_haproxy_icon: "Final[IconFactory]"
     get_harbor_icon: "Final[IconFactory]"
     get_harmonyos_icon: "Final[IconFactory]"
     get_hashcat_icon: "Final[IconFactory]"

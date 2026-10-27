@@ -37,7 +37,7 @@ class ElixirIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#4B275F"
+        return "#8847B9"
 
     @property
     def raw_svg(self) -> "str":

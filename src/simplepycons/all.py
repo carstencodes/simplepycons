@@ -1303,6 +1303,7 @@ from ._handlebarsdotjs import HandlebarsdotjsIcon
 from ._handshake import HandshakeIcon
 from ._handshake_protocol import HandshakeIcon1,HandshakeProtocolIcon
 from ._happycow import HappycowIcon
+from ._haproxy import HaproxyIcon
 from ._harbor import HarborIcon
 from ._harmonyos import HarmonyosIcon
 from ._hashcat import HashcatIcon
@@ -4778,6 +4779,7 @@ ALL_ICONS: "Final[list[str]]" = [
     HandshakeIcon1.__name__,
     HandshakeProtocolIcon.__name__,
     HappycowIcon.__name__,
+    HaproxyIcon.__name__,
     HarborIcon.__name__,
     HarmonyosIcon.__name__,
     HashcatIcon.__name__,

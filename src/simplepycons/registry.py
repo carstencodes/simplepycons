@@ -1303,6 +1303,7 @@ from ._handlebarsdotjs import HandlebarsdotjsIcon
 from ._handshake import HandshakeIcon
 from ._handshake_protocol import HandshakeProtocolIcon
 from ._happycow import HappycowIcon
+from ._haproxy import HaproxyIcon
 from ._harbor import HarborIcon
 from ._harmonyos import HarmonyosIcon
 from ._hashcat import HashcatIcon
@@ -4775,6 +4776,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'handshake': HandshakeIcon,
     'handshake_protocol': HandshakeProtocolIcon,
     'happycow': HappycowIcon,
+    'haproxy': HaproxyIcon,
     'harbor': HarborIcon,
     'harmonyos': HarmonyosIcon,
     'hashcat': HashcatIcon,

@@ -37,7 +37,7 @@ class AwaitIcon(Icon):
 
     @property
     def primary_color(self) -> "str":
-        return "#7858F5"
+        return "#9973FF"
 
     @property
     def raw_svg(self) -> "str":

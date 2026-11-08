@@ -2008,6 +2008,7 @@ from ._netlify import NetlifyIcon
 from ._nette import NetteIcon
 from ._netto import NettoIcon
 from ._neutralinojs import NeutralinojsIcon
+from ._newapi import NewApiIcon
 from ._newbalance import NewBalanceIcon
 from ._newjapanprowrestling import NewJapanProwrestlingIcon
 from ._newrelic import NewRelicIcon
@@ -2090,6 +2091,7 @@ from ._observable import ObservableIcon
 from ._obsidian import ObsidianIcon
 from ._obtainium import ObtainiumIcon
 from ._ocaml import OcamlIcon
+from ._oceanbase import OceanbaseIcon
 from ._oclc import OclcIcon
 from ._oclif import OclifIcon
 from ._octanerender import OctaneRenderIcon
@@ -3472,6 +3474,7 @@ from ._zigbee import ZigbeeIcon
 from ._zigbee2mqtt import ZigbeeTwoMqttIcon
 from ._ziggo import ZiggoIcon
 from ._zilch import ZilchIcon
+from ._zilliz import ZillizIcon
 from ._zillow import ZillowIcon
 from ._zincsearch import ZincsearchIcon
 from ._zingat import ZingatIcon
@@ -5486,6 +5489,7 @@ ALL_ICONS: "Final[list[str]]" = [
     NetteIcon.__name__,
     NettoIcon.__name__,
     NeutralinojsIcon.__name__,
+    NewApiIcon.__name__,
     NewBalanceIcon.__name__,
     NewJapanProwrestlingIcon.__name__,
     NewRelicIcon.__name__,
@@ -5568,6 +5572,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ObsidianIcon.__name__,
     ObtainiumIcon.__name__,
     OcamlIcon.__name__,
+    OceanbaseIcon.__name__,
     OclcIcon.__name__,
     OclifIcon.__name__,
     OctaneRenderIcon.__name__,
@@ -6952,6 +6957,7 @@ ALL_ICONS: "Final[list[str]]" = [
     ZigbeeTwoMqttIcon.__name__,
     ZiggoIcon.__name__,
     ZilchIcon.__name__,
+    ZillizIcon.__name__,
     ZillowIcon.__name__,
     ZincsearchIcon.__name__,
     ZingatIcon.__name__,

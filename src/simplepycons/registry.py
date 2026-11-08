@@ -2008,6 +2008,7 @@ from ._netlify import NetlifyIcon
 from ._nette import NetteIcon
 from ._netto import NettoIcon
 from ._neutralinojs import NeutralinojsIcon
+from ._newapi import NewApiIcon
 from ._newbalance import NewBalanceIcon
 from ._newjapanprowrestling import NewJapanProwrestlingIcon
 from ._newrelic import NewRelicIcon
@@ -2090,6 +2091,7 @@ from ._observable import ObservableIcon
 from ._obsidian import ObsidianIcon
 from ._obtainium import ObtainiumIcon
 from ._ocaml import OcamlIcon
+from ._oceanbase import OceanbaseIcon
 from ._oclc import OclcIcon
 from ._oclif import OclifIcon
 from ._octanerender import OctaneRenderIcon
@@ -3472,6 +3474,7 @@ from ._zigbee import ZigbeeIcon
 from ._zigbee2mqtt import ZigbeeTwoMqttIcon
 from ._ziggo import ZiggoIcon
 from ._zilch import ZilchIcon
+from ._zilliz import ZillizIcon
 from ._zillow import ZillowIcon
 from ._zincsearch import ZincsearchIcon
 from ._zingat import ZingatIcon
@@ -5481,6 +5484,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'nette': NetteIcon,
     'netto': NettoIcon,
     'neutralinojs': NeutralinojsIcon,
+    'newapi': NewApiIcon,
     'newbalance': NewBalanceIcon,
     'newjapanprowrestling': NewJapanProwrestlingIcon,
     'newrelic': NewRelicIcon,
@@ -5563,6 +5567,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'obsidian': ObsidianIcon,
     'obtainium': ObtainiumIcon,
     'ocaml': OcamlIcon,
+    'oceanbase': OceanbaseIcon,
     'oclc': OclcIcon,
     'oclif': OclifIcon,
     'octanerender': OctaneRenderIcon,
@@ -6945,6 +6950,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'zigbee2mqtt': ZigbeeTwoMqttIcon,
     'ziggo': ZiggoIcon,
     'zilch': ZilchIcon,
+    'zilliz': ZillizIcon,
     'zillow': ZillowIcon,
     'zincsearch': ZincsearchIcon,
     'zingat': ZingatIcon,

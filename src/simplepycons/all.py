@@ -1602,6 +1602,7 @@ from ._kinsta import KinstaIcon
 from ._kirby import KirbyIcon
 from ._kit import KitIcon
 from ._kitsu import KitsuIcon
+from ._kitty import KittyIcon
 from ._kiwix import KiwixIcon
 from ._klarna import KlarnaIcon
 from ._kleinanzeigen import KleinanzeigenIcon
@@ -3100,6 +3101,7 @@ from ._tradingview import TradingviewIcon
 from ._trae import TraeIcon
 from ._traefikmesh import TraefikMeshIcon
 from ._traefikproxy import TraefikProxyIcon
+from ._trafficdotcv import TrafficdotcvIcon
 from ._trailforks import TrailforksIcon
 from ._trainerroad import TrainerroadIcon
 from ._trakt import TraktIcon
@@ -5082,6 +5084,7 @@ ALL_ICONS: "Final[list[str]]" = [
     KirbyIcon.__name__,
     KitIcon.__name__,
     KitsuIcon.__name__,
+    KittyIcon.__name__,
     KiwixIcon.__name__,
     KlarnaIcon.__name__,
     KleinanzeigenIcon.__name__,
@@ -6582,6 +6585,7 @@ ALL_ICONS: "Final[list[str]]" = [
     TraeIcon.__name__,
     TraefikMeshIcon.__name__,
     TraefikProxyIcon.__name__,
+    TrafficdotcvIcon.__name__,
     TrailforksIcon.__name__,
     TrainerroadIcon.__name__,
     TraktIcon.__name__,

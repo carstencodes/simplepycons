@@ -1602,6 +1602,7 @@ from ._kinsta import KinstaIcon
 from ._kirby import KirbyIcon
 from ._kit import KitIcon
 from ._kitsu import KitsuIcon
+from ._kitty import KittyIcon
 from ._kiwix import KiwixIcon
 from ._klarna import KlarnaIcon
 from ._kleinanzeigen import KleinanzeigenIcon
@@ -3100,6 +3101,7 @@ from ._tradingview import TradingviewIcon
 from ._trae import TraeIcon
 from ._traefikmesh import TraefikMeshIcon
 from ._traefikproxy import TraefikProxyIcon
+from ._trafficdotcv import TrafficdotcvIcon
 from ._trailforks import TrailforksIcon
 from ._trainerroad import TrainerroadIcon
 from ._trakt import TraktIcon
@@ -5078,6 +5080,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'kirby': KirbyIcon,
     'kit': KitIcon,
     'kitsu': KitsuIcon,
+    'kitty': KittyIcon,
     'kiwix': KiwixIcon,
     'klarna': KlarnaIcon,
     'kleinanzeigen': KleinanzeigenIcon,
@@ -6576,6 +6579,7 @@ ICONS: "Final[IconCollection]" = IconCollection({
     'trae': TraeIcon,
     'traefikmesh': TraefikMeshIcon,
     'traefikproxy': TraefikProxyIcon,
+    'trafficdotcv': TrafficdotcvIcon,
     'trailforks': TrailforksIcon,
     'trainerroad': TrainerroadIcon,
     'trakt': TraktIcon,
